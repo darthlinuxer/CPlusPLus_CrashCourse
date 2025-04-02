@@ -1,0 +1,38 @@
+# Build artifacts
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.lib
+*.dll
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+
+# Visual Studio specific files
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.ipch/
+*.opensdf
+*.sdf
+*.cache
+*.pch
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Build directory
+build/
+
+# Other
+*.tmp
+*.bak
+*.swp
+*.dir

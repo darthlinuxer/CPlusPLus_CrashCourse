@@ -4,15 +4,18 @@
 
 // Template function to find the maximum of two values.
 template <typename T>
-T findMax(T a, T b) {
+T findMax(T a, T b)
+{
     return (a > b) ? a : b;
 }
 
 // Template class to demonstrate generic programming with classes.
 template <typename T>
-class Box {
+class Box
+{
 private:
     T value;
+
 public:
     Box(T val) : value(val) {}
     T getValue() const { return value; }
@@ -21,9 +24,11 @@ public:
 
 // Template specialization for a specific type (e.g., std::string).
 template <>
-class Box<std::string> {
+class Box<std::string>
+{
 private:
     std::string value;
+
 public:
     Box(std::string val) : value(val) {}
     std::string getValue() const { return "String value: " + value; }
@@ -32,11 +37,25 @@ public:
 
 // Variadic template function to calculate the sum of multiple arguments.
 template <typename... Args>
-auto sum(Args... args) {
+auto sum(Args... args)
+{
     return (args + ...); // Fold expression (C++17 feature)
 }
 
-int main() {
+// Overload for the case where no arguments are passed.
+auto sum()
+{
+    return 0; // Default value for no arguments
+}// Variadic template function to calculate the sum of multiple arguments.
+template <typename... Args>
+auto sum(Args... args)
+{
+    return (args + ...); // Fold expression (C++17 feature)
+}
+
+
+int main()
+{
     // Demonstrating template function.
     std::cout << "Max of 3 and 7: " << findMax(3, 7) << "\n";
     std::cout << "Max of 3.5 and 2.1: " << findMax(3.5, 2.1) << "\n";
@@ -55,3 +74,13 @@ int main() {
 
     return 0;
 }
+
+/*
+Max of 3 and 7: 7
+Max of 3.5 and 2.1: 3.5
+Max of 'a' and 'z': z
+Box value (int): 42
+String value: Hello, Templates!
+Sum of 1, 2, 3, 4: 10
+Sum of 1.1, 2.2, 3.3: 6.6
+*/

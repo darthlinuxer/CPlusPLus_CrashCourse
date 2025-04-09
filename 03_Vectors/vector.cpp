@@ -117,3 +117,22 @@ int main() {
 
     return 0;
 }
+
+/*
+Numbers in the vector: 1 2 3 4 5 6 
+The first number is: 1
+The second number is: 2
+Vector after resizing to 10 elements: 1 2 3 4 5 6 0 0 0 0
+Vector after resizing back to 5 elements: 1 2 3 4 5
+Vector after inserting 99 at index 2: 1 2 99 3 4 5
+Vector after erasing the element at index 2: 1 2 3 4 5
+Vector after sorting in ascending order: 1 2 3 4 5
+Vector after reversing: 5 4 3 2 1
+Vector after clearing all elements. Size: 0
+The vector is now empty.
+Reserved capacity for 20 elements. Current capacity: 20
+Vector after adding 10 elements: 1 2 3 4 5 6 7 8 9 10
+Vector elements using iterators: 1 2 3 4 5 6 7 8 9 10
+Vector elements using const_iterator: 1 2 3 4 5 6 7 8 9 10
+Vector of pairs: (1, one) (2, two) (3, three)
+*/

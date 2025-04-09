@@ -102,3 +102,16 @@ int main() {
 
     return 0; // Indicate successful execution
 }
+
+/*
+Sum (int): 7
+Product with default argument: 10
+Product without default argument: 15
+Sum (double): 7.7
+Difference: 6
+Incremented value: 11
+Hello, Alice!
+Division: 5
+Using function pointer (add): 10
+Using std::function (subtract): 5
+*/

@@ -35,3 +35,8 @@ int main() {
 
     return 0;
 }
+
+/*
+Buddy says: Woof!
+Whiskers says: Meow!
+*/

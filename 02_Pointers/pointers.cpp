@@ -88,3 +88,24 @@ int main() {
 
     return 0;
 }
+
+/*
+Value: 42
+Pointer Address: 00CFFA38
+Pointer Dereference: 42
+Modified Value through Pointer: 100
+nullPtr is null.
+Address of ptr: 00CFFA34
+Value pointed by doublePtr: 100
+Dynamically Allocated Value: 55
+Array Elements via Pointer:
+1 2 3 4 5
+Modified Value via constPtr: 200
+Value via ptrToConst: 10
+Value via constPtrToConst: 10
+Dynamically Allocated Array Elements:
+10 20 30 40 50
+Value via smartPtr: 77
+Result of add(5, 10) via funcPtr: 15
+Point coordinates via pointer: (3, 4)
+*/

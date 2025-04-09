@@ -28,8 +28,7 @@ int main() {
 }
 
 /*
-Expected Output:
-After transform: 2 4 6 8 10
+After transform: 2 4 6 8 10 
 Sum: 30
 Found: 6
 */

@@ -37,3 +37,9 @@ int main() {
 
     return 0;
 }
+
+/*
+Value 30 found at address: 00DDFF18
+Value at that address: 30
+Value 60 not found in the array.
+*/

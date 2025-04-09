@@ -73,3 +73,25 @@ int main() {
 
     return 0;
 }
+
+/*
+Unique pointer example starts.
+Resource acquired.
+Hello from Resource!
+Resource released.
+Unique pointer example ends.
+Shared pointer example starts.
+Resource acquired.
+Hello from Resource!
+Shared pointer use count: 2
+Shared pointer use count after scope: 1
+Shared pointer example ends.
+Resource released.
+Weak pointer example starts.
+Resource acquired.
+Hello from Resource!
+Weak pointer successfully locked.
+Resource released.
+Weak pointer could not lock the resource after shared pointer reset.
+Weak pointer example ends.
+*/

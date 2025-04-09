@@ -58,3 +58,40 @@ int main() {
 
     return 0;
 }
+
+/*
+Accessing array elements using index:
+numbers[0] = 1
+numbers[1] = 2
+numbers[2] = 3
+numbers[3] = 4
+numbers[4] = 5
+
+Array elements using range-based for loop:
+1 2 3 4 5
+
+Modifying array elements:
+numbers[0] = 2
+numbers[1] = 4
+numbers[2] = 6
+numbers[3] = 8
+numbers[4] = 10
+
+Demonstrating a 2D array:
+matrix[0][0] = 1 matrix[0][1] = 2 matrix[0][2] = 3
+matrix[1][0] = 4 matrix[1][1] = 5 matrix[1][2] = 6
+
+C-style string (character array):
+Hello, World!
+
+Array size and bounds:
+Size of numbers array: 5
+Accessing out-of-bounds (undefined behavior):
+
+Using std::array (from <array>):
+stdNumbers[0] = 1
+stdNumbers[1] = 2
+stdNumbers[2] = 3
+stdNumbers[3] = 4
+stdNumbers[4] = 5
+*/

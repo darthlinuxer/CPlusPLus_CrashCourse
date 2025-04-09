@@ -81,3 +81,19 @@ int main() {
 
     return 0;
 }
+
+/*
+Numbers: 1 2 3 4 5 
+Sum of numbers: 15
+Numbers multiplied by 2: 2 4 6 8 10
+Incrementing counter using mutable lambda: 3 2 1
+Division result (10 / 2): 5
+Generic lambda result (5 + 2.5): 7.5
+Lambda stored in std::function (3 + 4): 7
+After capture by reference, x: 30
+Capture by value result: 50
+Factorial of 5: 120
+First even number: 2
+Capture all by value result: 65
+After capture all by reference, x: 31, y: 21, sum: 16
+*/

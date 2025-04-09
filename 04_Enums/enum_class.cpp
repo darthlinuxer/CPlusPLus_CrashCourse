@@ -80,3 +80,11 @@ int main() {
 
     return 0;
 }
+
+/*
+Traffic Light is Green.
+Color is Blue.
+TrafficLight as int: 0
+Color as int: 2
+Underlying type of Color: int
+*/

@@ -58,3 +58,8 @@ int main() {
     // The program ends here, and all resources are guaranteed to be cleaned up.
     return 0;
 }
+
+/*
+File opened successfully.
+File closed successfully.
+*/

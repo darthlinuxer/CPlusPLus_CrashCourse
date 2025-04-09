@@ -4,7 +4,7 @@ This project is a tutorial on C++ best practices. It demonstrates modern C++ fea
 
 ## Project Structure:
 - **01_Basic:** Introduces basic C++ concepts like `constexpr` and simple programs.
-- **02_Pointers:** Demonstrates the use of pointers and smart pointers for resource management.
+- **02_Pointers:** Demonstrates the use of pointers and smart pointers for resource management, including examples of `std::unique_ptr` and move semantics.
 - **03_Vectors:** Explains the use of `std::vector` for dynamic arrays.
 - **04_Enums:** Covers strongly typed enumerations using `enum class`.
 - **05_Functions:** Focuses on modern function features like `noexcept` and `constexpr` functions.
@@ -13,3 +13,4 @@ This project is a tutorial on C++ best practices. It demonstrates modern C++ fea
 - **08_Lambdas:** Examples of lambda expressions, including captures and usage in algorithms.
 - **09_Templates:** Examples of template programming, including function templates and class templates.
 - **10_Object_Oriented:** Examples of object-oriented programming, including inheritance, polymorphism, and encapsulation.
+- **11_CPlusPlusUniqueness:** Highlights unique C++ features and idioms, such as move semantics, rvalue references, and type traits.

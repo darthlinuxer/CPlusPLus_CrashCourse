@@ -28,6 +28,11 @@ public:
     }
 
     // Move Constructor
+    // The move constructor transfers ownership of resources from one object to another,
+    // avoiding unnecessary copies and improving performance, especially for dynamic resources.
+    // Declaring it noexcept allows the compiler to optimize for move semantics.
+    // Without noexcept, the compiler assumes the move constructor might throw exceptions,
+    // which can prevent certain optimizations, particularly in STL containers.
     UniqueClass(UniqueClass&& other) noexcept : name(std::move(other.name)), age(other.age) {
         std::cout << "Move Constructor called for " << this->name << std::endl;
         other.age = 0; // Reset the moved-from object's age

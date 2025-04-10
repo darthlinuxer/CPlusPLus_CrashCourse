@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <memory> // For smart pointers
 
 // Base class for all animals
 class Animal
@@ -93,6 +94,7 @@ public:
 
 int main()
 {
+    // Using raw pointers (existing code)
     Dog dog("Buddy");
     Cat cat("Whiskers");
     Bird bird("Tweety");
@@ -116,6 +118,17 @@ int main()
     for (const auto &flyable : flyables)
     {
         flyable->fly();
+    }
+
+    // Modern way: Using smart pointers
+    std::vector<std::unique_ptr<Animal>> smartAnimals;
+    smartAnimals.push_back(std::make_unique<Dog>("Smart Buddy"));
+    smartAnimals.push_back(std::make_unique<Cat>("Smart Whiskers"));
+    smartAnimals.push_back(std::make_unique<Bird>("Smart Tweety"));
+
+    for (const auto &smartAnimal : smartAnimals)
+    {
+        smartAnimal->speak();
     }
 
     return 0;

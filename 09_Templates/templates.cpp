@@ -46,13 +46,7 @@ auto sum(Args... args)
 auto sum()
 {
     return 0; // Default value for no arguments
-}// Variadic template function to calculate the sum of multiple arguments.
-template <typename... Args>
-auto sum(Args... args)
-{
-    return (args + ...); // Fold expression (C++17 feature)
 }
-
 
 int main()
 {

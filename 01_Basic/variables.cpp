@@ -59,9 +59,9 @@ int main() {
     std::cout << "Long Double: " << longDoubleVar << "\n";
 
     std::cout << "Grade (Char): " << grade << "\n";
-    std::cout << "Wide Char: " << wideChar << "\n";
-    std::cout << "Char16: " << char16Var << "\n";
-    std::cout << "Char32: " << char32Var << "\n";
+    std::wcout << L"Wide Char: " << wideChar << L"\n";
+    std::cout << "Char16: " << static_cast<char>(char16Var) << "\n";
+    std::cout << "Char32: " << static_cast<char>(char32Var) << "\n";
 
     std::cout << "Is Student (Bool): " << std::boolalpha << isStudent << "\n";
 

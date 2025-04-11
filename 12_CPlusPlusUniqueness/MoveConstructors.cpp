@@ -1,3 +1,24 @@
+/*
+This file demonstrates the concept of move constructors and move assignment operators in C++.
+
+Key Concepts:
+1. Move Constructor:
+   - Transfers ownership of resources from one object to another.
+   - Nullifies the source object's resource pointer to avoid double deletion.
+
+2. Move Assignment Operator:
+   - Transfers ownership of resources from one object to an existing object.
+   - Ensures proper cleanup of existing resources before transferring ownership.
+
+3. Deleted Copy Constructor and Assignment Operator:
+   - Prevents copying of objects to enforce unique ownership of resources.
+
+4. Destructor:
+   - Ensures that dynamically allocated resources are released when the object goes out of scope.
+
+The example class `UniqueClass` demonstrates these concepts with a dynamically allocated integer array resource.
+*/
+
 #include <iostream>
 #include <string>
 #include <utility> // For std::move

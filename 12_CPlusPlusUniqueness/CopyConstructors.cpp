@@ -1,3 +1,21 @@
+/*
+This file demonstrates the concept of copy constructors and assignment operators in C++.
+
+Key Concepts:
+1. Copy Constructor:
+   - A special constructor used to create a new object as a copy of an existing object.
+   - Performs a deep copy to ensure that dynamically allocated resources are duplicated properly.
+
+2. Assignment Operator:
+   - Used to copy the contents of one object to another existing object.
+   - Handles self-assignment and ensures proper cleanup of existing resources before copying.
+
+3. Destructor:
+   - Ensures that dynamically allocated resources are released when the object goes out of scope.
+
+The example class `ResourceClass` demonstrates these concepts with a dynamically allocated string resource.
+*/
+
 #include <iostream>
 #include <string>
 

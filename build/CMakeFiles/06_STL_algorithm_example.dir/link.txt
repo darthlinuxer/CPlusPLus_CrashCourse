@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_algorithm_example.dir/06_STL/algorithm_example.cpp.o -o binaries/06_STL_algorithm_example 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/15_LINQ_all_example.dir/15_LINQ/all_example.cpp.o -o binaries/15_LINQ_all_example 

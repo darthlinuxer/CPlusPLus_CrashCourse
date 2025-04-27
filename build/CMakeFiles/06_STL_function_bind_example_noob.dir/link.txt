@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_function_bind_example_noob.dir/06_STL/function_bind_example_noob.cpp.o -o binaries/06_STL_function_bind_example_noob 

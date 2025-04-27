@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/11_EventsAndDelegates/eventsAndDelegates.cpp.o -o binaries/11_EventsAndDelegates_eventsAndDelegates 

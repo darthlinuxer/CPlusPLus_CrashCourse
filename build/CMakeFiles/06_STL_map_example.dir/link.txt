@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_map_example.dir/06_STL/map_example.cpp.o -o binaries/06_STL_map_example 

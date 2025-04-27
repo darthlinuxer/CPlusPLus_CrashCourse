@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_array_example_noob.dir/06_STL/array_example_noob.cpp.o -o binaries/06_STL_array_example_noob 

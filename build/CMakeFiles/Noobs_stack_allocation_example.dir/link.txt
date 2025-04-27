@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Noobs_stack_allocation_example.dir/Noobs/stack_allocation_example.cpp.o -o binaries/Noobs_stack_allocation_example 

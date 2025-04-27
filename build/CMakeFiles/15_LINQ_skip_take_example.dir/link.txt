@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/15_LINQ_skip_take_example.dir/15_LINQ/skip_take_example.cpp.o -o binaries/15_LINQ_skip_take_example 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/10_Object_Oriented_oop_basic.dir/10_Object_Oriented/oop_basic.cpp.o -o binaries/10_Object_Oriented_oop_basic 

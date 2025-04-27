@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_forward_list_example.dir/06_STL/forward_list_example.cpp.o -o binaries/06_STL_forward_list_example 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Noobs_structured_bindings_example.dir/Noobs/structured_bindings_example.cpp.o -o binaries/Noobs_structured_bindings_example 

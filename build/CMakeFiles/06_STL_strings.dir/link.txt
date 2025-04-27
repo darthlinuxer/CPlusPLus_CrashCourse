@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/06_STL_strings.dir/06_STL/strings.cpp.o -o binaries/06_STL_strings 

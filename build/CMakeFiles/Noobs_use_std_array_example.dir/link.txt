@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Noobs_use_std_array_example.dir/Noobs/use_std_array_example.cpp.o -o binaries/Noobs_use_std_array_example 

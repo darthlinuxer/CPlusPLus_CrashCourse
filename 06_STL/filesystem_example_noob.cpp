@@ -1,6 +1,14 @@
 #include <iostream>
-#include <windows.h>
 
+#ifdef _WIN32
+#include <windows.h>
+#elif defined(__linux__) || defined(__APPLE__)
+#include <dirent.h>
+#include <cstring>
+#include <sys/stat.h>
+#endif
+
+#ifdef _WIN32
 int main() {
     // Define the current directory
     const char* path = "./*";
@@ -22,6 +30,41 @@ int main() {
     FindClose(hFind);
     return 0;
 }
+#elif defined(__linux__) || defined(__APPLE__)
+int main() {
+    // Define the current directory
+    const char* path = ".";
+
+    // Open the directory
+    DIR* dir = opendir(path);
+    if (dir == nullptr) {
+        std::cerr << "Error: Unable to open directory." << std::endl;
+        return 1;
+    }
+
+    std::cout << "Current directory contents:\n";
+    struct dirent* entry;
+    while ((entry = readdir(dir)) != nullptr) {
+        // Construct the full path to the entry
+        std::string fullPath = std::string(path) + "/" + entry->d_name;
+
+        // Get file status to check if it's a directory
+        struct stat fileStat;
+        if (stat(fullPath.c_str(), &fileStat) == 0) {
+            if (S_ISDIR(fileStat.st_mode)) {
+                std::cout << entry->d_name << " (directory)\n";
+            } else {
+                std::cout << entry->d_name << "\n";
+            }
+        } else {
+            std::cerr << "Error: Unable to get file status for " << entry->d_name << std::endl;
+        }
+    }
+
+    closedir(dir);
+    return 0;
+}
+#endif
 
 /*
 Expected Output:

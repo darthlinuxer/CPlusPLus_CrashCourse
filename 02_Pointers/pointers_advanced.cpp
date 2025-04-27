@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <memory> // Required for std::unique_ptr
+#include <utility> // Required for std::move
 
 // Resource class
 class Resource

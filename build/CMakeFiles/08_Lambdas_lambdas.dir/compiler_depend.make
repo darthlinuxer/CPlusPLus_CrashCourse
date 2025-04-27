@@ -35,11 +35,13 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
@@ -52,6 +54,11 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/ranges_algo.h \
+  /usr/include/c++/13/bits/ranges_algobase.h \
+  /usr/include/c++/13/bits/ranges_base.h \
+  /usr/include/c++/13/bits/ranges_cmp.h \
+  /usr/include/c++/13/bits/ranges_util.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
@@ -83,6 +90,7 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
+  /usr/include/c++/13/concepts \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -104,6 +112,7 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/numbers \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
@@ -294,12 +303,6 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -322,29 +325,27 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/stdio.h:
 
-/usr/include/c++/13/bits/stl_construct.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/include/sched.h:
 
-/usr/include/wctype.h:
+/usr/include/pthread.h:
 
-/usr/include/c++/13/exception:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/13/bits/refwrap.h:
 
+/usr/include/c++/13/bits/ranges_algobase.h:
+
 /usr/include/c++/13/debug/debug.h:
 
 /usr/include/c++/13/stdexcept:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/bits/node_handle.h:
 
@@ -354,6 +355,10 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
+/usr/include/c++/13/bits/erase_if.h:
+
+/usr/include/c++/13/vector:
+
 /usr/include/wchar.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
@@ -362,19 +367,17 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/c++/13/bits/allocator.h:
-
 /usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/ctype.h:
 
-/usr/include/c++/13/bits/ostream.tcc:
+/usr/include/c++/13/bits/iterator_concepts.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -400,15 +403,11 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/features.h:
-
 /usr/include/c++/13/backward/binders.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
 
 /home/darthlinuxer/CPlusPLus_CrashCourse/08_Lambdas/lambdas.cpp:
 
@@ -426,15 +425,23 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
+/usr/include/c++/13/bits/ranges_cmp.h:
+
 /usr/include/c++/13/iosfwd:
 
 /usr/include/c++/13/cwchar:
+
+/usr/include/c++/13/bits/ranges_util.h:
 
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/array:
 
 /usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/string_view:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
@@ -446,11 +453,13 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/enable_special_members.h:
 
+/usr/include/c++/13/bits/ranges_base.h:
+
+/usr/include/c++/13/istream:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -460,6 +469,10 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/move.h:
 
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -468,27 +481,53 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/c++/13/cstddef:
-
-/usr/include/c++/13/vector:
-
 /usr/include/c++/13/algorithm:
 
 /usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/cerrno:
+
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/13/exception:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/stl_heap.h:
 
@@ -501,6 +540,10 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 /usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/numbers:
 
 /usr/include/c++/13/string:
 
@@ -522,6 +565,12 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/unordered_map.h:
 
+/usr/include/endian.h:
+
+/usr/include/c++/13/bits/max_size_type.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
@@ -532,17 +581,21 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/utility.h:
-
 /usr/include/c++/13/bits/vector.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/13/cerrno:
-
 /usr/include/c++/13/clocale:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/13/concepts:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -562,10 +615,6 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/locale.h:
@@ -575,10 +624,6 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 /usr/include/c++/13/cctype:
 
 /usr/include/c++/13/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
@@ -594,12 +639,6 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/initializer_list:
 
-/usr/include/c++/13/istream:
-
-/usr/include/c++/13/string_view:
-
-/usr/include/features-time64.h:
-
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
 /usr/include/c++/13/ostream:
@@ -612,8 +651,6 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
-/usr/include/sched.h:
-
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/range_access.h:
@@ -625,13 +662,3 @@ CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o: /home/darthlinuxer/C
 /usr/include/c++/13/typeinfo:
 
 /usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/pthread.h:

@@ -22,9 +22,35 @@ public:
         return age;
     }
 
+    // Overloaded operator to compare two Person objects
     bool operator>(const Person &other) const
     {
         return age > other.age;
+    }
+
+    // person + int operator overload
+    // This allows adding an integer to a Person object, which increases the age.
+    // It returns a new Person object with the updated age.
+    Person operator+(int age) const
+    {
+        return Person(this->age + age);
+    }
+
+    // Overloaded operator to add a Person object and an integer
+    // This allows adding two Person objects together, summing their ages.
+    // It returns a new Person object with the combined age.
+    Person operator+(Person const& other) const 
+    {
+        //other.age = 10; // This line would cause a compilation error because 'other' is const.
+        return Person(this->age + other.age);
+    }
+
+    // Overloaded operator to compare two Person objects using the spaceship operator
+    // This operator allows for three-way comparison, which is useful for sorting and ordering.
+    // It returns a std::strong_ordering result.
+    auto operator <=>(Person const& other) const
+    {
+        return age <=> other.age;
     }
 
     // Friend function to overload the << operator
@@ -34,6 +60,13 @@ public:
         return os;
     }
 };
+
+// Overloaded operator to add an integer to a Person object
+Person operator+(int age, const Person &p)
+{
+    // will use the internal operator+ of Person class
+    return p + age;
+}
 
 
 int main()

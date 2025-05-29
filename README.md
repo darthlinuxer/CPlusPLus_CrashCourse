@@ -3,31 +3,122 @@
 Este projeto é um tutorial sobre as melhores práticas em C++. Ele demonstra recursos e técnicas modernas de C++ para ajudar desenvolvedores a escrever código limpo, eficiente e de fácil manutenção. Cada pasta no projeto foca em um tópico específico, fornecendo exemplos e explicações.
 
 ## Project Structure:
-- **01_Basic:** Introduces basic C++ concepts like `constexpr` and simple programs. Examples include:
-  - `auto_example.cpp`
-  - `constexpr.cpp`
-  - `flow.cpp`
-  - `hello.cpp`
-  - `nullptr_example.cpp`
-  - `range_based_for_example.cpp`
-  - `variables.cpp`
+- **01_Basic:** Introduces basic C++ concepts like `constexpr`, type conversions, enums, and simple programs. Examples include:
+  - `01_hello.cpp`
+  - `02_variables.cpp`
+  - `03_auto_example.cpp`
+  - `04_flow.cpp`
+  - `05_range_based_for_example.cpp`
+  - `06_constexpr.cpp`
+  - `07_nullptr_example.cpp`
+  - `08_type_conversions.cpp`
+  - `09_enums.cpp`
 - **02_Pointers:** Demonstrates the use of pointers and smart pointers for resource management, including examples of `std::unique_ptr` and move semantics. Examples include:
-  - `null_pointers.cpp`
-  - `out_and_ref_example.cpp`
+  - `01_null_pointers.cpp`
+  - `02_out_and_ref_example.cpp`
+  - `03_pointers.cpp`
+  - `04_referenceVsPointers.cpp`
+  - `05_pointers_advanced.cpp`
+  - `06_smartpointers.cpp`
   - `pointers_advanced.cpp`
-  - `pointers.cpp`
-  - `referenceVsPointers.cpp`
-- **03_Vectors:** Explains the use of `std::vector` for dynamic arrays.
-- **04_Enums:** Covers strongly typed enumerations using `enum class`.
-- **05_Functions:** Focuses on modern function features like `noexcept` and `constexpr` functions.
-- **06_STL:** Explores Standard Template Library (STL) features like `std::optional`, `std::string`, and algorithms.
-- **07_Resources:** Demonstrates RAII (Resource Acquisition Is Initialization) principles with examples like file handling and memory management.
-- **08_Lambdas:** Examples of lambda expressions, including captures and usage in algorithms.
-- **09_Templates:** Examples of template programming, including function templates and class templates.
-- **10_Object_Oriented:** Examples of object-oriented programming, including inheritance, polymorphism, and encapsulation.
-- **11_EventsAndDelegates:** Demonstrates event handling and delegate patterns in C++.
-- **12_CPlusPlusUniqueness:** Highlights unique C++ features and idioms, such as move semantics, rvalue references, and type traits.
-- **13_Threads_And_Tasks:** Explores multithreading and asynchronous programming in C++. Examples include:
-  - `threads_example.cpp`
+- **03_Collections:** Explains the use of arrays, vectors, lists, sets, maps, multimaps, deques, stacks, queues, unordered maps/sets, and complex set examples. Examples include:
+  - `01_arrays.cpp`
+  - `02_vector.cpp`
+  - `03_list_example.cpp`
+  - `04_set_example.cpp`
+  - `05_map_example.cpp`
+  - `06_multimap_example.cpp`
+  - `07_deque_example.cpp`
+  - `08_stack_example.cpp`
+  - `09_queue_example.cpp`
+  - `10_unordered_map_example.cpp`
+  - `11_unordered_set_example.cpp`
+  - `set_example_complex.cpp`
+- **04_FunctionsAndLambdas:** Focuses on modern function features and lambda expressions. Examples include:
+  - `free_functions.cpp`
+  - `lambdas.cpp`
+  - `noexcept.cpp`
+- **05_STL:** Explores Standard Template Library (STL) features like algorithms, containers, optionals, strings, and more. Examples include:
+  - `algorithm_example.cpp`, `algorithm_example_noob.cpp`
+  - `array_example.cpp`, `array_example_noob.cpp`
+  - `bitset_example.cpp`, `bitset_example_noob.cpp`
+  - `chrono_example.cpp`, `chrono_example_noob.cpp`
+  - `deque_example.cpp`, `deque_example_noob.cpp`
+  - `filesystem_example.cpp`, `filesystem_example_noob.cpp`, `filesystem_example_noob`
+  - `forward_list_example.cpp`, `forward_list_example_noob.cpp`
+  - `function_bind_example.cpp`, `function_bind_example_noob.cpp`
+  - `future_example.cpp`, `future_example_noob.cpp`
+  - `ifstream_noob.cpp`, `ifstream_noob`
+  - `list_example.cpp`, `list_example_noob.cpp`, `list_example`
+  - `map_example.cpp`, `map_example_noob.cpp`
+  - `multimap_example.cpp`, `multimap_example_noob.cpp`
+  - `optional.cpp`, `optional_noob.cpp`
+  - `pair_example.cpp`, `pair_example_noob.cpp`
+  - `priority_queue_example.cpp`, `priority_queue_example_noob.cpp`
+  - `queue_example.cpp`, `queue_example_noob.cpp`
+  - `regex_example.cpp`, `regex_example_noob.cpp`
+  - `set_example.cpp`, `set_example`
+  - `shared_ptr_example.cpp`
+  - `stack_example.cpp`
+  - `strings.cpp`
+  - `tuple_example.cpp`, `tuple_example_noob.cpp`
+  - `unique_ptr_example.cpp`, `unique_ptr_example_noob.cpp`
+  - `unordered_map_example.cpp`, `unordered_map_example_noob.cpp`
+  - `unordered_set_example.cpp`, `unordered_set_example_noob.cpp`
+  - `valarray_example.cpp`, `valarray_example_noob.cpp`
+  - `vector.cpp`, `vector`
+- **06_Templates:** Examples of template programming, including function templates, class templates, specialization, and variadic templates. Examples include:
+  - `01_templates.cpp`
+  - `02_templates.cpp`
+  - `03_template_specialization.cpp`
+  - `Accumulator.h`
+  - `AnotherTemplateExample.cpp`
+  - `Summary.cpp`
+  - `compile_time_evaluation.cpp`
+  - `template_specialization.cpp`
+  - `variadic_templates.cpp`
+- **07_Threads_And_Tasks:** Explores multithreading and asynchronous programming in C++. Examples include:
   - `tasks_example.cpp`
-- **14_LINQ:** Demonstrates LINQ-like operations in C++ using STL algorithms and ranges.
+  - `threads_example.cpp`
+- **08_LINQ:** Demonstrates LINQ-like operations in C++ using STL algorithms and ranges. Examples include:
+  - `aggregate_example.cpp`
+  - `all_example.cpp`
+  - `any_example.cpp`
+  - `average_example.cpp`
+  - `count_example.cpp`
+  - `distinct_example.cpp`
+  - `except_example.cpp`
+  - `first_example.cpp`
+  - `groupby_example.cpp`
+  - `intersect_example.cpp`
+  - `join_example.cpp`
+  - `last_example.cpp`
+  - `max_example.cpp`
+  - `min_example.cpp`
+  - `orderby_example.cpp`
+  - `select_example.cpp`
+  - `skip_take_example.cpp`
+  - `sum_example.cpp`
+  - `union_example.cpp`
+  - `where_example.cpp`
+- **09_EventsAndDelegates:** Demonstrates event handling and delegate patterns in C++. Example:
+  - `eventsAndDelegates.cpp`
+- **10_Modern_CPP:** Highlights unique C++11+ features and idioms, such as move semantics and smart pointers. Examples include:
+  - `01_move_semantics_cpp11_aprofundado.cpp`
+  - `02_smart_pointers_aprofundado.cpp`
+- **11_Object_Oriented:** Examples of object-oriented programming, including inheritance, polymorphism, and encapsulation. Examples include:
+  - `classes.cpp`
+  - `oop_advanced.cpp`
+  - `oop_basic.cpp`
+  - `shapes.cpp`
+- **12_Resources:** Demonstrates RAII (Resource Acquisition Is Initialization) principles with examples like file handling and memory management. Examples include:
+  - `RAII.cpp`
+  - `example.txt`
+  - `tutorial_cpp_para_csharp_aprofundado.md`
+- **13_CPlusPlusUniqueness:** Highlights unique C++ features and idioms, such as move/copy constructors, friend classes/functions, and type traits. Examples include:
+  - `AllConstructorsAndOperators.cpp`
+  - `CopyConstructors.cpp`
+  - `ExampleConstructors.cpp`
+  - `FriendClassExample.cpp`
+  - `FriendFunctionsExample.cpp`
+  - `MoveConstructors.cpp`

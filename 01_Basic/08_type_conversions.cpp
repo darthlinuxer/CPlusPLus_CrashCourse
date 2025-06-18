@@ -14,27 +14,36 @@
 */
 
 // Preparation for the example
-enum Color { Red, Green, Blue }; // Enum for demonstration
+enum Color
+{
+    Red,
+    Green,
+    Blue
+}; // Enum for demonstration
 
-class Base {
+class Base
+{
 public:
     virtual void display() const { std::cout << "Base class\n"; }
 };
 
-class Derived : public Base {
+class Derived : public Base
+{
 public:
     void display() const override { std::cout << "Derived class\n"; }
 };
 
-class MyClass {
+class MyClass
+{
     int value;
 
 public:
-    MyClass(int v) : value(v) {} // Constructor allows implicit conversion from int to MyClass
+    MyClass(int v) : value(v) {}           // Constructor allows implicit conversion from int to MyClass
     operator int() const { return value; } // Conversion operator allows implicit conversion from MyClass to int
 };
 
-class ExplicitClass {
+class ExplicitClass
+{
     int value;
 
 public:
@@ -42,15 +51,18 @@ public:
     int getValue() const { return value; }
 };
 
-void overloadedFunction(int x) {
+void overloadedFunction(int x)
+{
     std::cout << "Called overloadedFunction(int): " << x << "\n";
 }
 
-void overloadedFunction(double x) {
+void overloadedFunction(double x)
+{
     std::cout << "Called overloadedFunction(double): " << x << "\n";
 }
 
-int main() {
+int main()
+{
     // Implicit Conversion Example
     std::cout << "=== Implicit Conversion ===\n";
     int intVar = 42;
@@ -100,42 +112,42 @@ int main() {
 
     // Reference Conversion
     double doubleValue = 42.42;
-    const double& constRef = doubleValue; // Create a const reference
-    double& nonConstRef = const_cast<double&>(constRef); // Explicitly remove constness
-    nonConstRef = 50.50; // Modify the value
+    const double &constRef = doubleValue;                 // Create a const reference
+    double &nonConstRef = const_cast<double &>(constRef); // Explicitly remove constness
+    nonConstRef = 50.50;                                  // Modify the value
     std::cout << "Reference Conversion: Modified value = " << doubleValue << "\n";
 
     // Pointer Conversion Examples
     std::cout << "\n=== Pointer Conversion Examples ===\n";
-    
+
     // 1. Void Pointer Conversion
     int intValue = 10;
-    void* voidPtr = &intValue; // Void pointer
-    int* intPtr = static_cast<int*>(voidPtr); // Explicitly convert void* to int*
+    void *voidPtr = &intValue;                 // Void pointer
+    int *intPtr = static_cast<int *>(voidPtr); // Explicitly convert void* to int*
     std::cout << "Void Pointer Conversion: Value pointed by intPtr = " << *intPtr << "\n";
 
     // 2. Polymorphism: Base to Derived Pointer Conversion
     Derived derivedObj;
-    Base* basePtr = &derivedObj; // Implicitly convert Derived* to Base*
-    Derived* derivedPtr = static_cast<Derived*>(basePtr); // Explicitly convert Base* to Derived*
-    derivedPtr->display(); // Calls Derived's display method
-
+    Base *basePtr = &derivedObj;                           // Implicitly convert Derived* to Base*
+    Derived *derivedPtr = static_cast<Derived *>(basePtr); // Explicitly convert Base* to Derived*
+    derivedPtr->display();           
+    
     // 3. Reinterpreting Memory
     long longValue = 123456789;
-    int* reinterpretPtr = reinterpret_cast<int*>(&longValue); // Reinterpret long* as int*
+    int *reinterpretPtr = reinterpret_cast<int *>(&longValue); // Reinterpret long* as int*
     std::cout << "Reinterpreted Memory: First 4 bytes of longValue as int = " << *reinterpretPtr << "\n";
 
     // 4. Invalid Pointer Conversion (Demonstration Only)
     // This is unsafe and should be avoided in real-world code.
     doubleValue = 42.42;
-    int* invalidPtr = reinterpret_cast<int*>(&doubleValue); // Reinterpret double* as int*
+    int *invalidPtr = reinterpret_cast<int *>(&doubleValue); // Reinterpret double* as int*
     std::cout << "Invalid Pointer Conversion: Interpreting double as int = " << *invalidPtr << "\n";
 
     // Casting Away Constness Example
     std::cout << "\n=== Casting Away Constness ===\n";
-    const int constValue = 100; // Constant integer
-    int& nonConstValue = const_cast<int&>(constValue); // Cast away constness
-    nonConstValue = 200; // Modify the value
+    const int constValue = 100;                         // Constant integer
+    int &nonConstValue = const_cast<int &>(constValue); // Cast away constness
+    nonConstValue = 200;                                // Modify the value
     std::cout << "Original const value (after modification): " << constValue << "\n";
 
     // Implicit Conversion to and from Class
@@ -149,9 +161,9 @@ int main() {
 
     // Implicit Conversion in Function Overloading
     std::cout << "\n=== Implicit Conversion in Function Overloading ===\n";
-    overloadedFunction(42); // Matches int version
+    overloadedFunction(42);   // Matches int version
     overloadedFunction(3.14); // Matches double version
-    overloadedFunction('A'); // Implicitly converts char to int, matches int version
+    overloadedFunction('A');  // Implicitly converts char to int, matches int version
 
     // Explicit Keyword for Constructors
     std::cout << "\n=== Explicit Keyword for Constructors ===\n";
@@ -161,19 +173,25 @@ int main() {
 
     // Dynamic Casting
     std::cout << "\n=== Dynamic Casting ===\n";
-    Base* basePtrDynamic = new Derived(); // Renamed to avoid redefinition
-    Derived* derivedPtrDynamic = dynamic_cast<Derived*>(basePtrDynamic); // Renamed to avoid redefinition
-    if (derivedPtrDynamic) {
+    Base *basePtrDynamic = new Derived();                                 // Renamed to avoid redefinition
+    Derived *derivedPtrDynamic = dynamic_cast<Derived *>(basePtrDynamic); // Renamed to avoid redefinition
+    if (derivedPtrDynamic)
+    {
         derivedPtrDynamic->display(); // Calls Derived's display method
-    } else {
+    }
+    else
+    {
         std::cout << "Dynamic cast failed.\n";
     }
 
-    Base* invalidBasePtr = new Base(); // Base pointer pointing to Base object
-    Derived* invalidDerivedPtr = dynamic_cast<Derived*>(invalidBasePtr); // Fails
-    if (invalidDerivedPtr) {
+    Base *invalidBasePtr = new Base();                                    // Base pointer pointing to Base object
+    Derived *invalidDerivedPtr = dynamic_cast<Derived *>(invalidBasePtr); // Fails
+    if (invalidDerivedPtr)
+    {
         invalidDerivedPtr->display();
-    } else {
+    }
+    else
+    {
         std::cout << "Dynamic cast failed for invalidBasePtr.\n";
     }
 
@@ -188,7 +206,7 @@ int main() {
 Integer value: 42
 Converted to double: 42
 Character: A
-Implicitly converted to ASCII value: 65   
+Implicitly converted to ASCII value: 65
 
 === Explicit Conversion ===
 Double value: 3.14159
@@ -204,8 +222,8 @@ Reference Conversion: Modified value = 50.5
 === Pointer Conversion Examples ===
 Void Pointer Conversion: Value pointed by intPtr = 10
 Derived class
-Reinterpreted Memory: First 4 bytes of longValue as int = 123456789    
-Invalid Pointer Conversion: Interpreting double as int = -1889785610   
+Reinterpreted Memory: First 4 bytes of longValue as int = 123456789
+Invalid Pointer Conversion: Interpreting double as int = -1889785610
 === Casting Away Constness ===
 Original const value (after modification): 100
 === Implicit Conversion to and from Class ===

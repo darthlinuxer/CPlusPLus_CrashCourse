@@ -16,5 +16,7 @@ int main() {
     checkPointer(nullPtr);
 
     delete validPtr;
+    // do we have to delete nullPtr?
+    // No, deleting a null pointer has no effect.
     return 0;
 }

@@ -9,6 +9,7 @@
 *.tlog
 *.lastbuildstate
 *.log
+*.out
 
 # Visual Studio specific files
 .vscode/

@@ -1,7 +1,5 @@
 # Visual Studio Project Structure
 
-Este projeto é um tutorial sobre as melhores práticas em C++. Ele demonstra recursos e técnicas modernas de C++ para ajudar desenvolvedores a escrever código limpo, eficiente e de fácil manutenção. Cada pasta no projeto foca em um tópico específico, fornecendo exemplos e explicações.
-
 ## Project Structure:
 - **01_Basic:** Introduces basic C++ concepts like `constexpr`, type conversions, enums, and simple programs. Examples include:
   - `01_hello.cpp`

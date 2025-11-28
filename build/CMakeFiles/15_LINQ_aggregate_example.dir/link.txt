@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/15_LINQ_aggregate_example.dir/15_LINQ/aggregate_example.cpp.o -o binaries/15_LINQ_aggregate_example 

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_evaluation_order_example.dir/Noobs/evaluation_order_example.cpp.o -o binaries/Noobs_evaluation_order_example 
+/usr/bin/g++ CMakeFiles/Noobs_evaluation_order_example.dir/Noobs/evaluation_order_example.cpp.o -o binaries/Noobs_evaluation_order_example 

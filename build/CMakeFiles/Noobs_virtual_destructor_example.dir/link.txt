@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_virtual_destructor_example.dir/Noobs/virtual_destructor_example.cpp.o -o binaries/Noobs_virtual_destructor_example 
+/usr/bin/g++ CMakeFiles/Noobs_virtual_destructor_example.dir/Noobs/virtual_destructor_example.cpp.o -o binaries/Noobs_virtual_destructor_example 

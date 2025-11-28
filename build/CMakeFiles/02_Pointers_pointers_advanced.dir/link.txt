@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/02_Pointers_pointers_advanced.dir/02_Pointers/pointers_advanced.cpp.o -o binaries/02_Pointers_pointers_advanced 

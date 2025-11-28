@@ -117,1473 +117,1616 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 01_Basic_auto_example
+# Target rules for targets named 01_Basic_01_hello
 
 # Build rule for target.
-01_Basic_auto_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_auto_example
-.PHONY : 01_Basic_auto_example
+01_Basic_01_hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_01_hello
+.PHONY : 01_Basic_01_hello
 
 # fast build rule for target.
-01_Basic_auto_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_auto_example.dir/build.make CMakeFiles/01_Basic_auto_example.dir/build
-.PHONY : 01_Basic_auto_example/fast
+01_Basic_01_hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_01_hello.dir/build.make CMakeFiles/01_Basic_01_hello.dir/build
+.PHONY : 01_Basic_01_hello/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_constexpr
+# Target rules for targets named 01_Basic_02_variables
 
 # Build rule for target.
-01_Basic_constexpr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_constexpr
-.PHONY : 01_Basic_constexpr
+01_Basic_02_variables: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_02_variables
+.PHONY : 01_Basic_02_variables
 
 # fast build rule for target.
-01_Basic_constexpr/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_constexpr.dir/build.make CMakeFiles/01_Basic_constexpr.dir/build
-.PHONY : 01_Basic_constexpr/fast
+01_Basic_02_variables/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_02_variables.dir/build.make CMakeFiles/01_Basic_02_variables.dir/build
+.PHONY : 01_Basic_02_variables/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_flow
+# Target rules for targets named 01_Basic_03_auto_example
 
 # Build rule for target.
-01_Basic_flow: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_flow
-.PHONY : 01_Basic_flow
+01_Basic_03_auto_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_03_auto_example
+.PHONY : 01_Basic_03_auto_example
 
 # fast build rule for target.
-01_Basic_flow/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_flow.dir/build.make CMakeFiles/01_Basic_flow.dir/build
-.PHONY : 01_Basic_flow/fast
+01_Basic_03_auto_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_03_auto_example.dir/build.make CMakeFiles/01_Basic_03_auto_example.dir/build
+.PHONY : 01_Basic_03_auto_example/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_hello
+# Target rules for targets named 01_Basic_04_flow
 
 # Build rule for target.
-01_Basic_hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_hello
-.PHONY : 01_Basic_hello
+01_Basic_04_flow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_04_flow
+.PHONY : 01_Basic_04_flow
 
 # fast build rule for target.
-01_Basic_hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_hello.dir/build.make CMakeFiles/01_Basic_hello.dir/build
-.PHONY : 01_Basic_hello/fast
+01_Basic_04_flow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_04_flow.dir/build.make CMakeFiles/01_Basic_04_flow.dir/build
+.PHONY : 01_Basic_04_flow/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_nullptr_example
+# Target rules for targets named 01_Basic_05_range_based_for_example
 
 # Build rule for target.
-01_Basic_nullptr_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_nullptr_example
-.PHONY : 01_Basic_nullptr_example
+01_Basic_05_range_based_for_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_05_range_based_for_example
+.PHONY : 01_Basic_05_range_based_for_example
 
 # fast build rule for target.
-01_Basic_nullptr_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_nullptr_example.dir/build.make CMakeFiles/01_Basic_nullptr_example.dir/build
-.PHONY : 01_Basic_nullptr_example/fast
+01_Basic_05_range_based_for_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_05_range_based_for_example.dir/build.make CMakeFiles/01_Basic_05_range_based_for_example.dir/build
+.PHONY : 01_Basic_05_range_based_for_example/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_range_based_for_example
+# Target rules for targets named 01_Basic_06_constexpr
 
 # Build rule for target.
-01_Basic_range_based_for_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_range_based_for_example
-.PHONY : 01_Basic_range_based_for_example
+01_Basic_06_constexpr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_06_constexpr
+.PHONY : 01_Basic_06_constexpr
 
 # fast build rule for target.
-01_Basic_range_based_for_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_range_based_for_example.dir/build.make CMakeFiles/01_Basic_range_based_for_example.dir/build
-.PHONY : 01_Basic_range_based_for_example/fast
+01_Basic_06_constexpr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_06_constexpr.dir/build.make CMakeFiles/01_Basic_06_constexpr.dir/build
+.PHONY : 01_Basic_06_constexpr/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_type_conversions
+# Target rules for targets named 01_Basic_07_nullptr_example
 
 # Build rule for target.
-01_Basic_type_conversions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_type_conversions
-.PHONY : 01_Basic_type_conversions
+01_Basic_07_nullptr_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_07_nullptr_example
+.PHONY : 01_Basic_07_nullptr_example
 
 # fast build rule for target.
-01_Basic_type_conversions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_type_conversions.dir/build.make CMakeFiles/01_Basic_type_conversions.dir/build
-.PHONY : 01_Basic_type_conversions/fast
+01_Basic_07_nullptr_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_07_nullptr_example.dir/build.make CMakeFiles/01_Basic_07_nullptr_example.dir/build
+.PHONY : 01_Basic_07_nullptr_example/fast
 
 #=============================================================================
-# Target rules for targets named 01_Basic_variables
+# Target rules for targets named 01_Basic_08_type_conversions
 
 # Build rule for target.
-01_Basic_variables: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_variables
-.PHONY : 01_Basic_variables
+01_Basic_08_type_conversions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_08_type_conversions
+.PHONY : 01_Basic_08_type_conversions
 
 # fast build rule for target.
-01_Basic_variables/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_variables.dir/build.make CMakeFiles/01_Basic_variables.dir/build
-.PHONY : 01_Basic_variables/fast
+01_Basic_08_type_conversions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_08_type_conversions.dir/build.make CMakeFiles/01_Basic_08_type_conversions.dir/build
+.PHONY : 01_Basic_08_type_conversions/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_null_pointers
+# Target rules for targets named 01_Basic_09_enums
 
 # Build rule for target.
-02_Pointers_null_pointers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_null_pointers
-.PHONY : 02_Pointers_null_pointers
+01_Basic_09_enums: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_Basic_09_enums
+.PHONY : 01_Basic_09_enums
 
 # fast build rule for target.
-02_Pointers_null_pointers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_null_pointers.dir/build.make CMakeFiles/02_Pointers_null_pointers.dir/build
-.PHONY : 02_Pointers_null_pointers/fast
+01_Basic_09_enums/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_09_enums.dir/build.make CMakeFiles/01_Basic_09_enums.dir/build
+.PHONY : 01_Basic_09_enums/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_out_and_ref_example
+# Target rules for targets named 02_Pointers_01_null_pointers
 
 # Build rule for target.
-02_Pointers_out_and_ref_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_out_and_ref_example
-.PHONY : 02_Pointers_out_and_ref_example
+02_Pointers_01_null_pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_01_null_pointers
+.PHONY : 02_Pointers_01_null_pointers
 
 # fast build rule for target.
-02_Pointers_out_and_ref_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_out_and_ref_example.dir/build
-.PHONY : 02_Pointers_out_and_ref_example/fast
+02_Pointers_01_null_pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_01_null_pointers.dir/build.make CMakeFiles/02_Pointers_01_null_pointers.dir/build
+.PHONY : 02_Pointers_01_null_pointers/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_pointers
+# Target rules for targets named 02_Pointers_02_out_and_ref_example
 
 # Build rule for target.
-02_Pointers_pointers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_pointers
-.PHONY : 02_Pointers_pointers
+02_Pointers_02_out_and_ref_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_02_out_and_ref_example
+.PHONY : 02_Pointers_02_out_and_ref_example
 
 # fast build rule for target.
-02_Pointers_pointers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers.dir/build.make CMakeFiles/02_Pointers_pointers.dir/build
-.PHONY : 02_Pointers_pointers/fast
+02_Pointers_02_out_and_ref_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_02_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_02_out_and_ref_example.dir/build
+.PHONY : 02_Pointers_02_out_and_ref_example/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_pointers_advanced
+# Target rules for targets named 02_Pointers_03_pointers
 
 # Build rule for target.
-02_Pointers_pointers_advanced: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_pointers_advanced
-.PHONY : 02_Pointers_pointers_advanced
+02_Pointers_03_pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_03_pointers
+.PHONY : 02_Pointers_03_pointers
 
 # fast build rule for target.
-02_Pointers_pointers_advanced/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_pointers_advanced.dir/build
-.PHONY : 02_Pointers_pointers_advanced/fast
+02_Pointers_03_pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_03_pointers.dir/build.make CMakeFiles/02_Pointers_03_pointers.dir/build
+.PHONY : 02_Pointers_03_pointers/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_referenceVsPointers
+# Target rules for targets named 02_Pointers_04_referenceVsPointers
 
 # Build rule for target.
-02_Pointers_referenceVsPointers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_referenceVsPointers
-.PHONY : 02_Pointers_referenceVsPointers
+02_Pointers_04_referenceVsPointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_04_referenceVsPointers
+.PHONY : 02_Pointers_04_referenceVsPointers
 
 # fast build rule for target.
-02_Pointers_referenceVsPointers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_referenceVsPointers.dir/build
-.PHONY : 02_Pointers_referenceVsPointers/fast
+02_Pointers_04_referenceVsPointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_04_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_04_referenceVsPointers.dir/build
+.PHONY : 02_Pointers_04_referenceVsPointers/fast
 
 #=============================================================================
-# Target rules for targets named 02_Pointers_smartpointers
+# Target rules for targets named 02_Pointers_05_pointers_advanced
 
 # Build rule for target.
-02_Pointers_smartpointers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_smartpointers
-.PHONY : 02_Pointers_smartpointers
+02_Pointers_05_pointers_advanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_05_pointers_advanced
+.PHONY : 02_Pointers_05_pointers_advanced
 
 # fast build rule for target.
-02_Pointers_smartpointers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_smartpointers.dir/build.make CMakeFiles/02_Pointers_smartpointers.dir/build
-.PHONY : 02_Pointers_smartpointers/fast
+02_Pointers_05_pointers_advanced/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_05_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_05_pointers_advanced.dir/build
+.PHONY : 02_Pointers_05_pointers_advanced/fast
 
 #=============================================================================
-# Target rules for targets named 03_Vectors_arrays
+# Target rules for targets named 02_Pointers_06_smartpointers
 
 # Build rule for target.
-03_Vectors_arrays: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Vectors_arrays
-.PHONY : 03_Vectors_arrays
+02_Pointers_06_smartpointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_Pointers_06_smartpointers
+.PHONY : 02_Pointers_06_smartpointers
 
 # fast build rule for target.
-03_Vectors_arrays/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_arrays.dir/build.make CMakeFiles/03_Vectors_arrays.dir/build
-.PHONY : 03_Vectors_arrays/fast
+02_Pointers_06_smartpointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_06_smartpointers.dir/build.make CMakeFiles/02_Pointers_06_smartpointers.dir/build
+.PHONY : 02_Pointers_06_smartpointers/fast
 
 #=============================================================================
-# Target rules for targets named 03_Vectors_vector
+# Target rules for targets named 03_Collections_01_arrays
 
 # Build rule for target.
-03_Vectors_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Vectors_vector
-.PHONY : 03_Vectors_vector
+03_Collections_01_arrays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_01_arrays
+.PHONY : 03_Collections_01_arrays
 
 # fast build rule for target.
-03_Vectors_vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_vector.dir/build.make CMakeFiles/03_Vectors_vector.dir/build
-.PHONY : 03_Vectors_vector/fast
+03_Collections_01_arrays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_01_arrays.dir/build.make CMakeFiles/03_Collections_01_arrays.dir/build
+.PHONY : 03_Collections_01_arrays/fast
 
 #=============================================================================
-# Target rules for targets named 04_Enums_enums
+# Target rules for targets named 03_Collections_02_vector
 
 # Build rule for target.
-04_Enums_enums: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_Enums_enums
-.PHONY : 04_Enums_enums
+03_Collections_02_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_02_vector
+.PHONY : 03_Collections_02_vector
 
 # fast build rule for target.
-04_Enums_enums/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_Enums_enums.dir/build.make CMakeFiles/04_Enums_enums.dir/build
-.PHONY : 04_Enums_enums/fast
+03_Collections_02_vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_02_vector.dir/build.make CMakeFiles/03_Collections_02_vector.dir/build
+.PHONY : 03_Collections_02_vector/fast
 
 #=============================================================================
-# Target rules for targets named 05_Functions_functions
+# Target rules for targets named 03_Collections_03_list_example
 
 # Build rule for target.
-05_Functions_functions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_Functions_functions
-.PHONY : 05_Functions_functions
+03_Collections_03_list_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_03_list_example
+.PHONY : 03_Collections_03_list_example
 
 # fast build rule for target.
-05_Functions_functions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_functions.dir/build.make CMakeFiles/05_Functions_functions.dir/build
-.PHONY : 05_Functions_functions/fast
+03_Collections_03_list_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_03_list_example.dir/build.make CMakeFiles/03_Collections_03_list_example.dir/build
+.PHONY : 03_Collections_03_list_example/fast
 
 #=============================================================================
-# Target rules for targets named 05_Functions_noexcept
+# Target rules for targets named 03_Collections_04_set_example
 
 # Build rule for target.
-05_Functions_noexcept: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_Functions_noexcept
-.PHONY : 05_Functions_noexcept
+03_Collections_04_set_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_04_set_example
+.PHONY : 03_Collections_04_set_example
 
 # fast build rule for target.
-05_Functions_noexcept/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_noexcept.dir/build.make CMakeFiles/05_Functions_noexcept.dir/build
-.PHONY : 05_Functions_noexcept/fast
+03_Collections_04_set_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_04_set_example.dir/build.make CMakeFiles/03_Collections_04_set_example.dir/build
+.PHONY : 03_Collections_04_set_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_algorithm_example
+# Target rules for targets named 03_Collections_05_map_example
 
 # Build rule for target.
-06_STL_algorithm_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_algorithm_example
-.PHONY : 06_STL_algorithm_example
+03_Collections_05_map_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_05_map_example
+.PHONY : 03_Collections_05_map_example
 
 # fast build rule for target.
-06_STL_algorithm_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example.dir/build.make CMakeFiles/06_STL_algorithm_example.dir/build
-.PHONY : 06_STL_algorithm_example/fast
+03_Collections_05_map_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_05_map_example.dir/build.make CMakeFiles/03_Collections_05_map_example.dir/build
+.PHONY : 03_Collections_05_map_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_algorithm_example_noob
+# Target rules for targets named 03_Collections_06_multimap_example
 
 # Build rule for target.
-06_STL_algorithm_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_algorithm_example_noob
-.PHONY : 06_STL_algorithm_example_noob
+03_Collections_06_multimap_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_06_multimap_example
+.PHONY : 03_Collections_06_multimap_example
 
 # fast build rule for target.
-06_STL_algorithm_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example_noob.dir/build.make CMakeFiles/06_STL_algorithm_example_noob.dir/build
-.PHONY : 06_STL_algorithm_example_noob/fast
+03_Collections_06_multimap_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_06_multimap_example.dir/build.make CMakeFiles/03_Collections_06_multimap_example.dir/build
+.PHONY : 03_Collections_06_multimap_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_array_example
+# Target rules for targets named 03_Collections_07_deque_example
 
 # Build rule for target.
-06_STL_array_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_array_example
-.PHONY : 06_STL_array_example
+03_Collections_07_deque_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_07_deque_example
+.PHONY : 03_Collections_07_deque_example
 
 # fast build rule for target.
-06_STL_array_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example.dir/build.make CMakeFiles/06_STL_array_example.dir/build
-.PHONY : 06_STL_array_example/fast
+03_Collections_07_deque_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_07_deque_example.dir/build.make CMakeFiles/03_Collections_07_deque_example.dir/build
+.PHONY : 03_Collections_07_deque_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_array_example_noob
+# Target rules for targets named 03_Collections_08_stack_example
 
 # Build rule for target.
-06_STL_array_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_array_example_noob
-.PHONY : 06_STL_array_example_noob
+03_Collections_08_stack_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_08_stack_example
+.PHONY : 03_Collections_08_stack_example
 
 # fast build rule for target.
-06_STL_array_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example_noob.dir/build.make CMakeFiles/06_STL_array_example_noob.dir/build
-.PHONY : 06_STL_array_example_noob/fast
+03_Collections_08_stack_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_08_stack_example.dir/build.make CMakeFiles/03_Collections_08_stack_example.dir/build
+.PHONY : 03_Collections_08_stack_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_bitset_example
+# Target rules for targets named 03_Collections_09_queue_example
 
 # Build rule for target.
-06_STL_bitset_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_bitset_example
-.PHONY : 06_STL_bitset_example
+03_Collections_09_queue_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_09_queue_example
+.PHONY : 03_Collections_09_queue_example
 
 # fast build rule for target.
-06_STL_bitset_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example.dir/build.make CMakeFiles/06_STL_bitset_example.dir/build
-.PHONY : 06_STL_bitset_example/fast
+03_Collections_09_queue_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_09_queue_example.dir/build.make CMakeFiles/03_Collections_09_queue_example.dir/build
+.PHONY : 03_Collections_09_queue_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_bitset_example_noob
+# Target rules for targets named 03_Collections_10_unordered_map_example
 
 # Build rule for target.
-06_STL_bitset_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_bitset_example_noob
-.PHONY : 06_STL_bitset_example_noob
+03_Collections_10_unordered_map_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_10_unordered_map_example
+.PHONY : 03_Collections_10_unordered_map_example
 
 # fast build rule for target.
-06_STL_bitset_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example_noob.dir/build.make CMakeFiles/06_STL_bitset_example_noob.dir/build
-.PHONY : 06_STL_bitset_example_noob/fast
+03_Collections_10_unordered_map_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_10_unordered_map_example.dir/build.make CMakeFiles/03_Collections_10_unordered_map_example.dir/build
+.PHONY : 03_Collections_10_unordered_map_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_chrono_example
+# Target rules for targets named 03_Collections_11_unordered_set_example
 
 # Build rule for target.
-06_STL_chrono_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_chrono_example
-.PHONY : 06_STL_chrono_example
+03_Collections_11_unordered_set_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_11_unordered_set_example
+.PHONY : 03_Collections_11_unordered_set_example
 
 # fast build rule for target.
-06_STL_chrono_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example.dir/build.make CMakeFiles/06_STL_chrono_example.dir/build
-.PHONY : 06_STL_chrono_example/fast
+03_Collections_11_unordered_set_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_11_unordered_set_example.dir/build.make CMakeFiles/03_Collections_11_unordered_set_example.dir/build
+.PHONY : 03_Collections_11_unordered_set_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_chrono_example_noob
+# Target rules for targets named 03_Collections_set_example_complex
 
 # Build rule for target.
-06_STL_chrono_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_chrono_example_noob
-.PHONY : 06_STL_chrono_example_noob
+03_Collections_set_example_complex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_Collections_set_example_complex
+.PHONY : 03_Collections_set_example_complex
 
 # fast build rule for target.
-06_STL_chrono_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example_noob.dir/build.make CMakeFiles/06_STL_chrono_example_noob.dir/build
-.PHONY : 06_STL_chrono_example_noob/fast
+03_Collections_set_example_complex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_set_example_complex.dir/build.make CMakeFiles/03_Collections_set_example_complex.dir/build
+.PHONY : 03_Collections_set_example_complex/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_deque_example
+# Target rules for targets named 04_FunctionsAndLambdas_free_functions
 
 # Build rule for target.
-06_STL_deque_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_deque_example
-.PHONY : 06_STL_deque_example
+04_FunctionsAndLambdas_free_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_FunctionsAndLambdas_free_functions
+.PHONY : 04_FunctionsAndLambdas_free_functions
 
 # fast build rule for target.
-06_STL_deque_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example.dir/build.make CMakeFiles/06_STL_deque_example.dir/build
-.PHONY : 06_STL_deque_example/fast
+04_FunctionsAndLambdas_free_functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/build.make CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/build
+.PHONY : 04_FunctionsAndLambdas_free_functions/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_deque_example_noob
+# Target rules for targets named 04_FunctionsAndLambdas_lambdas
 
 # Build rule for target.
-06_STL_deque_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_deque_example_noob
-.PHONY : 06_STL_deque_example_noob
+04_FunctionsAndLambdas_lambdas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_FunctionsAndLambdas_lambdas
+.PHONY : 04_FunctionsAndLambdas_lambdas
 
 # fast build rule for target.
-06_STL_deque_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example_noob.dir/build.make CMakeFiles/06_STL_deque_example_noob.dir/build
-.PHONY : 06_STL_deque_example_noob/fast
+04_FunctionsAndLambdas_lambdas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/build.make CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/build
+.PHONY : 04_FunctionsAndLambdas_lambdas/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_filesystem_example
+# Target rules for targets named 04_FunctionsAndLambdas_noexcept
 
 # Build rule for target.
-06_STL_filesystem_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_filesystem_example
-.PHONY : 06_STL_filesystem_example
+04_FunctionsAndLambdas_noexcept: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04_FunctionsAndLambdas_noexcept
+.PHONY : 04_FunctionsAndLambdas_noexcept
 
 # fast build rule for target.
-06_STL_filesystem_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example.dir/build.make CMakeFiles/06_STL_filesystem_example.dir/build
-.PHONY : 06_STL_filesystem_example/fast
+04_FunctionsAndLambdas_noexcept/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/build.make CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/build
+.PHONY : 04_FunctionsAndLambdas_noexcept/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_filesystem_example_noob
+# Target rules for targets named 05_STL_algorithm_example
 
 # Build rule for target.
-06_STL_filesystem_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_filesystem_example_noob
-.PHONY : 06_STL_filesystem_example_noob
+05_STL_algorithm_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_algorithm_example
+.PHONY : 05_STL_algorithm_example
 
 # fast build rule for target.
-06_STL_filesystem_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example_noob.dir/build.make CMakeFiles/06_STL_filesystem_example_noob.dir/build
-.PHONY : 06_STL_filesystem_example_noob/fast
+05_STL_algorithm_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example.dir/build.make CMakeFiles/05_STL_algorithm_example.dir/build
+.PHONY : 05_STL_algorithm_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_forward_list_example
+# Target rules for targets named 05_STL_algorithm_example_noob
 
 # Build rule for target.
-06_STL_forward_list_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_forward_list_example
-.PHONY : 06_STL_forward_list_example
+05_STL_algorithm_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_algorithm_example_noob
+.PHONY : 05_STL_algorithm_example_noob
 
 # fast build rule for target.
-06_STL_forward_list_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example.dir/build.make CMakeFiles/06_STL_forward_list_example.dir/build
-.PHONY : 06_STL_forward_list_example/fast
+05_STL_algorithm_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example_noob.dir/build.make CMakeFiles/05_STL_algorithm_example_noob.dir/build
+.PHONY : 05_STL_algorithm_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_forward_list_example_noob
+# Target rules for targets named 05_STL_array_example
 
 # Build rule for target.
-06_STL_forward_list_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_forward_list_example_noob
-.PHONY : 06_STL_forward_list_example_noob
+05_STL_array_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_array_example
+.PHONY : 05_STL_array_example
 
 # fast build rule for target.
-06_STL_forward_list_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example_noob.dir/build.make CMakeFiles/06_STL_forward_list_example_noob.dir/build
-.PHONY : 06_STL_forward_list_example_noob/fast
+05_STL_array_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example.dir/build.make CMakeFiles/05_STL_array_example.dir/build
+.PHONY : 05_STL_array_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_function_bind_example
+# Target rules for targets named 05_STL_array_example_noob
 
 # Build rule for target.
-06_STL_function_bind_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_function_bind_example
-.PHONY : 06_STL_function_bind_example
+05_STL_array_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_array_example_noob
+.PHONY : 05_STL_array_example_noob
 
 # fast build rule for target.
-06_STL_function_bind_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example.dir/build.make CMakeFiles/06_STL_function_bind_example.dir/build
-.PHONY : 06_STL_function_bind_example/fast
+05_STL_array_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example_noob.dir/build.make CMakeFiles/05_STL_array_example_noob.dir/build
+.PHONY : 05_STL_array_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_function_bind_example_noob
+# Target rules for targets named 05_STL_bitset_example
 
 # Build rule for target.
-06_STL_function_bind_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_function_bind_example_noob
-.PHONY : 06_STL_function_bind_example_noob
+05_STL_bitset_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_bitset_example
+.PHONY : 05_STL_bitset_example
 
 # fast build rule for target.
-06_STL_function_bind_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example_noob.dir/build.make CMakeFiles/06_STL_function_bind_example_noob.dir/build
-.PHONY : 06_STL_function_bind_example_noob/fast
+05_STL_bitset_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example.dir/build.make CMakeFiles/05_STL_bitset_example.dir/build
+.PHONY : 05_STL_bitset_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_future_example
+# Target rules for targets named 05_STL_bitset_example_noob
 
 # Build rule for target.
-06_STL_future_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_future_example
-.PHONY : 06_STL_future_example
+05_STL_bitset_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_bitset_example_noob
+.PHONY : 05_STL_bitset_example_noob
 
 # fast build rule for target.
-06_STL_future_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example.dir/build.make CMakeFiles/06_STL_future_example.dir/build
-.PHONY : 06_STL_future_example/fast
+05_STL_bitset_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example_noob.dir/build.make CMakeFiles/05_STL_bitset_example_noob.dir/build
+.PHONY : 05_STL_bitset_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_future_example_noob
+# Target rules for targets named 05_STL_chrono_example
 
 # Build rule for target.
-06_STL_future_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_future_example_noob
-.PHONY : 06_STL_future_example_noob
+05_STL_chrono_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_chrono_example
+.PHONY : 05_STL_chrono_example
 
 # fast build rule for target.
-06_STL_future_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example_noob.dir/build.make CMakeFiles/06_STL_future_example_noob.dir/build
-.PHONY : 06_STL_future_example_noob/fast
+05_STL_chrono_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example.dir/build.make CMakeFiles/05_STL_chrono_example.dir/build
+.PHONY : 05_STL_chrono_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_list_example
+# Target rules for targets named 05_STL_chrono_example_noob
 
 # Build rule for target.
-06_STL_list_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_list_example
-.PHONY : 06_STL_list_example
+05_STL_chrono_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_chrono_example_noob
+.PHONY : 05_STL_chrono_example_noob
 
 # fast build rule for target.
-06_STL_list_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example.dir/build.make CMakeFiles/06_STL_list_example.dir/build
-.PHONY : 06_STL_list_example/fast
+05_STL_chrono_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example_noob.dir/build.make CMakeFiles/05_STL_chrono_example_noob.dir/build
+.PHONY : 05_STL_chrono_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_list_example_noob
+# Target rules for targets named 05_STL_deque_example
 
 # Build rule for target.
-06_STL_list_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_list_example_noob
-.PHONY : 06_STL_list_example_noob
+05_STL_deque_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_deque_example
+.PHONY : 05_STL_deque_example
 
 # fast build rule for target.
-06_STL_list_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example_noob.dir/build.make CMakeFiles/06_STL_list_example_noob.dir/build
-.PHONY : 06_STL_list_example_noob/fast
+05_STL_deque_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example.dir/build.make CMakeFiles/05_STL_deque_example.dir/build
+.PHONY : 05_STL_deque_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_map_example
+# Target rules for targets named 05_STL_deque_example_noob
 
 # Build rule for target.
-06_STL_map_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_map_example
-.PHONY : 06_STL_map_example
+05_STL_deque_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_deque_example_noob
+.PHONY : 05_STL_deque_example_noob
 
 # fast build rule for target.
-06_STL_map_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example.dir/build.make CMakeFiles/06_STL_map_example.dir/build
-.PHONY : 06_STL_map_example/fast
+05_STL_deque_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example_noob.dir/build.make CMakeFiles/05_STL_deque_example_noob.dir/build
+.PHONY : 05_STL_deque_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_map_example_noob
+# Target rules for targets named 05_STL_filesystem_example
 
 # Build rule for target.
-06_STL_map_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_map_example_noob
-.PHONY : 06_STL_map_example_noob
+05_STL_filesystem_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_filesystem_example
+.PHONY : 05_STL_filesystem_example
 
 # fast build rule for target.
-06_STL_map_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example_noob.dir/build.make CMakeFiles/06_STL_map_example_noob.dir/build
-.PHONY : 06_STL_map_example_noob/fast
+05_STL_filesystem_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example.dir/build.make CMakeFiles/05_STL_filesystem_example.dir/build
+.PHONY : 05_STL_filesystem_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_multimap_example
+# Target rules for targets named 05_STL_filesystem_example_noob
 
 # Build rule for target.
-06_STL_multimap_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_multimap_example
-.PHONY : 06_STL_multimap_example
+05_STL_filesystem_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_filesystem_example_noob
+.PHONY : 05_STL_filesystem_example_noob
 
 # fast build rule for target.
-06_STL_multimap_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example.dir/build.make CMakeFiles/06_STL_multimap_example.dir/build
-.PHONY : 06_STL_multimap_example/fast
+05_STL_filesystem_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example_noob.dir/build.make CMakeFiles/05_STL_filesystem_example_noob.dir/build
+.PHONY : 05_STL_filesystem_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_multimap_example_noob
+# Target rules for targets named 05_STL_forward_list_example
 
 # Build rule for target.
-06_STL_multimap_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_multimap_example_noob
-.PHONY : 06_STL_multimap_example_noob
+05_STL_forward_list_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_forward_list_example
+.PHONY : 05_STL_forward_list_example
 
 # fast build rule for target.
-06_STL_multimap_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example_noob.dir/build.make CMakeFiles/06_STL_multimap_example_noob.dir/build
-.PHONY : 06_STL_multimap_example_noob/fast
+05_STL_forward_list_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example.dir/build.make CMakeFiles/05_STL_forward_list_example.dir/build
+.PHONY : 05_STL_forward_list_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_optional
+# Target rules for targets named 05_STL_forward_list_example_noob
 
 # Build rule for target.
-06_STL_optional: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_optional
-.PHONY : 06_STL_optional
+05_STL_forward_list_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_forward_list_example_noob
+.PHONY : 05_STL_forward_list_example_noob
 
 # fast build rule for target.
-06_STL_optional/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional.dir/build.make CMakeFiles/06_STL_optional.dir/build
-.PHONY : 06_STL_optional/fast
+05_STL_forward_list_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example_noob.dir/build.make CMakeFiles/05_STL_forward_list_example_noob.dir/build
+.PHONY : 05_STL_forward_list_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_optional_noob
+# Target rules for targets named 05_STL_function_bind_example
 
 # Build rule for target.
-06_STL_optional_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_optional_noob
-.PHONY : 06_STL_optional_noob
+05_STL_function_bind_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_function_bind_example
+.PHONY : 05_STL_function_bind_example
 
 # fast build rule for target.
-06_STL_optional_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional_noob.dir/build.make CMakeFiles/06_STL_optional_noob.dir/build
-.PHONY : 06_STL_optional_noob/fast
+05_STL_function_bind_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example.dir/build.make CMakeFiles/05_STL_function_bind_example.dir/build
+.PHONY : 05_STL_function_bind_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_pair_example
+# Target rules for targets named 05_STL_function_bind_example_noob
 
 # Build rule for target.
-06_STL_pair_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_pair_example
-.PHONY : 06_STL_pair_example
+05_STL_function_bind_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_function_bind_example_noob
+.PHONY : 05_STL_function_bind_example_noob
 
 # fast build rule for target.
-06_STL_pair_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example.dir/build.make CMakeFiles/06_STL_pair_example.dir/build
-.PHONY : 06_STL_pair_example/fast
+05_STL_function_bind_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example_noob.dir/build.make CMakeFiles/05_STL_function_bind_example_noob.dir/build
+.PHONY : 05_STL_function_bind_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_pair_example_noob
+# Target rules for targets named 05_STL_future_example
 
 # Build rule for target.
-06_STL_pair_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_pair_example_noob
-.PHONY : 06_STL_pair_example_noob
+05_STL_future_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_future_example
+.PHONY : 05_STL_future_example
 
 # fast build rule for target.
-06_STL_pair_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example_noob.dir/build.make CMakeFiles/06_STL_pair_example_noob.dir/build
-.PHONY : 06_STL_pair_example_noob/fast
+05_STL_future_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example.dir/build.make CMakeFiles/05_STL_future_example.dir/build
+.PHONY : 05_STL_future_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_priority_queue_example
+# Target rules for targets named 05_STL_future_example_noob
 
 # Build rule for target.
-06_STL_priority_queue_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_priority_queue_example
-.PHONY : 06_STL_priority_queue_example
+05_STL_future_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_future_example_noob
+.PHONY : 05_STL_future_example_noob
 
 # fast build rule for target.
-06_STL_priority_queue_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example.dir/build.make CMakeFiles/06_STL_priority_queue_example.dir/build
-.PHONY : 06_STL_priority_queue_example/fast
+05_STL_future_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example_noob.dir/build.make CMakeFiles/05_STL_future_example_noob.dir/build
+.PHONY : 05_STL_future_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_priority_queue_example_noob
+# Target rules for targets named 05_STL_ifstream_noob
 
 # Build rule for target.
-06_STL_priority_queue_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_priority_queue_example_noob
-.PHONY : 06_STL_priority_queue_example_noob
+05_STL_ifstream_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_ifstream_noob
+.PHONY : 05_STL_ifstream_noob
 
 # fast build rule for target.
-06_STL_priority_queue_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example_noob.dir/build.make CMakeFiles/06_STL_priority_queue_example_noob.dir/build
-.PHONY : 06_STL_priority_queue_example_noob/fast
+05_STL_ifstream_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_ifstream_noob.dir/build.make CMakeFiles/05_STL_ifstream_noob.dir/build
+.PHONY : 05_STL_ifstream_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_queue_example
+# Target rules for targets named 05_STL_list_example
 
 # Build rule for target.
-06_STL_queue_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_queue_example
-.PHONY : 06_STL_queue_example
+05_STL_list_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_list_example
+.PHONY : 05_STL_list_example
 
 # fast build rule for target.
-06_STL_queue_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example.dir/build.make CMakeFiles/06_STL_queue_example.dir/build
-.PHONY : 06_STL_queue_example/fast
+05_STL_list_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example.dir/build.make CMakeFiles/05_STL_list_example.dir/build
+.PHONY : 05_STL_list_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_queue_example_noob
+# Target rules for targets named 05_STL_list_example_noob
 
 # Build rule for target.
-06_STL_queue_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_queue_example_noob
-.PHONY : 06_STL_queue_example_noob
+05_STL_list_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_list_example_noob
+.PHONY : 05_STL_list_example_noob
 
 # fast build rule for target.
-06_STL_queue_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example_noob.dir/build.make CMakeFiles/06_STL_queue_example_noob.dir/build
-.PHONY : 06_STL_queue_example_noob/fast
+05_STL_list_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example_noob.dir/build.make CMakeFiles/05_STL_list_example_noob.dir/build
+.PHONY : 05_STL_list_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_regex_example
+# Target rules for targets named 05_STL_map_example
 
 # Build rule for target.
-06_STL_regex_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_regex_example
-.PHONY : 06_STL_regex_example
+05_STL_map_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_map_example
+.PHONY : 05_STL_map_example
 
 # fast build rule for target.
-06_STL_regex_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example.dir/build.make CMakeFiles/06_STL_regex_example.dir/build
-.PHONY : 06_STL_regex_example/fast
+05_STL_map_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example.dir/build.make CMakeFiles/05_STL_map_example.dir/build
+.PHONY : 05_STL_map_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_regex_example_noob
+# Target rules for targets named 05_STL_map_example_noob
 
 # Build rule for target.
-06_STL_regex_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_regex_example_noob
-.PHONY : 06_STL_regex_example_noob
+05_STL_map_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_map_example_noob
+.PHONY : 05_STL_map_example_noob
 
 # fast build rule for target.
-06_STL_regex_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example_noob.dir/build.make CMakeFiles/06_STL_regex_example_noob.dir/build
-.PHONY : 06_STL_regex_example_noob/fast
+05_STL_map_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example_noob.dir/build.make CMakeFiles/05_STL_map_example_noob.dir/build
+.PHONY : 05_STL_map_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_set_example
+# Target rules for targets named 05_STL_multimap_example
 
 # Build rule for target.
-06_STL_set_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_set_example
-.PHONY : 06_STL_set_example
+05_STL_multimap_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_multimap_example
+.PHONY : 05_STL_multimap_example
 
 # fast build rule for target.
-06_STL_set_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_set_example.dir/build.make CMakeFiles/06_STL_set_example.dir/build
-.PHONY : 06_STL_set_example/fast
+05_STL_multimap_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example.dir/build.make CMakeFiles/05_STL_multimap_example.dir/build
+.PHONY : 05_STL_multimap_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_shared_ptr_example
+# Target rules for targets named 05_STL_multimap_example_noob
 
 # Build rule for target.
-06_STL_shared_ptr_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_shared_ptr_example
-.PHONY : 06_STL_shared_ptr_example
+05_STL_multimap_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_multimap_example_noob
+.PHONY : 05_STL_multimap_example_noob
 
 # fast build rule for target.
-06_STL_shared_ptr_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_shared_ptr_example.dir/build.make CMakeFiles/06_STL_shared_ptr_example.dir/build
-.PHONY : 06_STL_shared_ptr_example/fast
+05_STL_multimap_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example_noob.dir/build.make CMakeFiles/05_STL_multimap_example_noob.dir/build
+.PHONY : 05_STL_multimap_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_stack_example
+# Target rules for targets named 05_STL_optional
 
 # Build rule for target.
-06_STL_stack_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_stack_example
-.PHONY : 06_STL_stack_example
+05_STL_optional: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_optional
+.PHONY : 05_STL_optional
 
 # fast build rule for target.
-06_STL_stack_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_stack_example.dir/build.make CMakeFiles/06_STL_stack_example.dir/build
-.PHONY : 06_STL_stack_example/fast
+05_STL_optional/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional.dir/build.make CMakeFiles/05_STL_optional.dir/build
+.PHONY : 05_STL_optional/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_strings
+# Target rules for targets named 05_STL_optional_noob
 
 # Build rule for target.
-06_STL_strings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_strings
-.PHONY : 06_STL_strings
+05_STL_optional_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_optional_noob
+.PHONY : 05_STL_optional_noob
 
 # fast build rule for target.
-06_STL_strings/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_strings.dir/build.make CMakeFiles/06_STL_strings.dir/build
-.PHONY : 06_STL_strings/fast
+05_STL_optional_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional_noob.dir/build.make CMakeFiles/05_STL_optional_noob.dir/build
+.PHONY : 05_STL_optional_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_tuple_example
+# Target rules for targets named 05_STL_pair_example
 
 # Build rule for target.
-06_STL_tuple_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_tuple_example
-.PHONY : 06_STL_tuple_example
+05_STL_pair_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_pair_example
+.PHONY : 05_STL_pair_example
 
 # fast build rule for target.
-06_STL_tuple_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example.dir/build.make CMakeFiles/06_STL_tuple_example.dir/build
-.PHONY : 06_STL_tuple_example/fast
+05_STL_pair_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example.dir/build.make CMakeFiles/05_STL_pair_example.dir/build
+.PHONY : 05_STL_pair_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_tuple_example_noob
+# Target rules for targets named 05_STL_pair_example_noob
 
 # Build rule for target.
-06_STL_tuple_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_tuple_example_noob
-.PHONY : 06_STL_tuple_example_noob
+05_STL_pair_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_pair_example_noob
+.PHONY : 05_STL_pair_example_noob
 
 # fast build rule for target.
-06_STL_tuple_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example_noob.dir/build.make CMakeFiles/06_STL_tuple_example_noob.dir/build
-.PHONY : 06_STL_tuple_example_noob/fast
+05_STL_pair_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example_noob.dir/build.make CMakeFiles/05_STL_pair_example_noob.dir/build
+.PHONY : 05_STL_pair_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unique_ptr_example
+# Target rules for targets named 05_STL_priority_queue_example
 
 # Build rule for target.
-06_STL_unique_ptr_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unique_ptr_example
-.PHONY : 06_STL_unique_ptr_example
+05_STL_priority_queue_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_priority_queue_example
+.PHONY : 05_STL_priority_queue_example
 
 # fast build rule for target.
-06_STL_unique_ptr_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example.dir/build.make CMakeFiles/06_STL_unique_ptr_example.dir/build
-.PHONY : 06_STL_unique_ptr_example/fast
+05_STL_priority_queue_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example.dir/build.make CMakeFiles/05_STL_priority_queue_example.dir/build
+.PHONY : 05_STL_priority_queue_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unique_ptr_example_noob
+# Target rules for targets named 05_STL_priority_queue_example_noob
 
 # Build rule for target.
-06_STL_unique_ptr_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unique_ptr_example_noob
-.PHONY : 06_STL_unique_ptr_example_noob
+05_STL_priority_queue_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_priority_queue_example_noob
+.PHONY : 05_STL_priority_queue_example_noob
 
 # fast build rule for target.
-06_STL_unique_ptr_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/06_STL_unique_ptr_example_noob.dir/build
-.PHONY : 06_STL_unique_ptr_example_noob/fast
+05_STL_priority_queue_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example_noob.dir/build.make CMakeFiles/05_STL_priority_queue_example_noob.dir/build
+.PHONY : 05_STL_priority_queue_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unordered_map_example
+# Target rules for targets named 05_STL_queue_example
 
 # Build rule for target.
-06_STL_unordered_map_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unordered_map_example
-.PHONY : 06_STL_unordered_map_example
+05_STL_queue_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_queue_example
+.PHONY : 05_STL_queue_example
 
 # fast build rule for target.
-06_STL_unordered_map_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example.dir/build.make CMakeFiles/06_STL_unordered_map_example.dir/build
-.PHONY : 06_STL_unordered_map_example/fast
+05_STL_queue_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example.dir/build.make CMakeFiles/05_STL_queue_example.dir/build
+.PHONY : 05_STL_queue_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unordered_map_example_noob
+# Target rules for targets named 05_STL_queue_example_noob
 
 # Build rule for target.
-06_STL_unordered_map_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unordered_map_example_noob
-.PHONY : 06_STL_unordered_map_example_noob
+05_STL_queue_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_queue_example_noob
+.PHONY : 05_STL_queue_example_noob
 
 # fast build rule for target.
-06_STL_unordered_map_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example_noob.dir/build.make CMakeFiles/06_STL_unordered_map_example_noob.dir/build
-.PHONY : 06_STL_unordered_map_example_noob/fast
+05_STL_queue_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example_noob.dir/build.make CMakeFiles/05_STL_queue_example_noob.dir/build
+.PHONY : 05_STL_queue_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unordered_set_example
+# Target rules for targets named 05_STL_regex_example
 
 # Build rule for target.
-06_STL_unordered_set_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unordered_set_example
-.PHONY : 06_STL_unordered_set_example
+05_STL_regex_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_regex_example
+.PHONY : 05_STL_regex_example
 
 # fast build rule for target.
-06_STL_unordered_set_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example.dir/build.make CMakeFiles/06_STL_unordered_set_example.dir/build
-.PHONY : 06_STL_unordered_set_example/fast
+05_STL_regex_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example.dir/build.make CMakeFiles/05_STL_regex_example.dir/build
+.PHONY : 05_STL_regex_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_unordered_set_example_noob
+# Target rules for targets named 05_STL_regex_example_noob
 
 # Build rule for target.
-06_STL_unordered_set_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_unordered_set_example_noob
-.PHONY : 06_STL_unordered_set_example_noob
+05_STL_regex_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_regex_example_noob
+.PHONY : 05_STL_regex_example_noob
 
 # fast build rule for target.
-06_STL_unordered_set_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example_noob.dir/build.make CMakeFiles/06_STL_unordered_set_example_noob.dir/build
-.PHONY : 06_STL_unordered_set_example_noob/fast
+05_STL_regex_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example_noob.dir/build.make CMakeFiles/05_STL_regex_example_noob.dir/build
+.PHONY : 05_STL_regex_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_valarray_example
+# Target rules for targets named 05_STL_set_example
 
 # Build rule for target.
-06_STL_valarray_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_valarray_example
-.PHONY : 06_STL_valarray_example
+05_STL_set_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_set_example
+.PHONY : 05_STL_set_example
 
 # fast build rule for target.
-06_STL_valarray_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example.dir/build.make CMakeFiles/06_STL_valarray_example.dir/build
-.PHONY : 06_STL_valarray_example/fast
+05_STL_set_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_set_example.dir/build.make CMakeFiles/05_STL_set_example.dir/build
+.PHONY : 05_STL_set_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_valarray_example_noob
+# Target rules for targets named 05_STL_shared_ptr_example
 
 # Build rule for target.
-06_STL_valarray_example_noob: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_valarray_example_noob
-.PHONY : 06_STL_valarray_example_noob
+05_STL_shared_ptr_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_shared_ptr_example
+.PHONY : 05_STL_shared_ptr_example
 
 # fast build rule for target.
-06_STL_valarray_example_noob/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example_noob.dir/build.make CMakeFiles/06_STL_valarray_example_noob.dir/build
-.PHONY : 06_STL_valarray_example_noob/fast
+05_STL_shared_ptr_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_shared_ptr_example.dir/build.make CMakeFiles/05_STL_shared_ptr_example.dir/build
+.PHONY : 05_STL_shared_ptr_example/fast
 
 #=============================================================================
-# Target rules for targets named 06_STL_vector
+# Target rules for targets named 05_STL_stack_example
 
 # Build rule for target.
-06_STL_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_STL_vector
-.PHONY : 06_STL_vector
+05_STL_stack_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_stack_example
+.PHONY : 05_STL_stack_example
 
 # fast build rule for target.
-06_STL_vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_vector.dir/build.make CMakeFiles/06_STL_vector.dir/build
-.PHONY : 06_STL_vector/fast
+05_STL_stack_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_stack_example.dir/build.make CMakeFiles/05_STL_stack_example.dir/build
+.PHONY : 05_STL_stack_example/fast
 
 #=============================================================================
-# Target rules for targets named 07_Resources_RAII
+# Target rules for targets named 05_STL_strings
 
 # Build rule for target.
-07_Resources_RAII: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_Resources_RAII
-.PHONY : 07_Resources_RAII
+05_STL_strings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_strings
+.PHONY : 05_STL_strings
 
 # fast build rule for target.
-07_Resources_RAII/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Resources_RAII.dir/build.make CMakeFiles/07_Resources_RAII.dir/build
-.PHONY : 07_Resources_RAII/fast
+05_STL_strings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_strings.dir/build.make CMakeFiles/05_STL_strings.dir/build
+.PHONY : 05_STL_strings/fast
 
 #=============================================================================
-# Target rules for targets named 08_Lambdas_lambdas
+# Target rules for targets named 05_STL_tuple_example
 
 # Build rule for target.
-08_Lambdas_lambdas: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_Lambdas_lambdas
-.PHONY : 08_Lambdas_lambdas
+05_STL_tuple_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_tuple_example
+.PHONY : 05_STL_tuple_example
 
 # fast build rule for target.
-08_Lambdas_lambdas/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_Lambdas_lambdas.dir/build.make CMakeFiles/08_Lambdas_lambdas.dir/build
-.PHONY : 08_Lambdas_lambdas/fast
+05_STL_tuple_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example.dir/build.make CMakeFiles/05_STL_tuple_example.dir/build
+.PHONY : 05_STL_tuple_example/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_01_templates
+# Target rules for targets named 05_STL_tuple_example_noob
 
 # Build rule for target.
-09_Templates_01_templates: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_01_templates
-.PHONY : 09_Templates_01_templates
+05_STL_tuple_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_tuple_example_noob
+.PHONY : 05_STL_tuple_example_noob
 
 # fast build rule for target.
-09_Templates_01_templates/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_01_templates.dir/build.make CMakeFiles/09_Templates_01_templates.dir/build
-.PHONY : 09_Templates_01_templates/fast
+05_STL_tuple_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example_noob.dir/build.make CMakeFiles/05_STL_tuple_example_noob.dir/build
+.PHONY : 05_STL_tuple_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_02_templates
+# Target rules for targets named 05_STL_unique_ptr_example
 
 # Build rule for target.
-09_Templates_02_templates: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_02_templates
-.PHONY : 09_Templates_02_templates
+05_STL_unique_ptr_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unique_ptr_example
+.PHONY : 05_STL_unique_ptr_example
 
 # fast build rule for target.
-09_Templates_02_templates/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_02_templates.dir/build.make CMakeFiles/09_Templates_02_templates.dir/build
-.PHONY : 09_Templates_02_templates/fast
+05_STL_unique_ptr_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example.dir/build.make CMakeFiles/05_STL_unique_ptr_example.dir/build
+.PHONY : 05_STL_unique_ptr_example/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_03_template_specialization
+# Target rules for targets named 05_STL_unique_ptr_example_noob
 
 # Build rule for target.
-09_Templates_03_template_specialization: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_03_template_specialization
-.PHONY : 09_Templates_03_template_specialization
+05_STL_unique_ptr_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unique_ptr_example_noob
+.PHONY : 05_STL_unique_ptr_example_noob
 
 # fast build rule for target.
-09_Templates_03_template_specialization/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_03_template_specialization.dir/build.make CMakeFiles/09_Templates_03_template_specialization.dir/build
-.PHONY : 09_Templates_03_template_specialization/fast
+05_STL_unique_ptr_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/05_STL_unique_ptr_example_noob.dir/build
+.PHONY : 05_STL_unique_ptr_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_AnotherTemplateExample
+# Target rules for targets named 05_STL_unordered_map_example
 
 # Build rule for target.
-09_Templates_AnotherTemplateExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_AnotherTemplateExample
-.PHONY : 09_Templates_AnotherTemplateExample
+05_STL_unordered_map_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unordered_map_example
+.PHONY : 05_STL_unordered_map_example
 
 # fast build rule for target.
-09_Templates_AnotherTemplateExample/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/09_Templates_AnotherTemplateExample.dir/build
-.PHONY : 09_Templates_AnotherTemplateExample/fast
+05_STL_unordered_map_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example.dir/build.make CMakeFiles/05_STL_unordered_map_example.dir/build
+.PHONY : 05_STL_unordered_map_example/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_Summary
+# Target rules for targets named 05_STL_unordered_map_example_noob
 
 # Build rule for target.
-09_Templates_Summary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_Summary
-.PHONY : 09_Templates_Summary
+05_STL_unordered_map_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unordered_map_example_noob
+.PHONY : 05_STL_unordered_map_example_noob
 
 # fast build rule for target.
-09_Templates_Summary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_Summary.dir/build.make CMakeFiles/09_Templates_Summary.dir/build
-.PHONY : 09_Templates_Summary/fast
+05_STL_unordered_map_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example_noob.dir/build.make CMakeFiles/05_STL_unordered_map_example_noob.dir/build
+.PHONY : 05_STL_unordered_map_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_compile_time_evaluation
+# Target rules for targets named 05_STL_unordered_set_example
 
 # Build rule for target.
-09_Templates_compile_time_evaluation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_compile_time_evaluation
-.PHONY : 09_Templates_compile_time_evaluation
+05_STL_unordered_set_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unordered_set_example
+.PHONY : 05_STL_unordered_set_example
 
 # fast build rule for target.
-09_Templates_compile_time_evaluation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_compile_time_evaluation.dir/build.make CMakeFiles/09_Templates_compile_time_evaluation.dir/build
-.PHONY : 09_Templates_compile_time_evaluation/fast
+05_STL_unordered_set_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example.dir/build.make CMakeFiles/05_STL_unordered_set_example.dir/build
+.PHONY : 05_STL_unordered_set_example/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_template_specialization
+# Target rules for targets named 05_STL_unordered_set_example_noob
 
 # Build rule for target.
-09_Templates_template_specialization: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_template_specialization
-.PHONY : 09_Templates_template_specialization
+05_STL_unordered_set_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_unordered_set_example_noob
+.PHONY : 05_STL_unordered_set_example_noob
 
 # fast build rule for target.
-09_Templates_template_specialization/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_template_specialization.dir/build.make CMakeFiles/09_Templates_template_specialization.dir/build
-.PHONY : 09_Templates_template_specialization/fast
+05_STL_unordered_set_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example_noob.dir/build.make CMakeFiles/05_STL_unordered_set_example_noob.dir/build
+.PHONY : 05_STL_unordered_set_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 09_Templates_variadic_templates
+# Target rules for targets named 05_STL_valarray_example
 
 # Build rule for target.
-09_Templates_variadic_templates: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_Templates_variadic_templates
-.PHONY : 09_Templates_variadic_templates
+05_STL_valarray_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_valarray_example
+.PHONY : 05_STL_valarray_example
 
 # fast build rule for target.
-09_Templates_variadic_templates/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_variadic_templates.dir/build.make CMakeFiles/09_Templates_variadic_templates.dir/build
-.PHONY : 09_Templates_variadic_templates/fast
+05_STL_valarray_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example.dir/build.make CMakeFiles/05_STL_valarray_example.dir/build
+.PHONY : 05_STL_valarray_example/fast
 
 #=============================================================================
-# Target rules for targets named 10_Object_Oriented_classes
+# Target rules for targets named 05_STL_valarray_example_noob
 
 # Build rule for target.
-10_Object_Oriented_classes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Object_Oriented_classes
-.PHONY : 10_Object_Oriented_classes
+05_STL_valarray_example_noob: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_valarray_example_noob
+.PHONY : 05_STL_valarray_example_noob
 
 # fast build rule for target.
-10_Object_Oriented_classes/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_classes.dir/build.make CMakeFiles/10_Object_Oriented_classes.dir/build
-.PHONY : 10_Object_Oriented_classes/fast
+05_STL_valarray_example_noob/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example_noob.dir/build.make CMakeFiles/05_STL_valarray_example_noob.dir/build
+.PHONY : 05_STL_valarray_example_noob/fast
 
 #=============================================================================
-# Target rules for targets named 10_Object_Oriented_oop_advanced
+# Target rules for targets named 05_STL_vector
 
 # Build rule for target.
-10_Object_Oriented_oop_advanced: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Object_Oriented_oop_advanced
-.PHONY : 10_Object_Oriented_oop_advanced
+05_STL_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_STL_vector
+.PHONY : 05_STL_vector
 
 # fast build rule for target.
-10_Object_Oriented_oop_advanced/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/10_Object_Oriented_oop_advanced.dir/build
-.PHONY : 10_Object_Oriented_oop_advanced/fast
+05_STL_vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_vector.dir/build.make CMakeFiles/05_STL_vector.dir/build
+.PHONY : 05_STL_vector/fast
 
 #=============================================================================
-# Target rules for targets named 10_Object_Oriented_oop_basic
+# Target rules for targets named 06_Templates_01_templates
 
 # Build rule for target.
-10_Object_Oriented_oop_basic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Object_Oriented_oop_basic
-.PHONY : 10_Object_Oriented_oop_basic
+06_Templates_01_templates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_01_templates
+.PHONY : 06_Templates_01_templates
 
 # fast build rule for target.
-10_Object_Oriented_oop_basic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_basic.dir/build.make CMakeFiles/10_Object_Oriented_oop_basic.dir/build
-.PHONY : 10_Object_Oriented_oop_basic/fast
+06_Templates_01_templates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_01_templates.dir/build.make CMakeFiles/06_Templates_01_templates.dir/build
+.PHONY : 06_Templates_01_templates/fast
 
 #=============================================================================
-# Target rules for targets named 10_Object_Oriented_shapes
+# Target rules for targets named 06_Templates_02_templates
 
 # Build rule for target.
-10_Object_Oriented_shapes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Object_Oriented_shapes
-.PHONY : 10_Object_Oriented_shapes
+06_Templates_02_templates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_02_templates
+.PHONY : 06_Templates_02_templates
 
 # fast build rule for target.
-10_Object_Oriented_shapes/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_shapes.dir/build.make CMakeFiles/10_Object_Oriented_shapes.dir/build
-.PHONY : 10_Object_Oriented_shapes/fast
+06_Templates_02_templates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_02_templates.dir/build.make CMakeFiles/06_Templates_02_templates.dir/build
+.PHONY : 06_Templates_02_templates/fast
 
 #=============================================================================
-# Target rules for targets named 11_EventsAndDelegates_eventsAndDelegates
+# Target rules for targets named 06_Templates_03_template_specialization
 
 # Build rule for target.
-11_EventsAndDelegates_eventsAndDelegates: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_EventsAndDelegates_eventsAndDelegates
-.PHONY : 11_EventsAndDelegates_eventsAndDelegates
+06_Templates_03_template_specialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_03_template_specialization
+.PHONY : 06_Templates_03_template_specialization
 
 # fast build rule for target.
-11_EventsAndDelegates_eventsAndDelegates/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/build
-.PHONY : 11_EventsAndDelegates_eventsAndDelegates/fast
+06_Templates_03_template_specialization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_03_template_specialization.dir/build.make CMakeFiles/06_Templates_03_template_specialization.dir/build
+.PHONY : 06_Templates_03_template_specialization/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_AllConstructorsAndOperators
+# Target rules for targets named 06_Templates_AnotherTemplateExample
 
 # Build rule for target.
-12_CPlusPlusUniqueness_AllConstructorsAndOperators: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_AllConstructorsAndOperators
-.PHONY : 12_CPlusPlusUniqueness_AllConstructorsAndOperators
+06_Templates_AnotherTemplateExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_AnotherTemplateExample
+.PHONY : 06_Templates_AnotherTemplateExample
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_AllConstructorsAndOperators/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build
-.PHONY : 12_CPlusPlusUniqueness_AllConstructorsAndOperators/fast
+06_Templates_AnotherTemplateExample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/06_Templates_AnotherTemplateExample.dir/build
+.PHONY : 06_Templates_AnotherTemplateExample/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_CopyConstructors
+# Target rules for targets named 06_Templates_Summary
 
 # Build rule for target.
-12_CPlusPlusUniqueness_CopyConstructors: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_CopyConstructors
-.PHONY : 12_CPlusPlusUniqueness_CopyConstructors
+06_Templates_Summary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_Summary
+.PHONY : 06_Templates_Summary
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_CopyConstructors/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/build
-.PHONY : 12_CPlusPlusUniqueness_CopyConstructors/fast
+06_Templates_Summary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_Summary.dir/build.make CMakeFiles/06_Templates_Summary.dir/build
+.PHONY : 06_Templates_Summary/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_ExampleConstructors
+# Target rules for targets named 06_Templates_compile_time_evaluation
 
 # Build rule for target.
-12_CPlusPlusUniqueness_ExampleConstructors: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_ExampleConstructors
-.PHONY : 12_CPlusPlusUniqueness_ExampleConstructors
+06_Templates_compile_time_evaluation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_compile_time_evaluation
+.PHONY : 06_Templates_compile_time_evaluation
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_ExampleConstructors/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/build
-.PHONY : 12_CPlusPlusUniqueness_ExampleConstructors/fast
+06_Templates_compile_time_evaluation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_compile_time_evaluation.dir/build.make CMakeFiles/06_Templates_compile_time_evaluation.dir/build
+.PHONY : 06_Templates_compile_time_evaluation/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_FriendClassExample
+# Target rules for targets named 06_Templates_template_specialization
 
 # Build rule for target.
-12_CPlusPlusUniqueness_FriendClassExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_FriendClassExample
-.PHONY : 12_CPlusPlusUniqueness_FriendClassExample
+06_Templates_template_specialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_template_specialization
+.PHONY : 06_Templates_template_specialization
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_FriendClassExample/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/build
-.PHONY : 12_CPlusPlusUniqueness_FriendClassExample/fast
+06_Templates_template_specialization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_template_specialization.dir/build.make CMakeFiles/06_Templates_template_specialization.dir/build
+.PHONY : 06_Templates_template_specialization/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_FriendFunctionsExample
+# Target rules for targets named 06_Templates_variadic_templates
 
 # Build rule for target.
-12_CPlusPlusUniqueness_FriendFunctionsExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_FriendFunctionsExample
-.PHONY : 12_CPlusPlusUniqueness_FriendFunctionsExample
+06_Templates_variadic_templates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_Templates_variadic_templates
+.PHONY : 06_Templates_variadic_templates
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_FriendFunctionsExample/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/build
-.PHONY : 12_CPlusPlusUniqueness_FriendFunctionsExample/fast
+06_Templates_variadic_templates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_variadic_templates.dir/build.make CMakeFiles/06_Templates_variadic_templates.dir/build
+.PHONY : 06_Templates_variadic_templates/fast
 
 #=============================================================================
-# Target rules for targets named 12_CPlusPlusUniqueness_MoveConstructors
+# Target rules for targets named 07_Threads_And_Tasks_tasks_example
 
 # Build rule for target.
-12_CPlusPlusUniqueness_MoveConstructors: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_CPlusPlusUniqueness_MoveConstructors
-.PHONY : 12_CPlusPlusUniqueness_MoveConstructors
+07_Threads_And_Tasks_tasks_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_Threads_And_Tasks_tasks_example
+.PHONY : 07_Threads_And_Tasks_tasks_example
 
 # fast build rule for target.
-12_CPlusPlusUniqueness_MoveConstructors/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/build
-.PHONY : 12_CPlusPlusUniqueness_MoveConstructors/fast
+07_Threads_And_Tasks_tasks_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/build
+.PHONY : 07_Threads_And_Tasks_tasks_example/fast
 
 #=============================================================================
-# Target rules for targets named 13_Modern_CPP_01_move_semantics_cpp11_aprofundado
+# Target rules for targets named 07_Threads_And_Tasks_threads_example
 
 # Build rule for target.
-13_Modern_CPP_01_move_semantics_cpp11_aprofundado: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_Modern_CPP_01_move_semantics_cpp11_aprofundado
-.PHONY : 13_Modern_CPP_01_move_semantics_cpp11_aprofundado
+07_Threads_And_Tasks_threads_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 07_Threads_And_Tasks_threads_example
+.PHONY : 07_Threads_And_Tasks_threads_example
 
 # fast build rule for target.
-13_Modern_CPP_01_move_semantics_cpp11_aprofundado/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build
-.PHONY : 13_Modern_CPP_01_move_semantics_cpp11_aprofundado/fast
+07_Threads_And_Tasks_threads_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_threads_example.dir/build
+.PHONY : 07_Threads_And_Tasks_threads_example/fast
 
 #=============================================================================
-# Target rules for targets named 13_Modern_CPP_02_smart_pointers_aprofundado
+# Target rules for targets named 08_LINQ_aggregate_example
 
 # Build rule for target.
-13_Modern_CPP_02_smart_pointers_aprofundado: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_Modern_CPP_02_smart_pointers_aprofundado
-.PHONY : 13_Modern_CPP_02_smart_pointers_aprofundado
+08_LINQ_aggregate_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_aggregate_example
+.PHONY : 08_LINQ_aggregate_example
 
 # fast build rule for target.
-13_Modern_CPP_02_smart_pointers_aprofundado/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/build
-.PHONY : 13_Modern_CPP_02_smart_pointers_aprofundado/fast
+08_LINQ_aggregate_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_aggregate_example.dir/build.make CMakeFiles/08_LINQ_aggregate_example.dir/build
+.PHONY : 08_LINQ_aggregate_example/fast
 
 #=============================================================================
-# Target rules for targets named 14_Threads_And_Tasks_tasks_example
+# Target rules for targets named 08_LINQ_all_example
 
 # Build rule for target.
-14_Threads_And_Tasks_tasks_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_Threads_And_Tasks_tasks_example
-.PHONY : 14_Threads_And_Tasks_tasks_example
+08_LINQ_all_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_all_example
+.PHONY : 08_LINQ_all_example
 
 # fast build rule for target.
-14_Threads_And_Tasks_tasks_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/build
-.PHONY : 14_Threads_And_Tasks_tasks_example/fast
+08_LINQ_all_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_all_example.dir/build.make CMakeFiles/08_LINQ_all_example.dir/build
+.PHONY : 08_LINQ_all_example/fast
 
 #=============================================================================
-# Target rules for targets named 14_Threads_And_Tasks_threads_example
+# Target rules for targets named 08_LINQ_any_example
 
 # Build rule for target.
-14_Threads_And_Tasks_threads_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_Threads_And_Tasks_threads_example
-.PHONY : 14_Threads_And_Tasks_threads_example
+08_LINQ_any_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_any_example
+.PHONY : 08_LINQ_any_example
 
 # fast build rule for target.
-14_Threads_And_Tasks_threads_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_threads_example.dir/build
-.PHONY : 14_Threads_And_Tasks_threads_example/fast
+08_LINQ_any_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_any_example.dir/build.make CMakeFiles/08_LINQ_any_example.dir/build
+.PHONY : 08_LINQ_any_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_aggregate_example
+# Target rules for targets named 08_LINQ_average_example
 
 # Build rule for target.
-15_LINQ_aggregate_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_aggregate_example
-.PHONY : 15_LINQ_aggregate_example
+08_LINQ_average_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_average_example
+.PHONY : 08_LINQ_average_example
 
 # fast build rule for target.
-15_LINQ_aggregate_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_aggregate_example.dir/build.make CMakeFiles/15_LINQ_aggregate_example.dir/build
-.PHONY : 15_LINQ_aggregate_example/fast
+08_LINQ_average_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_average_example.dir/build.make CMakeFiles/08_LINQ_average_example.dir/build
+.PHONY : 08_LINQ_average_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_all_example
+# Target rules for targets named 08_LINQ_count_example
 
 # Build rule for target.
-15_LINQ_all_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_all_example
-.PHONY : 15_LINQ_all_example
+08_LINQ_count_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_count_example
+.PHONY : 08_LINQ_count_example
 
 # fast build rule for target.
-15_LINQ_all_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_all_example.dir/build.make CMakeFiles/15_LINQ_all_example.dir/build
-.PHONY : 15_LINQ_all_example/fast
+08_LINQ_count_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_count_example.dir/build.make CMakeFiles/08_LINQ_count_example.dir/build
+.PHONY : 08_LINQ_count_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_any_example
+# Target rules for targets named 08_LINQ_distinct_example
 
 # Build rule for target.
-15_LINQ_any_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_any_example
-.PHONY : 15_LINQ_any_example
+08_LINQ_distinct_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_distinct_example
+.PHONY : 08_LINQ_distinct_example
 
 # fast build rule for target.
-15_LINQ_any_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_any_example.dir/build.make CMakeFiles/15_LINQ_any_example.dir/build
-.PHONY : 15_LINQ_any_example/fast
+08_LINQ_distinct_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_distinct_example.dir/build.make CMakeFiles/08_LINQ_distinct_example.dir/build
+.PHONY : 08_LINQ_distinct_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_average_example
+# Target rules for targets named 08_LINQ_except_example
 
 # Build rule for target.
-15_LINQ_average_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_average_example
-.PHONY : 15_LINQ_average_example
+08_LINQ_except_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_except_example
+.PHONY : 08_LINQ_except_example
 
 # fast build rule for target.
-15_LINQ_average_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_average_example.dir/build.make CMakeFiles/15_LINQ_average_example.dir/build
-.PHONY : 15_LINQ_average_example/fast
+08_LINQ_except_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_except_example.dir/build.make CMakeFiles/08_LINQ_except_example.dir/build
+.PHONY : 08_LINQ_except_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_count_example
+# Target rules for targets named 08_LINQ_first_example
 
 # Build rule for target.
-15_LINQ_count_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_count_example
-.PHONY : 15_LINQ_count_example
+08_LINQ_first_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_first_example
+.PHONY : 08_LINQ_first_example
 
 # fast build rule for target.
-15_LINQ_count_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_count_example.dir/build.make CMakeFiles/15_LINQ_count_example.dir/build
-.PHONY : 15_LINQ_count_example/fast
+08_LINQ_first_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_first_example.dir/build.make CMakeFiles/08_LINQ_first_example.dir/build
+.PHONY : 08_LINQ_first_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_distinct_example
+# Target rules for targets named 08_LINQ_groupby_example
 
 # Build rule for target.
-15_LINQ_distinct_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_distinct_example
-.PHONY : 15_LINQ_distinct_example
+08_LINQ_groupby_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_groupby_example
+.PHONY : 08_LINQ_groupby_example
 
 # fast build rule for target.
-15_LINQ_distinct_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_distinct_example.dir/build.make CMakeFiles/15_LINQ_distinct_example.dir/build
-.PHONY : 15_LINQ_distinct_example/fast
+08_LINQ_groupby_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_groupby_example.dir/build.make CMakeFiles/08_LINQ_groupby_example.dir/build
+.PHONY : 08_LINQ_groupby_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_except_example
+# Target rules for targets named 08_LINQ_intersect_example
 
 # Build rule for target.
-15_LINQ_except_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_except_example
-.PHONY : 15_LINQ_except_example
+08_LINQ_intersect_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_intersect_example
+.PHONY : 08_LINQ_intersect_example
 
 # fast build rule for target.
-15_LINQ_except_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_except_example.dir/build.make CMakeFiles/15_LINQ_except_example.dir/build
-.PHONY : 15_LINQ_except_example/fast
+08_LINQ_intersect_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_intersect_example.dir/build.make CMakeFiles/08_LINQ_intersect_example.dir/build
+.PHONY : 08_LINQ_intersect_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_first_example
+# Target rules for targets named 08_LINQ_join_example
 
 # Build rule for target.
-15_LINQ_first_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_first_example
-.PHONY : 15_LINQ_first_example
+08_LINQ_join_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_join_example
+.PHONY : 08_LINQ_join_example
 
 # fast build rule for target.
-15_LINQ_first_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_first_example.dir/build.make CMakeFiles/15_LINQ_first_example.dir/build
-.PHONY : 15_LINQ_first_example/fast
+08_LINQ_join_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_join_example.dir/build.make CMakeFiles/08_LINQ_join_example.dir/build
+.PHONY : 08_LINQ_join_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_groupby_example
+# Target rules for targets named 08_LINQ_last_example
 
 # Build rule for target.
-15_LINQ_groupby_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_groupby_example
-.PHONY : 15_LINQ_groupby_example
+08_LINQ_last_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_last_example
+.PHONY : 08_LINQ_last_example
 
 # fast build rule for target.
-15_LINQ_groupby_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_groupby_example.dir/build.make CMakeFiles/15_LINQ_groupby_example.dir/build
-.PHONY : 15_LINQ_groupby_example/fast
+08_LINQ_last_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_last_example.dir/build.make CMakeFiles/08_LINQ_last_example.dir/build
+.PHONY : 08_LINQ_last_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_intersect_example
+# Target rules for targets named 08_LINQ_max_example
 
 # Build rule for target.
-15_LINQ_intersect_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_intersect_example
-.PHONY : 15_LINQ_intersect_example
+08_LINQ_max_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_max_example
+.PHONY : 08_LINQ_max_example
 
 # fast build rule for target.
-15_LINQ_intersect_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_intersect_example.dir/build.make CMakeFiles/15_LINQ_intersect_example.dir/build
-.PHONY : 15_LINQ_intersect_example/fast
+08_LINQ_max_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_max_example.dir/build.make CMakeFiles/08_LINQ_max_example.dir/build
+.PHONY : 08_LINQ_max_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_join_example
+# Target rules for targets named 08_LINQ_min_example
 
 # Build rule for target.
-15_LINQ_join_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_join_example
-.PHONY : 15_LINQ_join_example
+08_LINQ_min_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_min_example
+.PHONY : 08_LINQ_min_example
 
 # fast build rule for target.
-15_LINQ_join_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_join_example.dir/build.make CMakeFiles/15_LINQ_join_example.dir/build
-.PHONY : 15_LINQ_join_example/fast
+08_LINQ_min_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_min_example.dir/build.make CMakeFiles/08_LINQ_min_example.dir/build
+.PHONY : 08_LINQ_min_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_last_example
+# Target rules for targets named 08_LINQ_orderby_example
 
 # Build rule for target.
-15_LINQ_last_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_last_example
-.PHONY : 15_LINQ_last_example
+08_LINQ_orderby_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_orderby_example
+.PHONY : 08_LINQ_orderby_example
 
 # fast build rule for target.
-15_LINQ_last_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_last_example.dir/build.make CMakeFiles/15_LINQ_last_example.dir/build
-.PHONY : 15_LINQ_last_example/fast
+08_LINQ_orderby_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_orderby_example.dir/build.make CMakeFiles/08_LINQ_orderby_example.dir/build
+.PHONY : 08_LINQ_orderby_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_max_example
+# Target rules for targets named 08_LINQ_select_example
 
 # Build rule for target.
-15_LINQ_max_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_max_example
-.PHONY : 15_LINQ_max_example
+08_LINQ_select_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_select_example
+.PHONY : 08_LINQ_select_example
 
 # fast build rule for target.
-15_LINQ_max_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_max_example.dir/build.make CMakeFiles/15_LINQ_max_example.dir/build
-.PHONY : 15_LINQ_max_example/fast
+08_LINQ_select_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_select_example.dir/build.make CMakeFiles/08_LINQ_select_example.dir/build
+.PHONY : 08_LINQ_select_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_min_example
+# Target rules for targets named 08_LINQ_skip_take_example
 
 # Build rule for target.
-15_LINQ_min_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_min_example
-.PHONY : 15_LINQ_min_example
+08_LINQ_skip_take_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_skip_take_example
+.PHONY : 08_LINQ_skip_take_example
 
 # fast build rule for target.
-15_LINQ_min_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_min_example.dir/build.make CMakeFiles/15_LINQ_min_example.dir/build
-.PHONY : 15_LINQ_min_example/fast
+08_LINQ_skip_take_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_skip_take_example.dir/build.make CMakeFiles/08_LINQ_skip_take_example.dir/build
+.PHONY : 08_LINQ_skip_take_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_orderby_example
+# Target rules for targets named 08_LINQ_sum_example
 
 # Build rule for target.
-15_LINQ_orderby_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_orderby_example
-.PHONY : 15_LINQ_orderby_example
+08_LINQ_sum_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_sum_example
+.PHONY : 08_LINQ_sum_example
 
 # fast build rule for target.
-15_LINQ_orderby_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_orderby_example.dir/build.make CMakeFiles/15_LINQ_orderby_example.dir/build
-.PHONY : 15_LINQ_orderby_example/fast
+08_LINQ_sum_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_sum_example.dir/build.make CMakeFiles/08_LINQ_sum_example.dir/build
+.PHONY : 08_LINQ_sum_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_select_example
+# Target rules for targets named 08_LINQ_union_example
 
 # Build rule for target.
-15_LINQ_select_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_select_example
-.PHONY : 15_LINQ_select_example
+08_LINQ_union_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_union_example
+.PHONY : 08_LINQ_union_example
 
 # fast build rule for target.
-15_LINQ_select_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_select_example.dir/build.make CMakeFiles/15_LINQ_select_example.dir/build
-.PHONY : 15_LINQ_select_example/fast
+08_LINQ_union_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_union_example.dir/build.make CMakeFiles/08_LINQ_union_example.dir/build
+.PHONY : 08_LINQ_union_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_skip_take_example
+# Target rules for targets named 08_LINQ_where_example
 
 # Build rule for target.
-15_LINQ_skip_take_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_skip_take_example
-.PHONY : 15_LINQ_skip_take_example
+08_LINQ_where_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08_LINQ_where_example
+.PHONY : 08_LINQ_where_example
 
 # fast build rule for target.
-15_LINQ_skip_take_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_skip_take_example.dir/build.make CMakeFiles/15_LINQ_skip_take_example.dir/build
-.PHONY : 15_LINQ_skip_take_example/fast
+08_LINQ_where_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_where_example.dir/build.make CMakeFiles/08_LINQ_where_example.dir/build
+.PHONY : 08_LINQ_where_example/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_sum_example
+# Target rules for targets named 09_EventsAndDelegates_eventsAndDelegates
 
 # Build rule for target.
-15_LINQ_sum_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_sum_example
-.PHONY : 15_LINQ_sum_example
+09_EventsAndDelegates_eventsAndDelegates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_EventsAndDelegates_eventsAndDelegates
+.PHONY : 09_EventsAndDelegates_eventsAndDelegates
 
 # fast build rule for target.
-15_LINQ_sum_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_sum_example.dir/build.make CMakeFiles/15_LINQ_sum_example.dir/build
-.PHONY : 15_LINQ_sum_example/fast
+09_EventsAndDelegates_eventsAndDelegates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/build
+.PHONY : 09_EventsAndDelegates_eventsAndDelegates/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_union_example
+# Target rules for targets named 10_Modern_CPP_01_move_semantics_cpp11_aprofundado
 
 # Build rule for target.
-15_LINQ_union_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_union_example
-.PHONY : 15_LINQ_union_example
+10_Modern_CPP_01_move_semantics_cpp11_aprofundado: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Modern_CPP_01_move_semantics_cpp11_aprofundado
+.PHONY : 10_Modern_CPP_01_move_semantics_cpp11_aprofundado
 
 # fast build rule for target.
-15_LINQ_union_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_union_example.dir/build.make CMakeFiles/15_LINQ_union_example.dir/build
-.PHONY : 15_LINQ_union_example/fast
+10_Modern_CPP_01_move_semantics_cpp11_aprofundado/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build
+.PHONY : 10_Modern_CPP_01_move_semantics_cpp11_aprofundado/fast
 
 #=============================================================================
-# Target rules for targets named 15_LINQ_where_example
+# Target rules for targets named 10_Modern_CPP_02_smart_pointers_aprofundado
 
 # Build rule for target.
-15_LINQ_where_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_LINQ_where_example
-.PHONY : 15_LINQ_where_example
+10_Modern_CPP_02_smart_pointers_aprofundado: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_Modern_CPP_02_smart_pointers_aprofundado
+.PHONY : 10_Modern_CPP_02_smart_pointers_aprofundado
 
 # fast build rule for target.
-15_LINQ_where_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_where_example.dir/build.make CMakeFiles/15_LINQ_where_example.dir/build
-.PHONY : 15_LINQ_where_example/fast
+10_Modern_CPP_02_smart_pointers_aprofundado/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/build
+.PHONY : 10_Modern_CPP_02_smart_pointers_aprofundado/fast
+
+#=============================================================================
+# Target rules for targets named 11_Object_Oriented_classes
+
+# Build rule for target.
+11_Object_Oriented_classes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_Object_Oriented_classes
+.PHONY : 11_Object_Oriented_classes
+
+# fast build rule for target.
+11_Object_Oriented_classes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_classes.dir/build.make CMakeFiles/11_Object_Oriented_classes.dir/build
+.PHONY : 11_Object_Oriented_classes/fast
+
+#=============================================================================
+# Target rules for targets named 11_Object_Oriented_oop_advanced
+
+# Build rule for target.
+11_Object_Oriented_oop_advanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_Object_Oriented_oop_advanced
+.PHONY : 11_Object_Oriented_oop_advanced
+
+# fast build rule for target.
+11_Object_Oriented_oop_advanced/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/11_Object_Oriented_oop_advanced.dir/build
+.PHONY : 11_Object_Oriented_oop_advanced/fast
+
+#=============================================================================
+# Target rules for targets named 11_Object_Oriented_oop_basic
+
+# Build rule for target.
+11_Object_Oriented_oop_basic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_Object_Oriented_oop_basic
+.PHONY : 11_Object_Oriented_oop_basic
+
+# fast build rule for target.
+11_Object_Oriented_oop_basic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_basic.dir/build.make CMakeFiles/11_Object_Oriented_oop_basic.dir/build
+.PHONY : 11_Object_Oriented_oop_basic/fast
+
+#=============================================================================
+# Target rules for targets named 11_Object_Oriented_shapes
+
+# Build rule for target.
+11_Object_Oriented_shapes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_Object_Oriented_shapes
+.PHONY : 11_Object_Oriented_shapes
+
+# fast build rule for target.
+11_Object_Oriented_shapes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_shapes.dir/build.make CMakeFiles/11_Object_Oriented_shapes.dir/build
+.PHONY : 11_Object_Oriented_shapes/fast
+
+#=============================================================================
+# Target rules for targets named 12_Resources_RAII
+
+# Build rule for target.
+12_Resources_RAII: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_Resources_RAII
+.PHONY : 12_Resources_RAII
+
+# fast build rule for target.
+12_Resources_RAII/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_Resources_RAII.dir/build.make CMakeFiles/12_Resources_RAII.dir/build
+.PHONY : 12_Resources_RAII/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_AllConstructorsAndOperators
+
+# Build rule for target.
+13_CPlusPlusUniqueness_AllConstructorsAndOperators: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_AllConstructorsAndOperators
+.PHONY : 13_CPlusPlusUniqueness_AllConstructorsAndOperators
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_AllConstructorsAndOperators/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build
+.PHONY : 13_CPlusPlusUniqueness_AllConstructorsAndOperators/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_CopyConstructors
+
+# Build rule for target.
+13_CPlusPlusUniqueness_CopyConstructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_CopyConstructors
+.PHONY : 13_CPlusPlusUniqueness_CopyConstructors
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_CopyConstructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/build
+.PHONY : 13_CPlusPlusUniqueness_CopyConstructors/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_ExampleConstructors
+
+# Build rule for target.
+13_CPlusPlusUniqueness_ExampleConstructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_ExampleConstructors
+.PHONY : 13_CPlusPlusUniqueness_ExampleConstructors
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_ExampleConstructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/build
+.PHONY : 13_CPlusPlusUniqueness_ExampleConstructors/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_FriendClassExample
+
+# Build rule for target.
+13_CPlusPlusUniqueness_FriendClassExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_FriendClassExample
+.PHONY : 13_CPlusPlusUniqueness_FriendClassExample
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_FriendClassExample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/build
+.PHONY : 13_CPlusPlusUniqueness_FriendClassExample/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_FriendFunctionsExample
+
+# Build rule for target.
+13_CPlusPlusUniqueness_FriendFunctionsExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_FriendFunctionsExample
+.PHONY : 13_CPlusPlusUniqueness_FriendFunctionsExample
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_FriendFunctionsExample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/build
+.PHONY : 13_CPlusPlusUniqueness_FriendFunctionsExample/fast
+
+#=============================================================================
+# Target rules for targets named 13_CPlusPlusUniqueness_MoveConstructors
+
+# Build rule for target.
+13_CPlusPlusUniqueness_MoveConstructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_CPlusPlusUniqueness_MoveConstructors
+.PHONY : 13_CPlusPlusUniqueness_MoveConstructors
+
+# fast build rule for target.
+13_CPlusPlusUniqueness_MoveConstructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/build
+.PHONY : 13_CPlusPlusUniqueness_MoveConstructors/fast
 
 #=============================================================================
 # Target rules for targets named Noobs_algorithm_example_noob
@@ -1962,2717 +2105,2981 @@ Noobs_virtual_destructor_example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Noobs_virtual_destructor_example.dir/build.make CMakeFiles/Noobs_virtual_destructor_example.dir/build
 .PHONY : Noobs_virtual_destructor_example/fast
 
-01_Basic/auto_example.o: 01_Basic/auto_example.cpp.o
-.PHONY : 01_Basic/auto_example.o
+01_Basic/01_hello.o: 01_Basic/01_hello.cpp.o
+.PHONY : 01_Basic/01_hello.o
 
 # target to build an object file
-01_Basic/auto_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_auto_example.dir/build.make CMakeFiles/01_Basic_auto_example.dir/01_Basic/auto_example.cpp.o
-.PHONY : 01_Basic/auto_example.cpp.o
+01_Basic/01_hello.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_01_hello.dir/build.make CMakeFiles/01_Basic_01_hello.dir/01_Basic/01_hello.cpp.o
+.PHONY : 01_Basic/01_hello.cpp.o
 
-01_Basic/auto_example.i: 01_Basic/auto_example.cpp.i
-.PHONY : 01_Basic/auto_example.i
+01_Basic/01_hello.i: 01_Basic/01_hello.cpp.i
+.PHONY : 01_Basic/01_hello.i
 
 # target to preprocess a source file
-01_Basic/auto_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_auto_example.dir/build.make CMakeFiles/01_Basic_auto_example.dir/01_Basic/auto_example.cpp.i
-.PHONY : 01_Basic/auto_example.cpp.i
+01_Basic/01_hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_01_hello.dir/build.make CMakeFiles/01_Basic_01_hello.dir/01_Basic/01_hello.cpp.i
+.PHONY : 01_Basic/01_hello.cpp.i
 
-01_Basic/auto_example.s: 01_Basic/auto_example.cpp.s
-.PHONY : 01_Basic/auto_example.s
+01_Basic/01_hello.s: 01_Basic/01_hello.cpp.s
+.PHONY : 01_Basic/01_hello.s
 
 # target to generate assembly for a file
-01_Basic/auto_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_auto_example.dir/build.make CMakeFiles/01_Basic_auto_example.dir/01_Basic/auto_example.cpp.s
-.PHONY : 01_Basic/auto_example.cpp.s
+01_Basic/01_hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_01_hello.dir/build.make CMakeFiles/01_Basic_01_hello.dir/01_Basic/01_hello.cpp.s
+.PHONY : 01_Basic/01_hello.cpp.s
 
-01_Basic/constexpr.o: 01_Basic/constexpr.cpp.o
-.PHONY : 01_Basic/constexpr.o
+01_Basic/02_variables.o: 01_Basic/02_variables.cpp.o
+.PHONY : 01_Basic/02_variables.o
 
 # target to build an object file
-01_Basic/constexpr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_constexpr.dir/build.make CMakeFiles/01_Basic_constexpr.dir/01_Basic/constexpr.cpp.o
-.PHONY : 01_Basic/constexpr.cpp.o
+01_Basic/02_variables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_02_variables.dir/build.make CMakeFiles/01_Basic_02_variables.dir/01_Basic/02_variables.cpp.o
+.PHONY : 01_Basic/02_variables.cpp.o
 
-01_Basic/constexpr.i: 01_Basic/constexpr.cpp.i
-.PHONY : 01_Basic/constexpr.i
+01_Basic/02_variables.i: 01_Basic/02_variables.cpp.i
+.PHONY : 01_Basic/02_variables.i
 
 # target to preprocess a source file
-01_Basic/constexpr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_constexpr.dir/build.make CMakeFiles/01_Basic_constexpr.dir/01_Basic/constexpr.cpp.i
-.PHONY : 01_Basic/constexpr.cpp.i
+01_Basic/02_variables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_02_variables.dir/build.make CMakeFiles/01_Basic_02_variables.dir/01_Basic/02_variables.cpp.i
+.PHONY : 01_Basic/02_variables.cpp.i
 
-01_Basic/constexpr.s: 01_Basic/constexpr.cpp.s
-.PHONY : 01_Basic/constexpr.s
+01_Basic/02_variables.s: 01_Basic/02_variables.cpp.s
+.PHONY : 01_Basic/02_variables.s
 
 # target to generate assembly for a file
-01_Basic/constexpr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_constexpr.dir/build.make CMakeFiles/01_Basic_constexpr.dir/01_Basic/constexpr.cpp.s
-.PHONY : 01_Basic/constexpr.cpp.s
+01_Basic/02_variables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_02_variables.dir/build.make CMakeFiles/01_Basic_02_variables.dir/01_Basic/02_variables.cpp.s
+.PHONY : 01_Basic/02_variables.cpp.s
 
-01_Basic/flow.o: 01_Basic/flow.cpp.o
-.PHONY : 01_Basic/flow.o
+01_Basic/03_auto_example.o: 01_Basic/03_auto_example.cpp.o
+.PHONY : 01_Basic/03_auto_example.o
 
 # target to build an object file
-01_Basic/flow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_flow.dir/build.make CMakeFiles/01_Basic_flow.dir/01_Basic/flow.cpp.o
-.PHONY : 01_Basic/flow.cpp.o
+01_Basic/03_auto_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_03_auto_example.dir/build.make CMakeFiles/01_Basic_03_auto_example.dir/01_Basic/03_auto_example.cpp.o
+.PHONY : 01_Basic/03_auto_example.cpp.o
 
-01_Basic/flow.i: 01_Basic/flow.cpp.i
-.PHONY : 01_Basic/flow.i
+01_Basic/03_auto_example.i: 01_Basic/03_auto_example.cpp.i
+.PHONY : 01_Basic/03_auto_example.i
 
 # target to preprocess a source file
-01_Basic/flow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_flow.dir/build.make CMakeFiles/01_Basic_flow.dir/01_Basic/flow.cpp.i
-.PHONY : 01_Basic/flow.cpp.i
+01_Basic/03_auto_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_03_auto_example.dir/build.make CMakeFiles/01_Basic_03_auto_example.dir/01_Basic/03_auto_example.cpp.i
+.PHONY : 01_Basic/03_auto_example.cpp.i
 
-01_Basic/flow.s: 01_Basic/flow.cpp.s
-.PHONY : 01_Basic/flow.s
+01_Basic/03_auto_example.s: 01_Basic/03_auto_example.cpp.s
+.PHONY : 01_Basic/03_auto_example.s
 
 # target to generate assembly for a file
-01_Basic/flow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_flow.dir/build.make CMakeFiles/01_Basic_flow.dir/01_Basic/flow.cpp.s
-.PHONY : 01_Basic/flow.cpp.s
+01_Basic/03_auto_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_03_auto_example.dir/build.make CMakeFiles/01_Basic_03_auto_example.dir/01_Basic/03_auto_example.cpp.s
+.PHONY : 01_Basic/03_auto_example.cpp.s
 
-01_Basic/hello.o: 01_Basic/hello.cpp.o
-.PHONY : 01_Basic/hello.o
+01_Basic/04_flow.o: 01_Basic/04_flow.cpp.o
+.PHONY : 01_Basic/04_flow.o
 
 # target to build an object file
-01_Basic/hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_hello.dir/build.make CMakeFiles/01_Basic_hello.dir/01_Basic/hello.cpp.o
-.PHONY : 01_Basic/hello.cpp.o
+01_Basic/04_flow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_04_flow.dir/build.make CMakeFiles/01_Basic_04_flow.dir/01_Basic/04_flow.cpp.o
+.PHONY : 01_Basic/04_flow.cpp.o
 
-01_Basic/hello.i: 01_Basic/hello.cpp.i
-.PHONY : 01_Basic/hello.i
+01_Basic/04_flow.i: 01_Basic/04_flow.cpp.i
+.PHONY : 01_Basic/04_flow.i
 
 # target to preprocess a source file
-01_Basic/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_hello.dir/build.make CMakeFiles/01_Basic_hello.dir/01_Basic/hello.cpp.i
-.PHONY : 01_Basic/hello.cpp.i
+01_Basic/04_flow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_04_flow.dir/build.make CMakeFiles/01_Basic_04_flow.dir/01_Basic/04_flow.cpp.i
+.PHONY : 01_Basic/04_flow.cpp.i
 
-01_Basic/hello.s: 01_Basic/hello.cpp.s
-.PHONY : 01_Basic/hello.s
+01_Basic/04_flow.s: 01_Basic/04_flow.cpp.s
+.PHONY : 01_Basic/04_flow.s
 
 # target to generate assembly for a file
-01_Basic/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_hello.dir/build.make CMakeFiles/01_Basic_hello.dir/01_Basic/hello.cpp.s
-.PHONY : 01_Basic/hello.cpp.s
+01_Basic/04_flow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_04_flow.dir/build.make CMakeFiles/01_Basic_04_flow.dir/01_Basic/04_flow.cpp.s
+.PHONY : 01_Basic/04_flow.cpp.s
 
-01_Basic/nullptr_example.o: 01_Basic/nullptr_example.cpp.o
-.PHONY : 01_Basic/nullptr_example.o
+01_Basic/05_range_based_for_example.o: 01_Basic/05_range_based_for_example.cpp.o
+.PHONY : 01_Basic/05_range_based_for_example.o
 
 # target to build an object file
-01_Basic/nullptr_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_nullptr_example.dir/build.make CMakeFiles/01_Basic_nullptr_example.dir/01_Basic/nullptr_example.cpp.o
-.PHONY : 01_Basic/nullptr_example.cpp.o
+01_Basic/05_range_based_for_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_05_range_based_for_example.dir/build.make CMakeFiles/01_Basic_05_range_based_for_example.dir/01_Basic/05_range_based_for_example.cpp.o
+.PHONY : 01_Basic/05_range_based_for_example.cpp.o
 
-01_Basic/nullptr_example.i: 01_Basic/nullptr_example.cpp.i
-.PHONY : 01_Basic/nullptr_example.i
+01_Basic/05_range_based_for_example.i: 01_Basic/05_range_based_for_example.cpp.i
+.PHONY : 01_Basic/05_range_based_for_example.i
 
 # target to preprocess a source file
-01_Basic/nullptr_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_nullptr_example.dir/build.make CMakeFiles/01_Basic_nullptr_example.dir/01_Basic/nullptr_example.cpp.i
-.PHONY : 01_Basic/nullptr_example.cpp.i
+01_Basic/05_range_based_for_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_05_range_based_for_example.dir/build.make CMakeFiles/01_Basic_05_range_based_for_example.dir/01_Basic/05_range_based_for_example.cpp.i
+.PHONY : 01_Basic/05_range_based_for_example.cpp.i
 
-01_Basic/nullptr_example.s: 01_Basic/nullptr_example.cpp.s
-.PHONY : 01_Basic/nullptr_example.s
+01_Basic/05_range_based_for_example.s: 01_Basic/05_range_based_for_example.cpp.s
+.PHONY : 01_Basic/05_range_based_for_example.s
 
 # target to generate assembly for a file
-01_Basic/nullptr_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_nullptr_example.dir/build.make CMakeFiles/01_Basic_nullptr_example.dir/01_Basic/nullptr_example.cpp.s
-.PHONY : 01_Basic/nullptr_example.cpp.s
+01_Basic/05_range_based_for_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_05_range_based_for_example.dir/build.make CMakeFiles/01_Basic_05_range_based_for_example.dir/01_Basic/05_range_based_for_example.cpp.s
+.PHONY : 01_Basic/05_range_based_for_example.cpp.s
 
-01_Basic/range_based_for_example.o: 01_Basic/range_based_for_example.cpp.o
-.PHONY : 01_Basic/range_based_for_example.o
+01_Basic/06_constexpr.o: 01_Basic/06_constexpr.cpp.o
+.PHONY : 01_Basic/06_constexpr.o
 
 # target to build an object file
-01_Basic/range_based_for_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_range_based_for_example.dir/build.make CMakeFiles/01_Basic_range_based_for_example.dir/01_Basic/range_based_for_example.cpp.o
-.PHONY : 01_Basic/range_based_for_example.cpp.o
+01_Basic/06_constexpr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_06_constexpr.dir/build.make CMakeFiles/01_Basic_06_constexpr.dir/01_Basic/06_constexpr.cpp.o
+.PHONY : 01_Basic/06_constexpr.cpp.o
 
-01_Basic/range_based_for_example.i: 01_Basic/range_based_for_example.cpp.i
-.PHONY : 01_Basic/range_based_for_example.i
+01_Basic/06_constexpr.i: 01_Basic/06_constexpr.cpp.i
+.PHONY : 01_Basic/06_constexpr.i
 
 # target to preprocess a source file
-01_Basic/range_based_for_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_range_based_for_example.dir/build.make CMakeFiles/01_Basic_range_based_for_example.dir/01_Basic/range_based_for_example.cpp.i
-.PHONY : 01_Basic/range_based_for_example.cpp.i
+01_Basic/06_constexpr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_06_constexpr.dir/build.make CMakeFiles/01_Basic_06_constexpr.dir/01_Basic/06_constexpr.cpp.i
+.PHONY : 01_Basic/06_constexpr.cpp.i
 
-01_Basic/range_based_for_example.s: 01_Basic/range_based_for_example.cpp.s
-.PHONY : 01_Basic/range_based_for_example.s
+01_Basic/06_constexpr.s: 01_Basic/06_constexpr.cpp.s
+.PHONY : 01_Basic/06_constexpr.s
 
 # target to generate assembly for a file
-01_Basic/range_based_for_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_range_based_for_example.dir/build.make CMakeFiles/01_Basic_range_based_for_example.dir/01_Basic/range_based_for_example.cpp.s
-.PHONY : 01_Basic/range_based_for_example.cpp.s
+01_Basic/06_constexpr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_06_constexpr.dir/build.make CMakeFiles/01_Basic_06_constexpr.dir/01_Basic/06_constexpr.cpp.s
+.PHONY : 01_Basic/06_constexpr.cpp.s
 
-01_Basic/type_conversions.o: 01_Basic/type_conversions.cpp.o
-.PHONY : 01_Basic/type_conversions.o
+01_Basic/07_nullptr_example.o: 01_Basic/07_nullptr_example.cpp.o
+.PHONY : 01_Basic/07_nullptr_example.o
 
 # target to build an object file
-01_Basic/type_conversions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_type_conversions.dir/build.make CMakeFiles/01_Basic_type_conversions.dir/01_Basic/type_conversions.cpp.o
-.PHONY : 01_Basic/type_conversions.cpp.o
+01_Basic/07_nullptr_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_07_nullptr_example.dir/build.make CMakeFiles/01_Basic_07_nullptr_example.dir/01_Basic/07_nullptr_example.cpp.o
+.PHONY : 01_Basic/07_nullptr_example.cpp.o
 
-01_Basic/type_conversions.i: 01_Basic/type_conversions.cpp.i
-.PHONY : 01_Basic/type_conversions.i
+01_Basic/07_nullptr_example.i: 01_Basic/07_nullptr_example.cpp.i
+.PHONY : 01_Basic/07_nullptr_example.i
 
 # target to preprocess a source file
-01_Basic/type_conversions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_type_conversions.dir/build.make CMakeFiles/01_Basic_type_conversions.dir/01_Basic/type_conversions.cpp.i
-.PHONY : 01_Basic/type_conversions.cpp.i
+01_Basic/07_nullptr_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_07_nullptr_example.dir/build.make CMakeFiles/01_Basic_07_nullptr_example.dir/01_Basic/07_nullptr_example.cpp.i
+.PHONY : 01_Basic/07_nullptr_example.cpp.i
 
-01_Basic/type_conversions.s: 01_Basic/type_conversions.cpp.s
-.PHONY : 01_Basic/type_conversions.s
+01_Basic/07_nullptr_example.s: 01_Basic/07_nullptr_example.cpp.s
+.PHONY : 01_Basic/07_nullptr_example.s
 
 # target to generate assembly for a file
-01_Basic/type_conversions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_type_conversions.dir/build.make CMakeFiles/01_Basic_type_conversions.dir/01_Basic/type_conversions.cpp.s
-.PHONY : 01_Basic/type_conversions.cpp.s
+01_Basic/07_nullptr_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_07_nullptr_example.dir/build.make CMakeFiles/01_Basic_07_nullptr_example.dir/01_Basic/07_nullptr_example.cpp.s
+.PHONY : 01_Basic/07_nullptr_example.cpp.s
 
-01_Basic/variables.o: 01_Basic/variables.cpp.o
-.PHONY : 01_Basic/variables.o
+01_Basic/08_type_conversions.o: 01_Basic/08_type_conversions.cpp.o
+.PHONY : 01_Basic/08_type_conversions.o
 
 # target to build an object file
-01_Basic/variables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_variables.dir/build.make CMakeFiles/01_Basic_variables.dir/01_Basic/variables.cpp.o
-.PHONY : 01_Basic/variables.cpp.o
+01_Basic/08_type_conversions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_08_type_conversions.dir/build.make CMakeFiles/01_Basic_08_type_conversions.dir/01_Basic/08_type_conversions.cpp.o
+.PHONY : 01_Basic/08_type_conversions.cpp.o
 
-01_Basic/variables.i: 01_Basic/variables.cpp.i
-.PHONY : 01_Basic/variables.i
+01_Basic/08_type_conversions.i: 01_Basic/08_type_conversions.cpp.i
+.PHONY : 01_Basic/08_type_conversions.i
 
 # target to preprocess a source file
-01_Basic/variables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_variables.dir/build.make CMakeFiles/01_Basic_variables.dir/01_Basic/variables.cpp.i
-.PHONY : 01_Basic/variables.cpp.i
+01_Basic/08_type_conversions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_08_type_conversions.dir/build.make CMakeFiles/01_Basic_08_type_conversions.dir/01_Basic/08_type_conversions.cpp.i
+.PHONY : 01_Basic/08_type_conversions.cpp.i
 
-01_Basic/variables.s: 01_Basic/variables.cpp.s
-.PHONY : 01_Basic/variables.s
+01_Basic/08_type_conversions.s: 01_Basic/08_type_conversions.cpp.s
+.PHONY : 01_Basic/08_type_conversions.s
 
 # target to generate assembly for a file
-01_Basic/variables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_variables.dir/build.make CMakeFiles/01_Basic_variables.dir/01_Basic/variables.cpp.s
-.PHONY : 01_Basic/variables.cpp.s
+01_Basic/08_type_conversions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_08_type_conversions.dir/build.make CMakeFiles/01_Basic_08_type_conversions.dir/01_Basic/08_type_conversions.cpp.s
+.PHONY : 01_Basic/08_type_conversions.cpp.s
 
-02_Pointers/null_pointers.o: 02_Pointers/null_pointers.cpp.o
-.PHONY : 02_Pointers/null_pointers.o
+01_Basic/09_enums.o: 01_Basic/09_enums.cpp.o
+.PHONY : 01_Basic/09_enums.o
 
 # target to build an object file
-02_Pointers/null_pointers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_null_pointers.dir/build.make CMakeFiles/02_Pointers_null_pointers.dir/02_Pointers/null_pointers.cpp.o
-.PHONY : 02_Pointers/null_pointers.cpp.o
+01_Basic/09_enums.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_09_enums.dir/build.make CMakeFiles/01_Basic_09_enums.dir/01_Basic/09_enums.cpp.o
+.PHONY : 01_Basic/09_enums.cpp.o
 
-02_Pointers/null_pointers.i: 02_Pointers/null_pointers.cpp.i
-.PHONY : 02_Pointers/null_pointers.i
+01_Basic/09_enums.i: 01_Basic/09_enums.cpp.i
+.PHONY : 01_Basic/09_enums.i
 
 # target to preprocess a source file
-02_Pointers/null_pointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_null_pointers.dir/build.make CMakeFiles/02_Pointers_null_pointers.dir/02_Pointers/null_pointers.cpp.i
-.PHONY : 02_Pointers/null_pointers.cpp.i
+01_Basic/09_enums.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_09_enums.dir/build.make CMakeFiles/01_Basic_09_enums.dir/01_Basic/09_enums.cpp.i
+.PHONY : 01_Basic/09_enums.cpp.i
 
-02_Pointers/null_pointers.s: 02_Pointers/null_pointers.cpp.s
-.PHONY : 02_Pointers/null_pointers.s
+01_Basic/09_enums.s: 01_Basic/09_enums.cpp.s
+.PHONY : 01_Basic/09_enums.s
 
 # target to generate assembly for a file
-02_Pointers/null_pointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_null_pointers.dir/build.make CMakeFiles/02_Pointers_null_pointers.dir/02_Pointers/null_pointers.cpp.s
-.PHONY : 02_Pointers/null_pointers.cpp.s
+01_Basic/09_enums.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_Basic_09_enums.dir/build.make CMakeFiles/01_Basic_09_enums.dir/01_Basic/09_enums.cpp.s
+.PHONY : 01_Basic/09_enums.cpp.s
 
-02_Pointers/out_and_ref_example.o: 02_Pointers/out_and_ref_example.cpp.o
-.PHONY : 02_Pointers/out_and_ref_example.o
+02_Pointers/01_null_pointers.o: 02_Pointers/01_null_pointers.cpp.o
+.PHONY : 02_Pointers/01_null_pointers.o
 
 # target to build an object file
-02_Pointers/out_and_ref_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_out_and_ref_example.dir/02_Pointers/out_and_ref_example.cpp.o
-.PHONY : 02_Pointers/out_and_ref_example.cpp.o
+02_Pointers/01_null_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_01_null_pointers.dir/build.make CMakeFiles/02_Pointers_01_null_pointers.dir/02_Pointers/01_null_pointers.cpp.o
+.PHONY : 02_Pointers/01_null_pointers.cpp.o
 
-02_Pointers/out_and_ref_example.i: 02_Pointers/out_and_ref_example.cpp.i
-.PHONY : 02_Pointers/out_and_ref_example.i
+02_Pointers/01_null_pointers.i: 02_Pointers/01_null_pointers.cpp.i
+.PHONY : 02_Pointers/01_null_pointers.i
 
 # target to preprocess a source file
-02_Pointers/out_and_ref_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_out_and_ref_example.dir/02_Pointers/out_and_ref_example.cpp.i
-.PHONY : 02_Pointers/out_and_ref_example.cpp.i
+02_Pointers/01_null_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_01_null_pointers.dir/build.make CMakeFiles/02_Pointers_01_null_pointers.dir/02_Pointers/01_null_pointers.cpp.i
+.PHONY : 02_Pointers/01_null_pointers.cpp.i
 
-02_Pointers/out_and_ref_example.s: 02_Pointers/out_and_ref_example.cpp.s
-.PHONY : 02_Pointers/out_and_ref_example.s
+02_Pointers/01_null_pointers.s: 02_Pointers/01_null_pointers.cpp.s
+.PHONY : 02_Pointers/01_null_pointers.s
 
 # target to generate assembly for a file
-02_Pointers/out_and_ref_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_out_and_ref_example.dir/02_Pointers/out_and_ref_example.cpp.s
-.PHONY : 02_Pointers/out_and_ref_example.cpp.s
+02_Pointers/01_null_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_01_null_pointers.dir/build.make CMakeFiles/02_Pointers_01_null_pointers.dir/02_Pointers/01_null_pointers.cpp.s
+.PHONY : 02_Pointers/01_null_pointers.cpp.s
 
-02_Pointers/pointers.o: 02_Pointers/pointers.cpp.o
-.PHONY : 02_Pointers/pointers.o
+02_Pointers/02_out_and_ref_example.o: 02_Pointers/02_out_and_ref_example.cpp.o
+.PHONY : 02_Pointers/02_out_and_ref_example.o
 
 # target to build an object file
-02_Pointers/pointers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers.dir/build.make CMakeFiles/02_Pointers_pointers.dir/02_Pointers/pointers.cpp.o
-.PHONY : 02_Pointers/pointers.cpp.o
+02_Pointers/02_out_and_ref_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_02_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_02_out_and_ref_example.dir/02_Pointers/02_out_and_ref_example.cpp.o
+.PHONY : 02_Pointers/02_out_and_ref_example.cpp.o
 
-02_Pointers/pointers.i: 02_Pointers/pointers.cpp.i
-.PHONY : 02_Pointers/pointers.i
+02_Pointers/02_out_and_ref_example.i: 02_Pointers/02_out_and_ref_example.cpp.i
+.PHONY : 02_Pointers/02_out_and_ref_example.i
 
 # target to preprocess a source file
-02_Pointers/pointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers.dir/build.make CMakeFiles/02_Pointers_pointers.dir/02_Pointers/pointers.cpp.i
-.PHONY : 02_Pointers/pointers.cpp.i
+02_Pointers/02_out_and_ref_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_02_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_02_out_and_ref_example.dir/02_Pointers/02_out_and_ref_example.cpp.i
+.PHONY : 02_Pointers/02_out_and_ref_example.cpp.i
 
-02_Pointers/pointers.s: 02_Pointers/pointers.cpp.s
-.PHONY : 02_Pointers/pointers.s
+02_Pointers/02_out_and_ref_example.s: 02_Pointers/02_out_and_ref_example.cpp.s
+.PHONY : 02_Pointers/02_out_and_ref_example.s
 
 # target to generate assembly for a file
-02_Pointers/pointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers.dir/build.make CMakeFiles/02_Pointers_pointers.dir/02_Pointers/pointers.cpp.s
-.PHONY : 02_Pointers/pointers.cpp.s
+02_Pointers/02_out_and_ref_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_02_out_and_ref_example.dir/build.make CMakeFiles/02_Pointers_02_out_and_ref_example.dir/02_Pointers/02_out_and_ref_example.cpp.s
+.PHONY : 02_Pointers/02_out_and_ref_example.cpp.s
 
-02_Pointers/pointers_advanced.o: 02_Pointers/pointers_advanced.cpp.o
-.PHONY : 02_Pointers/pointers_advanced.o
+02_Pointers/03_pointers.o: 02_Pointers/03_pointers.cpp.o
+.PHONY : 02_Pointers/03_pointers.o
 
 # target to build an object file
-02_Pointers/pointers_advanced.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_pointers_advanced.dir/02_Pointers/pointers_advanced.cpp.o
-.PHONY : 02_Pointers/pointers_advanced.cpp.o
+02_Pointers/03_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_03_pointers.dir/build.make CMakeFiles/02_Pointers_03_pointers.dir/02_Pointers/03_pointers.cpp.o
+.PHONY : 02_Pointers/03_pointers.cpp.o
 
-02_Pointers/pointers_advanced.i: 02_Pointers/pointers_advanced.cpp.i
-.PHONY : 02_Pointers/pointers_advanced.i
+02_Pointers/03_pointers.i: 02_Pointers/03_pointers.cpp.i
+.PHONY : 02_Pointers/03_pointers.i
 
 # target to preprocess a source file
-02_Pointers/pointers_advanced.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_pointers_advanced.dir/02_Pointers/pointers_advanced.cpp.i
-.PHONY : 02_Pointers/pointers_advanced.cpp.i
+02_Pointers/03_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_03_pointers.dir/build.make CMakeFiles/02_Pointers_03_pointers.dir/02_Pointers/03_pointers.cpp.i
+.PHONY : 02_Pointers/03_pointers.cpp.i
 
-02_Pointers/pointers_advanced.s: 02_Pointers/pointers_advanced.cpp.s
-.PHONY : 02_Pointers/pointers_advanced.s
+02_Pointers/03_pointers.s: 02_Pointers/03_pointers.cpp.s
+.PHONY : 02_Pointers/03_pointers.s
 
 # target to generate assembly for a file
-02_Pointers/pointers_advanced.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_pointers_advanced.dir/02_Pointers/pointers_advanced.cpp.s
-.PHONY : 02_Pointers/pointers_advanced.cpp.s
+02_Pointers/03_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_03_pointers.dir/build.make CMakeFiles/02_Pointers_03_pointers.dir/02_Pointers/03_pointers.cpp.s
+.PHONY : 02_Pointers/03_pointers.cpp.s
 
-02_Pointers/referenceVsPointers.o: 02_Pointers/referenceVsPointers.cpp.o
-.PHONY : 02_Pointers/referenceVsPointers.o
+02_Pointers/04_referenceVsPointers.o: 02_Pointers/04_referenceVsPointers.cpp.o
+.PHONY : 02_Pointers/04_referenceVsPointers.o
 
 # target to build an object file
-02_Pointers/referenceVsPointers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_referenceVsPointers.dir/02_Pointers/referenceVsPointers.cpp.o
-.PHONY : 02_Pointers/referenceVsPointers.cpp.o
+02_Pointers/04_referenceVsPointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_04_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_04_referenceVsPointers.dir/02_Pointers/04_referenceVsPointers.cpp.o
+.PHONY : 02_Pointers/04_referenceVsPointers.cpp.o
 
-02_Pointers/referenceVsPointers.i: 02_Pointers/referenceVsPointers.cpp.i
-.PHONY : 02_Pointers/referenceVsPointers.i
+02_Pointers/04_referenceVsPointers.i: 02_Pointers/04_referenceVsPointers.cpp.i
+.PHONY : 02_Pointers/04_referenceVsPointers.i
 
 # target to preprocess a source file
-02_Pointers/referenceVsPointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_referenceVsPointers.dir/02_Pointers/referenceVsPointers.cpp.i
-.PHONY : 02_Pointers/referenceVsPointers.cpp.i
+02_Pointers/04_referenceVsPointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_04_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_04_referenceVsPointers.dir/02_Pointers/04_referenceVsPointers.cpp.i
+.PHONY : 02_Pointers/04_referenceVsPointers.cpp.i
 
-02_Pointers/referenceVsPointers.s: 02_Pointers/referenceVsPointers.cpp.s
-.PHONY : 02_Pointers/referenceVsPointers.s
+02_Pointers/04_referenceVsPointers.s: 02_Pointers/04_referenceVsPointers.cpp.s
+.PHONY : 02_Pointers/04_referenceVsPointers.s
 
 # target to generate assembly for a file
-02_Pointers/referenceVsPointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_referenceVsPointers.dir/02_Pointers/referenceVsPointers.cpp.s
-.PHONY : 02_Pointers/referenceVsPointers.cpp.s
+02_Pointers/04_referenceVsPointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_04_referenceVsPointers.dir/build.make CMakeFiles/02_Pointers_04_referenceVsPointers.dir/02_Pointers/04_referenceVsPointers.cpp.s
+.PHONY : 02_Pointers/04_referenceVsPointers.cpp.s
 
-02_Pointers/smartpointers.o: 02_Pointers/smartpointers.cpp.o
-.PHONY : 02_Pointers/smartpointers.o
+02_Pointers/05_pointers_advanced.o: 02_Pointers/05_pointers_advanced.cpp.o
+.PHONY : 02_Pointers/05_pointers_advanced.o
 
 # target to build an object file
-02_Pointers/smartpointers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_smartpointers.dir/build.make CMakeFiles/02_Pointers_smartpointers.dir/02_Pointers/smartpointers.cpp.o
-.PHONY : 02_Pointers/smartpointers.cpp.o
+02_Pointers/05_pointers_advanced.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_05_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_05_pointers_advanced.dir/02_Pointers/05_pointers_advanced.cpp.o
+.PHONY : 02_Pointers/05_pointers_advanced.cpp.o
 
-02_Pointers/smartpointers.i: 02_Pointers/smartpointers.cpp.i
-.PHONY : 02_Pointers/smartpointers.i
+02_Pointers/05_pointers_advanced.i: 02_Pointers/05_pointers_advanced.cpp.i
+.PHONY : 02_Pointers/05_pointers_advanced.i
 
 # target to preprocess a source file
-02_Pointers/smartpointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_smartpointers.dir/build.make CMakeFiles/02_Pointers_smartpointers.dir/02_Pointers/smartpointers.cpp.i
-.PHONY : 02_Pointers/smartpointers.cpp.i
+02_Pointers/05_pointers_advanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_05_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_05_pointers_advanced.dir/02_Pointers/05_pointers_advanced.cpp.i
+.PHONY : 02_Pointers/05_pointers_advanced.cpp.i
 
-02_Pointers/smartpointers.s: 02_Pointers/smartpointers.cpp.s
-.PHONY : 02_Pointers/smartpointers.s
+02_Pointers/05_pointers_advanced.s: 02_Pointers/05_pointers_advanced.cpp.s
+.PHONY : 02_Pointers/05_pointers_advanced.s
 
 # target to generate assembly for a file
-02_Pointers/smartpointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_smartpointers.dir/build.make CMakeFiles/02_Pointers_smartpointers.dir/02_Pointers/smartpointers.cpp.s
-.PHONY : 02_Pointers/smartpointers.cpp.s
+02_Pointers/05_pointers_advanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_05_pointers_advanced.dir/build.make CMakeFiles/02_Pointers_05_pointers_advanced.dir/02_Pointers/05_pointers_advanced.cpp.s
+.PHONY : 02_Pointers/05_pointers_advanced.cpp.s
 
-03_Vectors/arrays.o: 03_Vectors/arrays.cpp.o
-.PHONY : 03_Vectors/arrays.o
+02_Pointers/06_smartpointers.o: 02_Pointers/06_smartpointers.cpp.o
+.PHONY : 02_Pointers/06_smartpointers.o
 
 # target to build an object file
-03_Vectors/arrays.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_arrays.dir/build.make CMakeFiles/03_Vectors_arrays.dir/03_Vectors/arrays.cpp.o
-.PHONY : 03_Vectors/arrays.cpp.o
+02_Pointers/06_smartpointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_06_smartpointers.dir/build.make CMakeFiles/02_Pointers_06_smartpointers.dir/02_Pointers/06_smartpointers.cpp.o
+.PHONY : 02_Pointers/06_smartpointers.cpp.o
 
-03_Vectors/arrays.i: 03_Vectors/arrays.cpp.i
-.PHONY : 03_Vectors/arrays.i
+02_Pointers/06_smartpointers.i: 02_Pointers/06_smartpointers.cpp.i
+.PHONY : 02_Pointers/06_smartpointers.i
 
 # target to preprocess a source file
-03_Vectors/arrays.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_arrays.dir/build.make CMakeFiles/03_Vectors_arrays.dir/03_Vectors/arrays.cpp.i
-.PHONY : 03_Vectors/arrays.cpp.i
+02_Pointers/06_smartpointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_06_smartpointers.dir/build.make CMakeFiles/02_Pointers_06_smartpointers.dir/02_Pointers/06_smartpointers.cpp.i
+.PHONY : 02_Pointers/06_smartpointers.cpp.i
 
-03_Vectors/arrays.s: 03_Vectors/arrays.cpp.s
-.PHONY : 03_Vectors/arrays.s
+02_Pointers/06_smartpointers.s: 02_Pointers/06_smartpointers.cpp.s
+.PHONY : 02_Pointers/06_smartpointers.s
 
 # target to generate assembly for a file
-03_Vectors/arrays.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_arrays.dir/build.make CMakeFiles/03_Vectors_arrays.dir/03_Vectors/arrays.cpp.s
-.PHONY : 03_Vectors/arrays.cpp.s
+02_Pointers/06_smartpointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_Pointers_06_smartpointers.dir/build.make CMakeFiles/02_Pointers_06_smartpointers.dir/02_Pointers/06_smartpointers.cpp.s
+.PHONY : 02_Pointers/06_smartpointers.cpp.s
 
-03_Vectors/vector.o: 03_Vectors/vector.cpp.o
-.PHONY : 03_Vectors/vector.o
+03_Collections/01_arrays.o: 03_Collections/01_arrays.cpp.o
+.PHONY : 03_Collections/01_arrays.o
 
 # target to build an object file
-03_Vectors/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_vector.dir/build.make CMakeFiles/03_Vectors_vector.dir/03_Vectors/vector.cpp.o
-.PHONY : 03_Vectors/vector.cpp.o
+03_Collections/01_arrays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_01_arrays.dir/build.make CMakeFiles/03_Collections_01_arrays.dir/03_Collections/01_arrays.cpp.o
+.PHONY : 03_Collections/01_arrays.cpp.o
 
-03_Vectors/vector.i: 03_Vectors/vector.cpp.i
-.PHONY : 03_Vectors/vector.i
+03_Collections/01_arrays.i: 03_Collections/01_arrays.cpp.i
+.PHONY : 03_Collections/01_arrays.i
 
 # target to preprocess a source file
-03_Vectors/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_vector.dir/build.make CMakeFiles/03_Vectors_vector.dir/03_Vectors/vector.cpp.i
-.PHONY : 03_Vectors/vector.cpp.i
+03_Collections/01_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_01_arrays.dir/build.make CMakeFiles/03_Collections_01_arrays.dir/03_Collections/01_arrays.cpp.i
+.PHONY : 03_Collections/01_arrays.cpp.i
 
-03_Vectors/vector.s: 03_Vectors/vector.cpp.s
-.PHONY : 03_Vectors/vector.s
+03_Collections/01_arrays.s: 03_Collections/01_arrays.cpp.s
+.PHONY : 03_Collections/01_arrays.s
 
 # target to generate assembly for a file
-03_Vectors/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Vectors_vector.dir/build.make CMakeFiles/03_Vectors_vector.dir/03_Vectors/vector.cpp.s
-.PHONY : 03_Vectors/vector.cpp.s
+03_Collections/01_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_01_arrays.dir/build.make CMakeFiles/03_Collections_01_arrays.dir/03_Collections/01_arrays.cpp.s
+.PHONY : 03_Collections/01_arrays.cpp.s
 
-04_Enums/enums.o: 04_Enums/enums.cpp.o
-.PHONY : 04_Enums/enums.o
+03_Collections/02_vector.o: 03_Collections/02_vector.cpp.o
+.PHONY : 03_Collections/02_vector.o
 
 # target to build an object file
-04_Enums/enums.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_Enums_enums.dir/build.make CMakeFiles/04_Enums_enums.dir/04_Enums/enums.cpp.o
-.PHONY : 04_Enums/enums.cpp.o
+03_Collections/02_vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_02_vector.dir/build.make CMakeFiles/03_Collections_02_vector.dir/03_Collections/02_vector.cpp.o
+.PHONY : 03_Collections/02_vector.cpp.o
 
-04_Enums/enums.i: 04_Enums/enums.cpp.i
-.PHONY : 04_Enums/enums.i
+03_Collections/02_vector.i: 03_Collections/02_vector.cpp.i
+.PHONY : 03_Collections/02_vector.i
 
 # target to preprocess a source file
-04_Enums/enums.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_Enums_enums.dir/build.make CMakeFiles/04_Enums_enums.dir/04_Enums/enums.cpp.i
-.PHONY : 04_Enums/enums.cpp.i
+03_Collections/02_vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_02_vector.dir/build.make CMakeFiles/03_Collections_02_vector.dir/03_Collections/02_vector.cpp.i
+.PHONY : 03_Collections/02_vector.cpp.i
 
-04_Enums/enums.s: 04_Enums/enums.cpp.s
-.PHONY : 04_Enums/enums.s
+03_Collections/02_vector.s: 03_Collections/02_vector.cpp.s
+.PHONY : 03_Collections/02_vector.s
 
 # target to generate assembly for a file
-04_Enums/enums.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_Enums_enums.dir/build.make CMakeFiles/04_Enums_enums.dir/04_Enums/enums.cpp.s
-.PHONY : 04_Enums/enums.cpp.s
+03_Collections/02_vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_02_vector.dir/build.make CMakeFiles/03_Collections_02_vector.dir/03_Collections/02_vector.cpp.s
+.PHONY : 03_Collections/02_vector.cpp.s
 
-05_Functions/functions.o: 05_Functions/functions.cpp.o
-.PHONY : 05_Functions/functions.o
+03_Collections/03_list_example.o: 03_Collections/03_list_example.cpp.o
+.PHONY : 03_Collections/03_list_example.o
 
 # target to build an object file
-05_Functions/functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_functions.dir/build.make CMakeFiles/05_Functions_functions.dir/05_Functions/functions.cpp.o
-.PHONY : 05_Functions/functions.cpp.o
+03_Collections/03_list_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_03_list_example.dir/build.make CMakeFiles/03_Collections_03_list_example.dir/03_Collections/03_list_example.cpp.o
+.PHONY : 03_Collections/03_list_example.cpp.o
 
-05_Functions/functions.i: 05_Functions/functions.cpp.i
-.PHONY : 05_Functions/functions.i
+03_Collections/03_list_example.i: 03_Collections/03_list_example.cpp.i
+.PHONY : 03_Collections/03_list_example.i
 
 # target to preprocess a source file
-05_Functions/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_functions.dir/build.make CMakeFiles/05_Functions_functions.dir/05_Functions/functions.cpp.i
-.PHONY : 05_Functions/functions.cpp.i
+03_Collections/03_list_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_03_list_example.dir/build.make CMakeFiles/03_Collections_03_list_example.dir/03_Collections/03_list_example.cpp.i
+.PHONY : 03_Collections/03_list_example.cpp.i
 
-05_Functions/functions.s: 05_Functions/functions.cpp.s
-.PHONY : 05_Functions/functions.s
+03_Collections/03_list_example.s: 03_Collections/03_list_example.cpp.s
+.PHONY : 03_Collections/03_list_example.s
 
 # target to generate assembly for a file
-05_Functions/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_functions.dir/build.make CMakeFiles/05_Functions_functions.dir/05_Functions/functions.cpp.s
-.PHONY : 05_Functions/functions.cpp.s
+03_Collections/03_list_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_03_list_example.dir/build.make CMakeFiles/03_Collections_03_list_example.dir/03_Collections/03_list_example.cpp.s
+.PHONY : 03_Collections/03_list_example.cpp.s
 
-05_Functions/noexcept.o: 05_Functions/noexcept.cpp.o
-.PHONY : 05_Functions/noexcept.o
+03_Collections/04_set_example.o: 03_Collections/04_set_example.cpp.o
+.PHONY : 03_Collections/04_set_example.o
 
 # target to build an object file
-05_Functions/noexcept.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_noexcept.dir/build.make CMakeFiles/05_Functions_noexcept.dir/05_Functions/noexcept.cpp.o
-.PHONY : 05_Functions/noexcept.cpp.o
+03_Collections/04_set_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_04_set_example.dir/build.make CMakeFiles/03_Collections_04_set_example.dir/03_Collections/04_set_example.cpp.o
+.PHONY : 03_Collections/04_set_example.cpp.o
 
-05_Functions/noexcept.i: 05_Functions/noexcept.cpp.i
-.PHONY : 05_Functions/noexcept.i
+03_Collections/04_set_example.i: 03_Collections/04_set_example.cpp.i
+.PHONY : 03_Collections/04_set_example.i
 
 # target to preprocess a source file
-05_Functions/noexcept.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_noexcept.dir/build.make CMakeFiles/05_Functions_noexcept.dir/05_Functions/noexcept.cpp.i
-.PHONY : 05_Functions/noexcept.cpp.i
+03_Collections/04_set_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_04_set_example.dir/build.make CMakeFiles/03_Collections_04_set_example.dir/03_Collections/04_set_example.cpp.i
+.PHONY : 03_Collections/04_set_example.cpp.i
 
-05_Functions/noexcept.s: 05_Functions/noexcept.cpp.s
-.PHONY : 05_Functions/noexcept.s
+03_Collections/04_set_example.s: 03_Collections/04_set_example.cpp.s
+.PHONY : 03_Collections/04_set_example.s
 
 # target to generate assembly for a file
-05_Functions/noexcept.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_Functions_noexcept.dir/build.make CMakeFiles/05_Functions_noexcept.dir/05_Functions/noexcept.cpp.s
-.PHONY : 05_Functions/noexcept.cpp.s
+03_Collections/04_set_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_04_set_example.dir/build.make CMakeFiles/03_Collections_04_set_example.dir/03_Collections/04_set_example.cpp.s
+.PHONY : 03_Collections/04_set_example.cpp.s
 
-06_STL/algorithm_example.o: 06_STL/algorithm_example.cpp.o
-.PHONY : 06_STL/algorithm_example.o
+03_Collections/05_map_example.o: 03_Collections/05_map_example.cpp.o
+.PHONY : 03_Collections/05_map_example.o
 
 # target to build an object file
-06_STL/algorithm_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example.dir/build.make CMakeFiles/06_STL_algorithm_example.dir/06_STL/algorithm_example.cpp.o
-.PHONY : 06_STL/algorithm_example.cpp.o
+03_Collections/05_map_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_05_map_example.dir/build.make CMakeFiles/03_Collections_05_map_example.dir/03_Collections/05_map_example.cpp.o
+.PHONY : 03_Collections/05_map_example.cpp.o
 
-06_STL/algorithm_example.i: 06_STL/algorithm_example.cpp.i
-.PHONY : 06_STL/algorithm_example.i
+03_Collections/05_map_example.i: 03_Collections/05_map_example.cpp.i
+.PHONY : 03_Collections/05_map_example.i
 
 # target to preprocess a source file
-06_STL/algorithm_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example.dir/build.make CMakeFiles/06_STL_algorithm_example.dir/06_STL/algorithm_example.cpp.i
-.PHONY : 06_STL/algorithm_example.cpp.i
+03_Collections/05_map_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_05_map_example.dir/build.make CMakeFiles/03_Collections_05_map_example.dir/03_Collections/05_map_example.cpp.i
+.PHONY : 03_Collections/05_map_example.cpp.i
 
-06_STL/algorithm_example.s: 06_STL/algorithm_example.cpp.s
-.PHONY : 06_STL/algorithm_example.s
+03_Collections/05_map_example.s: 03_Collections/05_map_example.cpp.s
+.PHONY : 03_Collections/05_map_example.s
 
 # target to generate assembly for a file
-06_STL/algorithm_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example.dir/build.make CMakeFiles/06_STL_algorithm_example.dir/06_STL/algorithm_example.cpp.s
-.PHONY : 06_STL/algorithm_example.cpp.s
+03_Collections/05_map_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_05_map_example.dir/build.make CMakeFiles/03_Collections_05_map_example.dir/03_Collections/05_map_example.cpp.s
+.PHONY : 03_Collections/05_map_example.cpp.s
 
-06_STL/algorithm_example_noob.o: 06_STL/algorithm_example_noob.cpp.o
-.PHONY : 06_STL/algorithm_example_noob.o
+03_Collections/06_multimap_example.o: 03_Collections/06_multimap_example.cpp.o
+.PHONY : 03_Collections/06_multimap_example.o
 
 # target to build an object file
-06_STL/algorithm_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example_noob.dir/build.make CMakeFiles/06_STL_algorithm_example_noob.dir/06_STL/algorithm_example_noob.cpp.o
-.PHONY : 06_STL/algorithm_example_noob.cpp.o
+03_Collections/06_multimap_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_06_multimap_example.dir/build.make CMakeFiles/03_Collections_06_multimap_example.dir/03_Collections/06_multimap_example.cpp.o
+.PHONY : 03_Collections/06_multimap_example.cpp.o
 
-06_STL/algorithm_example_noob.i: 06_STL/algorithm_example_noob.cpp.i
-.PHONY : 06_STL/algorithm_example_noob.i
+03_Collections/06_multimap_example.i: 03_Collections/06_multimap_example.cpp.i
+.PHONY : 03_Collections/06_multimap_example.i
 
 # target to preprocess a source file
-06_STL/algorithm_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example_noob.dir/build.make CMakeFiles/06_STL_algorithm_example_noob.dir/06_STL/algorithm_example_noob.cpp.i
-.PHONY : 06_STL/algorithm_example_noob.cpp.i
+03_Collections/06_multimap_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_06_multimap_example.dir/build.make CMakeFiles/03_Collections_06_multimap_example.dir/03_Collections/06_multimap_example.cpp.i
+.PHONY : 03_Collections/06_multimap_example.cpp.i
 
-06_STL/algorithm_example_noob.s: 06_STL/algorithm_example_noob.cpp.s
-.PHONY : 06_STL/algorithm_example_noob.s
+03_Collections/06_multimap_example.s: 03_Collections/06_multimap_example.cpp.s
+.PHONY : 03_Collections/06_multimap_example.s
 
 # target to generate assembly for a file
-06_STL/algorithm_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_algorithm_example_noob.dir/build.make CMakeFiles/06_STL_algorithm_example_noob.dir/06_STL/algorithm_example_noob.cpp.s
-.PHONY : 06_STL/algorithm_example_noob.cpp.s
+03_Collections/06_multimap_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_06_multimap_example.dir/build.make CMakeFiles/03_Collections_06_multimap_example.dir/03_Collections/06_multimap_example.cpp.s
+.PHONY : 03_Collections/06_multimap_example.cpp.s
 
-06_STL/array_example.o: 06_STL/array_example.cpp.o
-.PHONY : 06_STL/array_example.o
+03_Collections/07_deque_example.o: 03_Collections/07_deque_example.cpp.o
+.PHONY : 03_Collections/07_deque_example.o
 
 # target to build an object file
-06_STL/array_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example.dir/build.make CMakeFiles/06_STL_array_example.dir/06_STL/array_example.cpp.o
-.PHONY : 06_STL/array_example.cpp.o
+03_Collections/07_deque_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_07_deque_example.dir/build.make CMakeFiles/03_Collections_07_deque_example.dir/03_Collections/07_deque_example.cpp.o
+.PHONY : 03_Collections/07_deque_example.cpp.o
 
-06_STL/array_example.i: 06_STL/array_example.cpp.i
-.PHONY : 06_STL/array_example.i
+03_Collections/07_deque_example.i: 03_Collections/07_deque_example.cpp.i
+.PHONY : 03_Collections/07_deque_example.i
 
 # target to preprocess a source file
-06_STL/array_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example.dir/build.make CMakeFiles/06_STL_array_example.dir/06_STL/array_example.cpp.i
-.PHONY : 06_STL/array_example.cpp.i
+03_Collections/07_deque_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_07_deque_example.dir/build.make CMakeFiles/03_Collections_07_deque_example.dir/03_Collections/07_deque_example.cpp.i
+.PHONY : 03_Collections/07_deque_example.cpp.i
 
-06_STL/array_example.s: 06_STL/array_example.cpp.s
-.PHONY : 06_STL/array_example.s
+03_Collections/07_deque_example.s: 03_Collections/07_deque_example.cpp.s
+.PHONY : 03_Collections/07_deque_example.s
 
 # target to generate assembly for a file
-06_STL/array_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example.dir/build.make CMakeFiles/06_STL_array_example.dir/06_STL/array_example.cpp.s
-.PHONY : 06_STL/array_example.cpp.s
+03_Collections/07_deque_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_07_deque_example.dir/build.make CMakeFiles/03_Collections_07_deque_example.dir/03_Collections/07_deque_example.cpp.s
+.PHONY : 03_Collections/07_deque_example.cpp.s
 
-06_STL/array_example_noob.o: 06_STL/array_example_noob.cpp.o
-.PHONY : 06_STL/array_example_noob.o
+03_Collections/08_stack_example.o: 03_Collections/08_stack_example.cpp.o
+.PHONY : 03_Collections/08_stack_example.o
 
 # target to build an object file
-06_STL/array_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example_noob.dir/build.make CMakeFiles/06_STL_array_example_noob.dir/06_STL/array_example_noob.cpp.o
-.PHONY : 06_STL/array_example_noob.cpp.o
+03_Collections/08_stack_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_08_stack_example.dir/build.make CMakeFiles/03_Collections_08_stack_example.dir/03_Collections/08_stack_example.cpp.o
+.PHONY : 03_Collections/08_stack_example.cpp.o
 
-06_STL/array_example_noob.i: 06_STL/array_example_noob.cpp.i
-.PHONY : 06_STL/array_example_noob.i
+03_Collections/08_stack_example.i: 03_Collections/08_stack_example.cpp.i
+.PHONY : 03_Collections/08_stack_example.i
 
 # target to preprocess a source file
-06_STL/array_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example_noob.dir/build.make CMakeFiles/06_STL_array_example_noob.dir/06_STL/array_example_noob.cpp.i
-.PHONY : 06_STL/array_example_noob.cpp.i
+03_Collections/08_stack_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_08_stack_example.dir/build.make CMakeFiles/03_Collections_08_stack_example.dir/03_Collections/08_stack_example.cpp.i
+.PHONY : 03_Collections/08_stack_example.cpp.i
 
-06_STL/array_example_noob.s: 06_STL/array_example_noob.cpp.s
-.PHONY : 06_STL/array_example_noob.s
+03_Collections/08_stack_example.s: 03_Collections/08_stack_example.cpp.s
+.PHONY : 03_Collections/08_stack_example.s
 
 # target to generate assembly for a file
-06_STL/array_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_array_example_noob.dir/build.make CMakeFiles/06_STL_array_example_noob.dir/06_STL/array_example_noob.cpp.s
-.PHONY : 06_STL/array_example_noob.cpp.s
+03_Collections/08_stack_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_08_stack_example.dir/build.make CMakeFiles/03_Collections_08_stack_example.dir/03_Collections/08_stack_example.cpp.s
+.PHONY : 03_Collections/08_stack_example.cpp.s
 
-06_STL/bitset_example.o: 06_STL/bitset_example.cpp.o
-.PHONY : 06_STL/bitset_example.o
+03_Collections/09_queue_example.o: 03_Collections/09_queue_example.cpp.o
+.PHONY : 03_Collections/09_queue_example.o
 
 # target to build an object file
-06_STL/bitset_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example.dir/build.make CMakeFiles/06_STL_bitset_example.dir/06_STL/bitset_example.cpp.o
-.PHONY : 06_STL/bitset_example.cpp.o
+03_Collections/09_queue_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_09_queue_example.dir/build.make CMakeFiles/03_Collections_09_queue_example.dir/03_Collections/09_queue_example.cpp.o
+.PHONY : 03_Collections/09_queue_example.cpp.o
 
-06_STL/bitset_example.i: 06_STL/bitset_example.cpp.i
-.PHONY : 06_STL/bitset_example.i
+03_Collections/09_queue_example.i: 03_Collections/09_queue_example.cpp.i
+.PHONY : 03_Collections/09_queue_example.i
 
 # target to preprocess a source file
-06_STL/bitset_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example.dir/build.make CMakeFiles/06_STL_bitset_example.dir/06_STL/bitset_example.cpp.i
-.PHONY : 06_STL/bitset_example.cpp.i
+03_Collections/09_queue_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_09_queue_example.dir/build.make CMakeFiles/03_Collections_09_queue_example.dir/03_Collections/09_queue_example.cpp.i
+.PHONY : 03_Collections/09_queue_example.cpp.i
 
-06_STL/bitset_example.s: 06_STL/bitset_example.cpp.s
-.PHONY : 06_STL/bitset_example.s
+03_Collections/09_queue_example.s: 03_Collections/09_queue_example.cpp.s
+.PHONY : 03_Collections/09_queue_example.s
 
 # target to generate assembly for a file
-06_STL/bitset_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example.dir/build.make CMakeFiles/06_STL_bitset_example.dir/06_STL/bitset_example.cpp.s
-.PHONY : 06_STL/bitset_example.cpp.s
+03_Collections/09_queue_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_09_queue_example.dir/build.make CMakeFiles/03_Collections_09_queue_example.dir/03_Collections/09_queue_example.cpp.s
+.PHONY : 03_Collections/09_queue_example.cpp.s
 
-06_STL/bitset_example_noob.o: 06_STL/bitset_example_noob.cpp.o
-.PHONY : 06_STL/bitset_example_noob.o
+03_Collections/10_unordered_map_example.o: 03_Collections/10_unordered_map_example.cpp.o
+.PHONY : 03_Collections/10_unordered_map_example.o
 
 # target to build an object file
-06_STL/bitset_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example_noob.dir/build.make CMakeFiles/06_STL_bitset_example_noob.dir/06_STL/bitset_example_noob.cpp.o
-.PHONY : 06_STL/bitset_example_noob.cpp.o
+03_Collections/10_unordered_map_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_10_unordered_map_example.dir/build.make CMakeFiles/03_Collections_10_unordered_map_example.dir/03_Collections/10_unordered_map_example.cpp.o
+.PHONY : 03_Collections/10_unordered_map_example.cpp.o
 
-06_STL/bitset_example_noob.i: 06_STL/bitset_example_noob.cpp.i
-.PHONY : 06_STL/bitset_example_noob.i
+03_Collections/10_unordered_map_example.i: 03_Collections/10_unordered_map_example.cpp.i
+.PHONY : 03_Collections/10_unordered_map_example.i
 
 # target to preprocess a source file
-06_STL/bitset_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example_noob.dir/build.make CMakeFiles/06_STL_bitset_example_noob.dir/06_STL/bitset_example_noob.cpp.i
-.PHONY : 06_STL/bitset_example_noob.cpp.i
+03_Collections/10_unordered_map_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_10_unordered_map_example.dir/build.make CMakeFiles/03_Collections_10_unordered_map_example.dir/03_Collections/10_unordered_map_example.cpp.i
+.PHONY : 03_Collections/10_unordered_map_example.cpp.i
 
-06_STL/bitset_example_noob.s: 06_STL/bitset_example_noob.cpp.s
-.PHONY : 06_STL/bitset_example_noob.s
+03_Collections/10_unordered_map_example.s: 03_Collections/10_unordered_map_example.cpp.s
+.PHONY : 03_Collections/10_unordered_map_example.s
 
 # target to generate assembly for a file
-06_STL/bitset_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_bitset_example_noob.dir/build.make CMakeFiles/06_STL_bitset_example_noob.dir/06_STL/bitset_example_noob.cpp.s
-.PHONY : 06_STL/bitset_example_noob.cpp.s
+03_Collections/10_unordered_map_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_10_unordered_map_example.dir/build.make CMakeFiles/03_Collections_10_unordered_map_example.dir/03_Collections/10_unordered_map_example.cpp.s
+.PHONY : 03_Collections/10_unordered_map_example.cpp.s
 
-06_STL/chrono_example.o: 06_STL/chrono_example.cpp.o
-.PHONY : 06_STL/chrono_example.o
+03_Collections/11_unordered_set_example.o: 03_Collections/11_unordered_set_example.cpp.o
+.PHONY : 03_Collections/11_unordered_set_example.o
 
 # target to build an object file
-06_STL/chrono_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example.dir/build.make CMakeFiles/06_STL_chrono_example.dir/06_STL/chrono_example.cpp.o
-.PHONY : 06_STL/chrono_example.cpp.o
+03_Collections/11_unordered_set_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_11_unordered_set_example.dir/build.make CMakeFiles/03_Collections_11_unordered_set_example.dir/03_Collections/11_unordered_set_example.cpp.o
+.PHONY : 03_Collections/11_unordered_set_example.cpp.o
 
-06_STL/chrono_example.i: 06_STL/chrono_example.cpp.i
-.PHONY : 06_STL/chrono_example.i
+03_Collections/11_unordered_set_example.i: 03_Collections/11_unordered_set_example.cpp.i
+.PHONY : 03_Collections/11_unordered_set_example.i
 
 # target to preprocess a source file
-06_STL/chrono_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example.dir/build.make CMakeFiles/06_STL_chrono_example.dir/06_STL/chrono_example.cpp.i
-.PHONY : 06_STL/chrono_example.cpp.i
+03_Collections/11_unordered_set_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_11_unordered_set_example.dir/build.make CMakeFiles/03_Collections_11_unordered_set_example.dir/03_Collections/11_unordered_set_example.cpp.i
+.PHONY : 03_Collections/11_unordered_set_example.cpp.i
 
-06_STL/chrono_example.s: 06_STL/chrono_example.cpp.s
-.PHONY : 06_STL/chrono_example.s
+03_Collections/11_unordered_set_example.s: 03_Collections/11_unordered_set_example.cpp.s
+.PHONY : 03_Collections/11_unordered_set_example.s
 
 # target to generate assembly for a file
-06_STL/chrono_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example.dir/build.make CMakeFiles/06_STL_chrono_example.dir/06_STL/chrono_example.cpp.s
-.PHONY : 06_STL/chrono_example.cpp.s
+03_Collections/11_unordered_set_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_11_unordered_set_example.dir/build.make CMakeFiles/03_Collections_11_unordered_set_example.dir/03_Collections/11_unordered_set_example.cpp.s
+.PHONY : 03_Collections/11_unordered_set_example.cpp.s
 
-06_STL/chrono_example_noob.o: 06_STL/chrono_example_noob.cpp.o
-.PHONY : 06_STL/chrono_example_noob.o
+03_Collections/set_example_complex.o: 03_Collections/set_example_complex.cpp.o
+.PHONY : 03_Collections/set_example_complex.o
 
 # target to build an object file
-06_STL/chrono_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example_noob.dir/build.make CMakeFiles/06_STL_chrono_example_noob.dir/06_STL/chrono_example_noob.cpp.o
-.PHONY : 06_STL/chrono_example_noob.cpp.o
+03_Collections/set_example_complex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_set_example_complex.dir/build.make CMakeFiles/03_Collections_set_example_complex.dir/03_Collections/set_example_complex.cpp.o
+.PHONY : 03_Collections/set_example_complex.cpp.o
 
-06_STL/chrono_example_noob.i: 06_STL/chrono_example_noob.cpp.i
-.PHONY : 06_STL/chrono_example_noob.i
+03_Collections/set_example_complex.i: 03_Collections/set_example_complex.cpp.i
+.PHONY : 03_Collections/set_example_complex.i
 
 # target to preprocess a source file
-06_STL/chrono_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example_noob.dir/build.make CMakeFiles/06_STL_chrono_example_noob.dir/06_STL/chrono_example_noob.cpp.i
-.PHONY : 06_STL/chrono_example_noob.cpp.i
+03_Collections/set_example_complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_set_example_complex.dir/build.make CMakeFiles/03_Collections_set_example_complex.dir/03_Collections/set_example_complex.cpp.i
+.PHONY : 03_Collections/set_example_complex.cpp.i
 
-06_STL/chrono_example_noob.s: 06_STL/chrono_example_noob.cpp.s
-.PHONY : 06_STL/chrono_example_noob.s
+03_Collections/set_example_complex.s: 03_Collections/set_example_complex.cpp.s
+.PHONY : 03_Collections/set_example_complex.s
 
 # target to generate assembly for a file
-06_STL/chrono_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_chrono_example_noob.dir/build.make CMakeFiles/06_STL_chrono_example_noob.dir/06_STL/chrono_example_noob.cpp.s
-.PHONY : 06_STL/chrono_example_noob.cpp.s
+03_Collections/set_example_complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03_Collections_set_example_complex.dir/build.make CMakeFiles/03_Collections_set_example_complex.dir/03_Collections/set_example_complex.cpp.s
+.PHONY : 03_Collections/set_example_complex.cpp.s
 
-06_STL/deque_example.o: 06_STL/deque_example.cpp.o
-.PHONY : 06_STL/deque_example.o
+04_FunctionsAndLambdas/free_functions.o: 04_FunctionsAndLambdas/free_functions.cpp.o
+.PHONY : 04_FunctionsAndLambdas/free_functions.o
 
 # target to build an object file
-06_STL/deque_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example.dir/build.make CMakeFiles/06_STL_deque_example.dir/06_STL/deque_example.cpp.o
-.PHONY : 06_STL/deque_example.cpp.o
+04_FunctionsAndLambdas/free_functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/build.make CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/04_FunctionsAndLambdas/free_functions.cpp.o
+.PHONY : 04_FunctionsAndLambdas/free_functions.cpp.o
 
-06_STL/deque_example.i: 06_STL/deque_example.cpp.i
-.PHONY : 06_STL/deque_example.i
+04_FunctionsAndLambdas/free_functions.i: 04_FunctionsAndLambdas/free_functions.cpp.i
+.PHONY : 04_FunctionsAndLambdas/free_functions.i
 
 # target to preprocess a source file
-06_STL/deque_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example.dir/build.make CMakeFiles/06_STL_deque_example.dir/06_STL/deque_example.cpp.i
-.PHONY : 06_STL/deque_example.cpp.i
+04_FunctionsAndLambdas/free_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/build.make CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/04_FunctionsAndLambdas/free_functions.cpp.i
+.PHONY : 04_FunctionsAndLambdas/free_functions.cpp.i
 
-06_STL/deque_example.s: 06_STL/deque_example.cpp.s
-.PHONY : 06_STL/deque_example.s
+04_FunctionsAndLambdas/free_functions.s: 04_FunctionsAndLambdas/free_functions.cpp.s
+.PHONY : 04_FunctionsAndLambdas/free_functions.s
 
 # target to generate assembly for a file
-06_STL/deque_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example.dir/build.make CMakeFiles/06_STL_deque_example.dir/06_STL/deque_example.cpp.s
-.PHONY : 06_STL/deque_example.cpp.s
+04_FunctionsAndLambdas/free_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/build.make CMakeFiles/04_FunctionsAndLambdas_free_functions.dir/04_FunctionsAndLambdas/free_functions.cpp.s
+.PHONY : 04_FunctionsAndLambdas/free_functions.cpp.s
 
-06_STL/deque_example_noob.o: 06_STL/deque_example_noob.cpp.o
-.PHONY : 06_STL/deque_example_noob.o
+04_FunctionsAndLambdas/lambdas.o: 04_FunctionsAndLambdas/lambdas.cpp.o
+.PHONY : 04_FunctionsAndLambdas/lambdas.o
 
 # target to build an object file
-06_STL/deque_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example_noob.dir/build.make CMakeFiles/06_STL_deque_example_noob.dir/06_STL/deque_example_noob.cpp.o
-.PHONY : 06_STL/deque_example_noob.cpp.o
+04_FunctionsAndLambdas/lambdas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/build.make CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/04_FunctionsAndLambdas/lambdas.cpp.o
+.PHONY : 04_FunctionsAndLambdas/lambdas.cpp.o
 
-06_STL/deque_example_noob.i: 06_STL/deque_example_noob.cpp.i
-.PHONY : 06_STL/deque_example_noob.i
+04_FunctionsAndLambdas/lambdas.i: 04_FunctionsAndLambdas/lambdas.cpp.i
+.PHONY : 04_FunctionsAndLambdas/lambdas.i
 
 # target to preprocess a source file
-06_STL/deque_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example_noob.dir/build.make CMakeFiles/06_STL_deque_example_noob.dir/06_STL/deque_example_noob.cpp.i
-.PHONY : 06_STL/deque_example_noob.cpp.i
+04_FunctionsAndLambdas/lambdas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/build.make CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/04_FunctionsAndLambdas/lambdas.cpp.i
+.PHONY : 04_FunctionsAndLambdas/lambdas.cpp.i
 
-06_STL/deque_example_noob.s: 06_STL/deque_example_noob.cpp.s
-.PHONY : 06_STL/deque_example_noob.s
+04_FunctionsAndLambdas/lambdas.s: 04_FunctionsAndLambdas/lambdas.cpp.s
+.PHONY : 04_FunctionsAndLambdas/lambdas.s
 
 # target to generate assembly for a file
-06_STL/deque_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_deque_example_noob.dir/build.make CMakeFiles/06_STL_deque_example_noob.dir/06_STL/deque_example_noob.cpp.s
-.PHONY : 06_STL/deque_example_noob.cpp.s
+04_FunctionsAndLambdas/lambdas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/build.make CMakeFiles/04_FunctionsAndLambdas_lambdas.dir/04_FunctionsAndLambdas/lambdas.cpp.s
+.PHONY : 04_FunctionsAndLambdas/lambdas.cpp.s
 
-06_STL/filesystem_example.o: 06_STL/filesystem_example.cpp.o
-.PHONY : 06_STL/filesystem_example.o
+04_FunctionsAndLambdas/noexcept.o: 04_FunctionsAndLambdas/noexcept.cpp.o
+.PHONY : 04_FunctionsAndLambdas/noexcept.o
 
 # target to build an object file
-06_STL/filesystem_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example.dir/build.make CMakeFiles/06_STL_filesystem_example.dir/06_STL/filesystem_example.cpp.o
-.PHONY : 06_STL/filesystem_example.cpp.o
+04_FunctionsAndLambdas/noexcept.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/build.make CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/04_FunctionsAndLambdas/noexcept.cpp.o
+.PHONY : 04_FunctionsAndLambdas/noexcept.cpp.o
 
-06_STL/filesystem_example.i: 06_STL/filesystem_example.cpp.i
-.PHONY : 06_STL/filesystem_example.i
+04_FunctionsAndLambdas/noexcept.i: 04_FunctionsAndLambdas/noexcept.cpp.i
+.PHONY : 04_FunctionsAndLambdas/noexcept.i
 
 # target to preprocess a source file
-06_STL/filesystem_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example.dir/build.make CMakeFiles/06_STL_filesystem_example.dir/06_STL/filesystem_example.cpp.i
-.PHONY : 06_STL/filesystem_example.cpp.i
+04_FunctionsAndLambdas/noexcept.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/build.make CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/04_FunctionsAndLambdas/noexcept.cpp.i
+.PHONY : 04_FunctionsAndLambdas/noexcept.cpp.i
 
-06_STL/filesystem_example.s: 06_STL/filesystem_example.cpp.s
-.PHONY : 06_STL/filesystem_example.s
+04_FunctionsAndLambdas/noexcept.s: 04_FunctionsAndLambdas/noexcept.cpp.s
+.PHONY : 04_FunctionsAndLambdas/noexcept.s
 
 # target to generate assembly for a file
-06_STL/filesystem_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example.dir/build.make CMakeFiles/06_STL_filesystem_example.dir/06_STL/filesystem_example.cpp.s
-.PHONY : 06_STL/filesystem_example.cpp.s
+04_FunctionsAndLambdas/noexcept.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/build.make CMakeFiles/04_FunctionsAndLambdas_noexcept.dir/04_FunctionsAndLambdas/noexcept.cpp.s
+.PHONY : 04_FunctionsAndLambdas/noexcept.cpp.s
 
-06_STL/filesystem_example_noob.o: 06_STL/filesystem_example_noob.cpp.o
-.PHONY : 06_STL/filesystem_example_noob.o
+05_STL/algorithm_example.o: 05_STL/algorithm_example.cpp.o
+.PHONY : 05_STL/algorithm_example.o
 
 # target to build an object file
-06_STL/filesystem_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example_noob.dir/build.make CMakeFiles/06_STL_filesystem_example_noob.dir/06_STL/filesystem_example_noob.cpp.o
-.PHONY : 06_STL/filesystem_example_noob.cpp.o
+05_STL/algorithm_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example.dir/build.make CMakeFiles/05_STL_algorithm_example.dir/05_STL/algorithm_example.cpp.o
+.PHONY : 05_STL/algorithm_example.cpp.o
 
-06_STL/filesystem_example_noob.i: 06_STL/filesystem_example_noob.cpp.i
-.PHONY : 06_STL/filesystem_example_noob.i
+05_STL/algorithm_example.i: 05_STL/algorithm_example.cpp.i
+.PHONY : 05_STL/algorithm_example.i
 
 # target to preprocess a source file
-06_STL/filesystem_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example_noob.dir/build.make CMakeFiles/06_STL_filesystem_example_noob.dir/06_STL/filesystem_example_noob.cpp.i
-.PHONY : 06_STL/filesystem_example_noob.cpp.i
+05_STL/algorithm_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example.dir/build.make CMakeFiles/05_STL_algorithm_example.dir/05_STL/algorithm_example.cpp.i
+.PHONY : 05_STL/algorithm_example.cpp.i
 
-06_STL/filesystem_example_noob.s: 06_STL/filesystem_example_noob.cpp.s
-.PHONY : 06_STL/filesystem_example_noob.s
+05_STL/algorithm_example.s: 05_STL/algorithm_example.cpp.s
+.PHONY : 05_STL/algorithm_example.s
 
 # target to generate assembly for a file
-06_STL/filesystem_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_filesystem_example_noob.dir/build.make CMakeFiles/06_STL_filesystem_example_noob.dir/06_STL/filesystem_example_noob.cpp.s
-.PHONY : 06_STL/filesystem_example_noob.cpp.s
+05_STL/algorithm_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example.dir/build.make CMakeFiles/05_STL_algorithm_example.dir/05_STL/algorithm_example.cpp.s
+.PHONY : 05_STL/algorithm_example.cpp.s
 
-06_STL/forward_list_example.o: 06_STL/forward_list_example.cpp.o
-.PHONY : 06_STL/forward_list_example.o
+05_STL/algorithm_example_noob.o: 05_STL/algorithm_example_noob.cpp.o
+.PHONY : 05_STL/algorithm_example_noob.o
 
 # target to build an object file
-06_STL/forward_list_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example.dir/build.make CMakeFiles/06_STL_forward_list_example.dir/06_STL/forward_list_example.cpp.o
-.PHONY : 06_STL/forward_list_example.cpp.o
+05_STL/algorithm_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example_noob.dir/build.make CMakeFiles/05_STL_algorithm_example_noob.dir/05_STL/algorithm_example_noob.cpp.o
+.PHONY : 05_STL/algorithm_example_noob.cpp.o
 
-06_STL/forward_list_example.i: 06_STL/forward_list_example.cpp.i
-.PHONY : 06_STL/forward_list_example.i
+05_STL/algorithm_example_noob.i: 05_STL/algorithm_example_noob.cpp.i
+.PHONY : 05_STL/algorithm_example_noob.i
 
 # target to preprocess a source file
-06_STL/forward_list_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example.dir/build.make CMakeFiles/06_STL_forward_list_example.dir/06_STL/forward_list_example.cpp.i
-.PHONY : 06_STL/forward_list_example.cpp.i
+05_STL/algorithm_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example_noob.dir/build.make CMakeFiles/05_STL_algorithm_example_noob.dir/05_STL/algorithm_example_noob.cpp.i
+.PHONY : 05_STL/algorithm_example_noob.cpp.i
 
-06_STL/forward_list_example.s: 06_STL/forward_list_example.cpp.s
-.PHONY : 06_STL/forward_list_example.s
+05_STL/algorithm_example_noob.s: 05_STL/algorithm_example_noob.cpp.s
+.PHONY : 05_STL/algorithm_example_noob.s
 
 # target to generate assembly for a file
-06_STL/forward_list_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example.dir/build.make CMakeFiles/06_STL_forward_list_example.dir/06_STL/forward_list_example.cpp.s
-.PHONY : 06_STL/forward_list_example.cpp.s
+05_STL/algorithm_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_algorithm_example_noob.dir/build.make CMakeFiles/05_STL_algorithm_example_noob.dir/05_STL/algorithm_example_noob.cpp.s
+.PHONY : 05_STL/algorithm_example_noob.cpp.s
 
-06_STL/forward_list_example_noob.o: 06_STL/forward_list_example_noob.cpp.o
-.PHONY : 06_STL/forward_list_example_noob.o
+05_STL/array_example.o: 05_STL/array_example.cpp.o
+.PHONY : 05_STL/array_example.o
 
 # target to build an object file
-06_STL/forward_list_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example_noob.dir/build.make CMakeFiles/06_STL_forward_list_example_noob.dir/06_STL/forward_list_example_noob.cpp.o
-.PHONY : 06_STL/forward_list_example_noob.cpp.o
+05_STL/array_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example.dir/build.make CMakeFiles/05_STL_array_example.dir/05_STL/array_example.cpp.o
+.PHONY : 05_STL/array_example.cpp.o
 
-06_STL/forward_list_example_noob.i: 06_STL/forward_list_example_noob.cpp.i
-.PHONY : 06_STL/forward_list_example_noob.i
+05_STL/array_example.i: 05_STL/array_example.cpp.i
+.PHONY : 05_STL/array_example.i
 
 # target to preprocess a source file
-06_STL/forward_list_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example_noob.dir/build.make CMakeFiles/06_STL_forward_list_example_noob.dir/06_STL/forward_list_example_noob.cpp.i
-.PHONY : 06_STL/forward_list_example_noob.cpp.i
+05_STL/array_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example.dir/build.make CMakeFiles/05_STL_array_example.dir/05_STL/array_example.cpp.i
+.PHONY : 05_STL/array_example.cpp.i
 
-06_STL/forward_list_example_noob.s: 06_STL/forward_list_example_noob.cpp.s
-.PHONY : 06_STL/forward_list_example_noob.s
+05_STL/array_example.s: 05_STL/array_example.cpp.s
+.PHONY : 05_STL/array_example.s
 
 # target to generate assembly for a file
-06_STL/forward_list_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_forward_list_example_noob.dir/build.make CMakeFiles/06_STL_forward_list_example_noob.dir/06_STL/forward_list_example_noob.cpp.s
-.PHONY : 06_STL/forward_list_example_noob.cpp.s
+05_STL/array_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example.dir/build.make CMakeFiles/05_STL_array_example.dir/05_STL/array_example.cpp.s
+.PHONY : 05_STL/array_example.cpp.s
 
-06_STL/function_bind_example.o: 06_STL/function_bind_example.cpp.o
-.PHONY : 06_STL/function_bind_example.o
+05_STL/array_example_noob.o: 05_STL/array_example_noob.cpp.o
+.PHONY : 05_STL/array_example_noob.o
 
 # target to build an object file
-06_STL/function_bind_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example.dir/build.make CMakeFiles/06_STL_function_bind_example.dir/06_STL/function_bind_example.cpp.o
-.PHONY : 06_STL/function_bind_example.cpp.o
+05_STL/array_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example_noob.dir/build.make CMakeFiles/05_STL_array_example_noob.dir/05_STL/array_example_noob.cpp.o
+.PHONY : 05_STL/array_example_noob.cpp.o
 
-06_STL/function_bind_example.i: 06_STL/function_bind_example.cpp.i
-.PHONY : 06_STL/function_bind_example.i
+05_STL/array_example_noob.i: 05_STL/array_example_noob.cpp.i
+.PHONY : 05_STL/array_example_noob.i
 
 # target to preprocess a source file
-06_STL/function_bind_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example.dir/build.make CMakeFiles/06_STL_function_bind_example.dir/06_STL/function_bind_example.cpp.i
-.PHONY : 06_STL/function_bind_example.cpp.i
+05_STL/array_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example_noob.dir/build.make CMakeFiles/05_STL_array_example_noob.dir/05_STL/array_example_noob.cpp.i
+.PHONY : 05_STL/array_example_noob.cpp.i
 
-06_STL/function_bind_example.s: 06_STL/function_bind_example.cpp.s
-.PHONY : 06_STL/function_bind_example.s
+05_STL/array_example_noob.s: 05_STL/array_example_noob.cpp.s
+.PHONY : 05_STL/array_example_noob.s
 
 # target to generate assembly for a file
-06_STL/function_bind_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example.dir/build.make CMakeFiles/06_STL_function_bind_example.dir/06_STL/function_bind_example.cpp.s
-.PHONY : 06_STL/function_bind_example.cpp.s
+05_STL/array_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_array_example_noob.dir/build.make CMakeFiles/05_STL_array_example_noob.dir/05_STL/array_example_noob.cpp.s
+.PHONY : 05_STL/array_example_noob.cpp.s
 
-06_STL/function_bind_example_noob.o: 06_STL/function_bind_example_noob.cpp.o
-.PHONY : 06_STL/function_bind_example_noob.o
+05_STL/bitset_example.o: 05_STL/bitset_example.cpp.o
+.PHONY : 05_STL/bitset_example.o
 
 # target to build an object file
-06_STL/function_bind_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example_noob.dir/build.make CMakeFiles/06_STL_function_bind_example_noob.dir/06_STL/function_bind_example_noob.cpp.o
-.PHONY : 06_STL/function_bind_example_noob.cpp.o
+05_STL/bitset_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example.dir/build.make CMakeFiles/05_STL_bitset_example.dir/05_STL/bitset_example.cpp.o
+.PHONY : 05_STL/bitset_example.cpp.o
 
-06_STL/function_bind_example_noob.i: 06_STL/function_bind_example_noob.cpp.i
-.PHONY : 06_STL/function_bind_example_noob.i
+05_STL/bitset_example.i: 05_STL/bitset_example.cpp.i
+.PHONY : 05_STL/bitset_example.i
 
 # target to preprocess a source file
-06_STL/function_bind_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example_noob.dir/build.make CMakeFiles/06_STL_function_bind_example_noob.dir/06_STL/function_bind_example_noob.cpp.i
-.PHONY : 06_STL/function_bind_example_noob.cpp.i
+05_STL/bitset_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example.dir/build.make CMakeFiles/05_STL_bitset_example.dir/05_STL/bitset_example.cpp.i
+.PHONY : 05_STL/bitset_example.cpp.i
 
-06_STL/function_bind_example_noob.s: 06_STL/function_bind_example_noob.cpp.s
-.PHONY : 06_STL/function_bind_example_noob.s
+05_STL/bitset_example.s: 05_STL/bitset_example.cpp.s
+.PHONY : 05_STL/bitset_example.s
 
 # target to generate assembly for a file
-06_STL/function_bind_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_function_bind_example_noob.dir/build.make CMakeFiles/06_STL_function_bind_example_noob.dir/06_STL/function_bind_example_noob.cpp.s
-.PHONY : 06_STL/function_bind_example_noob.cpp.s
+05_STL/bitset_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example.dir/build.make CMakeFiles/05_STL_bitset_example.dir/05_STL/bitset_example.cpp.s
+.PHONY : 05_STL/bitset_example.cpp.s
 
-06_STL/future_example.o: 06_STL/future_example.cpp.o
-.PHONY : 06_STL/future_example.o
+05_STL/bitset_example_noob.o: 05_STL/bitset_example_noob.cpp.o
+.PHONY : 05_STL/bitset_example_noob.o
 
 # target to build an object file
-06_STL/future_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example.dir/build.make CMakeFiles/06_STL_future_example.dir/06_STL/future_example.cpp.o
-.PHONY : 06_STL/future_example.cpp.o
+05_STL/bitset_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example_noob.dir/build.make CMakeFiles/05_STL_bitset_example_noob.dir/05_STL/bitset_example_noob.cpp.o
+.PHONY : 05_STL/bitset_example_noob.cpp.o
 
-06_STL/future_example.i: 06_STL/future_example.cpp.i
-.PHONY : 06_STL/future_example.i
+05_STL/bitset_example_noob.i: 05_STL/bitset_example_noob.cpp.i
+.PHONY : 05_STL/bitset_example_noob.i
 
 # target to preprocess a source file
-06_STL/future_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example.dir/build.make CMakeFiles/06_STL_future_example.dir/06_STL/future_example.cpp.i
-.PHONY : 06_STL/future_example.cpp.i
+05_STL/bitset_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example_noob.dir/build.make CMakeFiles/05_STL_bitset_example_noob.dir/05_STL/bitset_example_noob.cpp.i
+.PHONY : 05_STL/bitset_example_noob.cpp.i
 
-06_STL/future_example.s: 06_STL/future_example.cpp.s
-.PHONY : 06_STL/future_example.s
+05_STL/bitset_example_noob.s: 05_STL/bitset_example_noob.cpp.s
+.PHONY : 05_STL/bitset_example_noob.s
 
 # target to generate assembly for a file
-06_STL/future_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example.dir/build.make CMakeFiles/06_STL_future_example.dir/06_STL/future_example.cpp.s
-.PHONY : 06_STL/future_example.cpp.s
+05_STL/bitset_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_bitset_example_noob.dir/build.make CMakeFiles/05_STL_bitset_example_noob.dir/05_STL/bitset_example_noob.cpp.s
+.PHONY : 05_STL/bitset_example_noob.cpp.s
 
-06_STL/future_example_noob.o: 06_STL/future_example_noob.cpp.o
-.PHONY : 06_STL/future_example_noob.o
+05_STL/chrono_example.o: 05_STL/chrono_example.cpp.o
+.PHONY : 05_STL/chrono_example.o
 
 # target to build an object file
-06_STL/future_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example_noob.dir/build.make CMakeFiles/06_STL_future_example_noob.dir/06_STL/future_example_noob.cpp.o
-.PHONY : 06_STL/future_example_noob.cpp.o
+05_STL/chrono_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example.dir/build.make CMakeFiles/05_STL_chrono_example.dir/05_STL/chrono_example.cpp.o
+.PHONY : 05_STL/chrono_example.cpp.o
 
-06_STL/future_example_noob.i: 06_STL/future_example_noob.cpp.i
-.PHONY : 06_STL/future_example_noob.i
+05_STL/chrono_example.i: 05_STL/chrono_example.cpp.i
+.PHONY : 05_STL/chrono_example.i
 
 # target to preprocess a source file
-06_STL/future_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example_noob.dir/build.make CMakeFiles/06_STL_future_example_noob.dir/06_STL/future_example_noob.cpp.i
-.PHONY : 06_STL/future_example_noob.cpp.i
+05_STL/chrono_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example.dir/build.make CMakeFiles/05_STL_chrono_example.dir/05_STL/chrono_example.cpp.i
+.PHONY : 05_STL/chrono_example.cpp.i
 
-06_STL/future_example_noob.s: 06_STL/future_example_noob.cpp.s
-.PHONY : 06_STL/future_example_noob.s
+05_STL/chrono_example.s: 05_STL/chrono_example.cpp.s
+.PHONY : 05_STL/chrono_example.s
 
 # target to generate assembly for a file
-06_STL/future_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_future_example_noob.dir/build.make CMakeFiles/06_STL_future_example_noob.dir/06_STL/future_example_noob.cpp.s
-.PHONY : 06_STL/future_example_noob.cpp.s
+05_STL/chrono_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example.dir/build.make CMakeFiles/05_STL_chrono_example.dir/05_STL/chrono_example.cpp.s
+.PHONY : 05_STL/chrono_example.cpp.s
 
-06_STL/list_example.o: 06_STL/list_example.cpp.o
-.PHONY : 06_STL/list_example.o
+05_STL/chrono_example_noob.o: 05_STL/chrono_example_noob.cpp.o
+.PHONY : 05_STL/chrono_example_noob.o
 
 # target to build an object file
-06_STL/list_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example.dir/build.make CMakeFiles/06_STL_list_example.dir/06_STL/list_example.cpp.o
-.PHONY : 06_STL/list_example.cpp.o
+05_STL/chrono_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example_noob.dir/build.make CMakeFiles/05_STL_chrono_example_noob.dir/05_STL/chrono_example_noob.cpp.o
+.PHONY : 05_STL/chrono_example_noob.cpp.o
 
-06_STL/list_example.i: 06_STL/list_example.cpp.i
-.PHONY : 06_STL/list_example.i
+05_STL/chrono_example_noob.i: 05_STL/chrono_example_noob.cpp.i
+.PHONY : 05_STL/chrono_example_noob.i
 
 # target to preprocess a source file
-06_STL/list_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example.dir/build.make CMakeFiles/06_STL_list_example.dir/06_STL/list_example.cpp.i
-.PHONY : 06_STL/list_example.cpp.i
+05_STL/chrono_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example_noob.dir/build.make CMakeFiles/05_STL_chrono_example_noob.dir/05_STL/chrono_example_noob.cpp.i
+.PHONY : 05_STL/chrono_example_noob.cpp.i
 
-06_STL/list_example.s: 06_STL/list_example.cpp.s
-.PHONY : 06_STL/list_example.s
+05_STL/chrono_example_noob.s: 05_STL/chrono_example_noob.cpp.s
+.PHONY : 05_STL/chrono_example_noob.s
 
 # target to generate assembly for a file
-06_STL/list_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example.dir/build.make CMakeFiles/06_STL_list_example.dir/06_STL/list_example.cpp.s
-.PHONY : 06_STL/list_example.cpp.s
+05_STL/chrono_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_chrono_example_noob.dir/build.make CMakeFiles/05_STL_chrono_example_noob.dir/05_STL/chrono_example_noob.cpp.s
+.PHONY : 05_STL/chrono_example_noob.cpp.s
 
-06_STL/list_example_noob.o: 06_STL/list_example_noob.cpp.o
-.PHONY : 06_STL/list_example_noob.o
+05_STL/deque_example.o: 05_STL/deque_example.cpp.o
+.PHONY : 05_STL/deque_example.o
 
 # target to build an object file
-06_STL/list_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example_noob.dir/build.make CMakeFiles/06_STL_list_example_noob.dir/06_STL/list_example_noob.cpp.o
-.PHONY : 06_STL/list_example_noob.cpp.o
+05_STL/deque_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example.dir/build.make CMakeFiles/05_STL_deque_example.dir/05_STL/deque_example.cpp.o
+.PHONY : 05_STL/deque_example.cpp.o
 
-06_STL/list_example_noob.i: 06_STL/list_example_noob.cpp.i
-.PHONY : 06_STL/list_example_noob.i
+05_STL/deque_example.i: 05_STL/deque_example.cpp.i
+.PHONY : 05_STL/deque_example.i
 
 # target to preprocess a source file
-06_STL/list_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example_noob.dir/build.make CMakeFiles/06_STL_list_example_noob.dir/06_STL/list_example_noob.cpp.i
-.PHONY : 06_STL/list_example_noob.cpp.i
+05_STL/deque_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example.dir/build.make CMakeFiles/05_STL_deque_example.dir/05_STL/deque_example.cpp.i
+.PHONY : 05_STL/deque_example.cpp.i
 
-06_STL/list_example_noob.s: 06_STL/list_example_noob.cpp.s
-.PHONY : 06_STL/list_example_noob.s
+05_STL/deque_example.s: 05_STL/deque_example.cpp.s
+.PHONY : 05_STL/deque_example.s
 
 # target to generate assembly for a file
-06_STL/list_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_list_example_noob.dir/build.make CMakeFiles/06_STL_list_example_noob.dir/06_STL/list_example_noob.cpp.s
-.PHONY : 06_STL/list_example_noob.cpp.s
+05_STL/deque_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example.dir/build.make CMakeFiles/05_STL_deque_example.dir/05_STL/deque_example.cpp.s
+.PHONY : 05_STL/deque_example.cpp.s
 
-06_STL/map_example.o: 06_STL/map_example.cpp.o
-.PHONY : 06_STL/map_example.o
+05_STL/deque_example_noob.o: 05_STL/deque_example_noob.cpp.o
+.PHONY : 05_STL/deque_example_noob.o
 
 # target to build an object file
-06_STL/map_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example.dir/build.make CMakeFiles/06_STL_map_example.dir/06_STL/map_example.cpp.o
-.PHONY : 06_STL/map_example.cpp.o
+05_STL/deque_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example_noob.dir/build.make CMakeFiles/05_STL_deque_example_noob.dir/05_STL/deque_example_noob.cpp.o
+.PHONY : 05_STL/deque_example_noob.cpp.o
 
-06_STL/map_example.i: 06_STL/map_example.cpp.i
-.PHONY : 06_STL/map_example.i
+05_STL/deque_example_noob.i: 05_STL/deque_example_noob.cpp.i
+.PHONY : 05_STL/deque_example_noob.i
 
 # target to preprocess a source file
-06_STL/map_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example.dir/build.make CMakeFiles/06_STL_map_example.dir/06_STL/map_example.cpp.i
-.PHONY : 06_STL/map_example.cpp.i
+05_STL/deque_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example_noob.dir/build.make CMakeFiles/05_STL_deque_example_noob.dir/05_STL/deque_example_noob.cpp.i
+.PHONY : 05_STL/deque_example_noob.cpp.i
 
-06_STL/map_example.s: 06_STL/map_example.cpp.s
-.PHONY : 06_STL/map_example.s
+05_STL/deque_example_noob.s: 05_STL/deque_example_noob.cpp.s
+.PHONY : 05_STL/deque_example_noob.s
 
 # target to generate assembly for a file
-06_STL/map_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example.dir/build.make CMakeFiles/06_STL_map_example.dir/06_STL/map_example.cpp.s
-.PHONY : 06_STL/map_example.cpp.s
+05_STL/deque_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_deque_example_noob.dir/build.make CMakeFiles/05_STL_deque_example_noob.dir/05_STL/deque_example_noob.cpp.s
+.PHONY : 05_STL/deque_example_noob.cpp.s
 
-06_STL/map_example_noob.o: 06_STL/map_example_noob.cpp.o
-.PHONY : 06_STL/map_example_noob.o
+05_STL/filesystem_example.o: 05_STL/filesystem_example.cpp.o
+.PHONY : 05_STL/filesystem_example.o
 
 # target to build an object file
-06_STL/map_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example_noob.dir/build.make CMakeFiles/06_STL_map_example_noob.dir/06_STL/map_example_noob.cpp.o
-.PHONY : 06_STL/map_example_noob.cpp.o
+05_STL/filesystem_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example.dir/build.make CMakeFiles/05_STL_filesystem_example.dir/05_STL/filesystem_example.cpp.o
+.PHONY : 05_STL/filesystem_example.cpp.o
 
-06_STL/map_example_noob.i: 06_STL/map_example_noob.cpp.i
-.PHONY : 06_STL/map_example_noob.i
+05_STL/filesystem_example.i: 05_STL/filesystem_example.cpp.i
+.PHONY : 05_STL/filesystem_example.i
 
 # target to preprocess a source file
-06_STL/map_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example_noob.dir/build.make CMakeFiles/06_STL_map_example_noob.dir/06_STL/map_example_noob.cpp.i
-.PHONY : 06_STL/map_example_noob.cpp.i
+05_STL/filesystem_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example.dir/build.make CMakeFiles/05_STL_filesystem_example.dir/05_STL/filesystem_example.cpp.i
+.PHONY : 05_STL/filesystem_example.cpp.i
 
-06_STL/map_example_noob.s: 06_STL/map_example_noob.cpp.s
-.PHONY : 06_STL/map_example_noob.s
+05_STL/filesystem_example.s: 05_STL/filesystem_example.cpp.s
+.PHONY : 05_STL/filesystem_example.s
 
 # target to generate assembly for a file
-06_STL/map_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_map_example_noob.dir/build.make CMakeFiles/06_STL_map_example_noob.dir/06_STL/map_example_noob.cpp.s
-.PHONY : 06_STL/map_example_noob.cpp.s
+05_STL/filesystem_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example.dir/build.make CMakeFiles/05_STL_filesystem_example.dir/05_STL/filesystem_example.cpp.s
+.PHONY : 05_STL/filesystem_example.cpp.s
 
-06_STL/multimap_example.o: 06_STL/multimap_example.cpp.o
-.PHONY : 06_STL/multimap_example.o
+05_STL/filesystem_example_noob.o: 05_STL/filesystem_example_noob.cpp.o
+.PHONY : 05_STL/filesystem_example_noob.o
 
 # target to build an object file
-06_STL/multimap_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example.dir/build.make CMakeFiles/06_STL_multimap_example.dir/06_STL/multimap_example.cpp.o
-.PHONY : 06_STL/multimap_example.cpp.o
+05_STL/filesystem_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example_noob.dir/build.make CMakeFiles/05_STL_filesystem_example_noob.dir/05_STL/filesystem_example_noob.cpp.o
+.PHONY : 05_STL/filesystem_example_noob.cpp.o
 
-06_STL/multimap_example.i: 06_STL/multimap_example.cpp.i
-.PHONY : 06_STL/multimap_example.i
+05_STL/filesystem_example_noob.i: 05_STL/filesystem_example_noob.cpp.i
+.PHONY : 05_STL/filesystem_example_noob.i
 
 # target to preprocess a source file
-06_STL/multimap_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example.dir/build.make CMakeFiles/06_STL_multimap_example.dir/06_STL/multimap_example.cpp.i
-.PHONY : 06_STL/multimap_example.cpp.i
+05_STL/filesystem_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example_noob.dir/build.make CMakeFiles/05_STL_filesystem_example_noob.dir/05_STL/filesystem_example_noob.cpp.i
+.PHONY : 05_STL/filesystem_example_noob.cpp.i
 
-06_STL/multimap_example.s: 06_STL/multimap_example.cpp.s
-.PHONY : 06_STL/multimap_example.s
+05_STL/filesystem_example_noob.s: 05_STL/filesystem_example_noob.cpp.s
+.PHONY : 05_STL/filesystem_example_noob.s
 
 # target to generate assembly for a file
-06_STL/multimap_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example.dir/build.make CMakeFiles/06_STL_multimap_example.dir/06_STL/multimap_example.cpp.s
-.PHONY : 06_STL/multimap_example.cpp.s
+05_STL/filesystem_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_filesystem_example_noob.dir/build.make CMakeFiles/05_STL_filesystem_example_noob.dir/05_STL/filesystem_example_noob.cpp.s
+.PHONY : 05_STL/filesystem_example_noob.cpp.s
 
-06_STL/multimap_example_noob.o: 06_STL/multimap_example_noob.cpp.o
-.PHONY : 06_STL/multimap_example_noob.o
+05_STL/forward_list_example.o: 05_STL/forward_list_example.cpp.o
+.PHONY : 05_STL/forward_list_example.o
 
 # target to build an object file
-06_STL/multimap_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example_noob.dir/build.make CMakeFiles/06_STL_multimap_example_noob.dir/06_STL/multimap_example_noob.cpp.o
-.PHONY : 06_STL/multimap_example_noob.cpp.o
+05_STL/forward_list_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example.dir/build.make CMakeFiles/05_STL_forward_list_example.dir/05_STL/forward_list_example.cpp.o
+.PHONY : 05_STL/forward_list_example.cpp.o
 
-06_STL/multimap_example_noob.i: 06_STL/multimap_example_noob.cpp.i
-.PHONY : 06_STL/multimap_example_noob.i
+05_STL/forward_list_example.i: 05_STL/forward_list_example.cpp.i
+.PHONY : 05_STL/forward_list_example.i
 
 # target to preprocess a source file
-06_STL/multimap_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example_noob.dir/build.make CMakeFiles/06_STL_multimap_example_noob.dir/06_STL/multimap_example_noob.cpp.i
-.PHONY : 06_STL/multimap_example_noob.cpp.i
+05_STL/forward_list_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example.dir/build.make CMakeFiles/05_STL_forward_list_example.dir/05_STL/forward_list_example.cpp.i
+.PHONY : 05_STL/forward_list_example.cpp.i
 
-06_STL/multimap_example_noob.s: 06_STL/multimap_example_noob.cpp.s
-.PHONY : 06_STL/multimap_example_noob.s
+05_STL/forward_list_example.s: 05_STL/forward_list_example.cpp.s
+.PHONY : 05_STL/forward_list_example.s
 
 # target to generate assembly for a file
-06_STL/multimap_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_multimap_example_noob.dir/build.make CMakeFiles/06_STL_multimap_example_noob.dir/06_STL/multimap_example_noob.cpp.s
-.PHONY : 06_STL/multimap_example_noob.cpp.s
+05_STL/forward_list_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example.dir/build.make CMakeFiles/05_STL_forward_list_example.dir/05_STL/forward_list_example.cpp.s
+.PHONY : 05_STL/forward_list_example.cpp.s
 
-06_STL/optional.o: 06_STL/optional.cpp.o
-.PHONY : 06_STL/optional.o
+05_STL/forward_list_example_noob.o: 05_STL/forward_list_example_noob.cpp.o
+.PHONY : 05_STL/forward_list_example_noob.o
 
 # target to build an object file
-06_STL/optional.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional.dir/build.make CMakeFiles/06_STL_optional.dir/06_STL/optional.cpp.o
-.PHONY : 06_STL/optional.cpp.o
+05_STL/forward_list_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example_noob.dir/build.make CMakeFiles/05_STL_forward_list_example_noob.dir/05_STL/forward_list_example_noob.cpp.o
+.PHONY : 05_STL/forward_list_example_noob.cpp.o
 
-06_STL/optional.i: 06_STL/optional.cpp.i
-.PHONY : 06_STL/optional.i
+05_STL/forward_list_example_noob.i: 05_STL/forward_list_example_noob.cpp.i
+.PHONY : 05_STL/forward_list_example_noob.i
 
 # target to preprocess a source file
-06_STL/optional.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional.dir/build.make CMakeFiles/06_STL_optional.dir/06_STL/optional.cpp.i
-.PHONY : 06_STL/optional.cpp.i
+05_STL/forward_list_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example_noob.dir/build.make CMakeFiles/05_STL_forward_list_example_noob.dir/05_STL/forward_list_example_noob.cpp.i
+.PHONY : 05_STL/forward_list_example_noob.cpp.i
 
-06_STL/optional.s: 06_STL/optional.cpp.s
-.PHONY : 06_STL/optional.s
+05_STL/forward_list_example_noob.s: 05_STL/forward_list_example_noob.cpp.s
+.PHONY : 05_STL/forward_list_example_noob.s
 
 # target to generate assembly for a file
-06_STL/optional.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional.dir/build.make CMakeFiles/06_STL_optional.dir/06_STL/optional.cpp.s
-.PHONY : 06_STL/optional.cpp.s
+05_STL/forward_list_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_forward_list_example_noob.dir/build.make CMakeFiles/05_STL_forward_list_example_noob.dir/05_STL/forward_list_example_noob.cpp.s
+.PHONY : 05_STL/forward_list_example_noob.cpp.s
 
-06_STL/optional_noob.o: 06_STL/optional_noob.cpp.o
-.PHONY : 06_STL/optional_noob.o
+05_STL/function_bind_example.o: 05_STL/function_bind_example.cpp.o
+.PHONY : 05_STL/function_bind_example.o
 
 # target to build an object file
-06_STL/optional_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional_noob.dir/build.make CMakeFiles/06_STL_optional_noob.dir/06_STL/optional_noob.cpp.o
-.PHONY : 06_STL/optional_noob.cpp.o
+05_STL/function_bind_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example.dir/build.make CMakeFiles/05_STL_function_bind_example.dir/05_STL/function_bind_example.cpp.o
+.PHONY : 05_STL/function_bind_example.cpp.o
 
-06_STL/optional_noob.i: 06_STL/optional_noob.cpp.i
-.PHONY : 06_STL/optional_noob.i
+05_STL/function_bind_example.i: 05_STL/function_bind_example.cpp.i
+.PHONY : 05_STL/function_bind_example.i
 
 # target to preprocess a source file
-06_STL/optional_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional_noob.dir/build.make CMakeFiles/06_STL_optional_noob.dir/06_STL/optional_noob.cpp.i
-.PHONY : 06_STL/optional_noob.cpp.i
+05_STL/function_bind_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example.dir/build.make CMakeFiles/05_STL_function_bind_example.dir/05_STL/function_bind_example.cpp.i
+.PHONY : 05_STL/function_bind_example.cpp.i
 
-06_STL/optional_noob.s: 06_STL/optional_noob.cpp.s
-.PHONY : 06_STL/optional_noob.s
+05_STL/function_bind_example.s: 05_STL/function_bind_example.cpp.s
+.PHONY : 05_STL/function_bind_example.s
 
 # target to generate assembly for a file
-06_STL/optional_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_optional_noob.dir/build.make CMakeFiles/06_STL_optional_noob.dir/06_STL/optional_noob.cpp.s
-.PHONY : 06_STL/optional_noob.cpp.s
+05_STL/function_bind_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example.dir/build.make CMakeFiles/05_STL_function_bind_example.dir/05_STL/function_bind_example.cpp.s
+.PHONY : 05_STL/function_bind_example.cpp.s
 
-06_STL/pair_example.o: 06_STL/pair_example.cpp.o
-.PHONY : 06_STL/pair_example.o
+05_STL/function_bind_example_noob.o: 05_STL/function_bind_example_noob.cpp.o
+.PHONY : 05_STL/function_bind_example_noob.o
 
 # target to build an object file
-06_STL/pair_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example.dir/build.make CMakeFiles/06_STL_pair_example.dir/06_STL/pair_example.cpp.o
-.PHONY : 06_STL/pair_example.cpp.o
+05_STL/function_bind_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example_noob.dir/build.make CMakeFiles/05_STL_function_bind_example_noob.dir/05_STL/function_bind_example_noob.cpp.o
+.PHONY : 05_STL/function_bind_example_noob.cpp.o
 
-06_STL/pair_example.i: 06_STL/pair_example.cpp.i
-.PHONY : 06_STL/pair_example.i
+05_STL/function_bind_example_noob.i: 05_STL/function_bind_example_noob.cpp.i
+.PHONY : 05_STL/function_bind_example_noob.i
 
 # target to preprocess a source file
-06_STL/pair_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example.dir/build.make CMakeFiles/06_STL_pair_example.dir/06_STL/pair_example.cpp.i
-.PHONY : 06_STL/pair_example.cpp.i
+05_STL/function_bind_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example_noob.dir/build.make CMakeFiles/05_STL_function_bind_example_noob.dir/05_STL/function_bind_example_noob.cpp.i
+.PHONY : 05_STL/function_bind_example_noob.cpp.i
 
-06_STL/pair_example.s: 06_STL/pair_example.cpp.s
-.PHONY : 06_STL/pair_example.s
+05_STL/function_bind_example_noob.s: 05_STL/function_bind_example_noob.cpp.s
+.PHONY : 05_STL/function_bind_example_noob.s
 
 # target to generate assembly for a file
-06_STL/pair_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example.dir/build.make CMakeFiles/06_STL_pair_example.dir/06_STL/pair_example.cpp.s
-.PHONY : 06_STL/pair_example.cpp.s
+05_STL/function_bind_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_function_bind_example_noob.dir/build.make CMakeFiles/05_STL_function_bind_example_noob.dir/05_STL/function_bind_example_noob.cpp.s
+.PHONY : 05_STL/function_bind_example_noob.cpp.s
 
-06_STL/pair_example_noob.o: 06_STL/pair_example_noob.cpp.o
-.PHONY : 06_STL/pair_example_noob.o
+05_STL/future_example.o: 05_STL/future_example.cpp.o
+.PHONY : 05_STL/future_example.o
 
 # target to build an object file
-06_STL/pair_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example_noob.dir/build.make CMakeFiles/06_STL_pair_example_noob.dir/06_STL/pair_example_noob.cpp.o
-.PHONY : 06_STL/pair_example_noob.cpp.o
+05_STL/future_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example.dir/build.make CMakeFiles/05_STL_future_example.dir/05_STL/future_example.cpp.o
+.PHONY : 05_STL/future_example.cpp.o
 
-06_STL/pair_example_noob.i: 06_STL/pair_example_noob.cpp.i
-.PHONY : 06_STL/pair_example_noob.i
+05_STL/future_example.i: 05_STL/future_example.cpp.i
+.PHONY : 05_STL/future_example.i
 
 # target to preprocess a source file
-06_STL/pair_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example_noob.dir/build.make CMakeFiles/06_STL_pair_example_noob.dir/06_STL/pair_example_noob.cpp.i
-.PHONY : 06_STL/pair_example_noob.cpp.i
+05_STL/future_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example.dir/build.make CMakeFiles/05_STL_future_example.dir/05_STL/future_example.cpp.i
+.PHONY : 05_STL/future_example.cpp.i
 
-06_STL/pair_example_noob.s: 06_STL/pair_example_noob.cpp.s
-.PHONY : 06_STL/pair_example_noob.s
+05_STL/future_example.s: 05_STL/future_example.cpp.s
+.PHONY : 05_STL/future_example.s
 
 # target to generate assembly for a file
-06_STL/pair_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_pair_example_noob.dir/build.make CMakeFiles/06_STL_pair_example_noob.dir/06_STL/pair_example_noob.cpp.s
-.PHONY : 06_STL/pair_example_noob.cpp.s
+05_STL/future_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example.dir/build.make CMakeFiles/05_STL_future_example.dir/05_STL/future_example.cpp.s
+.PHONY : 05_STL/future_example.cpp.s
 
-06_STL/priority_queue_example.o: 06_STL/priority_queue_example.cpp.o
-.PHONY : 06_STL/priority_queue_example.o
+05_STL/future_example_noob.o: 05_STL/future_example_noob.cpp.o
+.PHONY : 05_STL/future_example_noob.o
 
 # target to build an object file
-06_STL/priority_queue_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example.dir/build.make CMakeFiles/06_STL_priority_queue_example.dir/06_STL/priority_queue_example.cpp.o
-.PHONY : 06_STL/priority_queue_example.cpp.o
+05_STL/future_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example_noob.dir/build.make CMakeFiles/05_STL_future_example_noob.dir/05_STL/future_example_noob.cpp.o
+.PHONY : 05_STL/future_example_noob.cpp.o
 
-06_STL/priority_queue_example.i: 06_STL/priority_queue_example.cpp.i
-.PHONY : 06_STL/priority_queue_example.i
+05_STL/future_example_noob.i: 05_STL/future_example_noob.cpp.i
+.PHONY : 05_STL/future_example_noob.i
 
 # target to preprocess a source file
-06_STL/priority_queue_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example.dir/build.make CMakeFiles/06_STL_priority_queue_example.dir/06_STL/priority_queue_example.cpp.i
-.PHONY : 06_STL/priority_queue_example.cpp.i
+05_STL/future_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example_noob.dir/build.make CMakeFiles/05_STL_future_example_noob.dir/05_STL/future_example_noob.cpp.i
+.PHONY : 05_STL/future_example_noob.cpp.i
 
-06_STL/priority_queue_example.s: 06_STL/priority_queue_example.cpp.s
-.PHONY : 06_STL/priority_queue_example.s
+05_STL/future_example_noob.s: 05_STL/future_example_noob.cpp.s
+.PHONY : 05_STL/future_example_noob.s
 
 # target to generate assembly for a file
-06_STL/priority_queue_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example.dir/build.make CMakeFiles/06_STL_priority_queue_example.dir/06_STL/priority_queue_example.cpp.s
-.PHONY : 06_STL/priority_queue_example.cpp.s
+05_STL/future_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_future_example_noob.dir/build.make CMakeFiles/05_STL_future_example_noob.dir/05_STL/future_example_noob.cpp.s
+.PHONY : 05_STL/future_example_noob.cpp.s
 
-06_STL/priority_queue_example_noob.o: 06_STL/priority_queue_example_noob.cpp.o
-.PHONY : 06_STL/priority_queue_example_noob.o
+05_STL/ifstream_noob.o: 05_STL/ifstream_noob.cpp.o
+.PHONY : 05_STL/ifstream_noob.o
 
 # target to build an object file
-06_STL/priority_queue_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example_noob.dir/build.make CMakeFiles/06_STL_priority_queue_example_noob.dir/06_STL/priority_queue_example_noob.cpp.o
-.PHONY : 06_STL/priority_queue_example_noob.cpp.o
+05_STL/ifstream_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_ifstream_noob.dir/build.make CMakeFiles/05_STL_ifstream_noob.dir/05_STL/ifstream_noob.cpp.o
+.PHONY : 05_STL/ifstream_noob.cpp.o
 
-06_STL/priority_queue_example_noob.i: 06_STL/priority_queue_example_noob.cpp.i
-.PHONY : 06_STL/priority_queue_example_noob.i
+05_STL/ifstream_noob.i: 05_STL/ifstream_noob.cpp.i
+.PHONY : 05_STL/ifstream_noob.i
 
 # target to preprocess a source file
-06_STL/priority_queue_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example_noob.dir/build.make CMakeFiles/06_STL_priority_queue_example_noob.dir/06_STL/priority_queue_example_noob.cpp.i
-.PHONY : 06_STL/priority_queue_example_noob.cpp.i
+05_STL/ifstream_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_ifstream_noob.dir/build.make CMakeFiles/05_STL_ifstream_noob.dir/05_STL/ifstream_noob.cpp.i
+.PHONY : 05_STL/ifstream_noob.cpp.i
 
-06_STL/priority_queue_example_noob.s: 06_STL/priority_queue_example_noob.cpp.s
-.PHONY : 06_STL/priority_queue_example_noob.s
+05_STL/ifstream_noob.s: 05_STL/ifstream_noob.cpp.s
+.PHONY : 05_STL/ifstream_noob.s
 
 # target to generate assembly for a file
-06_STL/priority_queue_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_priority_queue_example_noob.dir/build.make CMakeFiles/06_STL_priority_queue_example_noob.dir/06_STL/priority_queue_example_noob.cpp.s
-.PHONY : 06_STL/priority_queue_example_noob.cpp.s
+05_STL/ifstream_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_ifstream_noob.dir/build.make CMakeFiles/05_STL_ifstream_noob.dir/05_STL/ifstream_noob.cpp.s
+.PHONY : 05_STL/ifstream_noob.cpp.s
 
-06_STL/queue_example.o: 06_STL/queue_example.cpp.o
-.PHONY : 06_STL/queue_example.o
+05_STL/list_example.o: 05_STL/list_example.cpp.o
+.PHONY : 05_STL/list_example.o
 
 # target to build an object file
-06_STL/queue_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example.dir/build.make CMakeFiles/06_STL_queue_example.dir/06_STL/queue_example.cpp.o
-.PHONY : 06_STL/queue_example.cpp.o
+05_STL/list_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example.dir/build.make CMakeFiles/05_STL_list_example.dir/05_STL/list_example.cpp.o
+.PHONY : 05_STL/list_example.cpp.o
 
-06_STL/queue_example.i: 06_STL/queue_example.cpp.i
-.PHONY : 06_STL/queue_example.i
+05_STL/list_example.i: 05_STL/list_example.cpp.i
+.PHONY : 05_STL/list_example.i
 
 # target to preprocess a source file
-06_STL/queue_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example.dir/build.make CMakeFiles/06_STL_queue_example.dir/06_STL/queue_example.cpp.i
-.PHONY : 06_STL/queue_example.cpp.i
+05_STL/list_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example.dir/build.make CMakeFiles/05_STL_list_example.dir/05_STL/list_example.cpp.i
+.PHONY : 05_STL/list_example.cpp.i
 
-06_STL/queue_example.s: 06_STL/queue_example.cpp.s
-.PHONY : 06_STL/queue_example.s
+05_STL/list_example.s: 05_STL/list_example.cpp.s
+.PHONY : 05_STL/list_example.s
 
 # target to generate assembly for a file
-06_STL/queue_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example.dir/build.make CMakeFiles/06_STL_queue_example.dir/06_STL/queue_example.cpp.s
-.PHONY : 06_STL/queue_example.cpp.s
+05_STL/list_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example.dir/build.make CMakeFiles/05_STL_list_example.dir/05_STL/list_example.cpp.s
+.PHONY : 05_STL/list_example.cpp.s
 
-06_STL/queue_example_noob.o: 06_STL/queue_example_noob.cpp.o
-.PHONY : 06_STL/queue_example_noob.o
+05_STL/list_example_noob.o: 05_STL/list_example_noob.cpp.o
+.PHONY : 05_STL/list_example_noob.o
 
 # target to build an object file
-06_STL/queue_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example_noob.dir/build.make CMakeFiles/06_STL_queue_example_noob.dir/06_STL/queue_example_noob.cpp.o
-.PHONY : 06_STL/queue_example_noob.cpp.o
+05_STL/list_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example_noob.dir/build.make CMakeFiles/05_STL_list_example_noob.dir/05_STL/list_example_noob.cpp.o
+.PHONY : 05_STL/list_example_noob.cpp.o
 
-06_STL/queue_example_noob.i: 06_STL/queue_example_noob.cpp.i
-.PHONY : 06_STL/queue_example_noob.i
+05_STL/list_example_noob.i: 05_STL/list_example_noob.cpp.i
+.PHONY : 05_STL/list_example_noob.i
 
 # target to preprocess a source file
-06_STL/queue_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example_noob.dir/build.make CMakeFiles/06_STL_queue_example_noob.dir/06_STL/queue_example_noob.cpp.i
-.PHONY : 06_STL/queue_example_noob.cpp.i
+05_STL/list_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example_noob.dir/build.make CMakeFiles/05_STL_list_example_noob.dir/05_STL/list_example_noob.cpp.i
+.PHONY : 05_STL/list_example_noob.cpp.i
 
-06_STL/queue_example_noob.s: 06_STL/queue_example_noob.cpp.s
-.PHONY : 06_STL/queue_example_noob.s
+05_STL/list_example_noob.s: 05_STL/list_example_noob.cpp.s
+.PHONY : 05_STL/list_example_noob.s
 
 # target to generate assembly for a file
-06_STL/queue_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_queue_example_noob.dir/build.make CMakeFiles/06_STL_queue_example_noob.dir/06_STL/queue_example_noob.cpp.s
-.PHONY : 06_STL/queue_example_noob.cpp.s
+05_STL/list_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_list_example_noob.dir/build.make CMakeFiles/05_STL_list_example_noob.dir/05_STL/list_example_noob.cpp.s
+.PHONY : 05_STL/list_example_noob.cpp.s
 
-06_STL/regex_example.o: 06_STL/regex_example.cpp.o
-.PHONY : 06_STL/regex_example.o
+05_STL/map_example.o: 05_STL/map_example.cpp.o
+.PHONY : 05_STL/map_example.o
 
 # target to build an object file
-06_STL/regex_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example.dir/build.make CMakeFiles/06_STL_regex_example.dir/06_STL/regex_example.cpp.o
-.PHONY : 06_STL/regex_example.cpp.o
+05_STL/map_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example.dir/build.make CMakeFiles/05_STL_map_example.dir/05_STL/map_example.cpp.o
+.PHONY : 05_STL/map_example.cpp.o
 
-06_STL/regex_example.i: 06_STL/regex_example.cpp.i
-.PHONY : 06_STL/regex_example.i
+05_STL/map_example.i: 05_STL/map_example.cpp.i
+.PHONY : 05_STL/map_example.i
 
 # target to preprocess a source file
-06_STL/regex_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example.dir/build.make CMakeFiles/06_STL_regex_example.dir/06_STL/regex_example.cpp.i
-.PHONY : 06_STL/regex_example.cpp.i
+05_STL/map_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example.dir/build.make CMakeFiles/05_STL_map_example.dir/05_STL/map_example.cpp.i
+.PHONY : 05_STL/map_example.cpp.i
 
-06_STL/regex_example.s: 06_STL/regex_example.cpp.s
-.PHONY : 06_STL/regex_example.s
+05_STL/map_example.s: 05_STL/map_example.cpp.s
+.PHONY : 05_STL/map_example.s
 
 # target to generate assembly for a file
-06_STL/regex_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example.dir/build.make CMakeFiles/06_STL_regex_example.dir/06_STL/regex_example.cpp.s
-.PHONY : 06_STL/regex_example.cpp.s
+05_STL/map_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example.dir/build.make CMakeFiles/05_STL_map_example.dir/05_STL/map_example.cpp.s
+.PHONY : 05_STL/map_example.cpp.s
 
-06_STL/regex_example_noob.o: 06_STL/regex_example_noob.cpp.o
-.PHONY : 06_STL/regex_example_noob.o
+05_STL/map_example_noob.o: 05_STL/map_example_noob.cpp.o
+.PHONY : 05_STL/map_example_noob.o
 
 # target to build an object file
-06_STL/regex_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example_noob.dir/build.make CMakeFiles/06_STL_regex_example_noob.dir/06_STL/regex_example_noob.cpp.o
-.PHONY : 06_STL/regex_example_noob.cpp.o
+05_STL/map_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example_noob.dir/build.make CMakeFiles/05_STL_map_example_noob.dir/05_STL/map_example_noob.cpp.o
+.PHONY : 05_STL/map_example_noob.cpp.o
 
-06_STL/regex_example_noob.i: 06_STL/regex_example_noob.cpp.i
-.PHONY : 06_STL/regex_example_noob.i
+05_STL/map_example_noob.i: 05_STL/map_example_noob.cpp.i
+.PHONY : 05_STL/map_example_noob.i
 
 # target to preprocess a source file
-06_STL/regex_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example_noob.dir/build.make CMakeFiles/06_STL_regex_example_noob.dir/06_STL/regex_example_noob.cpp.i
-.PHONY : 06_STL/regex_example_noob.cpp.i
+05_STL/map_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example_noob.dir/build.make CMakeFiles/05_STL_map_example_noob.dir/05_STL/map_example_noob.cpp.i
+.PHONY : 05_STL/map_example_noob.cpp.i
 
-06_STL/regex_example_noob.s: 06_STL/regex_example_noob.cpp.s
-.PHONY : 06_STL/regex_example_noob.s
+05_STL/map_example_noob.s: 05_STL/map_example_noob.cpp.s
+.PHONY : 05_STL/map_example_noob.s
 
 # target to generate assembly for a file
-06_STL/regex_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_regex_example_noob.dir/build.make CMakeFiles/06_STL_regex_example_noob.dir/06_STL/regex_example_noob.cpp.s
-.PHONY : 06_STL/regex_example_noob.cpp.s
+05_STL/map_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_map_example_noob.dir/build.make CMakeFiles/05_STL_map_example_noob.dir/05_STL/map_example_noob.cpp.s
+.PHONY : 05_STL/map_example_noob.cpp.s
 
-06_STL/set_example.o: 06_STL/set_example.cpp.o
-.PHONY : 06_STL/set_example.o
+05_STL/multimap_example.o: 05_STL/multimap_example.cpp.o
+.PHONY : 05_STL/multimap_example.o
 
 # target to build an object file
-06_STL/set_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_set_example.dir/build.make CMakeFiles/06_STL_set_example.dir/06_STL/set_example.cpp.o
-.PHONY : 06_STL/set_example.cpp.o
+05_STL/multimap_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example.dir/build.make CMakeFiles/05_STL_multimap_example.dir/05_STL/multimap_example.cpp.o
+.PHONY : 05_STL/multimap_example.cpp.o
 
-06_STL/set_example.i: 06_STL/set_example.cpp.i
-.PHONY : 06_STL/set_example.i
+05_STL/multimap_example.i: 05_STL/multimap_example.cpp.i
+.PHONY : 05_STL/multimap_example.i
 
 # target to preprocess a source file
-06_STL/set_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_set_example.dir/build.make CMakeFiles/06_STL_set_example.dir/06_STL/set_example.cpp.i
-.PHONY : 06_STL/set_example.cpp.i
+05_STL/multimap_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example.dir/build.make CMakeFiles/05_STL_multimap_example.dir/05_STL/multimap_example.cpp.i
+.PHONY : 05_STL/multimap_example.cpp.i
 
-06_STL/set_example.s: 06_STL/set_example.cpp.s
-.PHONY : 06_STL/set_example.s
+05_STL/multimap_example.s: 05_STL/multimap_example.cpp.s
+.PHONY : 05_STL/multimap_example.s
 
 # target to generate assembly for a file
-06_STL/set_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_set_example.dir/build.make CMakeFiles/06_STL_set_example.dir/06_STL/set_example.cpp.s
-.PHONY : 06_STL/set_example.cpp.s
+05_STL/multimap_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example.dir/build.make CMakeFiles/05_STL_multimap_example.dir/05_STL/multimap_example.cpp.s
+.PHONY : 05_STL/multimap_example.cpp.s
 
-06_STL/shared_ptr_example.o: 06_STL/shared_ptr_example.cpp.o
-.PHONY : 06_STL/shared_ptr_example.o
+05_STL/multimap_example_noob.o: 05_STL/multimap_example_noob.cpp.o
+.PHONY : 05_STL/multimap_example_noob.o
 
 # target to build an object file
-06_STL/shared_ptr_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_shared_ptr_example.dir/build.make CMakeFiles/06_STL_shared_ptr_example.dir/06_STL/shared_ptr_example.cpp.o
-.PHONY : 06_STL/shared_ptr_example.cpp.o
+05_STL/multimap_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example_noob.dir/build.make CMakeFiles/05_STL_multimap_example_noob.dir/05_STL/multimap_example_noob.cpp.o
+.PHONY : 05_STL/multimap_example_noob.cpp.o
 
-06_STL/shared_ptr_example.i: 06_STL/shared_ptr_example.cpp.i
-.PHONY : 06_STL/shared_ptr_example.i
+05_STL/multimap_example_noob.i: 05_STL/multimap_example_noob.cpp.i
+.PHONY : 05_STL/multimap_example_noob.i
 
 # target to preprocess a source file
-06_STL/shared_ptr_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_shared_ptr_example.dir/build.make CMakeFiles/06_STL_shared_ptr_example.dir/06_STL/shared_ptr_example.cpp.i
-.PHONY : 06_STL/shared_ptr_example.cpp.i
+05_STL/multimap_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example_noob.dir/build.make CMakeFiles/05_STL_multimap_example_noob.dir/05_STL/multimap_example_noob.cpp.i
+.PHONY : 05_STL/multimap_example_noob.cpp.i
 
-06_STL/shared_ptr_example.s: 06_STL/shared_ptr_example.cpp.s
-.PHONY : 06_STL/shared_ptr_example.s
+05_STL/multimap_example_noob.s: 05_STL/multimap_example_noob.cpp.s
+.PHONY : 05_STL/multimap_example_noob.s
 
 # target to generate assembly for a file
-06_STL/shared_ptr_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_shared_ptr_example.dir/build.make CMakeFiles/06_STL_shared_ptr_example.dir/06_STL/shared_ptr_example.cpp.s
-.PHONY : 06_STL/shared_ptr_example.cpp.s
+05_STL/multimap_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_multimap_example_noob.dir/build.make CMakeFiles/05_STL_multimap_example_noob.dir/05_STL/multimap_example_noob.cpp.s
+.PHONY : 05_STL/multimap_example_noob.cpp.s
 
-06_STL/stack_example.o: 06_STL/stack_example.cpp.o
-.PHONY : 06_STL/stack_example.o
+05_STL/optional.o: 05_STL/optional.cpp.o
+.PHONY : 05_STL/optional.o
 
 # target to build an object file
-06_STL/stack_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_stack_example.dir/build.make CMakeFiles/06_STL_stack_example.dir/06_STL/stack_example.cpp.o
-.PHONY : 06_STL/stack_example.cpp.o
+05_STL/optional.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional.dir/build.make CMakeFiles/05_STL_optional.dir/05_STL/optional.cpp.o
+.PHONY : 05_STL/optional.cpp.o
 
-06_STL/stack_example.i: 06_STL/stack_example.cpp.i
-.PHONY : 06_STL/stack_example.i
+05_STL/optional.i: 05_STL/optional.cpp.i
+.PHONY : 05_STL/optional.i
 
 # target to preprocess a source file
-06_STL/stack_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_stack_example.dir/build.make CMakeFiles/06_STL_stack_example.dir/06_STL/stack_example.cpp.i
-.PHONY : 06_STL/stack_example.cpp.i
+05_STL/optional.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional.dir/build.make CMakeFiles/05_STL_optional.dir/05_STL/optional.cpp.i
+.PHONY : 05_STL/optional.cpp.i
 
-06_STL/stack_example.s: 06_STL/stack_example.cpp.s
-.PHONY : 06_STL/stack_example.s
+05_STL/optional.s: 05_STL/optional.cpp.s
+.PHONY : 05_STL/optional.s
 
 # target to generate assembly for a file
-06_STL/stack_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_stack_example.dir/build.make CMakeFiles/06_STL_stack_example.dir/06_STL/stack_example.cpp.s
-.PHONY : 06_STL/stack_example.cpp.s
+05_STL/optional.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional.dir/build.make CMakeFiles/05_STL_optional.dir/05_STL/optional.cpp.s
+.PHONY : 05_STL/optional.cpp.s
 
-06_STL/strings.o: 06_STL/strings.cpp.o
-.PHONY : 06_STL/strings.o
+05_STL/optional_noob.o: 05_STL/optional_noob.cpp.o
+.PHONY : 05_STL/optional_noob.o
 
 # target to build an object file
-06_STL/strings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_strings.dir/build.make CMakeFiles/06_STL_strings.dir/06_STL/strings.cpp.o
-.PHONY : 06_STL/strings.cpp.o
+05_STL/optional_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional_noob.dir/build.make CMakeFiles/05_STL_optional_noob.dir/05_STL/optional_noob.cpp.o
+.PHONY : 05_STL/optional_noob.cpp.o
 
-06_STL/strings.i: 06_STL/strings.cpp.i
-.PHONY : 06_STL/strings.i
+05_STL/optional_noob.i: 05_STL/optional_noob.cpp.i
+.PHONY : 05_STL/optional_noob.i
 
 # target to preprocess a source file
-06_STL/strings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_strings.dir/build.make CMakeFiles/06_STL_strings.dir/06_STL/strings.cpp.i
-.PHONY : 06_STL/strings.cpp.i
+05_STL/optional_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional_noob.dir/build.make CMakeFiles/05_STL_optional_noob.dir/05_STL/optional_noob.cpp.i
+.PHONY : 05_STL/optional_noob.cpp.i
 
-06_STL/strings.s: 06_STL/strings.cpp.s
-.PHONY : 06_STL/strings.s
+05_STL/optional_noob.s: 05_STL/optional_noob.cpp.s
+.PHONY : 05_STL/optional_noob.s
 
 # target to generate assembly for a file
-06_STL/strings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_strings.dir/build.make CMakeFiles/06_STL_strings.dir/06_STL/strings.cpp.s
-.PHONY : 06_STL/strings.cpp.s
+05_STL/optional_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_optional_noob.dir/build.make CMakeFiles/05_STL_optional_noob.dir/05_STL/optional_noob.cpp.s
+.PHONY : 05_STL/optional_noob.cpp.s
 
-06_STL/tuple_example.o: 06_STL/tuple_example.cpp.o
-.PHONY : 06_STL/tuple_example.o
+05_STL/pair_example.o: 05_STL/pair_example.cpp.o
+.PHONY : 05_STL/pair_example.o
 
 # target to build an object file
-06_STL/tuple_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example.dir/build.make CMakeFiles/06_STL_tuple_example.dir/06_STL/tuple_example.cpp.o
-.PHONY : 06_STL/tuple_example.cpp.o
+05_STL/pair_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example.dir/build.make CMakeFiles/05_STL_pair_example.dir/05_STL/pair_example.cpp.o
+.PHONY : 05_STL/pair_example.cpp.o
 
-06_STL/tuple_example.i: 06_STL/tuple_example.cpp.i
-.PHONY : 06_STL/tuple_example.i
+05_STL/pair_example.i: 05_STL/pair_example.cpp.i
+.PHONY : 05_STL/pair_example.i
 
 # target to preprocess a source file
-06_STL/tuple_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example.dir/build.make CMakeFiles/06_STL_tuple_example.dir/06_STL/tuple_example.cpp.i
-.PHONY : 06_STL/tuple_example.cpp.i
+05_STL/pair_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example.dir/build.make CMakeFiles/05_STL_pair_example.dir/05_STL/pair_example.cpp.i
+.PHONY : 05_STL/pair_example.cpp.i
 
-06_STL/tuple_example.s: 06_STL/tuple_example.cpp.s
-.PHONY : 06_STL/tuple_example.s
+05_STL/pair_example.s: 05_STL/pair_example.cpp.s
+.PHONY : 05_STL/pair_example.s
 
 # target to generate assembly for a file
-06_STL/tuple_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example.dir/build.make CMakeFiles/06_STL_tuple_example.dir/06_STL/tuple_example.cpp.s
-.PHONY : 06_STL/tuple_example.cpp.s
+05_STL/pair_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example.dir/build.make CMakeFiles/05_STL_pair_example.dir/05_STL/pair_example.cpp.s
+.PHONY : 05_STL/pair_example.cpp.s
 
-06_STL/tuple_example_noob.o: 06_STL/tuple_example_noob.cpp.o
-.PHONY : 06_STL/tuple_example_noob.o
+05_STL/pair_example_noob.o: 05_STL/pair_example_noob.cpp.o
+.PHONY : 05_STL/pair_example_noob.o
 
 # target to build an object file
-06_STL/tuple_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example_noob.dir/build.make CMakeFiles/06_STL_tuple_example_noob.dir/06_STL/tuple_example_noob.cpp.o
-.PHONY : 06_STL/tuple_example_noob.cpp.o
+05_STL/pair_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example_noob.dir/build.make CMakeFiles/05_STL_pair_example_noob.dir/05_STL/pair_example_noob.cpp.o
+.PHONY : 05_STL/pair_example_noob.cpp.o
 
-06_STL/tuple_example_noob.i: 06_STL/tuple_example_noob.cpp.i
-.PHONY : 06_STL/tuple_example_noob.i
+05_STL/pair_example_noob.i: 05_STL/pair_example_noob.cpp.i
+.PHONY : 05_STL/pair_example_noob.i
 
 # target to preprocess a source file
-06_STL/tuple_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example_noob.dir/build.make CMakeFiles/06_STL_tuple_example_noob.dir/06_STL/tuple_example_noob.cpp.i
-.PHONY : 06_STL/tuple_example_noob.cpp.i
+05_STL/pair_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example_noob.dir/build.make CMakeFiles/05_STL_pair_example_noob.dir/05_STL/pair_example_noob.cpp.i
+.PHONY : 05_STL/pair_example_noob.cpp.i
 
-06_STL/tuple_example_noob.s: 06_STL/tuple_example_noob.cpp.s
-.PHONY : 06_STL/tuple_example_noob.s
+05_STL/pair_example_noob.s: 05_STL/pair_example_noob.cpp.s
+.PHONY : 05_STL/pair_example_noob.s
 
 # target to generate assembly for a file
-06_STL/tuple_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_tuple_example_noob.dir/build.make CMakeFiles/06_STL_tuple_example_noob.dir/06_STL/tuple_example_noob.cpp.s
-.PHONY : 06_STL/tuple_example_noob.cpp.s
+05_STL/pair_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_pair_example_noob.dir/build.make CMakeFiles/05_STL_pair_example_noob.dir/05_STL/pair_example_noob.cpp.s
+.PHONY : 05_STL/pair_example_noob.cpp.s
 
-06_STL/unique_ptr_example.o: 06_STL/unique_ptr_example.cpp.o
-.PHONY : 06_STL/unique_ptr_example.o
+05_STL/priority_queue_example.o: 05_STL/priority_queue_example.cpp.o
+.PHONY : 05_STL/priority_queue_example.o
 
 # target to build an object file
-06_STL/unique_ptr_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example.dir/build.make CMakeFiles/06_STL_unique_ptr_example.dir/06_STL/unique_ptr_example.cpp.o
-.PHONY : 06_STL/unique_ptr_example.cpp.o
+05_STL/priority_queue_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example.dir/build.make CMakeFiles/05_STL_priority_queue_example.dir/05_STL/priority_queue_example.cpp.o
+.PHONY : 05_STL/priority_queue_example.cpp.o
 
-06_STL/unique_ptr_example.i: 06_STL/unique_ptr_example.cpp.i
-.PHONY : 06_STL/unique_ptr_example.i
+05_STL/priority_queue_example.i: 05_STL/priority_queue_example.cpp.i
+.PHONY : 05_STL/priority_queue_example.i
 
 # target to preprocess a source file
-06_STL/unique_ptr_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example.dir/build.make CMakeFiles/06_STL_unique_ptr_example.dir/06_STL/unique_ptr_example.cpp.i
-.PHONY : 06_STL/unique_ptr_example.cpp.i
+05_STL/priority_queue_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example.dir/build.make CMakeFiles/05_STL_priority_queue_example.dir/05_STL/priority_queue_example.cpp.i
+.PHONY : 05_STL/priority_queue_example.cpp.i
 
-06_STL/unique_ptr_example.s: 06_STL/unique_ptr_example.cpp.s
-.PHONY : 06_STL/unique_ptr_example.s
+05_STL/priority_queue_example.s: 05_STL/priority_queue_example.cpp.s
+.PHONY : 05_STL/priority_queue_example.s
 
 # target to generate assembly for a file
-06_STL/unique_ptr_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example.dir/build.make CMakeFiles/06_STL_unique_ptr_example.dir/06_STL/unique_ptr_example.cpp.s
-.PHONY : 06_STL/unique_ptr_example.cpp.s
+05_STL/priority_queue_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example.dir/build.make CMakeFiles/05_STL_priority_queue_example.dir/05_STL/priority_queue_example.cpp.s
+.PHONY : 05_STL/priority_queue_example.cpp.s
 
-06_STL/unique_ptr_example_noob.o: 06_STL/unique_ptr_example_noob.cpp.o
-.PHONY : 06_STL/unique_ptr_example_noob.o
+05_STL/priority_queue_example_noob.o: 05_STL/priority_queue_example_noob.cpp.o
+.PHONY : 05_STL/priority_queue_example_noob.o
 
 # target to build an object file
-06_STL/unique_ptr_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/06_STL_unique_ptr_example_noob.dir/06_STL/unique_ptr_example_noob.cpp.o
-.PHONY : 06_STL/unique_ptr_example_noob.cpp.o
+05_STL/priority_queue_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example_noob.dir/build.make CMakeFiles/05_STL_priority_queue_example_noob.dir/05_STL/priority_queue_example_noob.cpp.o
+.PHONY : 05_STL/priority_queue_example_noob.cpp.o
 
-06_STL/unique_ptr_example_noob.i: 06_STL/unique_ptr_example_noob.cpp.i
-.PHONY : 06_STL/unique_ptr_example_noob.i
+05_STL/priority_queue_example_noob.i: 05_STL/priority_queue_example_noob.cpp.i
+.PHONY : 05_STL/priority_queue_example_noob.i
 
 # target to preprocess a source file
-06_STL/unique_ptr_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/06_STL_unique_ptr_example_noob.dir/06_STL/unique_ptr_example_noob.cpp.i
-.PHONY : 06_STL/unique_ptr_example_noob.cpp.i
+05_STL/priority_queue_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example_noob.dir/build.make CMakeFiles/05_STL_priority_queue_example_noob.dir/05_STL/priority_queue_example_noob.cpp.i
+.PHONY : 05_STL/priority_queue_example_noob.cpp.i
 
-06_STL/unique_ptr_example_noob.s: 06_STL/unique_ptr_example_noob.cpp.s
-.PHONY : 06_STL/unique_ptr_example_noob.s
+05_STL/priority_queue_example_noob.s: 05_STL/priority_queue_example_noob.cpp.s
+.PHONY : 05_STL/priority_queue_example_noob.s
 
 # target to generate assembly for a file
-06_STL/unique_ptr_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/06_STL_unique_ptr_example_noob.dir/06_STL/unique_ptr_example_noob.cpp.s
-.PHONY : 06_STL/unique_ptr_example_noob.cpp.s
+05_STL/priority_queue_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_priority_queue_example_noob.dir/build.make CMakeFiles/05_STL_priority_queue_example_noob.dir/05_STL/priority_queue_example_noob.cpp.s
+.PHONY : 05_STL/priority_queue_example_noob.cpp.s
 
-06_STL/unordered_map_example.o: 06_STL/unordered_map_example.cpp.o
-.PHONY : 06_STL/unordered_map_example.o
+05_STL/queue_example.o: 05_STL/queue_example.cpp.o
+.PHONY : 05_STL/queue_example.o
 
 # target to build an object file
-06_STL/unordered_map_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example.dir/build.make CMakeFiles/06_STL_unordered_map_example.dir/06_STL/unordered_map_example.cpp.o
-.PHONY : 06_STL/unordered_map_example.cpp.o
+05_STL/queue_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example.dir/build.make CMakeFiles/05_STL_queue_example.dir/05_STL/queue_example.cpp.o
+.PHONY : 05_STL/queue_example.cpp.o
 
-06_STL/unordered_map_example.i: 06_STL/unordered_map_example.cpp.i
-.PHONY : 06_STL/unordered_map_example.i
+05_STL/queue_example.i: 05_STL/queue_example.cpp.i
+.PHONY : 05_STL/queue_example.i
 
 # target to preprocess a source file
-06_STL/unordered_map_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example.dir/build.make CMakeFiles/06_STL_unordered_map_example.dir/06_STL/unordered_map_example.cpp.i
-.PHONY : 06_STL/unordered_map_example.cpp.i
+05_STL/queue_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example.dir/build.make CMakeFiles/05_STL_queue_example.dir/05_STL/queue_example.cpp.i
+.PHONY : 05_STL/queue_example.cpp.i
 
-06_STL/unordered_map_example.s: 06_STL/unordered_map_example.cpp.s
-.PHONY : 06_STL/unordered_map_example.s
+05_STL/queue_example.s: 05_STL/queue_example.cpp.s
+.PHONY : 05_STL/queue_example.s
 
 # target to generate assembly for a file
-06_STL/unordered_map_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example.dir/build.make CMakeFiles/06_STL_unordered_map_example.dir/06_STL/unordered_map_example.cpp.s
-.PHONY : 06_STL/unordered_map_example.cpp.s
+05_STL/queue_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example.dir/build.make CMakeFiles/05_STL_queue_example.dir/05_STL/queue_example.cpp.s
+.PHONY : 05_STL/queue_example.cpp.s
 
-06_STL/unordered_map_example_noob.o: 06_STL/unordered_map_example_noob.cpp.o
-.PHONY : 06_STL/unordered_map_example_noob.o
+05_STL/queue_example_noob.o: 05_STL/queue_example_noob.cpp.o
+.PHONY : 05_STL/queue_example_noob.o
 
 # target to build an object file
-06_STL/unordered_map_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example_noob.dir/build.make CMakeFiles/06_STL_unordered_map_example_noob.dir/06_STL/unordered_map_example_noob.cpp.o
-.PHONY : 06_STL/unordered_map_example_noob.cpp.o
+05_STL/queue_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example_noob.dir/build.make CMakeFiles/05_STL_queue_example_noob.dir/05_STL/queue_example_noob.cpp.o
+.PHONY : 05_STL/queue_example_noob.cpp.o
 
-06_STL/unordered_map_example_noob.i: 06_STL/unordered_map_example_noob.cpp.i
-.PHONY : 06_STL/unordered_map_example_noob.i
+05_STL/queue_example_noob.i: 05_STL/queue_example_noob.cpp.i
+.PHONY : 05_STL/queue_example_noob.i
 
 # target to preprocess a source file
-06_STL/unordered_map_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example_noob.dir/build.make CMakeFiles/06_STL_unordered_map_example_noob.dir/06_STL/unordered_map_example_noob.cpp.i
-.PHONY : 06_STL/unordered_map_example_noob.cpp.i
+05_STL/queue_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example_noob.dir/build.make CMakeFiles/05_STL_queue_example_noob.dir/05_STL/queue_example_noob.cpp.i
+.PHONY : 05_STL/queue_example_noob.cpp.i
 
-06_STL/unordered_map_example_noob.s: 06_STL/unordered_map_example_noob.cpp.s
-.PHONY : 06_STL/unordered_map_example_noob.s
+05_STL/queue_example_noob.s: 05_STL/queue_example_noob.cpp.s
+.PHONY : 05_STL/queue_example_noob.s
 
 # target to generate assembly for a file
-06_STL/unordered_map_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_map_example_noob.dir/build.make CMakeFiles/06_STL_unordered_map_example_noob.dir/06_STL/unordered_map_example_noob.cpp.s
-.PHONY : 06_STL/unordered_map_example_noob.cpp.s
+05_STL/queue_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_queue_example_noob.dir/build.make CMakeFiles/05_STL_queue_example_noob.dir/05_STL/queue_example_noob.cpp.s
+.PHONY : 05_STL/queue_example_noob.cpp.s
 
-06_STL/unordered_set_example.o: 06_STL/unordered_set_example.cpp.o
-.PHONY : 06_STL/unordered_set_example.o
+05_STL/regex_example.o: 05_STL/regex_example.cpp.o
+.PHONY : 05_STL/regex_example.o
 
 # target to build an object file
-06_STL/unordered_set_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example.dir/build.make CMakeFiles/06_STL_unordered_set_example.dir/06_STL/unordered_set_example.cpp.o
-.PHONY : 06_STL/unordered_set_example.cpp.o
+05_STL/regex_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example.dir/build.make CMakeFiles/05_STL_regex_example.dir/05_STL/regex_example.cpp.o
+.PHONY : 05_STL/regex_example.cpp.o
 
-06_STL/unordered_set_example.i: 06_STL/unordered_set_example.cpp.i
-.PHONY : 06_STL/unordered_set_example.i
+05_STL/regex_example.i: 05_STL/regex_example.cpp.i
+.PHONY : 05_STL/regex_example.i
 
 # target to preprocess a source file
-06_STL/unordered_set_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example.dir/build.make CMakeFiles/06_STL_unordered_set_example.dir/06_STL/unordered_set_example.cpp.i
-.PHONY : 06_STL/unordered_set_example.cpp.i
+05_STL/regex_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example.dir/build.make CMakeFiles/05_STL_regex_example.dir/05_STL/regex_example.cpp.i
+.PHONY : 05_STL/regex_example.cpp.i
 
-06_STL/unordered_set_example.s: 06_STL/unordered_set_example.cpp.s
-.PHONY : 06_STL/unordered_set_example.s
+05_STL/regex_example.s: 05_STL/regex_example.cpp.s
+.PHONY : 05_STL/regex_example.s
 
 # target to generate assembly for a file
-06_STL/unordered_set_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example.dir/build.make CMakeFiles/06_STL_unordered_set_example.dir/06_STL/unordered_set_example.cpp.s
-.PHONY : 06_STL/unordered_set_example.cpp.s
+05_STL/regex_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example.dir/build.make CMakeFiles/05_STL_regex_example.dir/05_STL/regex_example.cpp.s
+.PHONY : 05_STL/regex_example.cpp.s
 
-06_STL/unordered_set_example_noob.o: 06_STL/unordered_set_example_noob.cpp.o
-.PHONY : 06_STL/unordered_set_example_noob.o
+05_STL/regex_example_noob.o: 05_STL/regex_example_noob.cpp.o
+.PHONY : 05_STL/regex_example_noob.o
 
 # target to build an object file
-06_STL/unordered_set_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example_noob.dir/build.make CMakeFiles/06_STL_unordered_set_example_noob.dir/06_STL/unordered_set_example_noob.cpp.o
-.PHONY : 06_STL/unordered_set_example_noob.cpp.o
+05_STL/regex_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example_noob.dir/build.make CMakeFiles/05_STL_regex_example_noob.dir/05_STL/regex_example_noob.cpp.o
+.PHONY : 05_STL/regex_example_noob.cpp.o
 
-06_STL/unordered_set_example_noob.i: 06_STL/unordered_set_example_noob.cpp.i
-.PHONY : 06_STL/unordered_set_example_noob.i
+05_STL/regex_example_noob.i: 05_STL/regex_example_noob.cpp.i
+.PHONY : 05_STL/regex_example_noob.i
 
 # target to preprocess a source file
-06_STL/unordered_set_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example_noob.dir/build.make CMakeFiles/06_STL_unordered_set_example_noob.dir/06_STL/unordered_set_example_noob.cpp.i
-.PHONY : 06_STL/unordered_set_example_noob.cpp.i
+05_STL/regex_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example_noob.dir/build.make CMakeFiles/05_STL_regex_example_noob.dir/05_STL/regex_example_noob.cpp.i
+.PHONY : 05_STL/regex_example_noob.cpp.i
 
-06_STL/unordered_set_example_noob.s: 06_STL/unordered_set_example_noob.cpp.s
-.PHONY : 06_STL/unordered_set_example_noob.s
+05_STL/regex_example_noob.s: 05_STL/regex_example_noob.cpp.s
+.PHONY : 05_STL/regex_example_noob.s
 
 # target to generate assembly for a file
-06_STL/unordered_set_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_unordered_set_example_noob.dir/build.make CMakeFiles/06_STL_unordered_set_example_noob.dir/06_STL/unordered_set_example_noob.cpp.s
-.PHONY : 06_STL/unordered_set_example_noob.cpp.s
+05_STL/regex_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_regex_example_noob.dir/build.make CMakeFiles/05_STL_regex_example_noob.dir/05_STL/regex_example_noob.cpp.s
+.PHONY : 05_STL/regex_example_noob.cpp.s
 
-06_STL/valarray_example.o: 06_STL/valarray_example.cpp.o
-.PHONY : 06_STL/valarray_example.o
+05_STL/set_example.o: 05_STL/set_example.cpp.o
+.PHONY : 05_STL/set_example.o
 
 # target to build an object file
-06_STL/valarray_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example.dir/build.make CMakeFiles/06_STL_valarray_example.dir/06_STL/valarray_example.cpp.o
-.PHONY : 06_STL/valarray_example.cpp.o
+05_STL/set_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_set_example.dir/build.make CMakeFiles/05_STL_set_example.dir/05_STL/set_example.cpp.o
+.PHONY : 05_STL/set_example.cpp.o
 
-06_STL/valarray_example.i: 06_STL/valarray_example.cpp.i
-.PHONY : 06_STL/valarray_example.i
+05_STL/set_example.i: 05_STL/set_example.cpp.i
+.PHONY : 05_STL/set_example.i
 
 # target to preprocess a source file
-06_STL/valarray_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example.dir/build.make CMakeFiles/06_STL_valarray_example.dir/06_STL/valarray_example.cpp.i
-.PHONY : 06_STL/valarray_example.cpp.i
+05_STL/set_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_set_example.dir/build.make CMakeFiles/05_STL_set_example.dir/05_STL/set_example.cpp.i
+.PHONY : 05_STL/set_example.cpp.i
 
-06_STL/valarray_example.s: 06_STL/valarray_example.cpp.s
-.PHONY : 06_STL/valarray_example.s
+05_STL/set_example.s: 05_STL/set_example.cpp.s
+.PHONY : 05_STL/set_example.s
 
 # target to generate assembly for a file
-06_STL/valarray_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example.dir/build.make CMakeFiles/06_STL_valarray_example.dir/06_STL/valarray_example.cpp.s
-.PHONY : 06_STL/valarray_example.cpp.s
+05_STL/set_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_set_example.dir/build.make CMakeFiles/05_STL_set_example.dir/05_STL/set_example.cpp.s
+.PHONY : 05_STL/set_example.cpp.s
 
-06_STL/valarray_example_noob.o: 06_STL/valarray_example_noob.cpp.o
-.PHONY : 06_STL/valarray_example_noob.o
+05_STL/shared_ptr_example.o: 05_STL/shared_ptr_example.cpp.o
+.PHONY : 05_STL/shared_ptr_example.o
 
 # target to build an object file
-06_STL/valarray_example_noob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example_noob.dir/build.make CMakeFiles/06_STL_valarray_example_noob.dir/06_STL/valarray_example_noob.cpp.o
-.PHONY : 06_STL/valarray_example_noob.cpp.o
+05_STL/shared_ptr_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_shared_ptr_example.dir/build.make CMakeFiles/05_STL_shared_ptr_example.dir/05_STL/shared_ptr_example.cpp.o
+.PHONY : 05_STL/shared_ptr_example.cpp.o
 
-06_STL/valarray_example_noob.i: 06_STL/valarray_example_noob.cpp.i
-.PHONY : 06_STL/valarray_example_noob.i
+05_STL/shared_ptr_example.i: 05_STL/shared_ptr_example.cpp.i
+.PHONY : 05_STL/shared_ptr_example.i
 
 # target to preprocess a source file
-06_STL/valarray_example_noob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example_noob.dir/build.make CMakeFiles/06_STL_valarray_example_noob.dir/06_STL/valarray_example_noob.cpp.i
-.PHONY : 06_STL/valarray_example_noob.cpp.i
+05_STL/shared_ptr_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_shared_ptr_example.dir/build.make CMakeFiles/05_STL_shared_ptr_example.dir/05_STL/shared_ptr_example.cpp.i
+.PHONY : 05_STL/shared_ptr_example.cpp.i
 
-06_STL/valarray_example_noob.s: 06_STL/valarray_example_noob.cpp.s
-.PHONY : 06_STL/valarray_example_noob.s
+05_STL/shared_ptr_example.s: 05_STL/shared_ptr_example.cpp.s
+.PHONY : 05_STL/shared_ptr_example.s
 
 # target to generate assembly for a file
-06_STL/valarray_example_noob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_valarray_example_noob.dir/build.make CMakeFiles/06_STL_valarray_example_noob.dir/06_STL/valarray_example_noob.cpp.s
-.PHONY : 06_STL/valarray_example_noob.cpp.s
+05_STL/shared_ptr_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_shared_ptr_example.dir/build.make CMakeFiles/05_STL_shared_ptr_example.dir/05_STL/shared_ptr_example.cpp.s
+.PHONY : 05_STL/shared_ptr_example.cpp.s
 
-06_STL/vector.o: 06_STL/vector.cpp.o
-.PHONY : 06_STL/vector.o
+05_STL/stack_example.o: 05_STL/stack_example.cpp.o
+.PHONY : 05_STL/stack_example.o
 
 # target to build an object file
-06_STL/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_vector.dir/build.make CMakeFiles/06_STL_vector.dir/06_STL/vector.cpp.o
-.PHONY : 06_STL/vector.cpp.o
+05_STL/stack_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_stack_example.dir/build.make CMakeFiles/05_STL_stack_example.dir/05_STL/stack_example.cpp.o
+.PHONY : 05_STL/stack_example.cpp.o
 
-06_STL/vector.i: 06_STL/vector.cpp.i
-.PHONY : 06_STL/vector.i
+05_STL/stack_example.i: 05_STL/stack_example.cpp.i
+.PHONY : 05_STL/stack_example.i
 
 # target to preprocess a source file
-06_STL/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_vector.dir/build.make CMakeFiles/06_STL_vector.dir/06_STL/vector.cpp.i
-.PHONY : 06_STL/vector.cpp.i
+05_STL/stack_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_stack_example.dir/build.make CMakeFiles/05_STL_stack_example.dir/05_STL/stack_example.cpp.i
+.PHONY : 05_STL/stack_example.cpp.i
 
-06_STL/vector.s: 06_STL/vector.cpp.s
-.PHONY : 06_STL/vector.s
+05_STL/stack_example.s: 05_STL/stack_example.cpp.s
+.PHONY : 05_STL/stack_example.s
 
 # target to generate assembly for a file
-06_STL/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_STL_vector.dir/build.make CMakeFiles/06_STL_vector.dir/06_STL/vector.cpp.s
-.PHONY : 06_STL/vector.cpp.s
+05_STL/stack_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_stack_example.dir/build.make CMakeFiles/05_STL_stack_example.dir/05_STL/stack_example.cpp.s
+.PHONY : 05_STL/stack_example.cpp.s
 
-07_Resources/RAII.o: 07_Resources/RAII.cpp.o
-.PHONY : 07_Resources/RAII.o
+05_STL/strings.o: 05_STL/strings.cpp.o
+.PHONY : 05_STL/strings.o
 
 # target to build an object file
-07_Resources/RAII.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Resources_RAII.dir/build.make CMakeFiles/07_Resources_RAII.dir/07_Resources/RAII.cpp.o
-.PHONY : 07_Resources/RAII.cpp.o
+05_STL/strings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_strings.dir/build.make CMakeFiles/05_STL_strings.dir/05_STL/strings.cpp.o
+.PHONY : 05_STL/strings.cpp.o
 
-07_Resources/RAII.i: 07_Resources/RAII.cpp.i
-.PHONY : 07_Resources/RAII.i
+05_STL/strings.i: 05_STL/strings.cpp.i
+.PHONY : 05_STL/strings.i
 
 # target to preprocess a source file
-07_Resources/RAII.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Resources_RAII.dir/build.make CMakeFiles/07_Resources_RAII.dir/07_Resources/RAII.cpp.i
-.PHONY : 07_Resources/RAII.cpp.i
+05_STL/strings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_strings.dir/build.make CMakeFiles/05_STL_strings.dir/05_STL/strings.cpp.i
+.PHONY : 05_STL/strings.cpp.i
 
-07_Resources/RAII.s: 07_Resources/RAII.cpp.s
-.PHONY : 07_Resources/RAII.s
+05_STL/strings.s: 05_STL/strings.cpp.s
+.PHONY : 05_STL/strings.s
 
 # target to generate assembly for a file
-07_Resources/RAII.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Resources_RAII.dir/build.make CMakeFiles/07_Resources_RAII.dir/07_Resources/RAII.cpp.s
-.PHONY : 07_Resources/RAII.cpp.s
+05_STL/strings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_strings.dir/build.make CMakeFiles/05_STL_strings.dir/05_STL/strings.cpp.s
+.PHONY : 05_STL/strings.cpp.s
 
-08_Lambdas/lambdas.o: 08_Lambdas/lambdas.cpp.o
-.PHONY : 08_Lambdas/lambdas.o
+05_STL/tuple_example.o: 05_STL/tuple_example.cpp.o
+.PHONY : 05_STL/tuple_example.o
 
 # target to build an object file
-08_Lambdas/lambdas.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_Lambdas_lambdas.dir/build.make CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.o
-.PHONY : 08_Lambdas/lambdas.cpp.o
+05_STL/tuple_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example.dir/build.make CMakeFiles/05_STL_tuple_example.dir/05_STL/tuple_example.cpp.o
+.PHONY : 05_STL/tuple_example.cpp.o
 
-08_Lambdas/lambdas.i: 08_Lambdas/lambdas.cpp.i
-.PHONY : 08_Lambdas/lambdas.i
+05_STL/tuple_example.i: 05_STL/tuple_example.cpp.i
+.PHONY : 05_STL/tuple_example.i
 
 # target to preprocess a source file
-08_Lambdas/lambdas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_Lambdas_lambdas.dir/build.make CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.i
-.PHONY : 08_Lambdas/lambdas.cpp.i
+05_STL/tuple_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example.dir/build.make CMakeFiles/05_STL_tuple_example.dir/05_STL/tuple_example.cpp.i
+.PHONY : 05_STL/tuple_example.cpp.i
 
-08_Lambdas/lambdas.s: 08_Lambdas/lambdas.cpp.s
-.PHONY : 08_Lambdas/lambdas.s
+05_STL/tuple_example.s: 05_STL/tuple_example.cpp.s
+.PHONY : 05_STL/tuple_example.s
 
 # target to generate assembly for a file
-08_Lambdas/lambdas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_Lambdas_lambdas.dir/build.make CMakeFiles/08_Lambdas_lambdas.dir/08_Lambdas/lambdas.cpp.s
-.PHONY : 08_Lambdas/lambdas.cpp.s
+05_STL/tuple_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example.dir/build.make CMakeFiles/05_STL_tuple_example.dir/05_STL/tuple_example.cpp.s
+.PHONY : 05_STL/tuple_example.cpp.s
 
-09_Templates/01_templates.o: 09_Templates/01_templates.cpp.o
-.PHONY : 09_Templates/01_templates.o
+05_STL/tuple_example_noob.o: 05_STL/tuple_example_noob.cpp.o
+.PHONY : 05_STL/tuple_example_noob.o
 
 # target to build an object file
-09_Templates/01_templates.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_01_templates.dir/build.make CMakeFiles/09_Templates_01_templates.dir/09_Templates/01_templates.cpp.o
-.PHONY : 09_Templates/01_templates.cpp.o
+05_STL/tuple_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example_noob.dir/build.make CMakeFiles/05_STL_tuple_example_noob.dir/05_STL/tuple_example_noob.cpp.o
+.PHONY : 05_STL/tuple_example_noob.cpp.o
 
-09_Templates/01_templates.i: 09_Templates/01_templates.cpp.i
-.PHONY : 09_Templates/01_templates.i
+05_STL/tuple_example_noob.i: 05_STL/tuple_example_noob.cpp.i
+.PHONY : 05_STL/tuple_example_noob.i
 
 # target to preprocess a source file
-09_Templates/01_templates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_01_templates.dir/build.make CMakeFiles/09_Templates_01_templates.dir/09_Templates/01_templates.cpp.i
-.PHONY : 09_Templates/01_templates.cpp.i
+05_STL/tuple_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example_noob.dir/build.make CMakeFiles/05_STL_tuple_example_noob.dir/05_STL/tuple_example_noob.cpp.i
+.PHONY : 05_STL/tuple_example_noob.cpp.i
 
-09_Templates/01_templates.s: 09_Templates/01_templates.cpp.s
-.PHONY : 09_Templates/01_templates.s
+05_STL/tuple_example_noob.s: 05_STL/tuple_example_noob.cpp.s
+.PHONY : 05_STL/tuple_example_noob.s
 
 # target to generate assembly for a file
-09_Templates/01_templates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_01_templates.dir/build.make CMakeFiles/09_Templates_01_templates.dir/09_Templates/01_templates.cpp.s
-.PHONY : 09_Templates/01_templates.cpp.s
+05_STL/tuple_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_tuple_example_noob.dir/build.make CMakeFiles/05_STL_tuple_example_noob.dir/05_STL/tuple_example_noob.cpp.s
+.PHONY : 05_STL/tuple_example_noob.cpp.s
 
-09_Templates/02_templates.o: 09_Templates/02_templates.cpp.o
-.PHONY : 09_Templates/02_templates.o
+05_STL/unique_ptr_example.o: 05_STL/unique_ptr_example.cpp.o
+.PHONY : 05_STL/unique_ptr_example.o
 
 # target to build an object file
-09_Templates/02_templates.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_02_templates.dir/build.make CMakeFiles/09_Templates_02_templates.dir/09_Templates/02_templates.cpp.o
-.PHONY : 09_Templates/02_templates.cpp.o
+05_STL/unique_ptr_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example.dir/build.make CMakeFiles/05_STL_unique_ptr_example.dir/05_STL/unique_ptr_example.cpp.o
+.PHONY : 05_STL/unique_ptr_example.cpp.o
 
-09_Templates/02_templates.i: 09_Templates/02_templates.cpp.i
-.PHONY : 09_Templates/02_templates.i
+05_STL/unique_ptr_example.i: 05_STL/unique_ptr_example.cpp.i
+.PHONY : 05_STL/unique_ptr_example.i
 
 # target to preprocess a source file
-09_Templates/02_templates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_02_templates.dir/build.make CMakeFiles/09_Templates_02_templates.dir/09_Templates/02_templates.cpp.i
-.PHONY : 09_Templates/02_templates.cpp.i
+05_STL/unique_ptr_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example.dir/build.make CMakeFiles/05_STL_unique_ptr_example.dir/05_STL/unique_ptr_example.cpp.i
+.PHONY : 05_STL/unique_ptr_example.cpp.i
 
-09_Templates/02_templates.s: 09_Templates/02_templates.cpp.s
-.PHONY : 09_Templates/02_templates.s
+05_STL/unique_ptr_example.s: 05_STL/unique_ptr_example.cpp.s
+.PHONY : 05_STL/unique_ptr_example.s
 
 # target to generate assembly for a file
-09_Templates/02_templates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_02_templates.dir/build.make CMakeFiles/09_Templates_02_templates.dir/09_Templates/02_templates.cpp.s
-.PHONY : 09_Templates/02_templates.cpp.s
+05_STL/unique_ptr_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example.dir/build.make CMakeFiles/05_STL_unique_ptr_example.dir/05_STL/unique_ptr_example.cpp.s
+.PHONY : 05_STL/unique_ptr_example.cpp.s
 
-09_Templates/03_template_specialization.o: 09_Templates/03_template_specialization.cpp.o
-.PHONY : 09_Templates/03_template_specialization.o
+05_STL/unique_ptr_example_noob.o: 05_STL/unique_ptr_example_noob.cpp.o
+.PHONY : 05_STL/unique_ptr_example_noob.o
 
 # target to build an object file
-09_Templates/03_template_specialization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_03_template_specialization.dir/build.make CMakeFiles/09_Templates_03_template_specialization.dir/09_Templates/03_template_specialization.cpp.o
-.PHONY : 09_Templates/03_template_specialization.cpp.o
+05_STL/unique_ptr_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/05_STL_unique_ptr_example_noob.dir/05_STL/unique_ptr_example_noob.cpp.o
+.PHONY : 05_STL/unique_ptr_example_noob.cpp.o
 
-09_Templates/03_template_specialization.i: 09_Templates/03_template_specialization.cpp.i
-.PHONY : 09_Templates/03_template_specialization.i
+05_STL/unique_ptr_example_noob.i: 05_STL/unique_ptr_example_noob.cpp.i
+.PHONY : 05_STL/unique_ptr_example_noob.i
 
 # target to preprocess a source file
-09_Templates/03_template_specialization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_03_template_specialization.dir/build.make CMakeFiles/09_Templates_03_template_specialization.dir/09_Templates/03_template_specialization.cpp.i
-.PHONY : 09_Templates/03_template_specialization.cpp.i
+05_STL/unique_ptr_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/05_STL_unique_ptr_example_noob.dir/05_STL/unique_ptr_example_noob.cpp.i
+.PHONY : 05_STL/unique_ptr_example_noob.cpp.i
 
-09_Templates/03_template_specialization.s: 09_Templates/03_template_specialization.cpp.s
-.PHONY : 09_Templates/03_template_specialization.s
+05_STL/unique_ptr_example_noob.s: 05_STL/unique_ptr_example_noob.cpp.s
+.PHONY : 05_STL/unique_ptr_example_noob.s
 
 # target to generate assembly for a file
-09_Templates/03_template_specialization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_03_template_specialization.dir/build.make CMakeFiles/09_Templates_03_template_specialization.dir/09_Templates/03_template_specialization.cpp.s
-.PHONY : 09_Templates/03_template_specialization.cpp.s
+05_STL/unique_ptr_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unique_ptr_example_noob.dir/build.make CMakeFiles/05_STL_unique_ptr_example_noob.dir/05_STL/unique_ptr_example_noob.cpp.s
+.PHONY : 05_STL/unique_ptr_example_noob.cpp.s
 
-09_Templates/AnotherTemplateExample.o: 09_Templates/AnotherTemplateExample.cpp.o
-.PHONY : 09_Templates/AnotherTemplateExample.o
+05_STL/unordered_map_example.o: 05_STL/unordered_map_example.cpp.o
+.PHONY : 05_STL/unordered_map_example.o
 
 # target to build an object file
-09_Templates/AnotherTemplateExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/09_Templates_AnotherTemplateExample.dir/09_Templates/AnotherTemplateExample.cpp.o
-.PHONY : 09_Templates/AnotherTemplateExample.cpp.o
+05_STL/unordered_map_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example.dir/build.make CMakeFiles/05_STL_unordered_map_example.dir/05_STL/unordered_map_example.cpp.o
+.PHONY : 05_STL/unordered_map_example.cpp.o
 
-09_Templates/AnotherTemplateExample.i: 09_Templates/AnotherTemplateExample.cpp.i
-.PHONY : 09_Templates/AnotherTemplateExample.i
+05_STL/unordered_map_example.i: 05_STL/unordered_map_example.cpp.i
+.PHONY : 05_STL/unordered_map_example.i
 
 # target to preprocess a source file
-09_Templates/AnotherTemplateExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/09_Templates_AnotherTemplateExample.dir/09_Templates/AnotherTemplateExample.cpp.i
-.PHONY : 09_Templates/AnotherTemplateExample.cpp.i
+05_STL/unordered_map_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example.dir/build.make CMakeFiles/05_STL_unordered_map_example.dir/05_STL/unordered_map_example.cpp.i
+.PHONY : 05_STL/unordered_map_example.cpp.i
 
-09_Templates/AnotherTemplateExample.s: 09_Templates/AnotherTemplateExample.cpp.s
-.PHONY : 09_Templates/AnotherTemplateExample.s
+05_STL/unordered_map_example.s: 05_STL/unordered_map_example.cpp.s
+.PHONY : 05_STL/unordered_map_example.s
 
 # target to generate assembly for a file
-09_Templates/AnotherTemplateExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/09_Templates_AnotherTemplateExample.dir/09_Templates/AnotherTemplateExample.cpp.s
-.PHONY : 09_Templates/AnotherTemplateExample.cpp.s
+05_STL/unordered_map_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example.dir/build.make CMakeFiles/05_STL_unordered_map_example.dir/05_STL/unordered_map_example.cpp.s
+.PHONY : 05_STL/unordered_map_example.cpp.s
 
-09_Templates/Summary.o: 09_Templates/Summary.cpp.o
-.PHONY : 09_Templates/Summary.o
+05_STL/unordered_map_example_noob.o: 05_STL/unordered_map_example_noob.cpp.o
+.PHONY : 05_STL/unordered_map_example_noob.o
 
 # target to build an object file
-09_Templates/Summary.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_Summary.dir/build.make CMakeFiles/09_Templates_Summary.dir/09_Templates/Summary.cpp.o
-.PHONY : 09_Templates/Summary.cpp.o
+05_STL/unordered_map_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example_noob.dir/build.make CMakeFiles/05_STL_unordered_map_example_noob.dir/05_STL/unordered_map_example_noob.cpp.o
+.PHONY : 05_STL/unordered_map_example_noob.cpp.o
 
-09_Templates/Summary.i: 09_Templates/Summary.cpp.i
-.PHONY : 09_Templates/Summary.i
+05_STL/unordered_map_example_noob.i: 05_STL/unordered_map_example_noob.cpp.i
+.PHONY : 05_STL/unordered_map_example_noob.i
 
 # target to preprocess a source file
-09_Templates/Summary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_Summary.dir/build.make CMakeFiles/09_Templates_Summary.dir/09_Templates/Summary.cpp.i
-.PHONY : 09_Templates/Summary.cpp.i
+05_STL/unordered_map_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example_noob.dir/build.make CMakeFiles/05_STL_unordered_map_example_noob.dir/05_STL/unordered_map_example_noob.cpp.i
+.PHONY : 05_STL/unordered_map_example_noob.cpp.i
 
-09_Templates/Summary.s: 09_Templates/Summary.cpp.s
-.PHONY : 09_Templates/Summary.s
+05_STL/unordered_map_example_noob.s: 05_STL/unordered_map_example_noob.cpp.s
+.PHONY : 05_STL/unordered_map_example_noob.s
 
 # target to generate assembly for a file
-09_Templates/Summary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_Summary.dir/build.make CMakeFiles/09_Templates_Summary.dir/09_Templates/Summary.cpp.s
-.PHONY : 09_Templates/Summary.cpp.s
+05_STL/unordered_map_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_map_example_noob.dir/build.make CMakeFiles/05_STL_unordered_map_example_noob.dir/05_STL/unordered_map_example_noob.cpp.s
+.PHONY : 05_STL/unordered_map_example_noob.cpp.s
 
-09_Templates/compile_time_evaluation.o: 09_Templates/compile_time_evaluation.cpp.o
-.PHONY : 09_Templates/compile_time_evaluation.o
+05_STL/unordered_set_example.o: 05_STL/unordered_set_example.cpp.o
+.PHONY : 05_STL/unordered_set_example.o
 
 # target to build an object file
-09_Templates/compile_time_evaluation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_compile_time_evaluation.dir/build.make CMakeFiles/09_Templates_compile_time_evaluation.dir/09_Templates/compile_time_evaluation.cpp.o
-.PHONY : 09_Templates/compile_time_evaluation.cpp.o
+05_STL/unordered_set_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example.dir/build.make CMakeFiles/05_STL_unordered_set_example.dir/05_STL/unordered_set_example.cpp.o
+.PHONY : 05_STL/unordered_set_example.cpp.o
 
-09_Templates/compile_time_evaluation.i: 09_Templates/compile_time_evaluation.cpp.i
-.PHONY : 09_Templates/compile_time_evaluation.i
+05_STL/unordered_set_example.i: 05_STL/unordered_set_example.cpp.i
+.PHONY : 05_STL/unordered_set_example.i
 
 # target to preprocess a source file
-09_Templates/compile_time_evaluation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_compile_time_evaluation.dir/build.make CMakeFiles/09_Templates_compile_time_evaluation.dir/09_Templates/compile_time_evaluation.cpp.i
-.PHONY : 09_Templates/compile_time_evaluation.cpp.i
+05_STL/unordered_set_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example.dir/build.make CMakeFiles/05_STL_unordered_set_example.dir/05_STL/unordered_set_example.cpp.i
+.PHONY : 05_STL/unordered_set_example.cpp.i
 
-09_Templates/compile_time_evaluation.s: 09_Templates/compile_time_evaluation.cpp.s
-.PHONY : 09_Templates/compile_time_evaluation.s
+05_STL/unordered_set_example.s: 05_STL/unordered_set_example.cpp.s
+.PHONY : 05_STL/unordered_set_example.s
 
 # target to generate assembly for a file
-09_Templates/compile_time_evaluation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_compile_time_evaluation.dir/build.make CMakeFiles/09_Templates_compile_time_evaluation.dir/09_Templates/compile_time_evaluation.cpp.s
-.PHONY : 09_Templates/compile_time_evaluation.cpp.s
+05_STL/unordered_set_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example.dir/build.make CMakeFiles/05_STL_unordered_set_example.dir/05_STL/unordered_set_example.cpp.s
+.PHONY : 05_STL/unordered_set_example.cpp.s
 
-09_Templates/template_specialization.o: 09_Templates/template_specialization.cpp.o
-.PHONY : 09_Templates/template_specialization.o
+05_STL/unordered_set_example_noob.o: 05_STL/unordered_set_example_noob.cpp.o
+.PHONY : 05_STL/unordered_set_example_noob.o
 
 # target to build an object file
-09_Templates/template_specialization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_template_specialization.dir/build.make CMakeFiles/09_Templates_template_specialization.dir/09_Templates/template_specialization.cpp.o
-.PHONY : 09_Templates/template_specialization.cpp.o
+05_STL/unordered_set_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example_noob.dir/build.make CMakeFiles/05_STL_unordered_set_example_noob.dir/05_STL/unordered_set_example_noob.cpp.o
+.PHONY : 05_STL/unordered_set_example_noob.cpp.o
 
-09_Templates/template_specialization.i: 09_Templates/template_specialization.cpp.i
-.PHONY : 09_Templates/template_specialization.i
+05_STL/unordered_set_example_noob.i: 05_STL/unordered_set_example_noob.cpp.i
+.PHONY : 05_STL/unordered_set_example_noob.i
 
 # target to preprocess a source file
-09_Templates/template_specialization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_template_specialization.dir/build.make CMakeFiles/09_Templates_template_specialization.dir/09_Templates/template_specialization.cpp.i
-.PHONY : 09_Templates/template_specialization.cpp.i
+05_STL/unordered_set_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example_noob.dir/build.make CMakeFiles/05_STL_unordered_set_example_noob.dir/05_STL/unordered_set_example_noob.cpp.i
+.PHONY : 05_STL/unordered_set_example_noob.cpp.i
 
-09_Templates/template_specialization.s: 09_Templates/template_specialization.cpp.s
-.PHONY : 09_Templates/template_specialization.s
+05_STL/unordered_set_example_noob.s: 05_STL/unordered_set_example_noob.cpp.s
+.PHONY : 05_STL/unordered_set_example_noob.s
 
 # target to generate assembly for a file
-09_Templates/template_specialization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_template_specialization.dir/build.make CMakeFiles/09_Templates_template_specialization.dir/09_Templates/template_specialization.cpp.s
-.PHONY : 09_Templates/template_specialization.cpp.s
+05_STL/unordered_set_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_unordered_set_example_noob.dir/build.make CMakeFiles/05_STL_unordered_set_example_noob.dir/05_STL/unordered_set_example_noob.cpp.s
+.PHONY : 05_STL/unordered_set_example_noob.cpp.s
 
-09_Templates/variadic_templates.o: 09_Templates/variadic_templates.cpp.o
-.PHONY : 09_Templates/variadic_templates.o
+05_STL/valarray_example.o: 05_STL/valarray_example.cpp.o
+.PHONY : 05_STL/valarray_example.o
 
 # target to build an object file
-09_Templates/variadic_templates.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_variadic_templates.dir/build.make CMakeFiles/09_Templates_variadic_templates.dir/09_Templates/variadic_templates.cpp.o
-.PHONY : 09_Templates/variadic_templates.cpp.o
+05_STL/valarray_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example.dir/build.make CMakeFiles/05_STL_valarray_example.dir/05_STL/valarray_example.cpp.o
+.PHONY : 05_STL/valarray_example.cpp.o
 
-09_Templates/variadic_templates.i: 09_Templates/variadic_templates.cpp.i
-.PHONY : 09_Templates/variadic_templates.i
+05_STL/valarray_example.i: 05_STL/valarray_example.cpp.i
+.PHONY : 05_STL/valarray_example.i
 
 # target to preprocess a source file
-09_Templates/variadic_templates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_variadic_templates.dir/build.make CMakeFiles/09_Templates_variadic_templates.dir/09_Templates/variadic_templates.cpp.i
-.PHONY : 09_Templates/variadic_templates.cpp.i
+05_STL/valarray_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example.dir/build.make CMakeFiles/05_STL_valarray_example.dir/05_STL/valarray_example.cpp.i
+.PHONY : 05_STL/valarray_example.cpp.i
 
-09_Templates/variadic_templates.s: 09_Templates/variadic_templates.cpp.s
-.PHONY : 09_Templates/variadic_templates.s
+05_STL/valarray_example.s: 05_STL/valarray_example.cpp.s
+.PHONY : 05_STL/valarray_example.s
 
 # target to generate assembly for a file
-09_Templates/variadic_templates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_Templates_variadic_templates.dir/build.make CMakeFiles/09_Templates_variadic_templates.dir/09_Templates/variadic_templates.cpp.s
-.PHONY : 09_Templates/variadic_templates.cpp.s
+05_STL/valarray_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example.dir/build.make CMakeFiles/05_STL_valarray_example.dir/05_STL/valarray_example.cpp.s
+.PHONY : 05_STL/valarray_example.cpp.s
 
-10_Object_Oriented/classes.o: 10_Object_Oriented/classes.cpp.o
-.PHONY : 10_Object_Oriented/classes.o
+05_STL/valarray_example_noob.o: 05_STL/valarray_example_noob.cpp.o
+.PHONY : 05_STL/valarray_example_noob.o
 
 # target to build an object file
-10_Object_Oriented/classes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_classes.dir/build.make CMakeFiles/10_Object_Oriented_classes.dir/10_Object_Oriented/classes.cpp.o
-.PHONY : 10_Object_Oriented/classes.cpp.o
+05_STL/valarray_example_noob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example_noob.dir/build.make CMakeFiles/05_STL_valarray_example_noob.dir/05_STL/valarray_example_noob.cpp.o
+.PHONY : 05_STL/valarray_example_noob.cpp.o
 
-10_Object_Oriented/classes.i: 10_Object_Oriented/classes.cpp.i
-.PHONY : 10_Object_Oriented/classes.i
+05_STL/valarray_example_noob.i: 05_STL/valarray_example_noob.cpp.i
+.PHONY : 05_STL/valarray_example_noob.i
 
 # target to preprocess a source file
-10_Object_Oriented/classes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_classes.dir/build.make CMakeFiles/10_Object_Oriented_classes.dir/10_Object_Oriented/classes.cpp.i
-.PHONY : 10_Object_Oriented/classes.cpp.i
+05_STL/valarray_example_noob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example_noob.dir/build.make CMakeFiles/05_STL_valarray_example_noob.dir/05_STL/valarray_example_noob.cpp.i
+.PHONY : 05_STL/valarray_example_noob.cpp.i
 
-10_Object_Oriented/classes.s: 10_Object_Oriented/classes.cpp.s
-.PHONY : 10_Object_Oriented/classes.s
+05_STL/valarray_example_noob.s: 05_STL/valarray_example_noob.cpp.s
+.PHONY : 05_STL/valarray_example_noob.s
 
 # target to generate assembly for a file
-10_Object_Oriented/classes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_classes.dir/build.make CMakeFiles/10_Object_Oriented_classes.dir/10_Object_Oriented/classes.cpp.s
-.PHONY : 10_Object_Oriented/classes.cpp.s
+05_STL/valarray_example_noob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_valarray_example_noob.dir/build.make CMakeFiles/05_STL_valarray_example_noob.dir/05_STL/valarray_example_noob.cpp.s
+.PHONY : 05_STL/valarray_example_noob.cpp.s
 
-10_Object_Oriented/oop_advanced.o: 10_Object_Oriented/oop_advanced.cpp.o
-.PHONY : 10_Object_Oriented/oop_advanced.o
+05_STL/vector.o: 05_STL/vector.cpp.o
+.PHONY : 05_STL/vector.o
 
 # target to build an object file
-10_Object_Oriented/oop_advanced.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/10_Object_Oriented_oop_advanced.dir/10_Object_Oriented/oop_advanced.cpp.o
-.PHONY : 10_Object_Oriented/oop_advanced.cpp.o
+05_STL/vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_vector.dir/build.make CMakeFiles/05_STL_vector.dir/05_STL/vector.cpp.o
+.PHONY : 05_STL/vector.cpp.o
 
-10_Object_Oriented/oop_advanced.i: 10_Object_Oriented/oop_advanced.cpp.i
-.PHONY : 10_Object_Oriented/oop_advanced.i
+05_STL/vector.i: 05_STL/vector.cpp.i
+.PHONY : 05_STL/vector.i
 
 # target to preprocess a source file
-10_Object_Oriented/oop_advanced.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/10_Object_Oriented_oop_advanced.dir/10_Object_Oriented/oop_advanced.cpp.i
-.PHONY : 10_Object_Oriented/oop_advanced.cpp.i
+05_STL/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_vector.dir/build.make CMakeFiles/05_STL_vector.dir/05_STL/vector.cpp.i
+.PHONY : 05_STL/vector.cpp.i
 
-10_Object_Oriented/oop_advanced.s: 10_Object_Oriented/oop_advanced.cpp.s
-.PHONY : 10_Object_Oriented/oop_advanced.s
+05_STL/vector.s: 05_STL/vector.cpp.s
+.PHONY : 05_STL/vector.s
 
 # target to generate assembly for a file
-10_Object_Oriented/oop_advanced.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/10_Object_Oriented_oop_advanced.dir/10_Object_Oriented/oop_advanced.cpp.s
-.PHONY : 10_Object_Oriented/oop_advanced.cpp.s
+05_STL/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05_STL_vector.dir/build.make CMakeFiles/05_STL_vector.dir/05_STL/vector.cpp.s
+.PHONY : 05_STL/vector.cpp.s
 
-10_Object_Oriented/oop_basic.o: 10_Object_Oriented/oop_basic.cpp.o
-.PHONY : 10_Object_Oriented/oop_basic.o
+06_Templates/01_templates.o: 06_Templates/01_templates.cpp.o
+.PHONY : 06_Templates/01_templates.o
 
 # target to build an object file
-10_Object_Oriented/oop_basic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_basic.dir/build.make CMakeFiles/10_Object_Oriented_oop_basic.dir/10_Object_Oriented/oop_basic.cpp.o
-.PHONY : 10_Object_Oriented/oop_basic.cpp.o
+06_Templates/01_templates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_01_templates.dir/build.make CMakeFiles/06_Templates_01_templates.dir/06_Templates/01_templates.cpp.o
+.PHONY : 06_Templates/01_templates.cpp.o
 
-10_Object_Oriented/oop_basic.i: 10_Object_Oriented/oop_basic.cpp.i
-.PHONY : 10_Object_Oriented/oop_basic.i
+06_Templates/01_templates.i: 06_Templates/01_templates.cpp.i
+.PHONY : 06_Templates/01_templates.i
 
 # target to preprocess a source file
-10_Object_Oriented/oop_basic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_basic.dir/build.make CMakeFiles/10_Object_Oriented_oop_basic.dir/10_Object_Oriented/oop_basic.cpp.i
-.PHONY : 10_Object_Oriented/oop_basic.cpp.i
+06_Templates/01_templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_01_templates.dir/build.make CMakeFiles/06_Templates_01_templates.dir/06_Templates/01_templates.cpp.i
+.PHONY : 06_Templates/01_templates.cpp.i
 
-10_Object_Oriented/oop_basic.s: 10_Object_Oriented/oop_basic.cpp.s
-.PHONY : 10_Object_Oriented/oop_basic.s
+06_Templates/01_templates.s: 06_Templates/01_templates.cpp.s
+.PHONY : 06_Templates/01_templates.s
 
 # target to generate assembly for a file
-10_Object_Oriented/oop_basic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_oop_basic.dir/build.make CMakeFiles/10_Object_Oriented_oop_basic.dir/10_Object_Oriented/oop_basic.cpp.s
-.PHONY : 10_Object_Oriented/oop_basic.cpp.s
+06_Templates/01_templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_01_templates.dir/build.make CMakeFiles/06_Templates_01_templates.dir/06_Templates/01_templates.cpp.s
+.PHONY : 06_Templates/01_templates.cpp.s
 
-10_Object_Oriented/shapes.o: 10_Object_Oriented/shapes.cpp.o
-.PHONY : 10_Object_Oriented/shapes.o
+06_Templates/02_templates.o: 06_Templates/02_templates.cpp.o
+.PHONY : 06_Templates/02_templates.o
 
 # target to build an object file
-10_Object_Oriented/shapes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_shapes.dir/build.make CMakeFiles/10_Object_Oriented_shapes.dir/10_Object_Oriented/shapes.cpp.o
-.PHONY : 10_Object_Oriented/shapes.cpp.o
+06_Templates/02_templates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_02_templates.dir/build.make CMakeFiles/06_Templates_02_templates.dir/06_Templates/02_templates.cpp.o
+.PHONY : 06_Templates/02_templates.cpp.o
 
-10_Object_Oriented/shapes.i: 10_Object_Oriented/shapes.cpp.i
-.PHONY : 10_Object_Oriented/shapes.i
+06_Templates/02_templates.i: 06_Templates/02_templates.cpp.i
+.PHONY : 06_Templates/02_templates.i
 
 # target to preprocess a source file
-10_Object_Oriented/shapes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_shapes.dir/build.make CMakeFiles/10_Object_Oriented_shapes.dir/10_Object_Oriented/shapes.cpp.i
-.PHONY : 10_Object_Oriented/shapes.cpp.i
+06_Templates/02_templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_02_templates.dir/build.make CMakeFiles/06_Templates_02_templates.dir/06_Templates/02_templates.cpp.i
+.PHONY : 06_Templates/02_templates.cpp.i
 
-10_Object_Oriented/shapes.s: 10_Object_Oriented/shapes.cpp.s
-.PHONY : 10_Object_Oriented/shapes.s
+06_Templates/02_templates.s: 06_Templates/02_templates.cpp.s
+.PHONY : 06_Templates/02_templates.s
 
 # target to generate assembly for a file
-10_Object_Oriented/shapes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Object_Oriented_shapes.dir/build.make CMakeFiles/10_Object_Oriented_shapes.dir/10_Object_Oriented/shapes.cpp.s
-.PHONY : 10_Object_Oriented/shapes.cpp.s
+06_Templates/02_templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_02_templates.dir/build.make CMakeFiles/06_Templates_02_templates.dir/06_Templates/02_templates.cpp.s
+.PHONY : 06_Templates/02_templates.cpp.s
 
-11_EventsAndDelegates/eventsAndDelegates.o: 11_EventsAndDelegates/eventsAndDelegates.cpp.o
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.o
+06_Templates/03_template_specialization.o: 06_Templates/03_template_specialization.cpp.o
+.PHONY : 06_Templates/03_template_specialization.o
 
 # target to build an object file
-11_EventsAndDelegates/eventsAndDelegates.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/11_EventsAndDelegates/eventsAndDelegates.cpp.o
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.cpp.o
+06_Templates/03_template_specialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_03_template_specialization.dir/build.make CMakeFiles/06_Templates_03_template_specialization.dir/06_Templates/03_template_specialization.cpp.o
+.PHONY : 06_Templates/03_template_specialization.cpp.o
 
-11_EventsAndDelegates/eventsAndDelegates.i: 11_EventsAndDelegates/eventsAndDelegates.cpp.i
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.i
+06_Templates/03_template_specialization.i: 06_Templates/03_template_specialization.cpp.i
+.PHONY : 06_Templates/03_template_specialization.i
 
 # target to preprocess a source file
-11_EventsAndDelegates/eventsAndDelegates.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/11_EventsAndDelegates/eventsAndDelegates.cpp.i
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.cpp.i
+06_Templates/03_template_specialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_03_template_specialization.dir/build.make CMakeFiles/06_Templates_03_template_specialization.dir/06_Templates/03_template_specialization.cpp.i
+.PHONY : 06_Templates/03_template_specialization.cpp.i
 
-11_EventsAndDelegates/eventsAndDelegates.s: 11_EventsAndDelegates/eventsAndDelegates.cpp.s
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.s
+06_Templates/03_template_specialization.s: 06_Templates/03_template_specialization.cpp.s
+.PHONY : 06_Templates/03_template_specialization.s
 
 # target to generate assembly for a file
-11_EventsAndDelegates/eventsAndDelegates.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/11_EventsAndDelegates_eventsAndDelegates.dir/11_EventsAndDelegates/eventsAndDelegates.cpp.s
-.PHONY : 11_EventsAndDelegates/eventsAndDelegates.cpp.s
+06_Templates/03_template_specialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_03_template_specialization.dir/build.make CMakeFiles/06_Templates_03_template_specialization.dir/06_Templates/03_template_specialization.cpp.s
+.PHONY : 06_Templates/03_template_specialization.cpp.s
 
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.o: 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.o
+06_Templates/AnotherTemplateExample.o: 06_Templates/AnotherTemplateExample.cpp.o
+.PHONY : 06_Templates/AnotherTemplateExample.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
+06_Templates/AnotherTemplateExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/06_Templates_AnotherTemplateExample.dir/06_Templates/AnotherTemplateExample.cpp.o
+.PHONY : 06_Templates/AnotherTemplateExample.cpp.o
 
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.i: 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.i
+06_Templates/AnotherTemplateExample.i: 06_Templates/AnotherTemplateExample.cpp.i
+.PHONY : 06_Templates/AnotherTemplateExample.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
+06_Templates/AnotherTemplateExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/06_Templates_AnotherTemplateExample.dir/06_Templates/AnotherTemplateExample.cpp.i
+.PHONY : 06_Templates/AnotherTemplateExample.cpp.i
 
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.s: 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.s
+06_Templates/AnotherTemplateExample.s: 06_Templates/AnotherTemplateExample.cpp.s
+.PHONY : 06_Templates/AnotherTemplateExample.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
+06_Templates/AnotherTemplateExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_AnotherTemplateExample.dir/build.make CMakeFiles/06_Templates_AnotherTemplateExample.dir/06_Templates/AnotherTemplateExample.cpp.s
+.PHONY : 06_Templates/AnotherTemplateExample.cpp.s
 
-12_CPlusPlusUniqueness/CopyConstructors.o: 12_CPlusPlusUniqueness/CopyConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.o
+06_Templates/Summary.o: 06_Templates/Summary.cpp.o
+.PHONY : 06_Templates/Summary.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/CopyConstructors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/12_CPlusPlusUniqueness/CopyConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.cpp.o
+06_Templates/Summary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_Summary.dir/build.make CMakeFiles/06_Templates_Summary.dir/06_Templates/Summary.cpp.o
+.PHONY : 06_Templates/Summary.cpp.o
 
-12_CPlusPlusUniqueness/CopyConstructors.i: 12_CPlusPlusUniqueness/CopyConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.i
+06_Templates/Summary.i: 06_Templates/Summary.cpp.i
+.PHONY : 06_Templates/Summary.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/CopyConstructors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/12_CPlusPlusUniqueness/CopyConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.cpp.i
+06_Templates/Summary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_Summary.dir/build.make CMakeFiles/06_Templates_Summary.dir/06_Templates/Summary.cpp.i
+.PHONY : 06_Templates/Summary.cpp.i
 
-12_CPlusPlusUniqueness/CopyConstructors.s: 12_CPlusPlusUniqueness/CopyConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.s
+06_Templates/Summary.s: 06_Templates/Summary.cpp.s
+.PHONY : 06_Templates/Summary.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/CopyConstructors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_CopyConstructors.dir/12_CPlusPlusUniqueness/CopyConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/CopyConstructors.cpp.s
+06_Templates/Summary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_Summary.dir/build.make CMakeFiles/06_Templates_Summary.dir/06_Templates/Summary.cpp.s
+.PHONY : 06_Templates/Summary.cpp.s
 
-12_CPlusPlusUniqueness/ExampleConstructors.o: 12_CPlusPlusUniqueness/ExampleConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.o
+06_Templates/compile_time_evaluation.o: 06_Templates/compile_time_evaluation.cpp.o
+.PHONY : 06_Templates/compile_time_evaluation.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/ExampleConstructors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/12_CPlusPlusUniqueness/ExampleConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.cpp.o
+06_Templates/compile_time_evaluation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_compile_time_evaluation.dir/build.make CMakeFiles/06_Templates_compile_time_evaluation.dir/06_Templates/compile_time_evaluation.cpp.o
+.PHONY : 06_Templates/compile_time_evaluation.cpp.o
 
-12_CPlusPlusUniqueness/ExampleConstructors.i: 12_CPlusPlusUniqueness/ExampleConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.i
+06_Templates/compile_time_evaluation.i: 06_Templates/compile_time_evaluation.cpp.i
+.PHONY : 06_Templates/compile_time_evaluation.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/ExampleConstructors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/12_CPlusPlusUniqueness/ExampleConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.cpp.i
+06_Templates/compile_time_evaluation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_compile_time_evaluation.dir/build.make CMakeFiles/06_Templates_compile_time_evaluation.dir/06_Templates/compile_time_evaluation.cpp.i
+.PHONY : 06_Templates/compile_time_evaluation.cpp.i
 
-12_CPlusPlusUniqueness/ExampleConstructors.s: 12_CPlusPlusUniqueness/ExampleConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.s
+06_Templates/compile_time_evaluation.s: 06_Templates/compile_time_evaluation.cpp.s
+.PHONY : 06_Templates/compile_time_evaluation.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/ExampleConstructors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_ExampleConstructors.dir/12_CPlusPlusUniqueness/ExampleConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/ExampleConstructors.cpp.s
+06_Templates/compile_time_evaluation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_compile_time_evaluation.dir/build.make CMakeFiles/06_Templates_compile_time_evaluation.dir/06_Templates/compile_time_evaluation.cpp.s
+.PHONY : 06_Templates/compile_time_evaluation.cpp.s
 
-12_CPlusPlusUniqueness/FriendClassExample.o: 12_CPlusPlusUniqueness/FriendClassExample.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.o
+06_Templates/template_specialization.o: 06_Templates/template_specialization.cpp.o
+.PHONY : 06_Templates/template_specialization.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/FriendClassExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/12_CPlusPlusUniqueness/FriendClassExample.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.cpp.o
+06_Templates/template_specialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_template_specialization.dir/build.make CMakeFiles/06_Templates_template_specialization.dir/06_Templates/template_specialization.cpp.o
+.PHONY : 06_Templates/template_specialization.cpp.o
 
-12_CPlusPlusUniqueness/FriendClassExample.i: 12_CPlusPlusUniqueness/FriendClassExample.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.i
+06_Templates/template_specialization.i: 06_Templates/template_specialization.cpp.i
+.PHONY : 06_Templates/template_specialization.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/FriendClassExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/12_CPlusPlusUniqueness/FriendClassExample.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.cpp.i
+06_Templates/template_specialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_template_specialization.dir/build.make CMakeFiles/06_Templates_template_specialization.dir/06_Templates/template_specialization.cpp.i
+.PHONY : 06_Templates/template_specialization.cpp.i
 
-12_CPlusPlusUniqueness/FriendClassExample.s: 12_CPlusPlusUniqueness/FriendClassExample.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.s
+06_Templates/template_specialization.s: 06_Templates/template_specialization.cpp.s
+.PHONY : 06_Templates/template_specialization.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/FriendClassExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendClassExample.dir/12_CPlusPlusUniqueness/FriendClassExample.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/FriendClassExample.cpp.s
+06_Templates/template_specialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_template_specialization.dir/build.make CMakeFiles/06_Templates_template_specialization.dir/06_Templates/template_specialization.cpp.s
+.PHONY : 06_Templates/template_specialization.cpp.s
 
-12_CPlusPlusUniqueness/FriendFunctionsExample.o: 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.o
+06_Templates/variadic_templates.o: 06_Templates/variadic_templates.cpp.o
+.PHONY : 06_Templates/variadic_templates.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
+06_Templates/variadic_templates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_variadic_templates.dir/build.make CMakeFiles/06_Templates_variadic_templates.dir/06_Templates/variadic_templates.cpp.o
+.PHONY : 06_Templates/variadic_templates.cpp.o
 
-12_CPlusPlusUniqueness/FriendFunctionsExample.i: 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.i
+06_Templates/variadic_templates.i: 06_Templates/variadic_templates.cpp.i
+.PHONY : 06_Templates/variadic_templates.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
+06_Templates/variadic_templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_variadic_templates.dir/build.make CMakeFiles/06_Templates_variadic_templates.dir/06_Templates/variadic_templates.cpp.i
+.PHONY : 06_Templates/variadic_templates.cpp.i
 
-12_CPlusPlusUniqueness/FriendFunctionsExample.s: 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.s
+06_Templates/variadic_templates.s: 06_Templates/variadic_templates.cpp.s
+.PHONY : 06_Templates/variadic_templates.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_FriendFunctionsExample.dir/12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
+06_Templates/variadic_templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/06_Templates_variadic_templates.dir/build.make CMakeFiles/06_Templates_variadic_templates.dir/06_Templates/variadic_templates.cpp.s
+.PHONY : 06_Templates/variadic_templates.cpp.s
 
-12_CPlusPlusUniqueness/MoveConstructors.o: 12_CPlusPlusUniqueness/MoveConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.o
+07_Threads_And_Tasks/tasks_example.o: 07_Threads_And_Tasks/tasks_example.cpp.o
+.PHONY : 07_Threads_And_Tasks/tasks_example.o
 
 # target to build an object file
-12_CPlusPlusUniqueness/MoveConstructors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/12_CPlusPlusUniqueness/MoveConstructors.cpp.o
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.cpp.o
+07_Threads_And_Tasks/tasks_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/07_Threads_And_Tasks/tasks_example.cpp.o
+.PHONY : 07_Threads_And_Tasks/tasks_example.cpp.o
 
-12_CPlusPlusUniqueness/MoveConstructors.i: 12_CPlusPlusUniqueness/MoveConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.i
+07_Threads_And_Tasks/tasks_example.i: 07_Threads_And_Tasks/tasks_example.cpp.i
+.PHONY : 07_Threads_And_Tasks/tasks_example.i
 
 # target to preprocess a source file
-12_CPlusPlusUniqueness/MoveConstructors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/12_CPlusPlusUniqueness/MoveConstructors.cpp.i
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.cpp.i
+07_Threads_And_Tasks/tasks_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/07_Threads_And_Tasks/tasks_example.cpp.i
+.PHONY : 07_Threads_And_Tasks/tasks_example.cpp.i
 
-12_CPlusPlusUniqueness/MoveConstructors.s: 12_CPlusPlusUniqueness/MoveConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.s
+07_Threads_And_Tasks/tasks_example.s: 07_Threads_And_Tasks/tasks_example.cpp.s
+.PHONY : 07_Threads_And_Tasks/tasks_example.s
 
 # target to generate assembly for a file
-12_CPlusPlusUniqueness/MoveConstructors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/12_CPlusPlusUniqueness_MoveConstructors.dir/12_CPlusPlusUniqueness/MoveConstructors.cpp.s
-.PHONY : 12_CPlusPlusUniqueness/MoveConstructors.cpp.s
+07_Threads_And_Tasks/tasks_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_tasks_example.dir/07_Threads_And_Tasks/tasks_example.cpp.s
+.PHONY : 07_Threads_And_Tasks/tasks_example.cpp.s
 
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.o: 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.o
+07_Threads_And_Tasks/threads_example.o: 07_Threads_And_Tasks/threads_example.cpp.o
+.PHONY : 07_Threads_And_Tasks/threads_example.o
 
 # target to build an object file
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
+07_Threads_And_Tasks/threads_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_threads_example.dir/07_Threads_And_Tasks/threads_example.cpp.o
+.PHONY : 07_Threads_And_Tasks/threads_example.cpp.o
 
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.i: 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.i
+07_Threads_And_Tasks/threads_example.i: 07_Threads_And_Tasks/threads_example.cpp.i
+.PHONY : 07_Threads_And_Tasks/threads_example.i
 
 # target to preprocess a source file
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
+07_Threads_And_Tasks/threads_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_threads_example.dir/07_Threads_And_Tasks/threads_example.cpp.i
+.PHONY : 07_Threads_And_Tasks/threads_example.cpp.i
 
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.s: 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.s
+07_Threads_And_Tasks/threads_example.s: 07_Threads_And_Tasks/threads_example.cpp.s
+.PHONY : 07_Threads_And_Tasks/threads_example.s
 
 # target to generate assembly for a file
-13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
-.PHONY : 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
+07_Threads_And_Tasks/threads_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/07_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/07_Threads_And_Tasks_threads_example.dir/07_Threads_And_Tasks/threads_example.cpp.s
+.PHONY : 07_Threads_And_Tasks/threads_example.cpp.s
 
-13_Modern_CPP/02_smart_pointers_aprofundado.o: 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.o
+08_LINQ/aggregate_example.o: 08_LINQ/aggregate_example.cpp.o
+.PHONY : 08_LINQ/aggregate_example.o
 
 # target to build an object file
-13_Modern_CPP/02_smart_pointers_aprofundado.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/13_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
+08_LINQ/aggregate_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_aggregate_example.dir/build.make CMakeFiles/08_LINQ_aggregate_example.dir/08_LINQ/aggregate_example.cpp.o
+.PHONY : 08_LINQ/aggregate_example.cpp.o
 
-13_Modern_CPP/02_smart_pointers_aprofundado.i: 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.i
+08_LINQ/aggregate_example.i: 08_LINQ/aggregate_example.cpp.i
+.PHONY : 08_LINQ/aggregate_example.i
 
 # target to preprocess a source file
-13_Modern_CPP/02_smart_pointers_aprofundado.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/13_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
+08_LINQ/aggregate_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_aggregate_example.dir/build.make CMakeFiles/08_LINQ_aggregate_example.dir/08_LINQ/aggregate_example.cpp.i
+.PHONY : 08_LINQ/aggregate_example.cpp.i
 
-13_Modern_CPP/02_smart_pointers_aprofundado.s: 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.s
+08_LINQ/aggregate_example.s: 08_LINQ/aggregate_example.cpp.s
+.PHONY : 08_LINQ/aggregate_example.s
 
 # target to generate assembly for a file
-13_Modern_CPP/02_smart_pointers_aprofundado.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/13_Modern_CPP_02_smart_pointers_aprofundado.dir/13_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
-.PHONY : 13_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
+08_LINQ/aggregate_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_aggregate_example.dir/build.make CMakeFiles/08_LINQ_aggregate_example.dir/08_LINQ/aggregate_example.cpp.s
+.PHONY : 08_LINQ/aggregate_example.cpp.s
 
-14_Threads_And_Tasks/tasks_example.o: 14_Threads_And_Tasks/tasks_example.cpp.o
-.PHONY : 14_Threads_And_Tasks/tasks_example.o
+08_LINQ/all_example.o: 08_LINQ/all_example.cpp.o
+.PHONY : 08_LINQ/all_example.o
 
 # target to build an object file
-14_Threads_And_Tasks/tasks_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/14_Threads_And_Tasks/tasks_example.cpp.o
-.PHONY : 14_Threads_And_Tasks/tasks_example.cpp.o
+08_LINQ/all_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_all_example.dir/build.make CMakeFiles/08_LINQ_all_example.dir/08_LINQ/all_example.cpp.o
+.PHONY : 08_LINQ/all_example.cpp.o
 
-14_Threads_And_Tasks/tasks_example.i: 14_Threads_And_Tasks/tasks_example.cpp.i
-.PHONY : 14_Threads_And_Tasks/tasks_example.i
+08_LINQ/all_example.i: 08_LINQ/all_example.cpp.i
+.PHONY : 08_LINQ/all_example.i
 
 # target to preprocess a source file
-14_Threads_And_Tasks/tasks_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/14_Threads_And_Tasks/tasks_example.cpp.i
-.PHONY : 14_Threads_And_Tasks/tasks_example.cpp.i
+08_LINQ/all_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_all_example.dir/build.make CMakeFiles/08_LINQ_all_example.dir/08_LINQ/all_example.cpp.i
+.PHONY : 08_LINQ/all_example.cpp.i
 
-14_Threads_And_Tasks/tasks_example.s: 14_Threads_And_Tasks/tasks_example.cpp.s
-.PHONY : 14_Threads_And_Tasks/tasks_example.s
+08_LINQ/all_example.s: 08_LINQ/all_example.cpp.s
+.PHONY : 08_LINQ/all_example.s
 
 # target to generate assembly for a file
-14_Threads_And_Tasks/tasks_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_tasks_example.dir/14_Threads_And_Tasks/tasks_example.cpp.s
-.PHONY : 14_Threads_And_Tasks/tasks_example.cpp.s
+08_LINQ/all_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_all_example.dir/build.make CMakeFiles/08_LINQ_all_example.dir/08_LINQ/all_example.cpp.s
+.PHONY : 08_LINQ/all_example.cpp.s
 
-14_Threads_And_Tasks/threads_example.o: 14_Threads_And_Tasks/threads_example.cpp.o
-.PHONY : 14_Threads_And_Tasks/threads_example.o
+08_LINQ/any_example.o: 08_LINQ/any_example.cpp.o
+.PHONY : 08_LINQ/any_example.o
 
 # target to build an object file
-14_Threads_And_Tasks/threads_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_threads_example.dir/14_Threads_And_Tasks/threads_example.cpp.o
-.PHONY : 14_Threads_And_Tasks/threads_example.cpp.o
+08_LINQ/any_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_any_example.dir/build.make CMakeFiles/08_LINQ_any_example.dir/08_LINQ/any_example.cpp.o
+.PHONY : 08_LINQ/any_example.cpp.o
 
-14_Threads_And_Tasks/threads_example.i: 14_Threads_And_Tasks/threads_example.cpp.i
-.PHONY : 14_Threads_And_Tasks/threads_example.i
+08_LINQ/any_example.i: 08_LINQ/any_example.cpp.i
+.PHONY : 08_LINQ/any_example.i
 
 # target to preprocess a source file
-14_Threads_And_Tasks/threads_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_threads_example.dir/14_Threads_And_Tasks/threads_example.cpp.i
-.PHONY : 14_Threads_And_Tasks/threads_example.cpp.i
+08_LINQ/any_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_any_example.dir/build.make CMakeFiles/08_LINQ_any_example.dir/08_LINQ/any_example.cpp.i
+.PHONY : 08_LINQ/any_example.cpp.i
 
-14_Threads_And_Tasks/threads_example.s: 14_Threads_And_Tasks/threads_example.cpp.s
-.PHONY : 14_Threads_And_Tasks/threads_example.s
+08_LINQ/any_example.s: 08_LINQ/any_example.cpp.s
+.PHONY : 08_LINQ/any_example.s
 
 # target to generate assembly for a file
-14_Threads_And_Tasks/threads_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_Threads_And_Tasks_threads_example.dir/build.make CMakeFiles/14_Threads_And_Tasks_threads_example.dir/14_Threads_And_Tasks/threads_example.cpp.s
-.PHONY : 14_Threads_And_Tasks/threads_example.cpp.s
+08_LINQ/any_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_any_example.dir/build.make CMakeFiles/08_LINQ_any_example.dir/08_LINQ/any_example.cpp.s
+.PHONY : 08_LINQ/any_example.cpp.s
 
-15_LINQ/aggregate_example.o: 15_LINQ/aggregate_example.cpp.o
-.PHONY : 15_LINQ/aggregate_example.o
+08_LINQ/average_example.o: 08_LINQ/average_example.cpp.o
+.PHONY : 08_LINQ/average_example.o
 
 # target to build an object file
-15_LINQ/aggregate_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_aggregate_example.dir/build.make CMakeFiles/15_LINQ_aggregate_example.dir/15_LINQ/aggregate_example.cpp.o
-.PHONY : 15_LINQ/aggregate_example.cpp.o
+08_LINQ/average_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_average_example.dir/build.make CMakeFiles/08_LINQ_average_example.dir/08_LINQ/average_example.cpp.o
+.PHONY : 08_LINQ/average_example.cpp.o
 
-15_LINQ/aggregate_example.i: 15_LINQ/aggregate_example.cpp.i
-.PHONY : 15_LINQ/aggregate_example.i
+08_LINQ/average_example.i: 08_LINQ/average_example.cpp.i
+.PHONY : 08_LINQ/average_example.i
 
 # target to preprocess a source file
-15_LINQ/aggregate_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_aggregate_example.dir/build.make CMakeFiles/15_LINQ_aggregate_example.dir/15_LINQ/aggregate_example.cpp.i
-.PHONY : 15_LINQ/aggregate_example.cpp.i
+08_LINQ/average_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_average_example.dir/build.make CMakeFiles/08_LINQ_average_example.dir/08_LINQ/average_example.cpp.i
+.PHONY : 08_LINQ/average_example.cpp.i
 
-15_LINQ/aggregate_example.s: 15_LINQ/aggregate_example.cpp.s
-.PHONY : 15_LINQ/aggregate_example.s
+08_LINQ/average_example.s: 08_LINQ/average_example.cpp.s
+.PHONY : 08_LINQ/average_example.s
 
 # target to generate assembly for a file
-15_LINQ/aggregate_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_aggregate_example.dir/build.make CMakeFiles/15_LINQ_aggregate_example.dir/15_LINQ/aggregate_example.cpp.s
-.PHONY : 15_LINQ/aggregate_example.cpp.s
+08_LINQ/average_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_average_example.dir/build.make CMakeFiles/08_LINQ_average_example.dir/08_LINQ/average_example.cpp.s
+.PHONY : 08_LINQ/average_example.cpp.s
 
-15_LINQ/all_example.o: 15_LINQ/all_example.cpp.o
-.PHONY : 15_LINQ/all_example.o
+08_LINQ/count_example.o: 08_LINQ/count_example.cpp.o
+.PHONY : 08_LINQ/count_example.o
 
 # target to build an object file
-15_LINQ/all_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_all_example.dir/build.make CMakeFiles/15_LINQ_all_example.dir/15_LINQ/all_example.cpp.o
-.PHONY : 15_LINQ/all_example.cpp.o
+08_LINQ/count_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_count_example.dir/build.make CMakeFiles/08_LINQ_count_example.dir/08_LINQ/count_example.cpp.o
+.PHONY : 08_LINQ/count_example.cpp.o
 
-15_LINQ/all_example.i: 15_LINQ/all_example.cpp.i
-.PHONY : 15_LINQ/all_example.i
+08_LINQ/count_example.i: 08_LINQ/count_example.cpp.i
+.PHONY : 08_LINQ/count_example.i
 
 # target to preprocess a source file
-15_LINQ/all_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_all_example.dir/build.make CMakeFiles/15_LINQ_all_example.dir/15_LINQ/all_example.cpp.i
-.PHONY : 15_LINQ/all_example.cpp.i
+08_LINQ/count_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_count_example.dir/build.make CMakeFiles/08_LINQ_count_example.dir/08_LINQ/count_example.cpp.i
+.PHONY : 08_LINQ/count_example.cpp.i
 
-15_LINQ/all_example.s: 15_LINQ/all_example.cpp.s
-.PHONY : 15_LINQ/all_example.s
+08_LINQ/count_example.s: 08_LINQ/count_example.cpp.s
+.PHONY : 08_LINQ/count_example.s
 
 # target to generate assembly for a file
-15_LINQ/all_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_all_example.dir/build.make CMakeFiles/15_LINQ_all_example.dir/15_LINQ/all_example.cpp.s
-.PHONY : 15_LINQ/all_example.cpp.s
+08_LINQ/count_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_count_example.dir/build.make CMakeFiles/08_LINQ_count_example.dir/08_LINQ/count_example.cpp.s
+.PHONY : 08_LINQ/count_example.cpp.s
 
-15_LINQ/any_example.o: 15_LINQ/any_example.cpp.o
-.PHONY : 15_LINQ/any_example.o
+08_LINQ/distinct_example.o: 08_LINQ/distinct_example.cpp.o
+.PHONY : 08_LINQ/distinct_example.o
 
 # target to build an object file
-15_LINQ/any_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_any_example.dir/build.make CMakeFiles/15_LINQ_any_example.dir/15_LINQ/any_example.cpp.o
-.PHONY : 15_LINQ/any_example.cpp.o
+08_LINQ/distinct_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_distinct_example.dir/build.make CMakeFiles/08_LINQ_distinct_example.dir/08_LINQ/distinct_example.cpp.o
+.PHONY : 08_LINQ/distinct_example.cpp.o
 
-15_LINQ/any_example.i: 15_LINQ/any_example.cpp.i
-.PHONY : 15_LINQ/any_example.i
+08_LINQ/distinct_example.i: 08_LINQ/distinct_example.cpp.i
+.PHONY : 08_LINQ/distinct_example.i
 
 # target to preprocess a source file
-15_LINQ/any_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_any_example.dir/build.make CMakeFiles/15_LINQ_any_example.dir/15_LINQ/any_example.cpp.i
-.PHONY : 15_LINQ/any_example.cpp.i
+08_LINQ/distinct_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_distinct_example.dir/build.make CMakeFiles/08_LINQ_distinct_example.dir/08_LINQ/distinct_example.cpp.i
+.PHONY : 08_LINQ/distinct_example.cpp.i
 
-15_LINQ/any_example.s: 15_LINQ/any_example.cpp.s
-.PHONY : 15_LINQ/any_example.s
+08_LINQ/distinct_example.s: 08_LINQ/distinct_example.cpp.s
+.PHONY : 08_LINQ/distinct_example.s
 
 # target to generate assembly for a file
-15_LINQ/any_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_any_example.dir/build.make CMakeFiles/15_LINQ_any_example.dir/15_LINQ/any_example.cpp.s
-.PHONY : 15_LINQ/any_example.cpp.s
+08_LINQ/distinct_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_distinct_example.dir/build.make CMakeFiles/08_LINQ_distinct_example.dir/08_LINQ/distinct_example.cpp.s
+.PHONY : 08_LINQ/distinct_example.cpp.s
 
-15_LINQ/average_example.o: 15_LINQ/average_example.cpp.o
-.PHONY : 15_LINQ/average_example.o
+08_LINQ/except_example.o: 08_LINQ/except_example.cpp.o
+.PHONY : 08_LINQ/except_example.o
 
 # target to build an object file
-15_LINQ/average_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_average_example.dir/build.make CMakeFiles/15_LINQ_average_example.dir/15_LINQ/average_example.cpp.o
-.PHONY : 15_LINQ/average_example.cpp.o
+08_LINQ/except_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_except_example.dir/build.make CMakeFiles/08_LINQ_except_example.dir/08_LINQ/except_example.cpp.o
+.PHONY : 08_LINQ/except_example.cpp.o
 
-15_LINQ/average_example.i: 15_LINQ/average_example.cpp.i
-.PHONY : 15_LINQ/average_example.i
+08_LINQ/except_example.i: 08_LINQ/except_example.cpp.i
+.PHONY : 08_LINQ/except_example.i
 
 # target to preprocess a source file
-15_LINQ/average_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_average_example.dir/build.make CMakeFiles/15_LINQ_average_example.dir/15_LINQ/average_example.cpp.i
-.PHONY : 15_LINQ/average_example.cpp.i
+08_LINQ/except_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_except_example.dir/build.make CMakeFiles/08_LINQ_except_example.dir/08_LINQ/except_example.cpp.i
+.PHONY : 08_LINQ/except_example.cpp.i
 
-15_LINQ/average_example.s: 15_LINQ/average_example.cpp.s
-.PHONY : 15_LINQ/average_example.s
+08_LINQ/except_example.s: 08_LINQ/except_example.cpp.s
+.PHONY : 08_LINQ/except_example.s
 
 # target to generate assembly for a file
-15_LINQ/average_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_average_example.dir/build.make CMakeFiles/15_LINQ_average_example.dir/15_LINQ/average_example.cpp.s
-.PHONY : 15_LINQ/average_example.cpp.s
+08_LINQ/except_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_except_example.dir/build.make CMakeFiles/08_LINQ_except_example.dir/08_LINQ/except_example.cpp.s
+.PHONY : 08_LINQ/except_example.cpp.s
 
-15_LINQ/count_example.o: 15_LINQ/count_example.cpp.o
-.PHONY : 15_LINQ/count_example.o
+08_LINQ/first_example.o: 08_LINQ/first_example.cpp.o
+.PHONY : 08_LINQ/first_example.o
 
 # target to build an object file
-15_LINQ/count_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_count_example.dir/build.make CMakeFiles/15_LINQ_count_example.dir/15_LINQ/count_example.cpp.o
-.PHONY : 15_LINQ/count_example.cpp.o
+08_LINQ/first_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_first_example.dir/build.make CMakeFiles/08_LINQ_first_example.dir/08_LINQ/first_example.cpp.o
+.PHONY : 08_LINQ/first_example.cpp.o
 
-15_LINQ/count_example.i: 15_LINQ/count_example.cpp.i
-.PHONY : 15_LINQ/count_example.i
+08_LINQ/first_example.i: 08_LINQ/first_example.cpp.i
+.PHONY : 08_LINQ/first_example.i
 
 # target to preprocess a source file
-15_LINQ/count_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_count_example.dir/build.make CMakeFiles/15_LINQ_count_example.dir/15_LINQ/count_example.cpp.i
-.PHONY : 15_LINQ/count_example.cpp.i
+08_LINQ/first_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_first_example.dir/build.make CMakeFiles/08_LINQ_first_example.dir/08_LINQ/first_example.cpp.i
+.PHONY : 08_LINQ/first_example.cpp.i
 
-15_LINQ/count_example.s: 15_LINQ/count_example.cpp.s
-.PHONY : 15_LINQ/count_example.s
+08_LINQ/first_example.s: 08_LINQ/first_example.cpp.s
+.PHONY : 08_LINQ/first_example.s
 
 # target to generate assembly for a file
-15_LINQ/count_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_count_example.dir/build.make CMakeFiles/15_LINQ_count_example.dir/15_LINQ/count_example.cpp.s
-.PHONY : 15_LINQ/count_example.cpp.s
+08_LINQ/first_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_first_example.dir/build.make CMakeFiles/08_LINQ_first_example.dir/08_LINQ/first_example.cpp.s
+.PHONY : 08_LINQ/first_example.cpp.s
 
-15_LINQ/distinct_example.o: 15_LINQ/distinct_example.cpp.o
-.PHONY : 15_LINQ/distinct_example.o
+08_LINQ/groupby_example.o: 08_LINQ/groupby_example.cpp.o
+.PHONY : 08_LINQ/groupby_example.o
 
 # target to build an object file
-15_LINQ/distinct_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_distinct_example.dir/build.make CMakeFiles/15_LINQ_distinct_example.dir/15_LINQ/distinct_example.cpp.o
-.PHONY : 15_LINQ/distinct_example.cpp.o
+08_LINQ/groupby_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_groupby_example.dir/build.make CMakeFiles/08_LINQ_groupby_example.dir/08_LINQ/groupby_example.cpp.o
+.PHONY : 08_LINQ/groupby_example.cpp.o
 
-15_LINQ/distinct_example.i: 15_LINQ/distinct_example.cpp.i
-.PHONY : 15_LINQ/distinct_example.i
+08_LINQ/groupby_example.i: 08_LINQ/groupby_example.cpp.i
+.PHONY : 08_LINQ/groupby_example.i
 
 # target to preprocess a source file
-15_LINQ/distinct_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_distinct_example.dir/build.make CMakeFiles/15_LINQ_distinct_example.dir/15_LINQ/distinct_example.cpp.i
-.PHONY : 15_LINQ/distinct_example.cpp.i
+08_LINQ/groupby_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_groupby_example.dir/build.make CMakeFiles/08_LINQ_groupby_example.dir/08_LINQ/groupby_example.cpp.i
+.PHONY : 08_LINQ/groupby_example.cpp.i
 
-15_LINQ/distinct_example.s: 15_LINQ/distinct_example.cpp.s
-.PHONY : 15_LINQ/distinct_example.s
+08_LINQ/groupby_example.s: 08_LINQ/groupby_example.cpp.s
+.PHONY : 08_LINQ/groupby_example.s
 
 # target to generate assembly for a file
-15_LINQ/distinct_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_distinct_example.dir/build.make CMakeFiles/15_LINQ_distinct_example.dir/15_LINQ/distinct_example.cpp.s
-.PHONY : 15_LINQ/distinct_example.cpp.s
+08_LINQ/groupby_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_groupby_example.dir/build.make CMakeFiles/08_LINQ_groupby_example.dir/08_LINQ/groupby_example.cpp.s
+.PHONY : 08_LINQ/groupby_example.cpp.s
 
-15_LINQ/except_example.o: 15_LINQ/except_example.cpp.o
-.PHONY : 15_LINQ/except_example.o
+08_LINQ/intersect_example.o: 08_LINQ/intersect_example.cpp.o
+.PHONY : 08_LINQ/intersect_example.o
 
 # target to build an object file
-15_LINQ/except_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_except_example.dir/build.make CMakeFiles/15_LINQ_except_example.dir/15_LINQ/except_example.cpp.o
-.PHONY : 15_LINQ/except_example.cpp.o
+08_LINQ/intersect_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_intersect_example.dir/build.make CMakeFiles/08_LINQ_intersect_example.dir/08_LINQ/intersect_example.cpp.o
+.PHONY : 08_LINQ/intersect_example.cpp.o
 
-15_LINQ/except_example.i: 15_LINQ/except_example.cpp.i
-.PHONY : 15_LINQ/except_example.i
+08_LINQ/intersect_example.i: 08_LINQ/intersect_example.cpp.i
+.PHONY : 08_LINQ/intersect_example.i
 
 # target to preprocess a source file
-15_LINQ/except_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_except_example.dir/build.make CMakeFiles/15_LINQ_except_example.dir/15_LINQ/except_example.cpp.i
-.PHONY : 15_LINQ/except_example.cpp.i
+08_LINQ/intersect_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_intersect_example.dir/build.make CMakeFiles/08_LINQ_intersect_example.dir/08_LINQ/intersect_example.cpp.i
+.PHONY : 08_LINQ/intersect_example.cpp.i
 
-15_LINQ/except_example.s: 15_LINQ/except_example.cpp.s
-.PHONY : 15_LINQ/except_example.s
+08_LINQ/intersect_example.s: 08_LINQ/intersect_example.cpp.s
+.PHONY : 08_LINQ/intersect_example.s
 
 # target to generate assembly for a file
-15_LINQ/except_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_except_example.dir/build.make CMakeFiles/15_LINQ_except_example.dir/15_LINQ/except_example.cpp.s
-.PHONY : 15_LINQ/except_example.cpp.s
+08_LINQ/intersect_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_intersect_example.dir/build.make CMakeFiles/08_LINQ_intersect_example.dir/08_LINQ/intersect_example.cpp.s
+.PHONY : 08_LINQ/intersect_example.cpp.s
 
-15_LINQ/first_example.o: 15_LINQ/first_example.cpp.o
-.PHONY : 15_LINQ/first_example.o
+08_LINQ/join_example.o: 08_LINQ/join_example.cpp.o
+.PHONY : 08_LINQ/join_example.o
 
 # target to build an object file
-15_LINQ/first_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_first_example.dir/build.make CMakeFiles/15_LINQ_first_example.dir/15_LINQ/first_example.cpp.o
-.PHONY : 15_LINQ/first_example.cpp.o
+08_LINQ/join_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_join_example.dir/build.make CMakeFiles/08_LINQ_join_example.dir/08_LINQ/join_example.cpp.o
+.PHONY : 08_LINQ/join_example.cpp.o
 
-15_LINQ/first_example.i: 15_LINQ/first_example.cpp.i
-.PHONY : 15_LINQ/first_example.i
+08_LINQ/join_example.i: 08_LINQ/join_example.cpp.i
+.PHONY : 08_LINQ/join_example.i
 
 # target to preprocess a source file
-15_LINQ/first_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_first_example.dir/build.make CMakeFiles/15_LINQ_first_example.dir/15_LINQ/first_example.cpp.i
-.PHONY : 15_LINQ/first_example.cpp.i
+08_LINQ/join_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_join_example.dir/build.make CMakeFiles/08_LINQ_join_example.dir/08_LINQ/join_example.cpp.i
+.PHONY : 08_LINQ/join_example.cpp.i
 
-15_LINQ/first_example.s: 15_LINQ/first_example.cpp.s
-.PHONY : 15_LINQ/first_example.s
+08_LINQ/join_example.s: 08_LINQ/join_example.cpp.s
+.PHONY : 08_LINQ/join_example.s
 
 # target to generate assembly for a file
-15_LINQ/first_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_first_example.dir/build.make CMakeFiles/15_LINQ_first_example.dir/15_LINQ/first_example.cpp.s
-.PHONY : 15_LINQ/first_example.cpp.s
+08_LINQ/join_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_join_example.dir/build.make CMakeFiles/08_LINQ_join_example.dir/08_LINQ/join_example.cpp.s
+.PHONY : 08_LINQ/join_example.cpp.s
 
-15_LINQ/groupby_example.o: 15_LINQ/groupby_example.cpp.o
-.PHONY : 15_LINQ/groupby_example.o
+08_LINQ/last_example.o: 08_LINQ/last_example.cpp.o
+.PHONY : 08_LINQ/last_example.o
 
 # target to build an object file
-15_LINQ/groupby_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_groupby_example.dir/build.make CMakeFiles/15_LINQ_groupby_example.dir/15_LINQ/groupby_example.cpp.o
-.PHONY : 15_LINQ/groupby_example.cpp.o
+08_LINQ/last_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_last_example.dir/build.make CMakeFiles/08_LINQ_last_example.dir/08_LINQ/last_example.cpp.o
+.PHONY : 08_LINQ/last_example.cpp.o
 
-15_LINQ/groupby_example.i: 15_LINQ/groupby_example.cpp.i
-.PHONY : 15_LINQ/groupby_example.i
+08_LINQ/last_example.i: 08_LINQ/last_example.cpp.i
+.PHONY : 08_LINQ/last_example.i
 
 # target to preprocess a source file
-15_LINQ/groupby_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_groupby_example.dir/build.make CMakeFiles/15_LINQ_groupby_example.dir/15_LINQ/groupby_example.cpp.i
-.PHONY : 15_LINQ/groupby_example.cpp.i
+08_LINQ/last_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_last_example.dir/build.make CMakeFiles/08_LINQ_last_example.dir/08_LINQ/last_example.cpp.i
+.PHONY : 08_LINQ/last_example.cpp.i
 
-15_LINQ/groupby_example.s: 15_LINQ/groupby_example.cpp.s
-.PHONY : 15_LINQ/groupby_example.s
+08_LINQ/last_example.s: 08_LINQ/last_example.cpp.s
+.PHONY : 08_LINQ/last_example.s
 
 # target to generate assembly for a file
-15_LINQ/groupby_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_groupby_example.dir/build.make CMakeFiles/15_LINQ_groupby_example.dir/15_LINQ/groupby_example.cpp.s
-.PHONY : 15_LINQ/groupby_example.cpp.s
+08_LINQ/last_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_last_example.dir/build.make CMakeFiles/08_LINQ_last_example.dir/08_LINQ/last_example.cpp.s
+.PHONY : 08_LINQ/last_example.cpp.s
 
-15_LINQ/intersect_example.o: 15_LINQ/intersect_example.cpp.o
-.PHONY : 15_LINQ/intersect_example.o
+08_LINQ/max_example.o: 08_LINQ/max_example.cpp.o
+.PHONY : 08_LINQ/max_example.o
 
 # target to build an object file
-15_LINQ/intersect_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_intersect_example.dir/build.make CMakeFiles/15_LINQ_intersect_example.dir/15_LINQ/intersect_example.cpp.o
-.PHONY : 15_LINQ/intersect_example.cpp.o
+08_LINQ/max_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_max_example.dir/build.make CMakeFiles/08_LINQ_max_example.dir/08_LINQ/max_example.cpp.o
+.PHONY : 08_LINQ/max_example.cpp.o
 
-15_LINQ/intersect_example.i: 15_LINQ/intersect_example.cpp.i
-.PHONY : 15_LINQ/intersect_example.i
+08_LINQ/max_example.i: 08_LINQ/max_example.cpp.i
+.PHONY : 08_LINQ/max_example.i
 
 # target to preprocess a source file
-15_LINQ/intersect_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_intersect_example.dir/build.make CMakeFiles/15_LINQ_intersect_example.dir/15_LINQ/intersect_example.cpp.i
-.PHONY : 15_LINQ/intersect_example.cpp.i
+08_LINQ/max_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_max_example.dir/build.make CMakeFiles/08_LINQ_max_example.dir/08_LINQ/max_example.cpp.i
+.PHONY : 08_LINQ/max_example.cpp.i
 
-15_LINQ/intersect_example.s: 15_LINQ/intersect_example.cpp.s
-.PHONY : 15_LINQ/intersect_example.s
+08_LINQ/max_example.s: 08_LINQ/max_example.cpp.s
+.PHONY : 08_LINQ/max_example.s
 
 # target to generate assembly for a file
-15_LINQ/intersect_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_intersect_example.dir/build.make CMakeFiles/15_LINQ_intersect_example.dir/15_LINQ/intersect_example.cpp.s
-.PHONY : 15_LINQ/intersect_example.cpp.s
+08_LINQ/max_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_max_example.dir/build.make CMakeFiles/08_LINQ_max_example.dir/08_LINQ/max_example.cpp.s
+.PHONY : 08_LINQ/max_example.cpp.s
 
-15_LINQ/join_example.o: 15_LINQ/join_example.cpp.o
-.PHONY : 15_LINQ/join_example.o
+08_LINQ/min_example.o: 08_LINQ/min_example.cpp.o
+.PHONY : 08_LINQ/min_example.o
 
 # target to build an object file
-15_LINQ/join_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_join_example.dir/build.make CMakeFiles/15_LINQ_join_example.dir/15_LINQ/join_example.cpp.o
-.PHONY : 15_LINQ/join_example.cpp.o
+08_LINQ/min_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_min_example.dir/build.make CMakeFiles/08_LINQ_min_example.dir/08_LINQ/min_example.cpp.o
+.PHONY : 08_LINQ/min_example.cpp.o
 
-15_LINQ/join_example.i: 15_LINQ/join_example.cpp.i
-.PHONY : 15_LINQ/join_example.i
+08_LINQ/min_example.i: 08_LINQ/min_example.cpp.i
+.PHONY : 08_LINQ/min_example.i
 
 # target to preprocess a source file
-15_LINQ/join_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_join_example.dir/build.make CMakeFiles/15_LINQ_join_example.dir/15_LINQ/join_example.cpp.i
-.PHONY : 15_LINQ/join_example.cpp.i
+08_LINQ/min_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_min_example.dir/build.make CMakeFiles/08_LINQ_min_example.dir/08_LINQ/min_example.cpp.i
+.PHONY : 08_LINQ/min_example.cpp.i
 
-15_LINQ/join_example.s: 15_LINQ/join_example.cpp.s
-.PHONY : 15_LINQ/join_example.s
+08_LINQ/min_example.s: 08_LINQ/min_example.cpp.s
+.PHONY : 08_LINQ/min_example.s
 
 # target to generate assembly for a file
-15_LINQ/join_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_join_example.dir/build.make CMakeFiles/15_LINQ_join_example.dir/15_LINQ/join_example.cpp.s
-.PHONY : 15_LINQ/join_example.cpp.s
+08_LINQ/min_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_min_example.dir/build.make CMakeFiles/08_LINQ_min_example.dir/08_LINQ/min_example.cpp.s
+.PHONY : 08_LINQ/min_example.cpp.s
 
-15_LINQ/last_example.o: 15_LINQ/last_example.cpp.o
-.PHONY : 15_LINQ/last_example.o
+08_LINQ/orderby_example.o: 08_LINQ/orderby_example.cpp.o
+.PHONY : 08_LINQ/orderby_example.o
 
 # target to build an object file
-15_LINQ/last_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_last_example.dir/build.make CMakeFiles/15_LINQ_last_example.dir/15_LINQ/last_example.cpp.o
-.PHONY : 15_LINQ/last_example.cpp.o
+08_LINQ/orderby_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_orderby_example.dir/build.make CMakeFiles/08_LINQ_orderby_example.dir/08_LINQ/orderby_example.cpp.o
+.PHONY : 08_LINQ/orderby_example.cpp.o
 
-15_LINQ/last_example.i: 15_LINQ/last_example.cpp.i
-.PHONY : 15_LINQ/last_example.i
+08_LINQ/orderby_example.i: 08_LINQ/orderby_example.cpp.i
+.PHONY : 08_LINQ/orderby_example.i
 
 # target to preprocess a source file
-15_LINQ/last_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_last_example.dir/build.make CMakeFiles/15_LINQ_last_example.dir/15_LINQ/last_example.cpp.i
-.PHONY : 15_LINQ/last_example.cpp.i
+08_LINQ/orderby_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_orderby_example.dir/build.make CMakeFiles/08_LINQ_orderby_example.dir/08_LINQ/orderby_example.cpp.i
+.PHONY : 08_LINQ/orderby_example.cpp.i
 
-15_LINQ/last_example.s: 15_LINQ/last_example.cpp.s
-.PHONY : 15_LINQ/last_example.s
+08_LINQ/orderby_example.s: 08_LINQ/orderby_example.cpp.s
+.PHONY : 08_LINQ/orderby_example.s
 
 # target to generate assembly for a file
-15_LINQ/last_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_last_example.dir/build.make CMakeFiles/15_LINQ_last_example.dir/15_LINQ/last_example.cpp.s
-.PHONY : 15_LINQ/last_example.cpp.s
+08_LINQ/orderby_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_orderby_example.dir/build.make CMakeFiles/08_LINQ_orderby_example.dir/08_LINQ/orderby_example.cpp.s
+.PHONY : 08_LINQ/orderby_example.cpp.s
 
-15_LINQ/max_example.o: 15_LINQ/max_example.cpp.o
-.PHONY : 15_LINQ/max_example.o
+08_LINQ/select_example.o: 08_LINQ/select_example.cpp.o
+.PHONY : 08_LINQ/select_example.o
 
 # target to build an object file
-15_LINQ/max_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_max_example.dir/build.make CMakeFiles/15_LINQ_max_example.dir/15_LINQ/max_example.cpp.o
-.PHONY : 15_LINQ/max_example.cpp.o
+08_LINQ/select_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_select_example.dir/build.make CMakeFiles/08_LINQ_select_example.dir/08_LINQ/select_example.cpp.o
+.PHONY : 08_LINQ/select_example.cpp.o
 
-15_LINQ/max_example.i: 15_LINQ/max_example.cpp.i
-.PHONY : 15_LINQ/max_example.i
+08_LINQ/select_example.i: 08_LINQ/select_example.cpp.i
+.PHONY : 08_LINQ/select_example.i
 
 # target to preprocess a source file
-15_LINQ/max_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_max_example.dir/build.make CMakeFiles/15_LINQ_max_example.dir/15_LINQ/max_example.cpp.i
-.PHONY : 15_LINQ/max_example.cpp.i
+08_LINQ/select_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_select_example.dir/build.make CMakeFiles/08_LINQ_select_example.dir/08_LINQ/select_example.cpp.i
+.PHONY : 08_LINQ/select_example.cpp.i
 
-15_LINQ/max_example.s: 15_LINQ/max_example.cpp.s
-.PHONY : 15_LINQ/max_example.s
+08_LINQ/select_example.s: 08_LINQ/select_example.cpp.s
+.PHONY : 08_LINQ/select_example.s
 
 # target to generate assembly for a file
-15_LINQ/max_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_max_example.dir/build.make CMakeFiles/15_LINQ_max_example.dir/15_LINQ/max_example.cpp.s
-.PHONY : 15_LINQ/max_example.cpp.s
+08_LINQ/select_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_select_example.dir/build.make CMakeFiles/08_LINQ_select_example.dir/08_LINQ/select_example.cpp.s
+.PHONY : 08_LINQ/select_example.cpp.s
 
-15_LINQ/min_example.o: 15_LINQ/min_example.cpp.o
-.PHONY : 15_LINQ/min_example.o
+08_LINQ/skip_take_example.o: 08_LINQ/skip_take_example.cpp.o
+.PHONY : 08_LINQ/skip_take_example.o
 
 # target to build an object file
-15_LINQ/min_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_min_example.dir/build.make CMakeFiles/15_LINQ_min_example.dir/15_LINQ/min_example.cpp.o
-.PHONY : 15_LINQ/min_example.cpp.o
+08_LINQ/skip_take_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_skip_take_example.dir/build.make CMakeFiles/08_LINQ_skip_take_example.dir/08_LINQ/skip_take_example.cpp.o
+.PHONY : 08_LINQ/skip_take_example.cpp.o
 
-15_LINQ/min_example.i: 15_LINQ/min_example.cpp.i
-.PHONY : 15_LINQ/min_example.i
+08_LINQ/skip_take_example.i: 08_LINQ/skip_take_example.cpp.i
+.PHONY : 08_LINQ/skip_take_example.i
 
 # target to preprocess a source file
-15_LINQ/min_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_min_example.dir/build.make CMakeFiles/15_LINQ_min_example.dir/15_LINQ/min_example.cpp.i
-.PHONY : 15_LINQ/min_example.cpp.i
+08_LINQ/skip_take_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_skip_take_example.dir/build.make CMakeFiles/08_LINQ_skip_take_example.dir/08_LINQ/skip_take_example.cpp.i
+.PHONY : 08_LINQ/skip_take_example.cpp.i
 
-15_LINQ/min_example.s: 15_LINQ/min_example.cpp.s
-.PHONY : 15_LINQ/min_example.s
+08_LINQ/skip_take_example.s: 08_LINQ/skip_take_example.cpp.s
+.PHONY : 08_LINQ/skip_take_example.s
 
 # target to generate assembly for a file
-15_LINQ/min_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_min_example.dir/build.make CMakeFiles/15_LINQ_min_example.dir/15_LINQ/min_example.cpp.s
-.PHONY : 15_LINQ/min_example.cpp.s
+08_LINQ/skip_take_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_skip_take_example.dir/build.make CMakeFiles/08_LINQ_skip_take_example.dir/08_LINQ/skip_take_example.cpp.s
+.PHONY : 08_LINQ/skip_take_example.cpp.s
 
-15_LINQ/orderby_example.o: 15_LINQ/orderby_example.cpp.o
-.PHONY : 15_LINQ/orderby_example.o
+08_LINQ/sum_example.o: 08_LINQ/sum_example.cpp.o
+.PHONY : 08_LINQ/sum_example.o
 
 # target to build an object file
-15_LINQ/orderby_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_orderby_example.dir/build.make CMakeFiles/15_LINQ_orderby_example.dir/15_LINQ/orderby_example.cpp.o
-.PHONY : 15_LINQ/orderby_example.cpp.o
+08_LINQ/sum_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_sum_example.dir/build.make CMakeFiles/08_LINQ_sum_example.dir/08_LINQ/sum_example.cpp.o
+.PHONY : 08_LINQ/sum_example.cpp.o
 
-15_LINQ/orderby_example.i: 15_LINQ/orderby_example.cpp.i
-.PHONY : 15_LINQ/orderby_example.i
+08_LINQ/sum_example.i: 08_LINQ/sum_example.cpp.i
+.PHONY : 08_LINQ/sum_example.i
 
 # target to preprocess a source file
-15_LINQ/orderby_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_orderby_example.dir/build.make CMakeFiles/15_LINQ_orderby_example.dir/15_LINQ/orderby_example.cpp.i
-.PHONY : 15_LINQ/orderby_example.cpp.i
+08_LINQ/sum_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_sum_example.dir/build.make CMakeFiles/08_LINQ_sum_example.dir/08_LINQ/sum_example.cpp.i
+.PHONY : 08_LINQ/sum_example.cpp.i
 
-15_LINQ/orderby_example.s: 15_LINQ/orderby_example.cpp.s
-.PHONY : 15_LINQ/orderby_example.s
+08_LINQ/sum_example.s: 08_LINQ/sum_example.cpp.s
+.PHONY : 08_LINQ/sum_example.s
 
 # target to generate assembly for a file
-15_LINQ/orderby_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_orderby_example.dir/build.make CMakeFiles/15_LINQ_orderby_example.dir/15_LINQ/orderby_example.cpp.s
-.PHONY : 15_LINQ/orderby_example.cpp.s
+08_LINQ/sum_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_sum_example.dir/build.make CMakeFiles/08_LINQ_sum_example.dir/08_LINQ/sum_example.cpp.s
+.PHONY : 08_LINQ/sum_example.cpp.s
 
-15_LINQ/select_example.o: 15_LINQ/select_example.cpp.o
-.PHONY : 15_LINQ/select_example.o
+08_LINQ/union_example.o: 08_LINQ/union_example.cpp.o
+.PHONY : 08_LINQ/union_example.o
 
 # target to build an object file
-15_LINQ/select_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_select_example.dir/build.make CMakeFiles/15_LINQ_select_example.dir/15_LINQ/select_example.cpp.o
-.PHONY : 15_LINQ/select_example.cpp.o
+08_LINQ/union_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_union_example.dir/build.make CMakeFiles/08_LINQ_union_example.dir/08_LINQ/union_example.cpp.o
+.PHONY : 08_LINQ/union_example.cpp.o
 
-15_LINQ/select_example.i: 15_LINQ/select_example.cpp.i
-.PHONY : 15_LINQ/select_example.i
+08_LINQ/union_example.i: 08_LINQ/union_example.cpp.i
+.PHONY : 08_LINQ/union_example.i
 
 # target to preprocess a source file
-15_LINQ/select_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_select_example.dir/build.make CMakeFiles/15_LINQ_select_example.dir/15_LINQ/select_example.cpp.i
-.PHONY : 15_LINQ/select_example.cpp.i
+08_LINQ/union_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_union_example.dir/build.make CMakeFiles/08_LINQ_union_example.dir/08_LINQ/union_example.cpp.i
+.PHONY : 08_LINQ/union_example.cpp.i
 
-15_LINQ/select_example.s: 15_LINQ/select_example.cpp.s
-.PHONY : 15_LINQ/select_example.s
+08_LINQ/union_example.s: 08_LINQ/union_example.cpp.s
+.PHONY : 08_LINQ/union_example.s
 
 # target to generate assembly for a file
-15_LINQ/select_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_select_example.dir/build.make CMakeFiles/15_LINQ_select_example.dir/15_LINQ/select_example.cpp.s
-.PHONY : 15_LINQ/select_example.cpp.s
+08_LINQ/union_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_union_example.dir/build.make CMakeFiles/08_LINQ_union_example.dir/08_LINQ/union_example.cpp.s
+.PHONY : 08_LINQ/union_example.cpp.s
 
-15_LINQ/skip_take_example.o: 15_LINQ/skip_take_example.cpp.o
-.PHONY : 15_LINQ/skip_take_example.o
+08_LINQ/where_example.o: 08_LINQ/where_example.cpp.o
+.PHONY : 08_LINQ/where_example.o
 
 # target to build an object file
-15_LINQ/skip_take_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_skip_take_example.dir/build.make CMakeFiles/15_LINQ_skip_take_example.dir/15_LINQ/skip_take_example.cpp.o
-.PHONY : 15_LINQ/skip_take_example.cpp.o
+08_LINQ/where_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_where_example.dir/build.make CMakeFiles/08_LINQ_where_example.dir/08_LINQ/where_example.cpp.o
+.PHONY : 08_LINQ/where_example.cpp.o
 
-15_LINQ/skip_take_example.i: 15_LINQ/skip_take_example.cpp.i
-.PHONY : 15_LINQ/skip_take_example.i
+08_LINQ/where_example.i: 08_LINQ/where_example.cpp.i
+.PHONY : 08_LINQ/where_example.i
 
 # target to preprocess a source file
-15_LINQ/skip_take_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_skip_take_example.dir/build.make CMakeFiles/15_LINQ_skip_take_example.dir/15_LINQ/skip_take_example.cpp.i
-.PHONY : 15_LINQ/skip_take_example.cpp.i
+08_LINQ/where_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_where_example.dir/build.make CMakeFiles/08_LINQ_where_example.dir/08_LINQ/where_example.cpp.i
+.PHONY : 08_LINQ/where_example.cpp.i
 
-15_LINQ/skip_take_example.s: 15_LINQ/skip_take_example.cpp.s
-.PHONY : 15_LINQ/skip_take_example.s
+08_LINQ/where_example.s: 08_LINQ/where_example.cpp.s
+.PHONY : 08_LINQ/where_example.s
 
 # target to generate assembly for a file
-15_LINQ/skip_take_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_skip_take_example.dir/build.make CMakeFiles/15_LINQ_skip_take_example.dir/15_LINQ/skip_take_example.cpp.s
-.PHONY : 15_LINQ/skip_take_example.cpp.s
+08_LINQ/where_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_LINQ_where_example.dir/build.make CMakeFiles/08_LINQ_where_example.dir/08_LINQ/where_example.cpp.s
+.PHONY : 08_LINQ/where_example.cpp.s
 
-15_LINQ/sum_example.o: 15_LINQ/sum_example.cpp.o
-.PHONY : 15_LINQ/sum_example.o
+09_EventsAndDelegates/eventsAndDelegates.o: 09_EventsAndDelegates/eventsAndDelegates.cpp.o
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.o
 
 # target to build an object file
-15_LINQ/sum_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_sum_example.dir/build.make CMakeFiles/15_LINQ_sum_example.dir/15_LINQ/sum_example.cpp.o
-.PHONY : 15_LINQ/sum_example.cpp.o
+09_EventsAndDelegates/eventsAndDelegates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/09_EventsAndDelegates/eventsAndDelegates.cpp.o
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.cpp.o
 
-15_LINQ/sum_example.i: 15_LINQ/sum_example.cpp.i
-.PHONY : 15_LINQ/sum_example.i
+09_EventsAndDelegates/eventsAndDelegates.i: 09_EventsAndDelegates/eventsAndDelegates.cpp.i
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.i
 
 # target to preprocess a source file
-15_LINQ/sum_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_sum_example.dir/build.make CMakeFiles/15_LINQ_sum_example.dir/15_LINQ/sum_example.cpp.i
-.PHONY : 15_LINQ/sum_example.cpp.i
+09_EventsAndDelegates/eventsAndDelegates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/09_EventsAndDelegates/eventsAndDelegates.cpp.i
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.cpp.i
 
-15_LINQ/sum_example.s: 15_LINQ/sum_example.cpp.s
-.PHONY : 15_LINQ/sum_example.s
+09_EventsAndDelegates/eventsAndDelegates.s: 09_EventsAndDelegates/eventsAndDelegates.cpp.s
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.s
 
 # target to generate assembly for a file
-15_LINQ/sum_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_sum_example.dir/build.make CMakeFiles/15_LINQ_sum_example.dir/15_LINQ/sum_example.cpp.s
-.PHONY : 15_LINQ/sum_example.cpp.s
+09_EventsAndDelegates/eventsAndDelegates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/build.make CMakeFiles/09_EventsAndDelegates_eventsAndDelegates.dir/09_EventsAndDelegates/eventsAndDelegates.cpp.s
+.PHONY : 09_EventsAndDelegates/eventsAndDelegates.cpp.s
 
-15_LINQ/union_example.o: 15_LINQ/union_example.cpp.o
-.PHONY : 15_LINQ/union_example.o
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.o: 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.o
 
 # target to build an object file
-15_LINQ/union_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_union_example.dir/build.make CMakeFiles/15_LINQ_union_example.dir/15_LINQ/union_example.cpp.o
-.PHONY : 15_LINQ/union_example.cpp.o
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.o
 
-15_LINQ/union_example.i: 15_LINQ/union_example.cpp.i
-.PHONY : 15_LINQ/union_example.i
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.i: 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.i
 
 # target to preprocess a source file
-15_LINQ/union_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_union_example.dir/build.make CMakeFiles/15_LINQ_union_example.dir/15_LINQ/union_example.cpp.i
-.PHONY : 15_LINQ/union_example.cpp.i
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.i
 
-15_LINQ/union_example.s: 15_LINQ/union_example.cpp.s
-.PHONY : 15_LINQ/union_example.s
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.s: 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.s
 
 # target to generate assembly for a file
-15_LINQ/union_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_union_example.dir/build.make CMakeFiles/15_LINQ_union_example.dir/15_LINQ/union_example.cpp.s
-.PHONY : 15_LINQ/union_example.cpp.s
+10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_01_move_semantics_cpp11_aprofundado.dir/10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
+.PHONY : 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.cpp.s
 
-15_LINQ/where_example.o: 15_LINQ/where_example.cpp.o
-.PHONY : 15_LINQ/where_example.o
+10_Modern_CPP/02_smart_pointers_aprofundado.o: 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.o
 
 # target to build an object file
-15_LINQ/where_example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_where_example.dir/build.make CMakeFiles/15_LINQ_where_example.dir/15_LINQ/where_example.cpp.o
-.PHONY : 15_LINQ/where_example.cpp.o
+10_Modern_CPP/02_smart_pointers_aprofundado.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/10_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.o
 
-15_LINQ/where_example.i: 15_LINQ/where_example.cpp.i
-.PHONY : 15_LINQ/where_example.i
+10_Modern_CPP/02_smart_pointers_aprofundado.i: 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.i
 
 # target to preprocess a source file
-15_LINQ/where_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_where_example.dir/build.make CMakeFiles/15_LINQ_where_example.dir/15_LINQ/where_example.cpp.i
-.PHONY : 15_LINQ/where_example.cpp.i
+10_Modern_CPP/02_smart_pointers_aprofundado.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/10_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.i
 
-15_LINQ/where_example.s: 15_LINQ/where_example.cpp.s
-.PHONY : 15_LINQ/where_example.s
+10_Modern_CPP/02_smart_pointers_aprofundado.s: 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.s
 
 # target to generate assembly for a file
-15_LINQ/where_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/15_LINQ_where_example.dir/build.make CMakeFiles/15_LINQ_where_example.dir/15_LINQ/where_example.cpp.s
-.PHONY : 15_LINQ/where_example.cpp.s
+10_Modern_CPP/02_smart_pointers_aprofundado.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/build.make CMakeFiles/10_Modern_CPP_02_smart_pointers_aprofundado.dir/10_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
+.PHONY : 10_Modern_CPP/02_smart_pointers_aprofundado.cpp.s
+
+11_Object_Oriented/classes.o: 11_Object_Oriented/classes.cpp.o
+.PHONY : 11_Object_Oriented/classes.o
+
+# target to build an object file
+11_Object_Oriented/classes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_classes.dir/build.make CMakeFiles/11_Object_Oriented_classes.dir/11_Object_Oriented/classes.cpp.o
+.PHONY : 11_Object_Oriented/classes.cpp.o
+
+11_Object_Oriented/classes.i: 11_Object_Oriented/classes.cpp.i
+.PHONY : 11_Object_Oriented/classes.i
+
+# target to preprocess a source file
+11_Object_Oriented/classes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_classes.dir/build.make CMakeFiles/11_Object_Oriented_classes.dir/11_Object_Oriented/classes.cpp.i
+.PHONY : 11_Object_Oriented/classes.cpp.i
+
+11_Object_Oriented/classes.s: 11_Object_Oriented/classes.cpp.s
+.PHONY : 11_Object_Oriented/classes.s
+
+# target to generate assembly for a file
+11_Object_Oriented/classes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_classes.dir/build.make CMakeFiles/11_Object_Oriented_classes.dir/11_Object_Oriented/classes.cpp.s
+.PHONY : 11_Object_Oriented/classes.cpp.s
+
+11_Object_Oriented/oop_advanced.o: 11_Object_Oriented/oop_advanced.cpp.o
+.PHONY : 11_Object_Oriented/oop_advanced.o
+
+# target to build an object file
+11_Object_Oriented/oop_advanced.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/11_Object_Oriented_oop_advanced.dir/11_Object_Oriented/oop_advanced.cpp.o
+.PHONY : 11_Object_Oriented/oop_advanced.cpp.o
+
+11_Object_Oriented/oop_advanced.i: 11_Object_Oriented/oop_advanced.cpp.i
+.PHONY : 11_Object_Oriented/oop_advanced.i
+
+# target to preprocess a source file
+11_Object_Oriented/oop_advanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/11_Object_Oriented_oop_advanced.dir/11_Object_Oriented/oop_advanced.cpp.i
+.PHONY : 11_Object_Oriented/oop_advanced.cpp.i
+
+11_Object_Oriented/oop_advanced.s: 11_Object_Oriented/oop_advanced.cpp.s
+.PHONY : 11_Object_Oriented/oop_advanced.s
+
+# target to generate assembly for a file
+11_Object_Oriented/oop_advanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_advanced.dir/build.make CMakeFiles/11_Object_Oriented_oop_advanced.dir/11_Object_Oriented/oop_advanced.cpp.s
+.PHONY : 11_Object_Oriented/oop_advanced.cpp.s
+
+11_Object_Oriented/oop_basic.o: 11_Object_Oriented/oop_basic.cpp.o
+.PHONY : 11_Object_Oriented/oop_basic.o
+
+# target to build an object file
+11_Object_Oriented/oop_basic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_basic.dir/build.make CMakeFiles/11_Object_Oriented_oop_basic.dir/11_Object_Oriented/oop_basic.cpp.o
+.PHONY : 11_Object_Oriented/oop_basic.cpp.o
+
+11_Object_Oriented/oop_basic.i: 11_Object_Oriented/oop_basic.cpp.i
+.PHONY : 11_Object_Oriented/oop_basic.i
+
+# target to preprocess a source file
+11_Object_Oriented/oop_basic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_basic.dir/build.make CMakeFiles/11_Object_Oriented_oop_basic.dir/11_Object_Oriented/oop_basic.cpp.i
+.PHONY : 11_Object_Oriented/oop_basic.cpp.i
+
+11_Object_Oriented/oop_basic.s: 11_Object_Oriented/oop_basic.cpp.s
+.PHONY : 11_Object_Oriented/oop_basic.s
+
+# target to generate assembly for a file
+11_Object_Oriented/oop_basic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_oop_basic.dir/build.make CMakeFiles/11_Object_Oriented_oop_basic.dir/11_Object_Oriented/oop_basic.cpp.s
+.PHONY : 11_Object_Oriented/oop_basic.cpp.s
+
+11_Object_Oriented/shapes.o: 11_Object_Oriented/shapes.cpp.o
+.PHONY : 11_Object_Oriented/shapes.o
+
+# target to build an object file
+11_Object_Oriented/shapes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_shapes.dir/build.make CMakeFiles/11_Object_Oriented_shapes.dir/11_Object_Oriented/shapes.cpp.o
+.PHONY : 11_Object_Oriented/shapes.cpp.o
+
+11_Object_Oriented/shapes.i: 11_Object_Oriented/shapes.cpp.i
+.PHONY : 11_Object_Oriented/shapes.i
+
+# target to preprocess a source file
+11_Object_Oriented/shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_shapes.dir/build.make CMakeFiles/11_Object_Oriented_shapes.dir/11_Object_Oriented/shapes.cpp.i
+.PHONY : 11_Object_Oriented/shapes.cpp.i
+
+11_Object_Oriented/shapes.s: 11_Object_Oriented/shapes.cpp.s
+.PHONY : 11_Object_Oriented/shapes.s
+
+# target to generate assembly for a file
+11_Object_Oriented/shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_Object_Oriented_shapes.dir/build.make CMakeFiles/11_Object_Oriented_shapes.dir/11_Object_Oriented/shapes.cpp.s
+.PHONY : 11_Object_Oriented/shapes.cpp.s
+
+12_Resources/RAII.o: 12_Resources/RAII.cpp.o
+.PHONY : 12_Resources/RAII.o
+
+# target to build an object file
+12_Resources/RAII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_Resources_RAII.dir/build.make CMakeFiles/12_Resources_RAII.dir/12_Resources/RAII.cpp.o
+.PHONY : 12_Resources/RAII.cpp.o
+
+12_Resources/RAII.i: 12_Resources/RAII.cpp.i
+.PHONY : 12_Resources/RAII.i
+
+# target to preprocess a source file
+12_Resources/RAII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_Resources_RAII.dir/build.make CMakeFiles/12_Resources_RAII.dir/12_Resources/RAII.cpp.i
+.PHONY : 12_Resources/RAII.cpp.i
+
+12_Resources/RAII.s: 12_Resources/RAII.cpp.s
+.PHONY : 12_Resources/RAII.s
+
+# target to generate assembly for a file
+12_Resources/RAII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_Resources_RAII.dir/build.make CMakeFiles/12_Resources_RAII.dir/12_Resources/RAII.cpp.s
+.PHONY : 12_Resources/RAII.cpp.s
+
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.o: 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.o
+
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.i: 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.i
+
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.s: 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_AllConstructorsAndOperators.dir/13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/AllConstructorsAndOperators.cpp.s
+
+13_CPlusPlusUniqueness/CopyConstructors.o: 13_CPlusPlusUniqueness/CopyConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/CopyConstructors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/13_CPlusPlusUniqueness/CopyConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.cpp.o
+
+13_CPlusPlusUniqueness/CopyConstructors.i: 13_CPlusPlusUniqueness/CopyConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/CopyConstructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/13_CPlusPlusUniqueness/CopyConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.cpp.i
+
+13_CPlusPlusUniqueness/CopyConstructors.s: 13_CPlusPlusUniqueness/CopyConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/CopyConstructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_CopyConstructors.dir/13_CPlusPlusUniqueness/CopyConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/CopyConstructors.cpp.s
+
+13_CPlusPlusUniqueness/ExampleConstructors.o: 13_CPlusPlusUniqueness/ExampleConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/ExampleConstructors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/13_CPlusPlusUniqueness/ExampleConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.cpp.o
+
+13_CPlusPlusUniqueness/ExampleConstructors.i: 13_CPlusPlusUniqueness/ExampleConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/ExampleConstructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/13_CPlusPlusUniqueness/ExampleConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.cpp.i
+
+13_CPlusPlusUniqueness/ExampleConstructors.s: 13_CPlusPlusUniqueness/ExampleConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/ExampleConstructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_ExampleConstructors.dir/13_CPlusPlusUniqueness/ExampleConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/ExampleConstructors.cpp.s
+
+13_CPlusPlusUniqueness/FriendClassExample.o: 13_CPlusPlusUniqueness/FriendClassExample.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/FriendClassExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/13_CPlusPlusUniqueness/FriendClassExample.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.cpp.o
+
+13_CPlusPlusUniqueness/FriendClassExample.i: 13_CPlusPlusUniqueness/FriendClassExample.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/FriendClassExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/13_CPlusPlusUniqueness/FriendClassExample.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.cpp.i
+
+13_CPlusPlusUniqueness/FriendClassExample.s: 13_CPlusPlusUniqueness/FriendClassExample.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/FriendClassExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendClassExample.dir/13_CPlusPlusUniqueness/FriendClassExample.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/FriendClassExample.cpp.s
+
+13_CPlusPlusUniqueness/FriendFunctionsExample.o: 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.o
+
+13_CPlusPlusUniqueness/FriendFunctionsExample.i: 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.i
+
+13_CPlusPlusUniqueness/FriendFunctionsExample.s: 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_FriendFunctionsExample.dir/13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/FriendFunctionsExample.cpp.s
+
+13_CPlusPlusUniqueness/MoveConstructors.o: 13_CPlusPlusUniqueness/MoveConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.o
+
+# target to build an object file
+13_CPlusPlusUniqueness/MoveConstructors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/13_CPlusPlusUniqueness/MoveConstructors.cpp.o
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.cpp.o
+
+13_CPlusPlusUniqueness/MoveConstructors.i: 13_CPlusPlusUniqueness/MoveConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.i
+
+# target to preprocess a source file
+13_CPlusPlusUniqueness/MoveConstructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/13_CPlusPlusUniqueness/MoveConstructors.cpp.i
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.cpp.i
+
+13_CPlusPlusUniqueness/MoveConstructors.s: 13_CPlusPlusUniqueness/MoveConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.s
+
+# target to generate assembly for a file
+13_CPlusPlusUniqueness/MoveConstructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/build.make CMakeFiles/13_CPlusPlusUniqueness_MoveConstructors.dir/13_CPlusPlusUniqueness/MoveConstructors.cpp.s
+.PHONY : 13_CPlusPlusUniqueness/MoveConstructors.cpp.s
 
 Noobs/algorithm_example_noob.o: Noobs/algorithm_example_noob.cpp.o
 .PHONY : Noobs/algorithm_example_noob.o
@@ -5378,119 +5785,130 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 01_Basic_auto_example"
-	@echo "... 01_Basic_constexpr"
-	@echo "... 01_Basic_flow"
-	@echo "... 01_Basic_hello"
-	@echo "... 01_Basic_nullptr_example"
-	@echo "... 01_Basic_range_based_for_example"
-	@echo "... 01_Basic_type_conversions"
-	@echo "... 01_Basic_variables"
-	@echo "... 02_Pointers_null_pointers"
-	@echo "... 02_Pointers_out_and_ref_example"
-	@echo "... 02_Pointers_pointers"
-	@echo "... 02_Pointers_pointers_advanced"
-	@echo "... 02_Pointers_referenceVsPointers"
-	@echo "... 02_Pointers_smartpointers"
-	@echo "... 03_Vectors_arrays"
-	@echo "... 03_Vectors_vector"
-	@echo "... 04_Enums_enums"
-	@echo "... 05_Functions_functions"
-	@echo "... 05_Functions_noexcept"
-	@echo "... 06_STL_algorithm_example"
-	@echo "... 06_STL_algorithm_example_noob"
-	@echo "... 06_STL_array_example"
-	@echo "... 06_STL_array_example_noob"
-	@echo "... 06_STL_bitset_example"
-	@echo "... 06_STL_bitset_example_noob"
-	@echo "... 06_STL_chrono_example"
-	@echo "... 06_STL_chrono_example_noob"
-	@echo "... 06_STL_deque_example"
-	@echo "... 06_STL_deque_example_noob"
-	@echo "... 06_STL_filesystem_example"
-	@echo "... 06_STL_filesystem_example_noob"
-	@echo "... 06_STL_forward_list_example"
-	@echo "... 06_STL_forward_list_example_noob"
-	@echo "... 06_STL_function_bind_example"
-	@echo "... 06_STL_function_bind_example_noob"
-	@echo "... 06_STL_future_example"
-	@echo "... 06_STL_future_example_noob"
-	@echo "... 06_STL_list_example"
-	@echo "... 06_STL_list_example_noob"
-	@echo "... 06_STL_map_example"
-	@echo "... 06_STL_map_example_noob"
-	@echo "... 06_STL_multimap_example"
-	@echo "... 06_STL_multimap_example_noob"
-	@echo "... 06_STL_optional"
-	@echo "... 06_STL_optional_noob"
-	@echo "... 06_STL_pair_example"
-	@echo "... 06_STL_pair_example_noob"
-	@echo "... 06_STL_priority_queue_example"
-	@echo "... 06_STL_priority_queue_example_noob"
-	@echo "... 06_STL_queue_example"
-	@echo "... 06_STL_queue_example_noob"
-	@echo "... 06_STL_regex_example"
-	@echo "... 06_STL_regex_example_noob"
-	@echo "... 06_STL_set_example"
-	@echo "... 06_STL_shared_ptr_example"
-	@echo "... 06_STL_stack_example"
-	@echo "... 06_STL_strings"
-	@echo "... 06_STL_tuple_example"
-	@echo "... 06_STL_tuple_example_noob"
-	@echo "... 06_STL_unique_ptr_example"
-	@echo "... 06_STL_unique_ptr_example_noob"
-	@echo "... 06_STL_unordered_map_example"
-	@echo "... 06_STL_unordered_map_example_noob"
-	@echo "... 06_STL_unordered_set_example"
-	@echo "... 06_STL_unordered_set_example_noob"
-	@echo "... 06_STL_valarray_example"
-	@echo "... 06_STL_valarray_example_noob"
-	@echo "... 06_STL_vector"
-	@echo "... 07_Resources_RAII"
-	@echo "... 08_Lambdas_lambdas"
-	@echo "... 09_Templates_01_templates"
-	@echo "... 09_Templates_02_templates"
-	@echo "... 09_Templates_03_template_specialization"
-	@echo "... 09_Templates_AnotherTemplateExample"
-	@echo "... 09_Templates_Summary"
-	@echo "... 09_Templates_compile_time_evaluation"
-	@echo "... 09_Templates_template_specialization"
-	@echo "... 09_Templates_variadic_templates"
-	@echo "... 10_Object_Oriented_classes"
-	@echo "... 10_Object_Oriented_oop_advanced"
-	@echo "... 10_Object_Oriented_oop_basic"
-	@echo "... 10_Object_Oriented_shapes"
-	@echo "... 11_EventsAndDelegates_eventsAndDelegates"
-	@echo "... 12_CPlusPlusUniqueness_AllConstructorsAndOperators"
-	@echo "... 12_CPlusPlusUniqueness_CopyConstructors"
-	@echo "... 12_CPlusPlusUniqueness_ExampleConstructors"
-	@echo "... 12_CPlusPlusUniqueness_FriendClassExample"
-	@echo "... 12_CPlusPlusUniqueness_FriendFunctionsExample"
-	@echo "... 12_CPlusPlusUniqueness_MoveConstructors"
-	@echo "... 13_Modern_CPP_01_move_semantics_cpp11_aprofundado"
-	@echo "... 13_Modern_CPP_02_smart_pointers_aprofundado"
-	@echo "... 14_Threads_And_Tasks_tasks_example"
-	@echo "... 14_Threads_And_Tasks_threads_example"
-	@echo "... 15_LINQ_aggregate_example"
-	@echo "... 15_LINQ_all_example"
-	@echo "... 15_LINQ_any_example"
-	@echo "... 15_LINQ_average_example"
-	@echo "... 15_LINQ_count_example"
-	@echo "... 15_LINQ_distinct_example"
-	@echo "... 15_LINQ_except_example"
-	@echo "... 15_LINQ_first_example"
-	@echo "... 15_LINQ_groupby_example"
-	@echo "... 15_LINQ_intersect_example"
-	@echo "... 15_LINQ_join_example"
-	@echo "... 15_LINQ_last_example"
-	@echo "... 15_LINQ_max_example"
-	@echo "... 15_LINQ_min_example"
-	@echo "... 15_LINQ_orderby_example"
-	@echo "... 15_LINQ_select_example"
-	@echo "... 15_LINQ_skip_take_example"
-	@echo "... 15_LINQ_sum_example"
-	@echo "... 15_LINQ_union_example"
-	@echo "... 15_LINQ_where_example"
+	@echo "... 01_Basic_01_hello"
+	@echo "... 01_Basic_02_variables"
+	@echo "... 01_Basic_03_auto_example"
+	@echo "... 01_Basic_04_flow"
+	@echo "... 01_Basic_05_range_based_for_example"
+	@echo "... 01_Basic_06_constexpr"
+	@echo "... 01_Basic_07_nullptr_example"
+	@echo "... 01_Basic_08_type_conversions"
+	@echo "... 01_Basic_09_enums"
+	@echo "... 02_Pointers_01_null_pointers"
+	@echo "... 02_Pointers_02_out_and_ref_example"
+	@echo "... 02_Pointers_03_pointers"
+	@echo "... 02_Pointers_04_referenceVsPointers"
+	@echo "... 02_Pointers_05_pointers_advanced"
+	@echo "... 02_Pointers_06_smartpointers"
+	@echo "... 03_Collections_01_arrays"
+	@echo "... 03_Collections_02_vector"
+	@echo "... 03_Collections_03_list_example"
+	@echo "... 03_Collections_04_set_example"
+	@echo "... 03_Collections_05_map_example"
+	@echo "... 03_Collections_06_multimap_example"
+	@echo "... 03_Collections_07_deque_example"
+	@echo "... 03_Collections_08_stack_example"
+	@echo "... 03_Collections_09_queue_example"
+	@echo "... 03_Collections_10_unordered_map_example"
+	@echo "... 03_Collections_11_unordered_set_example"
+	@echo "... 03_Collections_set_example_complex"
+	@echo "... 04_FunctionsAndLambdas_free_functions"
+	@echo "... 04_FunctionsAndLambdas_lambdas"
+	@echo "... 04_FunctionsAndLambdas_noexcept"
+	@echo "... 05_STL_algorithm_example"
+	@echo "... 05_STL_algorithm_example_noob"
+	@echo "... 05_STL_array_example"
+	@echo "... 05_STL_array_example_noob"
+	@echo "... 05_STL_bitset_example"
+	@echo "... 05_STL_bitset_example_noob"
+	@echo "... 05_STL_chrono_example"
+	@echo "... 05_STL_chrono_example_noob"
+	@echo "... 05_STL_deque_example"
+	@echo "... 05_STL_deque_example_noob"
+	@echo "... 05_STL_filesystem_example"
+	@echo "... 05_STL_filesystem_example_noob"
+	@echo "... 05_STL_forward_list_example"
+	@echo "... 05_STL_forward_list_example_noob"
+	@echo "... 05_STL_function_bind_example"
+	@echo "... 05_STL_function_bind_example_noob"
+	@echo "... 05_STL_future_example"
+	@echo "... 05_STL_future_example_noob"
+	@echo "... 05_STL_ifstream_noob"
+	@echo "... 05_STL_list_example"
+	@echo "... 05_STL_list_example_noob"
+	@echo "... 05_STL_map_example"
+	@echo "... 05_STL_map_example_noob"
+	@echo "... 05_STL_multimap_example"
+	@echo "... 05_STL_multimap_example_noob"
+	@echo "... 05_STL_optional"
+	@echo "... 05_STL_optional_noob"
+	@echo "... 05_STL_pair_example"
+	@echo "... 05_STL_pair_example_noob"
+	@echo "... 05_STL_priority_queue_example"
+	@echo "... 05_STL_priority_queue_example_noob"
+	@echo "... 05_STL_queue_example"
+	@echo "... 05_STL_queue_example_noob"
+	@echo "... 05_STL_regex_example"
+	@echo "... 05_STL_regex_example_noob"
+	@echo "... 05_STL_set_example"
+	@echo "... 05_STL_shared_ptr_example"
+	@echo "... 05_STL_stack_example"
+	@echo "... 05_STL_strings"
+	@echo "... 05_STL_tuple_example"
+	@echo "... 05_STL_tuple_example_noob"
+	@echo "... 05_STL_unique_ptr_example"
+	@echo "... 05_STL_unique_ptr_example_noob"
+	@echo "... 05_STL_unordered_map_example"
+	@echo "... 05_STL_unordered_map_example_noob"
+	@echo "... 05_STL_unordered_set_example"
+	@echo "... 05_STL_unordered_set_example_noob"
+	@echo "... 05_STL_valarray_example"
+	@echo "... 05_STL_valarray_example_noob"
+	@echo "... 05_STL_vector"
+	@echo "... 06_Templates_01_templates"
+	@echo "... 06_Templates_02_templates"
+	@echo "... 06_Templates_03_template_specialization"
+	@echo "... 06_Templates_AnotherTemplateExample"
+	@echo "... 06_Templates_Summary"
+	@echo "... 06_Templates_compile_time_evaluation"
+	@echo "... 06_Templates_template_specialization"
+	@echo "... 06_Templates_variadic_templates"
+	@echo "... 07_Threads_And_Tasks_tasks_example"
+	@echo "... 07_Threads_And_Tasks_threads_example"
+	@echo "... 08_LINQ_aggregate_example"
+	@echo "... 08_LINQ_all_example"
+	@echo "... 08_LINQ_any_example"
+	@echo "... 08_LINQ_average_example"
+	@echo "... 08_LINQ_count_example"
+	@echo "... 08_LINQ_distinct_example"
+	@echo "... 08_LINQ_except_example"
+	@echo "... 08_LINQ_first_example"
+	@echo "... 08_LINQ_groupby_example"
+	@echo "... 08_LINQ_intersect_example"
+	@echo "... 08_LINQ_join_example"
+	@echo "... 08_LINQ_last_example"
+	@echo "... 08_LINQ_max_example"
+	@echo "... 08_LINQ_min_example"
+	@echo "... 08_LINQ_orderby_example"
+	@echo "... 08_LINQ_select_example"
+	@echo "... 08_LINQ_skip_take_example"
+	@echo "... 08_LINQ_sum_example"
+	@echo "... 08_LINQ_union_example"
+	@echo "... 08_LINQ_where_example"
+	@echo "... 09_EventsAndDelegates_eventsAndDelegates"
+	@echo "... 10_Modern_CPP_01_move_semantics_cpp11_aprofundado"
+	@echo "... 10_Modern_CPP_02_smart_pointers_aprofundado"
+	@echo "... 11_Object_Oriented_classes"
+	@echo "... 11_Object_Oriented_oop_advanced"
+	@echo "... 11_Object_Oriented_oop_basic"
+	@echo "... 11_Object_Oriented_shapes"
+	@echo "... 12_Resources_RAII"
+	@echo "... 13_CPlusPlusUniqueness_AllConstructorsAndOperators"
+	@echo "... 13_CPlusPlusUniqueness_CopyConstructors"
+	@echo "... 13_CPlusPlusUniqueness_ExampleConstructors"
+	@echo "... 13_CPlusPlusUniqueness_FriendClassExample"
+	@echo "... 13_CPlusPlusUniqueness_FriendFunctionsExample"
+	@echo "... 13_CPlusPlusUniqueness_MoveConstructors"
 	@echo "... Noobs_algorithm_example_noob"
 	@echo "... Noobs_avoid_const_cast_example"
 	@echo "... Noobs_avoid_magic_numbers_example"
@@ -5520,345 +5938,378 @@ help:
 	@echo "... Noobs_use_std_array_example"
 	@echo "... Noobs_using_namespace_std"
 	@echo "... Noobs_virtual_destructor_example"
-	@echo "... 01_Basic/auto_example.o"
-	@echo "... 01_Basic/auto_example.i"
-	@echo "... 01_Basic/auto_example.s"
-	@echo "... 01_Basic/constexpr.o"
-	@echo "... 01_Basic/constexpr.i"
-	@echo "... 01_Basic/constexpr.s"
-	@echo "... 01_Basic/flow.o"
-	@echo "... 01_Basic/flow.i"
-	@echo "... 01_Basic/flow.s"
-	@echo "... 01_Basic/hello.o"
-	@echo "... 01_Basic/hello.i"
-	@echo "... 01_Basic/hello.s"
-	@echo "... 01_Basic/nullptr_example.o"
-	@echo "... 01_Basic/nullptr_example.i"
-	@echo "... 01_Basic/nullptr_example.s"
-	@echo "... 01_Basic/range_based_for_example.o"
-	@echo "... 01_Basic/range_based_for_example.i"
-	@echo "... 01_Basic/range_based_for_example.s"
-	@echo "... 01_Basic/type_conversions.o"
-	@echo "... 01_Basic/type_conversions.i"
-	@echo "... 01_Basic/type_conversions.s"
-	@echo "... 01_Basic/variables.o"
-	@echo "... 01_Basic/variables.i"
-	@echo "... 01_Basic/variables.s"
-	@echo "... 02_Pointers/null_pointers.o"
-	@echo "... 02_Pointers/null_pointers.i"
-	@echo "... 02_Pointers/null_pointers.s"
-	@echo "... 02_Pointers/out_and_ref_example.o"
-	@echo "... 02_Pointers/out_and_ref_example.i"
-	@echo "... 02_Pointers/out_and_ref_example.s"
-	@echo "... 02_Pointers/pointers.o"
-	@echo "... 02_Pointers/pointers.i"
-	@echo "... 02_Pointers/pointers.s"
-	@echo "... 02_Pointers/pointers_advanced.o"
-	@echo "... 02_Pointers/pointers_advanced.i"
-	@echo "... 02_Pointers/pointers_advanced.s"
-	@echo "... 02_Pointers/referenceVsPointers.o"
-	@echo "... 02_Pointers/referenceVsPointers.i"
-	@echo "... 02_Pointers/referenceVsPointers.s"
-	@echo "... 02_Pointers/smartpointers.o"
-	@echo "... 02_Pointers/smartpointers.i"
-	@echo "... 02_Pointers/smartpointers.s"
-	@echo "... 03_Vectors/arrays.o"
-	@echo "... 03_Vectors/arrays.i"
-	@echo "... 03_Vectors/arrays.s"
-	@echo "... 03_Vectors/vector.o"
-	@echo "... 03_Vectors/vector.i"
-	@echo "... 03_Vectors/vector.s"
-	@echo "... 04_Enums/enums.o"
-	@echo "... 04_Enums/enums.i"
-	@echo "... 04_Enums/enums.s"
-	@echo "... 05_Functions/functions.o"
-	@echo "... 05_Functions/functions.i"
-	@echo "... 05_Functions/functions.s"
-	@echo "... 05_Functions/noexcept.o"
-	@echo "... 05_Functions/noexcept.i"
-	@echo "... 05_Functions/noexcept.s"
-	@echo "... 06_STL/algorithm_example.o"
-	@echo "... 06_STL/algorithm_example.i"
-	@echo "... 06_STL/algorithm_example.s"
-	@echo "... 06_STL/algorithm_example_noob.o"
-	@echo "... 06_STL/algorithm_example_noob.i"
-	@echo "... 06_STL/algorithm_example_noob.s"
-	@echo "... 06_STL/array_example.o"
-	@echo "... 06_STL/array_example.i"
-	@echo "... 06_STL/array_example.s"
-	@echo "... 06_STL/array_example_noob.o"
-	@echo "... 06_STL/array_example_noob.i"
-	@echo "... 06_STL/array_example_noob.s"
-	@echo "... 06_STL/bitset_example.o"
-	@echo "... 06_STL/bitset_example.i"
-	@echo "... 06_STL/bitset_example.s"
-	@echo "... 06_STL/bitset_example_noob.o"
-	@echo "... 06_STL/bitset_example_noob.i"
-	@echo "... 06_STL/bitset_example_noob.s"
-	@echo "... 06_STL/chrono_example.o"
-	@echo "... 06_STL/chrono_example.i"
-	@echo "... 06_STL/chrono_example.s"
-	@echo "... 06_STL/chrono_example_noob.o"
-	@echo "... 06_STL/chrono_example_noob.i"
-	@echo "... 06_STL/chrono_example_noob.s"
-	@echo "... 06_STL/deque_example.o"
-	@echo "... 06_STL/deque_example.i"
-	@echo "... 06_STL/deque_example.s"
-	@echo "... 06_STL/deque_example_noob.o"
-	@echo "... 06_STL/deque_example_noob.i"
-	@echo "... 06_STL/deque_example_noob.s"
-	@echo "... 06_STL/filesystem_example.o"
-	@echo "... 06_STL/filesystem_example.i"
-	@echo "... 06_STL/filesystem_example.s"
-	@echo "... 06_STL/filesystem_example_noob.o"
-	@echo "... 06_STL/filesystem_example_noob.i"
-	@echo "... 06_STL/filesystem_example_noob.s"
-	@echo "... 06_STL/forward_list_example.o"
-	@echo "... 06_STL/forward_list_example.i"
-	@echo "... 06_STL/forward_list_example.s"
-	@echo "... 06_STL/forward_list_example_noob.o"
-	@echo "... 06_STL/forward_list_example_noob.i"
-	@echo "... 06_STL/forward_list_example_noob.s"
-	@echo "... 06_STL/function_bind_example.o"
-	@echo "... 06_STL/function_bind_example.i"
-	@echo "... 06_STL/function_bind_example.s"
-	@echo "... 06_STL/function_bind_example_noob.o"
-	@echo "... 06_STL/function_bind_example_noob.i"
-	@echo "... 06_STL/function_bind_example_noob.s"
-	@echo "... 06_STL/future_example.o"
-	@echo "... 06_STL/future_example.i"
-	@echo "... 06_STL/future_example.s"
-	@echo "... 06_STL/future_example_noob.o"
-	@echo "... 06_STL/future_example_noob.i"
-	@echo "... 06_STL/future_example_noob.s"
-	@echo "... 06_STL/list_example.o"
-	@echo "... 06_STL/list_example.i"
-	@echo "... 06_STL/list_example.s"
-	@echo "... 06_STL/list_example_noob.o"
-	@echo "... 06_STL/list_example_noob.i"
-	@echo "... 06_STL/list_example_noob.s"
-	@echo "... 06_STL/map_example.o"
-	@echo "... 06_STL/map_example.i"
-	@echo "... 06_STL/map_example.s"
-	@echo "... 06_STL/map_example_noob.o"
-	@echo "... 06_STL/map_example_noob.i"
-	@echo "... 06_STL/map_example_noob.s"
-	@echo "... 06_STL/multimap_example.o"
-	@echo "... 06_STL/multimap_example.i"
-	@echo "... 06_STL/multimap_example.s"
-	@echo "... 06_STL/multimap_example_noob.o"
-	@echo "... 06_STL/multimap_example_noob.i"
-	@echo "... 06_STL/multimap_example_noob.s"
-	@echo "... 06_STL/optional.o"
-	@echo "... 06_STL/optional.i"
-	@echo "... 06_STL/optional.s"
-	@echo "... 06_STL/optional_noob.o"
-	@echo "... 06_STL/optional_noob.i"
-	@echo "... 06_STL/optional_noob.s"
-	@echo "... 06_STL/pair_example.o"
-	@echo "... 06_STL/pair_example.i"
-	@echo "... 06_STL/pair_example.s"
-	@echo "... 06_STL/pair_example_noob.o"
-	@echo "... 06_STL/pair_example_noob.i"
-	@echo "... 06_STL/pair_example_noob.s"
-	@echo "... 06_STL/priority_queue_example.o"
-	@echo "... 06_STL/priority_queue_example.i"
-	@echo "... 06_STL/priority_queue_example.s"
-	@echo "... 06_STL/priority_queue_example_noob.o"
-	@echo "... 06_STL/priority_queue_example_noob.i"
-	@echo "... 06_STL/priority_queue_example_noob.s"
-	@echo "... 06_STL/queue_example.o"
-	@echo "... 06_STL/queue_example.i"
-	@echo "... 06_STL/queue_example.s"
-	@echo "... 06_STL/queue_example_noob.o"
-	@echo "... 06_STL/queue_example_noob.i"
-	@echo "... 06_STL/queue_example_noob.s"
-	@echo "... 06_STL/regex_example.o"
-	@echo "... 06_STL/regex_example.i"
-	@echo "... 06_STL/regex_example.s"
-	@echo "... 06_STL/regex_example_noob.o"
-	@echo "... 06_STL/regex_example_noob.i"
-	@echo "... 06_STL/regex_example_noob.s"
-	@echo "... 06_STL/set_example.o"
-	@echo "... 06_STL/set_example.i"
-	@echo "... 06_STL/set_example.s"
-	@echo "... 06_STL/shared_ptr_example.o"
-	@echo "... 06_STL/shared_ptr_example.i"
-	@echo "... 06_STL/shared_ptr_example.s"
-	@echo "... 06_STL/stack_example.o"
-	@echo "... 06_STL/stack_example.i"
-	@echo "... 06_STL/stack_example.s"
-	@echo "... 06_STL/strings.o"
-	@echo "... 06_STL/strings.i"
-	@echo "... 06_STL/strings.s"
-	@echo "... 06_STL/tuple_example.o"
-	@echo "... 06_STL/tuple_example.i"
-	@echo "... 06_STL/tuple_example.s"
-	@echo "... 06_STL/tuple_example_noob.o"
-	@echo "... 06_STL/tuple_example_noob.i"
-	@echo "... 06_STL/tuple_example_noob.s"
-	@echo "... 06_STL/unique_ptr_example.o"
-	@echo "... 06_STL/unique_ptr_example.i"
-	@echo "... 06_STL/unique_ptr_example.s"
-	@echo "... 06_STL/unique_ptr_example_noob.o"
-	@echo "... 06_STL/unique_ptr_example_noob.i"
-	@echo "... 06_STL/unique_ptr_example_noob.s"
-	@echo "... 06_STL/unordered_map_example.o"
-	@echo "... 06_STL/unordered_map_example.i"
-	@echo "... 06_STL/unordered_map_example.s"
-	@echo "... 06_STL/unordered_map_example_noob.o"
-	@echo "... 06_STL/unordered_map_example_noob.i"
-	@echo "... 06_STL/unordered_map_example_noob.s"
-	@echo "... 06_STL/unordered_set_example.o"
-	@echo "... 06_STL/unordered_set_example.i"
-	@echo "... 06_STL/unordered_set_example.s"
-	@echo "... 06_STL/unordered_set_example_noob.o"
-	@echo "... 06_STL/unordered_set_example_noob.i"
-	@echo "... 06_STL/unordered_set_example_noob.s"
-	@echo "... 06_STL/valarray_example.o"
-	@echo "... 06_STL/valarray_example.i"
-	@echo "... 06_STL/valarray_example.s"
-	@echo "... 06_STL/valarray_example_noob.o"
-	@echo "... 06_STL/valarray_example_noob.i"
-	@echo "... 06_STL/valarray_example_noob.s"
-	@echo "... 06_STL/vector.o"
-	@echo "... 06_STL/vector.i"
-	@echo "... 06_STL/vector.s"
-	@echo "... 07_Resources/RAII.o"
-	@echo "... 07_Resources/RAII.i"
-	@echo "... 07_Resources/RAII.s"
-	@echo "... 08_Lambdas/lambdas.o"
-	@echo "... 08_Lambdas/lambdas.i"
-	@echo "... 08_Lambdas/lambdas.s"
-	@echo "... 09_Templates/01_templates.o"
-	@echo "... 09_Templates/01_templates.i"
-	@echo "... 09_Templates/01_templates.s"
-	@echo "... 09_Templates/02_templates.o"
-	@echo "... 09_Templates/02_templates.i"
-	@echo "... 09_Templates/02_templates.s"
-	@echo "... 09_Templates/03_template_specialization.o"
-	@echo "... 09_Templates/03_template_specialization.i"
-	@echo "... 09_Templates/03_template_specialization.s"
-	@echo "... 09_Templates/AnotherTemplateExample.o"
-	@echo "... 09_Templates/AnotherTemplateExample.i"
-	@echo "... 09_Templates/AnotherTemplateExample.s"
-	@echo "... 09_Templates/Summary.o"
-	@echo "... 09_Templates/Summary.i"
-	@echo "... 09_Templates/Summary.s"
-	@echo "... 09_Templates/compile_time_evaluation.o"
-	@echo "... 09_Templates/compile_time_evaluation.i"
-	@echo "... 09_Templates/compile_time_evaluation.s"
-	@echo "... 09_Templates/template_specialization.o"
-	@echo "... 09_Templates/template_specialization.i"
-	@echo "... 09_Templates/template_specialization.s"
-	@echo "... 09_Templates/variadic_templates.o"
-	@echo "... 09_Templates/variadic_templates.i"
-	@echo "... 09_Templates/variadic_templates.s"
-	@echo "... 10_Object_Oriented/classes.o"
-	@echo "... 10_Object_Oriented/classes.i"
-	@echo "... 10_Object_Oriented/classes.s"
-	@echo "... 10_Object_Oriented/oop_advanced.o"
-	@echo "... 10_Object_Oriented/oop_advanced.i"
-	@echo "... 10_Object_Oriented/oop_advanced.s"
-	@echo "... 10_Object_Oriented/oop_basic.o"
-	@echo "... 10_Object_Oriented/oop_basic.i"
-	@echo "... 10_Object_Oriented/oop_basic.s"
-	@echo "... 10_Object_Oriented/shapes.o"
-	@echo "... 10_Object_Oriented/shapes.i"
-	@echo "... 10_Object_Oriented/shapes.s"
-	@echo "... 11_EventsAndDelegates/eventsAndDelegates.o"
-	@echo "... 11_EventsAndDelegates/eventsAndDelegates.i"
-	@echo "... 11_EventsAndDelegates/eventsAndDelegates.s"
-	@echo "... 12_CPlusPlusUniqueness/AllConstructorsAndOperators.o"
-	@echo "... 12_CPlusPlusUniqueness/AllConstructorsAndOperators.i"
-	@echo "... 12_CPlusPlusUniqueness/AllConstructorsAndOperators.s"
-	@echo "... 12_CPlusPlusUniqueness/CopyConstructors.o"
-	@echo "... 12_CPlusPlusUniqueness/CopyConstructors.i"
-	@echo "... 12_CPlusPlusUniqueness/CopyConstructors.s"
-	@echo "... 12_CPlusPlusUniqueness/ExampleConstructors.o"
-	@echo "... 12_CPlusPlusUniqueness/ExampleConstructors.i"
-	@echo "... 12_CPlusPlusUniqueness/ExampleConstructors.s"
-	@echo "... 12_CPlusPlusUniqueness/FriendClassExample.o"
-	@echo "... 12_CPlusPlusUniqueness/FriendClassExample.i"
-	@echo "... 12_CPlusPlusUniqueness/FriendClassExample.s"
-	@echo "... 12_CPlusPlusUniqueness/FriendFunctionsExample.o"
-	@echo "... 12_CPlusPlusUniqueness/FriendFunctionsExample.i"
-	@echo "... 12_CPlusPlusUniqueness/FriendFunctionsExample.s"
-	@echo "... 12_CPlusPlusUniqueness/MoveConstructors.o"
-	@echo "... 12_CPlusPlusUniqueness/MoveConstructors.i"
-	@echo "... 12_CPlusPlusUniqueness/MoveConstructors.s"
-	@echo "... 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.o"
-	@echo "... 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.i"
-	@echo "... 13_Modern_CPP/01_move_semantics_cpp11_aprofundado.s"
-	@echo "... 13_Modern_CPP/02_smart_pointers_aprofundado.o"
-	@echo "... 13_Modern_CPP/02_smart_pointers_aprofundado.i"
-	@echo "... 13_Modern_CPP/02_smart_pointers_aprofundado.s"
-	@echo "... 14_Threads_And_Tasks/tasks_example.o"
-	@echo "... 14_Threads_And_Tasks/tasks_example.i"
-	@echo "... 14_Threads_And_Tasks/tasks_example.s"
-	@echo "... 14_Threads_And_Tasks/threads_example.o"
-	@echo "... 14_Threads_And_Tasks/threads_example.i"
-	@echo "... 14_Threads_And_Tasks/threads_example.s"
-	@echo "... 15_LINQ/aggregate_example.o"
-	@echo "... 15_LINQ/aggregate_example.i"
-	@echo "... 15_LINQ/aggregate_example.s"
-	@echo "... 15_LINQ/all_example.o"
-	@echo "... 15_LINQ/all_example.i"
-	@echo "... 15_LINQ/all_example.s"
-	@echo "... 15_LINQ/any_example.o"
-	@echo "... 15_LINQ/any_example.i"
-	@echo "... 15_LINQ/any_example.s"
-	@echo "... 15_LINQ/average_example.o"
-	@echo "... 15_LINQ/average_example.i"
-	@echo "... 15_LINQ/average_example.s"
-	@echo "... 15_LINQ/count_example.o"
-	@echo "... 15_LINQ/count_example.i"
-	@echo "... 15_LINQ/count_example.s"
-	@echo "... 15_LINQ/distinct_example.o"
-	@echo "... 15_LINQ/distinct_example.i"
-	@echo "... 15_LINQ/distinct_example.s"
-	@echo "... 15_LINQ/except_example.o"
-	@echo "... 15_LINQ/except_example.i"
-	@echo "... 15_LINQ/except_example.s"
-	@echo "... 15_LINQ/first_example.o"
-	@echo "... 15_LINQ/first_example.i"
-	@echo "... 15_LINQ/first_example.s"
-	@echo "... 15_LINQ/groupby_example.o"
-	@echo "... 15_LINQ/groupby_example.i"
-	@echo "... 15_LINQ/groupby_example.s"
-	@echo "... 15_LINQ/intersect_example.o"
-	@echo "... 15_LINQ/intersect_example.i"
-	@echo "... 15_LINQ/intersect_example.s"
-	@echo "... 15_LINQ/join_example.o"
-	@echo "... 15_LINQ/join_example.i"
-	@echo "... 15_LINQ/join_example.s"
-	@echo "... 15_LINQ/last_example.o"
-	@echo "... 15_LINQ/last_example.i"
-	@echo "... 15_LINQ/last_example.s"
-	@echo "... 15_LINQ/max_example.o"
-	@echo "... 15_LINQ/max_example.i"
-	@echo "... 15_LINQ/max_example.s"
-	@echo "... 15_LINQ/min_example.o"
-	@echo "... 15_LINQ/min_example.i"
-	@echo "... 15_LINQ/min_example.s"
-	@echo "... 15_LINQ/orderby_example.o"
-	@echo "... 15_LINQ/orderby_example.i"
-	@echo "... 15_LINQ/orderby_example.s"
-	@echo "... 15_LINQ/select_example.o"
-	@echo "... 15_LINQ/select_example.i"
-	@echo "... 15_LINQ/select_example.s"
-	@echo "... 15_LINQ/skip_take_example.o"
-	@echo "... 15_LINQ/skip_take_example.i"
-	@echo "... 15_LINQ/skip_take_example.s"
-	@echo "... 15_LINQ/sum_example.o"
-	@echo "... 15_LINQ/sum_example.i"
-	@echo "... 15_LINQ/sum_example.s"
-	@echo "... 15_LINQ/union_example.o"
-	@echo "... 15_LINQ/union_example.i"
-	@echo "... 15_LINQ/union_example.s"
-	@echo "... 15_LINQ/where_example.o"
-	@echo "... 15_LINQ/where_example.i"
-	@echo "... 15_LINQ/where_example.s"
+	@echo "... 01_Basic/01_hello.o"
+	@echo "... 01_Basic/01_hello.i"
+	@echo "... 01_Basic/01_hello.s"
+	@echo "... 01_Basic/02_variables.o"
+	@echo "... 01_Basic/02_variables.i"
+	@echo "... 01_Basic/02_variables.s"
+	@echo "... 01_Basic/03_auto_example.o"
+	@echo "... 01_Basic/03_auto_example.i"
+	@echo "... 01_Basic/03_auto_example.s"
+	@echo "... 01_Basic/04_flow.o"
+	@echo "... 01_Basic/04_flow.i"
+	@echo "... 01_Basic/04_flow.s"
+	@echo "... 01_Basic/05_range_based_for_example.o"
+	@echo "... 01_Basic/05_range_based_for_example.i"
+	@echo "... 01_Basic/05_range_based_for_example.s"
+	@echo "... 01_Basic/06_constexpr.o"
+	@echo "... 01_Basic/06_constexpr.i"
+	@echo "... 01_Basic/06_constexpr.s"
+	@echo "... 01_Basic/07_nullptr_example.o"
+	@echo "... 01_Basic/07_nullptr_example.i"
+	@echo "... 01_Basic/07_nullptr_example.s"
+	@echo "... 01_Basic/08_type_conversions.o"
+	@echo "... 01_Basic/08_type_conversions.i"
+	@echo "... 01_Basic/08_type_conversions.s"
+	@echo "... 01_Basic/09_enums.o"
+	@echo "... 01_Basic/09_enums.i"
+	@echo "... 01_Basic/09_enums.s"
+	@echo "... 02_Pointers/01_null_pointers.o"
+	@echo "... 02_Pointers/01_null_pointers.i"
+	@echo "... 02_Pointers/01_null_pointers.s"
+	@echo "... 02_Pointers/02_out_and_ref_example.o"
+	@echo "... 02_Pointers/02_out_and_ref_example.i"
+	@echo "... 02_Pointers/02_out_and_ref_example.s"
+	@echo "... 02_Pointers/03_pointers.o"
+	@echo "... 02_Pointers/03_pointers.i"
+	@echo "... 02_Pointers/03_pointers.s"
+	@echo "... 02_Pointers/04_referenceVsPointers.o"
+	@echo "... 02_Pointers/04_referenceVsPointers.i"
+	@echo "... 02_Pointers/04_referenceVsPointers.s"
+	@echo "... 02_Pointers/05_pointers_advanced.o"
+	@echo "... 02_Pointers/05_pointers_advanced.i"
+	@echo "... 02_Pointers/05_pointers_advanced.s"
+	@echo "... 02_Pointers/06_smartpointers.o"
+	@echo "... 02_Pointers/06_smartpointers.i"
+	@echo "... 02_Pointers/06_smartpointers.s"
+	@echo "... 03_Collections/01_arrays.o"
+	@echo "... 03_Collections/01_arrays.i"
+	@echo "... 03_Collections/01_arrays.s"
+	@echo "... 03_Collections/02_vector.o"
+	@echo "... 03_Collections/02_vector.i"
+	@echo "... 03_Collections/02_vector.s"
+	@echo "... 03_Collections/03_list_example.o"
+	@echo "... 03_Collections/03_list_example.i"
+	@echo "... 03_Collections/03_list_example.s"
+	@echo "... 03_Collections/04_set_example.o"
+	@echo "... 03_Collections/04_set_example.i"
+	@echo "... 03_Collections/04_set_example.s"
+	@echo "... 03_Collections/05_map_example.o"
+	@echo "... 03_Collections/05_map_example.i"
+	@echo "... 03_Collections/05_map_example.s"
+	@echo "... 03_Collections/06_multimap_example.o"
+	@echo "... 03_Collections/06_multimap_example.i"
+	@echo "... 03_Collections/06_multimap_example.s"
+	@echo "... 03_Collections/07_deque_example.o"
+	@echo "... 03_Collections/07_deque_example.i"
+	@echo "... 03_Collections/07_deque_example.s"
+	@echo "... 03_Collections/08_stack_example.o"
+	@echo "... 03_Collections/08_stack_example.i"
+	@echo "... 03_Collections/08_stack_example.s"
+	@echo "... 03_Collections/09_queue_example.o"
+	@echo "... 03_Collections/09_queue_example.i"
+	@echo "... 03_Collections/09_queue_example.s"
+	@echo "... 03_Collections/10_unordered_map_example.o"
+	@echo "... 03_Collections/10_unordered_map_example.i"
+	@echo "... 03_Collections/10_unordered_map_example.s"
+	@echo "... 03_Collections/11_unordered_set_example.o"
+	@echo "... 03_Collections/11_unordered_set_example.i"
+	@echo "... 03_Collections/11_unordered_set_example.s"
+	@echo "... 03_Collections/set_example_complex.o"
+	@echo "... 03_Collections/set_example_complex.i"
+	@echo "... 03_Collections/set_example_complex.s"
+	@echo "... 04_FunctionsAndLambdas/free_functions.o"
+	@echo "... 04_FunctionsAndLambdas/free_functions.i"
+	@echo "... 04_FunctionsAndLambdas/free_functions.s"
+	@echo "... 04_FunctionsAndLambdas/lambdas.o"
+	@echo "... 04_FunctionsAndLambdas/lambdas.i"
+	@echo "... 04_FunctionsAndLambdas/lambdas.s"
+	@echo "... 04_FunctionsAndLambdas/noexcept.o"
+	@echo "... 04_FunctionsAndLambdas/noexcept.i"
+	@echo "... 04_FunctionsAndLambdas/noexcept.s"
+	@echo "... 05_STL/algorithm_example.o"
+	@echo "... 05_STL/algorithm_example.i"
+	@echo "... 05_STL/algorithm_example.s"
+	@echo "... 05_STL/algorithm_example_noob.o"
+	@echo "... 05_STL/algorithm_example_noob.i"
+	@echo "... 05_STL/algorithm_example_noob.s"
+	@echo "... 05_STL/array_example.o"
+	@echo "... 05_STL/array_example.i"
+	@echo "... 05_STL/array_example.s"
+	@echo "... 05_STL/array_example_noob.o"
+	@echo "... 05_STL/array_example_noob.i"
+	@echo "... 05_STL/array_example_noob.s"
+	@echo "... 05_STL/bitset_example.o"
+	@echo "... 05_STL/bitset_example.i"
+	@echo "... 05_STL/bitset_example.s"
+	@echo "... 05_STL/bitset_example_noob.o"
+	@echo "... 05_STL/bitset_example_noob.i"
+	@echo "... 05_STL/bitset_example_noob.s"
+	@echo "... 05_STL/chrono_example.o"
+	@echo "... 05_STL/chrono_example.i"
+	@echo "... 05_STL/chrono_example.s"
+	@echo "... 05_STL/chrono_example_noob.o"
+	@echo "... 05_STL/chrono_example_noob.i"
+	@echo "... 05_STL/chrono_example_noob.s"
+	@echo "... 05_STL/deque_example.o"
+	@echo "... 05_STL/deque_example.i"
+	@echo "... 05_STL/deque_example.s"
+	@echo "... 05_STL/deque_example_noob.o"
+	@echo "... 05_STL/deque_example_noob.i"
+	@echo "... 05_STL/deque_example_noob.s"
+	@echo "... 05_STL/filesystem_example.o"
+	@echo "... 05_STL/filesystem_example.i"
+	@echo "... 05_STL/filesystem_example.s"
+	@echo "... 05_STL/filesystem_example_noob.o"
+	@echo "... 05_STL/filesystem_example_noob.i"
+	@echo "... 05_STL/filesystem_example_noob.s"
+	@echo "... 05_STL/forward_list_example.o"
+	@echo "... 05_STL/forward_list_example.i"
+	@echo "... 05_STL/forward_list_example.s"
+	@echo "... 05_STL/forward_list_example_noob.o"
+	@echo "... 05_STL/forward_list_example_noob.i"
+	@echo "... 05_STL/forward_list_example_noob.s"
+	@echo "... 05_STL/function_bind_example.o"
+	@echo "... 05_STL/function_bind_example.i"
+	@echo "... 05_STL/function_bind_example.s"
+	@echo "... 05_STL/function_bind_example_noob.o"
+	@echo "... 05_STL/function_bind_example_noob.i"
+	@echo "... 05_STL/function_bind_example_noob.s"
+	@echo "... 05_STL/future_example.o"
+	@echo "... 05_STL/future_example.i"
+	@echo "... 05_STL/future_example.s"
+	@echo "... 05_STL/future_example_noob.o"
+	@echo "... 05_STL/future_example_noob.i"
+	@echo "... 05_STL/future_example_noob.s"
+	@echo "... 05_STL/ifstream_noob.o"
+	@echo "... 05_STL/ifstream_noob.i"
+	@echo "... 05_STL/ifstream_noob.s"
+	@echo "... 05_STL/list_example.o"
+	@echo "... 05_STL/list_example.i"
+	@echo "... 05_STL/list_example.s"
+	@echo "... 05_STL/list_example_noob.o"
+	@echo "... 05_STL/list_example_noob.i"
+	@echo "... 05_STL/list_example_noob.s"
+	@echo "... 05_STL/map_example.o"
+	@echo "... 05_STL/map_example.i"
+	@echo "... 05_STL/map_example.s"
+	@echo "... 05_STL/map_example_noob.o"
+	@echo "... 05_STL/map_example_noob.i"
+	@echo "... 05_STL/map_example_noob.s"
+	@echo "... 05_STL/multimap_example.o"
+	@echo "... 05_STL/multimap_example.i"
+	@echo "... 05_STL/multimap_example.s"
+	@echo "... 05_STL/multimap_example_noob.o"
+	@echo "... 05_STL/multimap_example_noob.i"
+	@echo "... 05_STL/multimap_example_noob.s"
+	@echo "... 05_STL/optional.o"
+	@echo "... 05_STL/optional.i"
+	@echo "... 05_STL/optional.s"
+	@echo "... 05_STL/optional_noob.o"
+	@echo "... 05_STL/optional_noob.i"
+	@echo "... 05_STL/optional_noob.s"
+	@echo "... 05_STL/pair_example.o"
+	@echo "... 05_STL/pair_example.i"
+	@echo "... 05_STL/pair_example.s"
+	@echo "... 05_STL/pair_example_noob.o"
+	@echo "... 05_STL/pair_example_noob.i"
+	@echo "... 05_STL/pair_example_noob.s"
+	@echo "... 05_STL/priority_queue_example.o"
+	@echo "... 05_STL/priority_queue_example.i"
+	@echo "... 05_STL/priority_queue_example.s"
+	@echo "... 05_STL/priority_queue_example_noob.o"
+	@echo "... 05_STL/priority_queue_example_noob.i"
+	@echo "... 05_STL/priority_queue_example_noob.s"
+	@echo "... 05_STL/queue_example.o"
+	@echo "... 05_STL/queue_example.i"
+	@echo "... 05_STL/queue_example.s"
+	@echo "... 05_STL/queue_example_noob.o"
+	@echo "... 05_STL/queue_example_noob.i"
+	@echo "... 05_STL/queue_example_noob.s"
+	@echo "... 05_STL/regex_example.o"
+	@echo "... 05_STL/regex_example.i"
+	@echo "... 05_STL/regex_example.s"
+	@echo "... 05_STL/regex_example_noob.o"
+	@echo "... 05_STL/regex_example_noob.i"
+	@echo "... 05_STL/regex_example_noob.s"
+	@echo "... 05_STL/set_example.o"
+	@echo "... 05_STL/set_example.i"
+	@echo "... 05_STL/set_example.s"
+	@echo "... 05_STL/shared_ptr_example.o"
+	@echo "... 05_STL/shared_ptr_example.i"
+	@echo "... 05_STL/shared_ptr_example.s"
+	@echo "... 05_STL/stack_example.o"
+	@echo "... 05_STL/stack_example.i"
+	@echo "... 05_STL/stack_example.s"
+	@echo "... 05_STL/strings.o"
+	@echo "... 05_STL/strings.i"
+	@echo "... 05_STL/strings.s"
+	@echo "... 05_STL/tuple_example.o"
+	@echo "... 05_STL/tuple_example.i"
+	@echo "... 05_STL/tuple_example.s"
+	@echo "... 05_STL/tuple_example_noob.o"
+	@echo "... 05_STL/tuple_example_noob.i"
+	@echo "... 05_STL/tuple_example_noob.s"
+	@echo "... 05_STL/unique_ptr_example.o"
+	@echo "... 05_STL/unique_ptr_example.i"
+	@echo "... 05_STL/unique_ptr_example.s"
+	@echo "... 05_STL/unique_ptr_example_noob.o"
+	@echo "... 05_STL/unique_ptr_example_noob.i"
+	@echo "... 05_STL/unique_ptr_example_noob.s"
+	@echo "... 05_STL/unordered_map_example.o"
+	@echo "... 05_STL/unordered_map_example.i"
+	@echo "... 05_STL/unordered_map_example.s"
+	@echo "... 05_STL/unordered_map_example_noob.o"
+	@echo "... 05_STL/unordered_map_example_noob.i"
+	@echo "... 05_STL/unordered_map_example_noob.s"
+	@echo "... 05_STL/unordered_set_example.o"
+	@echo "... 05_STL/unordered_set_example.i"
+	@echo "... 05_STL/unordered_set_example.s"
+	@echo "... 05_STL/unordered_set_example_noob.o"
+	@echo "... 05_STL/unordered_set_example_noob.i"
+	@echo "... 05_STL/unordered_set_example_noob.s"
+	@echo "... 05_STL/valarray_example.o"
+	@echo "... 05_STL/valarray_example.i"
+	@echo "... 05_STL/valarray_example.s"
+	@echo "... 05_STL/valarray_example_noob.o"
+	@echo "... 05_STL/valarray_example_noob.i"
+	@echo "... 05_STL/valarray_example_noob.s"
+	@echo "... 05_STL/vector.o"
+	@echo "... 05_STL/vector.i"
+	@echo "... 05_STL/vector.s"
+	@echo "... 06_Templates/01_templates.o"
+	@echo "... 06_Templates/01_templates.i"
+	@echo "... 06_Templates/01_templates.s"
+	@echo "... 06_Templates/02_templates.o"
+	@echo "... 06_Templates/02_templates.i"
+	@echo "... 06_Templates/02_templates.s"
+	@echo "... 06_Templates/03_template_specialization.o"
+	@echo "... 06_Templates/03_template_specialization.i"
+	@echo "... 06_Templates/03_template_specialization.s"
+	@echo "... 06_Templates/AnotherTemplateExample.o"
+	@echo "... 06_Templates/AnotherTemplateExample.i"
+	@echo "... 06_Templates/AnotherTemplateExample.s"
+	@echo "... 06_Templates/Summary.o"
+	@echo "... 06_Templates/Summary.i"
+	@echo "... 06_Templates/Summary.s"
+	@echo "... 06_Templates/compile_time_evaluation.o"
+	@echo "... 06_Templates/compile_time_evaluation.i"
+	@echo "... 06_Templates/compile_time_evaluation.s"
+	@echo "... 06_Templates/template_specialization.o"
+	@echo "... 06_Templates/template_specialization.i"
+	@echo "... 06_Templates/template_specialization.s"
+	@echo "... 06_Templates/variadic_templates.o"
+	@echo "... 06_Templates/variadic_templates.i"
+	@echo "... 06_Templates/variadic_templates.s"
+	@echo "... 07_Threads_And_Tasks/tasks_example.o"
+	@echo "... 07_Threads_And_Tasks/tasks_example.i"
+	@echo "... 07_Threads_And_Tasks/tasks_example.s"
+	@echo "... 07_Threads_And_Tasks/threads_example.o"
+	@echo "... 07_Threads_And_Tasks/threads_example.i"
+	@echo "... 07_Threads_And_Tasks/threads_example.s"
+	@echo "... 08_LINQ/aggregate_example.o"
+	@echo "... 08_LINQ/aggregate_example.i"
+	@echo "... 08_LINQ/aggregate_example.s"
+	@echo "... 08_LINQ/all_example.o"
+	@echo "... 08_LINQ/all_example.i"
+	@echo "... 08_LINQ/all_example.s"
+	@echo "... 08_LINQ/any_example.o"
+	@echo "... 08_LINQ/any_example.i"
+	@echo "... 08_LINQ/any_example.s"
+	@echo "... 08_LINQ/average_example.o"
+	@echo "... 08_LINQ/average_example.i"
+	@echo "... 08_LINQ/average_example.s"
+	@echo "... 08_LINQ/count_example.o"
+	@echo "... 08_LINQ/count_example.i"
+	@echo "... 08_LINQ/count_example.s"
+	@echo "... 08_LINQ/distinct_example.o"
+	@echo "... 08_LINQ/distinct_example.i"
+	@echo "... 08_LINQ/distinct_example.s"
+	@echo "... 08_LINQ/except_example.o"
+	@echo "... 08_LINQ/except_example.i"
+	@echo "... 08_LINQ/except_example.s"
+	@echo "... 08_LINQ/first_example.o"
+	@echo "... 08_LINQ/first_example.i"
+	@echo "... 08_LINQ/first_example.s"
+	@echo "... 08_LINQ/groupby_example.o"
+	@echo "... 08_LINQ/groupby_example.i"
+	@echo "... 08_LINQ/groupby_example.s"
+	@echo "... 08_LINQ/intersect_example.o"
+	@echo "... 08_LINQ/intersect_example.i"
+	@echo "... 08_LINQ/intersect_example.s"
+	@echo "... 08_LINQ/join_example.o"
+	@echo "... 08_LINQ/join_example.i"
+	@echo "... 08_LINQ/join_example.s"
+	@echo "... 08_LINQ/last_example.o"
+	@echo "... 08_LINQ/last_example.i"
+	@echo "... 08_LINQ/last_example.s"
+	@echo "... 08_LINQ/max_example.o"
+	@echo "... 08_LINQ/max_example.i"
+	@echo "... 08_LINQ/max_example.s"
+	@echo "... 08_LINQ/min_example.o"
+	@echo "... 08_LINQ/min_example.i"
+	@echo "... 08_LINQ/min_example.s"
+	@echo "... 08_LINQ/orderby_example.o"
+	@echo "... 08_LINQ/orderby_example.i"
+	@echo "... 08_LINQ/orderby_example.s"
+	@echo "... 08_LINQ/select_example.o"
+	@echo "... 08_LINQ/select_example.i"
+	@echo "... 08_LINQ/select_example.s"
+	@echo "... 08_LINQ/skip_take_example.o"
+	@echo "... 08_LINQ/skip_take_example.i"
+	@echo "... 08_LINQ/skip_take_example.s"
+	@echo "... 08_LINQ/sum_example.o"
+	@echo "... 08_LINQ/sum_example.i"
+	@echo "... 08_LINQ/sum_example.s"
+	@echo "... 08_LINQ/union_example.o"
+	@echo "... 08_LINQ/union_example.i"
+	@echo "... 08_LINQ/union_example.s"
+	@echo "... 08_LINQ/where_example.o"
+	@echo "... 08_LINQ/where_example.i"
+	@echo "... 08_LINQ/where_example.s"
+	@echo "... 09_EventsAndDelegates/eventsAndDelegates.o"
+	@echo "... 09_EventsAndDelegates/eventsAndDelegates.i"
+	@echo "... 09_EventsAndDelegates/eventsAndDelegates.s"
+	@echo "... 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.o"
+	@echo "... 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.i"
+	@echo "... 10_Modern_CPP/01_move_semantics_cpp11_aprofundado.s"
+	@echo "... 10_Modern_CPP/02_smart_pointers_aprofundado.o"
+	@echo "... 10_Modern_CPP/02_smart_pointers_aprofundado.i"
+	@echo "... 10_Modern_CPP/02_smart_pointers_aprofundado.s"
+	@echo "... 11_Object_Oriented/classes.o"
+	@echo "... 11_Object_Oriented/classes.i"
+	@echo "... 11_Object_Oriented/classes.s"
+	@echo "... 11_Object_Oriented/oop_advanced.o"
+	@echo "... 11_Object_Oriented/oop_advanced.i"
+	@echo "... 11_Object_Oriented/oop_advanced.s"
+	@echo "... 11_Object_Oriented/oop_basic.o"
+	@echo "... 11_Object_Oriented/oop_basic.i"
+	@echo "... 11_Object_Oriented/oop_basic.s"
+	@echo "... 11_Object_Oriented/shapes.o"
+	@echo "... 11_Object_Oriented/shapes.i"
+	@echo "... 11_Object_Oriented/shapes.s"
+	@echo "... 12_Resources/RAII.o"
+	@echo "... 12_Resources/RAII.i"
+	@echo "... 12_Resources/RAII.s"
+	@echo "... 13_CPlusPlusUniqueness/AllConstructorsAndOperators.o"
+	@echo "... 13_CPlusPlusUniqueness/AllConstructorsAndOperators.i"
+	@echo "... 13_CPlusPlusUniqueness/AllConstructorsAndOperators.s"
+	@echo "... 13_CPlusPlusUniqueness/CopyConstructors.o"
+	@echo "... 13_CPlusPlusUniqueness/CopyConstructors.i"
+	@echo "... 13_CPlusPlusUniqueness/CopyConstructors.s"
+	@echo "... 13_CPlusPlusUniqueness/ExampleConstructors.o"
+	@echo "... 13_CPlusPlusUniqueness/ExampleConstructors.i"
+	@echo "... 13_CPlusPlusUniqueness/ExampleConstructors.s"
+	@echo "... 13_CPlusPlusUniqueness/FriendClassExample.o"
+	@echo "... 13_CPlusPlusUniqueness/FriendClassExample.i"
+	@echo "... 13_CPlusPlusUniqueness/FriendClassExample.s"
+	@echo "... 13_CPlusPlusUniqueness/FriendFunctionsExample.o"
+	@echo "... 13_CPlusPlusUniqueness/FriendFunctionsExample.i"
+	@echo "... 13_CPlusPlusUniqueness/FriendFunctionsExample.s"
+	@echo "... 13_CPlusPlusUniqueness/MoveConstructors.o"
+	@echo "... 13_CPlusPlusUniqueness/MoveConstructors.i"
+	@echo "... 13_CPlusPlusUniqueness/MoveConstructors.s"
 	@echo "... Noobs/algorithm_example_noob.o"
 	@echo "... Noobs/algorithm_example_noob.i"
 	@echo "... Noobs/algorithm_example_noob.s"

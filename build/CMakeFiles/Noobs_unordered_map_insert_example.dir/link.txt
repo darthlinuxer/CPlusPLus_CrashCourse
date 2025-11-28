@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_unordered_map_insert_example.dir/Noobs/unordered_map_insert_example.cpp.o -o binaries/Noobs_unordered_map_insert_example 
+/usr/bin/g++ CMakeFiles/Noobs_unordered_map_insert_example.dir/Noobs/unordered_map_insert_example.cpp.o -o binaries/Noobs_unordered_map_insert_example 

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_range_based_for_example.dir/Noobs/range_based_for_example.cpp.o -o binaries/Noobs_range_based_for_example 
+/usr/bin/g++ CMakeFiles/Noobs_range_based_for_example.dir/Noobs/range_based_for_example.cpp.o -o binaries/Noobs_range_based_for_example 

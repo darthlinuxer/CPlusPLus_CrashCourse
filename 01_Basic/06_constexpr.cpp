@@ -92,3 +92,9 @@ int main() {
 // 5. Static Assertions:
 //    - `constexpr` can be used in conjunction with `static_assert` to perform
 //      compile-time checks.
+
+
+/* output
+The square of 5 is 25.
+The factorial of 4 is 24.
+*/

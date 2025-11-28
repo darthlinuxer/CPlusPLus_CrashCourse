@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -o binaries/Noobs_avoid_std_endl 
+/usr/bin/g++ CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -o binaries/Noobs_avoid_std_endl 

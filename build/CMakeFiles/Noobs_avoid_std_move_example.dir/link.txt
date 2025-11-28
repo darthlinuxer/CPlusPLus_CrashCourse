@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_avoid_std_move_example.dir/Noobs/avoid_std_move_example.cpp.o -o binaries/Noobs_avoid_std_move_example 
+/usr/bin/g++ CMakeFiles/Noobs_avoid_std_move_example.dir/Noobs/avoid_std_move_example.cpp.o -o binaries/Noobs_avoid_std_move_example 

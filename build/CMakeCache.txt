@@ -27,9 +27,6 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
-
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
 CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-13
@@ -54,7 +51,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -148,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CPlusPlusBestPractices
+CMAKE_PROJECT_NAME:STATIC=CPlusPLus_CrashCourse
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -216,13 +213,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-CPlusPlusBestPractices_BINARY_DIR:STATIC=/home/darthlinuxer/CPlusPLus_CrashCourse/build
+CPlusPLus_CrashCourse_BINARY_DIR:STATIC=/home/darthlinuxer/CPlusPLus_CrashCourse/build
 
 //Value Computed by CMake
-CPlusPlusBestPractices_IS_TOP_LEVEL:STATIC=ON
+CPlusPLus_CrashCourse_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-CPlusPlusBestPractices_SOURCE_DIR:STATIC=/home/darthlinuxer/CPlusPLus_CrashCourse
+CPlusPLus_CrashCourse_SOURCE_DIR:STATIC=/home/darthlinuxer/CPlusPLus_CrashCourse
 
 
 ########################
@@ -249,8 +246,6 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/03_Vectors_arrays.dir/03_Vectors/arrays.cpp.o -o binaries/03_Vectors_arrays 

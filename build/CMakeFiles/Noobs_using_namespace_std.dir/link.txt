@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -o binaries/Noobs_using_namespace_std 
+/usr/bin/g++ CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -o binaries/Noobs_using_namespace_std 

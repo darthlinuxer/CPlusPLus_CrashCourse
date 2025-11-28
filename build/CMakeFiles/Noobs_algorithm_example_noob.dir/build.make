@@ -73,15 +73,15 @@ CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o: 
 CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o: /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp
 CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o: CMakeFiles/Noobs_algorithm_example_noob.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/darthlinuxer/CPlusPLus_CrashCourse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o -MF CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o.d -o CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o -MF CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o.d -o CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp
 
 CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp > CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp > CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.i
 
 CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp -o CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/algorithm_example_noob.cpp -o CMakeFiles/Noobs_algorithm_example_noob.dir/Noobs/algorithm_example_noob.cpp.s
 
 # Object files for target Noobs_algorithm_example_noob
 Noobs_algorithm_example_noob_OBJECTS = \

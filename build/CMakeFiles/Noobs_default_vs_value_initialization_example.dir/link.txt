@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -o binaries/Noobs_default_vs_value_initialization_example 
+/usr/bin/g++ CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -o binaries/Noobs_default_vs_value_initialization_example 

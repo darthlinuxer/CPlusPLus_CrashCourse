@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_avoid_magic_numbers_example.dir/Noobs/avoid_magic_numbers_example.cpp.o -o binaries/Noobs_avoid_magic_numbers_example 
+/usr/bin/g++ CMakeFiles/Noobs_avoid_magic_numbers_example.dir/Noobs/avoid_magic_numbers_example.cpp.o -o binaries/Noobs_avoid_magic_numbers_example 

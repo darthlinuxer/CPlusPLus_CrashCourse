@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/01_Basic_variables.dir/01_Basic/variables.cpp.o -o binaries/01_Basic_variables 

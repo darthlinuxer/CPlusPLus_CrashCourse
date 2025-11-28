@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/06_STL_queue_example_noob.dir/06_STL/queue_example_noob.cpp.o -o binaries/06_STL_queue_example_noob 

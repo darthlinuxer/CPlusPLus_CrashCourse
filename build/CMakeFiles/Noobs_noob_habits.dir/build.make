@@ -73,15 +73,15 @@ CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o: CMakeFiles/Noobs_noob_
 CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o: /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp
 CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o: CMakeFiles/Noobs_noob_habits.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/darthlinuxer/CPlusPLus_CrashCourse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -MF CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o.d -o CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -MF CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o.d -o CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp
 
 CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp > CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp > CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.i
 
 CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp -o CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/noob_habits.cpp -o CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.s
 
 # Object files for target Noobs_noob_habits
 Noobs_noob_habits_OBJECTS = \

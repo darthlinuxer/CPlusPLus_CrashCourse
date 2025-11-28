@@ -73,15 +73,15 @@ CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o: CMakeF
 CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o: /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp
 CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o: CMakeFiles/Noobs_using_namespace_std.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/darthlinuxer/CPlusPLus_CrashCourse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -MF CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o.d -o CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -MF CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o.d -o CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp
 
 CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp > CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp > CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.i
 
 CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp -o CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/using_namespace_std.cpp -o CMakeFiles/Noobs_using_namespace_std.dir/Noobs/using_namespace_std.cpp.s
 
 # Object files for target Noobs_using_namespace_std
 Noobs_using_namespace_std_OBJECTS = \

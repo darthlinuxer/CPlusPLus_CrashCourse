@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/06_STL_shared_ptr_example.dir/06_STL/shared_ptr_example.cpp.o -o binaries/06_STL_shared_ptr_example 

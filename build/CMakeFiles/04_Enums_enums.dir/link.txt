@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/04_Enums_enums.dir/04_Enums/enums.cpp.o -o binaries/04_Enums_enums 

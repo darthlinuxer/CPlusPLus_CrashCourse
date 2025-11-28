@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_string_literal_lifetimes_example.dir/Noobs/string_literal_lifetimes_example.cpp.o -o binaries/Noobs_string_literal_lifetimes_example 
+/usr/bin/g++ CMakeFiles/Noobs_string_literal_lifetimes_example.dir/Noobs/string_literal_lifetimes_example.cpp.o -o binaries/Noobs_string_literal_lifetimes_example 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/06_STL_unique_ptr_example_noob.dir/06_STL/unique_ptr_example_noob.cpp.o -o binaries/06_STL_unique_ptr_example_noob 

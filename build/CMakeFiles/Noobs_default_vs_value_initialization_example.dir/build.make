@@ -73,15 +73,15 @@ CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_va
 CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o: /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp
 CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o: CMakeFiles/Noobs_default_vs_value_initialization_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/darthlinuxer/CPlusPLus_CrashCourse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -MF CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o.d -o CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -MF CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o.d -o CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp
 
 CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp > CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp > CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.i
 
 CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp -o CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/default_vs_value_initialization_example.cpp -o CMakeFiles/Noobs_default_vs_value_initialization_example.dir/Noobs/default_vs_value_initialization_example.cpp.s
 
 # Object files for target Noobs_default_vs_value_initialization_example
 Noobs_default_vs_value_initialization_example_OBJECTS = \

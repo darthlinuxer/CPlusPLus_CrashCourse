@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -o binaries/Noobs_noob_habits 
+/usr/bin/g++ CMakeFiles/Noobs_noob_habits.dir/Noobs/noob_habits.cpp.o -o binaries/Noobs_noob_habits 

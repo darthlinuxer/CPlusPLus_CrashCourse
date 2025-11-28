@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/06_STL_vector.dir/06_STL/vector.cpp.o -o binaries/06_STL_vector 

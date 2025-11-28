@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Noobs_compiler_warnings_example.dir/Noobs/compiler_warnings_example.cpp.o -o binaries/Noobs_compiler_warnings_example 
+/usr/bin/g++ CMakeFiles/Noobs_compiler_warnings_example.dir/Noobs/compiler_warnings_example.cpp.o -o binaries/Noobs_compiler_warnings_example 

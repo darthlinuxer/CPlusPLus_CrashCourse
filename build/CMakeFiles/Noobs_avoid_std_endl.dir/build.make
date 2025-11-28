@@ -73,15 +73,15 @@ CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o: CMakeFiles/Noobs
 CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o: /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp
 CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o: CMakeFiles/Noobs_avoid_std_endl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/darthlinuxer/CPlusPLus_CrashCourse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -MF CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o.d -o CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -MF CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o.d -o CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.o -c /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp
 
 CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp > CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp > CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.i
 
 CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp -o CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darthlinuxer/CPlusPLus_CrashCourse/Noobs/avoid_std_endl.cpp -o CMakeFiles/Noobs_avoid_std_endl.dir/Noobs/avoid_std_endl.cpp.s
 
 # Object files for target Noobs_avoid_std_endl
 Noobs_avoid_std_endl_OBJECTS = \
